@@ -1,10 +1,10 @@
-# fiskaltrust Sorglos Offline TSE
+# fiskaltrust Sorglos Online TSE
 
-Produktnummer: 4445-10050
+Produktnummer: 4445-10060
 
 Dieses Bundle inkludiert folgende Produkte:
 
-- Hardware TSE
+- Online/Cloud TSE
 - Lokal installierte Middleware
 - DSFinV-K Export
 - TAR File & DSFinV-K Speicher
@@ -12,4 +12,4 @@ Dieses Bundle inkludiert folgende Produkte:
 - POS Archiv
 - Finanzamtsmeldung
 
-**Hinweis:** Eine Auswahl des Hardware TSE Anbieters ist im Sorglos Offline TSE Bundle nicht möglich.
+**Hinweis:** Eine Auswahl des Online/Cloud TSE Anbieters ist im Sorglos Online TSE Bundle nicht möglich.
