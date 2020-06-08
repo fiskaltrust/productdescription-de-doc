@@ -1,3 +1,5 @@
+# Compliance-as-a-Service
+
 Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust-middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust-Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
 
 ![Überblick über die Funktionsweise von fiskaltrust](media/overview-pos-ft-middleware.png)                                
@@ -12,9 +14,13 @@ Zunächst stellt die fiskaltrust-middleware sicher, dass alle Belege von einem D
 
 Als technische Implementierung der Sicherheit wird jeder Request und auch jede Response gehasht, wodurch die Datenintegrität der Anforderungen und Antworten sichergestellt wird. Um Unveränderlichkeit zu gewährleisten, wird ein weiterer Hash-Wert generiert, der sich auf den gesamten Anforderungs-Antwort-Zyklus bezieht, einschließlich der Identifizierung des Zyklus, des Betriebszeitpunkts, der vom Menschen lesbaren Belegnummer und der Hash-Werte von Anforderung, Antwort und vorherigem Empfang , der so genannte Belegs-Hash-Wert. Diese Verkettung des Empfangs-Hash-Werts bietet Unveränderlichkeit und bietet die Möglichkeit, alle Änderungen und auch das Löschen bei jeder vom Possystem bereitgestellten Aktion zu erkennen.
 
+
+
  ![receipt-chain](media/receipt-chain.png)
 
  
+
+
 
 Um das Risiko eines Angriffs auf die Kette ab dem letzten nicht verketteten Hashwert zu begrenzen, bietet fiskaltrust einen Mechanismus, der die aktuellen Daten in die fiskaltrust-Cloud spiegelt. Dieser Datenspiegel bietet die Möglichkeit, Angriffe zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
 
@@ -32,9 +38,9 @@ Der von der CashboxId identifizierte Konfigurationscontainer kann in verschieden
 
 
 
-[Compliance-as-a-Service Produkte]()
+[Compliance-as-a-Service Produkte](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/compliance-as-a-service/produkte)
 
-[Compliance-as-a-Service Features]()
+[Compliance-as-a-Service Features](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/compliance-as-a-service/features)
 
 
 
