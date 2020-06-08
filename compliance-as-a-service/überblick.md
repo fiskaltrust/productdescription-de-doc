@@ -36,7 +36,7 @@ Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu se
 
 Der von der CashboxId identifizierte Konfigurationscontainer kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Verwaltung der Konfiguration und des Status dieser Komponenten erfolgt im marktbezogenen fiskaltrust-Portal. Der fiskaltrust-Sicherheitsmechanismus wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt, die die Bindung an die marktbezogenen Sicherheitsmechanismus-Anforderungen darstellen.
 
-
+## fiskaltrust Produkte & Features
 
 [Compliance-as-a-Service Produkte](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/compliance-as-a-service/produkte)
 
