@@ -6,3 +6,4 @@ Mitteilung an das zuständige Finanzamt von Inbetriebnahme bzw. Außerbetriebnah
 
 ## Features
 
+- Automatisierte Meldung an das zuständige Finanzamt

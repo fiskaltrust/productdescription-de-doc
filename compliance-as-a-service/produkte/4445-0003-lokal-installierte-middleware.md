@@ -64,16 +64,30 @@ Die fiskaltrust.Middleware für Android befindet sich in Entwicklung.
 
 ### Schnittstellentechnologien
 
+freie Auswahl folgender konfigurierbarer Schnittstellentechnologien:
+
 - WCF
 - GRPC
 - REST
 
+Schnittstellendokumentation: https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/communication/communication.md
+
 ### Datenspeicher
 
-- [Lokales-Hosting](../features/Lokales-Hosting.md)  
-- [SQLite-Storage](../features/SQLite-Storage.md) 
+- Lokale Optionen:
+  - [SQLite-Storage](../features/SQLite-Storage.md) 
+  - [EF-Storage](../features/EF-Storage.md) 
 
-### Abstraktionsfähigkeit
+- Cloud:
+  -  [Azure-table-Storage](../features/Azure-table-Storage.md) 
+
+### Daten Export
+
+-  [TAR-File-Export](../../revisionssichere-daten-as-a-service/features/TAR-File-Export.md) 
+-  [DSFinV-K-Export](../../revisionssichere-daten-as-a-service/features/DSFinV-K-Export.md) 
+-  [revisionssichere-Queue-Items](../../revisionssichere-daten-as-a-service/features/revisionssichere-Queue-Items.md) 
+
+### Abstraktion
 
 - [SCU-Abstraktion](../features/SCU-Abstraktion.md)  
 - [Queue-Abstraktion](../features/Queue-Abstraktion.md) 
