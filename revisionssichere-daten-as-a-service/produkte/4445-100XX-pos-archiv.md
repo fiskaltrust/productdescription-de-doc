@@ -8,9 +8,9 @@ Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durc
 
 ## Features
 
-- [TAR-File-Export](..\features\TAR-File-Export.md) 
-- [DSFinV-K-Export](..\features\DSFinV-K-Export.md) 
-- [DFKA-Taxonomie-Kassendaten-Export](..\features\DFKA-Taxonomie-Kassendaten-Export.md) 
+- [TAR-File-Export](../features/TAR-File-Export.md) 
+- [DSFinV-K-Export](../features/DSFinV-K-Export.md) 
+- [DFKA-Taxonomie-Kassendaten-Export](../features/DFKA-Taxonomie-Kassendaten-Export.md) 
 - Quittungsjournal
--  [revisionssichere-Queue-Items](..\features\revisionssichere-Queue-Items.md) 
--  [unveraenderbarer-speicher](..\features\unveraenderbarer-speicher.md)
+-  [revisionssichere-Queue-Items](../features/revisionssichere-Queue-Items.md) 
+-  [unveraenderbarer-speicher](../features/unveraenderbarer-speicher.md)

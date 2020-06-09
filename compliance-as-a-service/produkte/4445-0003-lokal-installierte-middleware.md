@@ -70,20 +70,20 @@ Die fiskaltrust.Middleware für Android befindet sich in Entwicklung.
 
 ### Datenspeicher
 
-- [Lokales-Hosting](..\features\Lokales-Hosting.md)  
-- [SQLite-Storage](..\features\SQLite-Storage.md) 
+- [Lokales-Hosting](../features/Lokales-Hosting.md)  
+- [SQLite-Storage](../features/SQLite-Storage.md) 
 
 ### Abstraktionsfähigkeit
 
-- [SCU-Abstraktion](..\features\SCU-Abstraktion.md)  
-- [Queue-Abstraktion](..\features\Queue-Abstraktion.md) 
+- [SCU-Abstraktion](../features/SCU-Abstraktion.md)  
+- [Queue-Abstraktion](../features/Queue-Abstraktion.md) 
 
 ### Interoperabilität
 
--  [TSE-A-Trust-Interoperabilität](..\features\TSE-A-Trust-Interoperabilität.md) 
--  [TSE-Cryptovision-Interoperabilität](..\features\TSE-Cryptovision-Interoperabilität.md) 
--  [TSE-Deutsche-Fiskal-Interoperabilität](..\features\TSE-Deutsche-Fiskal-Interoperabilität.md) 
--  [TSE-Diebold-Interoperabilität](..\features\TSE-Diebold-Interoperabilität.md) 
--  [TSE-Epson-Interoperabilität](..\features\TSE-Epson-Interoperabilität.md) 
--  [TSE-Fiskaly-Interoperabilität](..\features\TSE-Fiskaly-Interoperabilität.md) 
--  [TSE-Swissbit-Interoperabilität](..\features\TSE-Swissbit-Interoperabilität.md) 
+-  [TSE-A-Trust-Interoperabilität](../features/TSE-A-Trust-Interoperabilität.md) 
+-  [TSE-Cryptovision-Interoperabilität](../features/TSE-Cryptovision-Interoperabilität.md) 
+-  [TSE-Deutsche-Fiskal-Interoperabilität](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) 
+-  [TSE-Diebold-Interoperabilität](../features/TSE-Diebold-Interoperabilität.md) 
+-  [TSE-Epson-Interoperabilität](../features/TSE-Epson-Interoperabilität.md) 
+-  [TSE-Fiskaly-Interoperabilität](../features/TSE-Fiskaly-Interoperabilität.md) 
+-  [TSE-Swissbit-Interoperabilität](../features/TSE-Swissbit-Interoperabilität.md) 
