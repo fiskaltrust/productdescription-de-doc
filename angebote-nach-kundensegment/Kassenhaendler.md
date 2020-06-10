@@ -30,16 +30,16 @@ Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
 
 ###### Online-TSE
 
-- [A-Trust](..\compliance-as-a-service\features\TSE-A-Trust-Interoperabilität.md)
-- [Deutsche Fiskal](..\compliance-as-a-service\features\TSE-Deutsche-Fiskal-Interoperabilität.md)
-- [Fiskaly](..\compliance-as-a-service\features\TSE-Fiskaly-Interoperabilität.md)
+- [A-Trust](../compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
+- [Deutsche Fiskal](../compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
+- [Fiskaly](../compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
 
 ###### Offline TSE
 
-- [Cryptovision (Bundesruckerei)](..\compliance-as-a-service\features\TSE-Cryptovision-Interoperabilität.md)
-- [Diebold](..\compliance-as-a-service\features\TSE-Diebold-Interoperabilität.md)
-- [Epson](..\compliance-as-a-service\features\TSE-Epson-Interoperabilität.md)
-- [Swissbit](..\compliance-as-a-service\features\TSE-Swissbit-Interoperabilität.md)
+- [Cryptovision (Bundesruckerei)](../compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
+- [Diebold](../compliance-as-a-service/features/TSE-Diebold-Interoperabilität.md)
+- [Epson](../compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
+- [Swissbit](../compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
 
 
 
@@ -61,10 +61,10 @@ Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
 
 ###### Offline TSE
 
-- [Cryptovision (Bundesruckerei)](..\compliance-as-a-service\features\TSE-Cryptovision-Interoperabilität.md)
-- [Diebold](..\compliance-as-a-service\features\TSE-Diebold-Interoperabilität.md)
-- [Epson](..\compliance-as-a-service\features\TSE-Epson-Interoperabilität.md)
-- [Swissbit](..\compliance-as-a-service\features\TSE-Swissbit-Interoperabilität.md)
+- [Cryptovision (Bundesruckerei)](../compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
+- [Diebold](../compliance-as-a-service/features/TSE-Diebold-Interoperabilität.md)
+- [Epson](../compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
+- [Swissbit](../compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
 
 
 
