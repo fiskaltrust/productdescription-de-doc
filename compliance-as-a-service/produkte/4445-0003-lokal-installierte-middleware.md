@@ -74,11 +74,13 @@ Schnittstellendokumentation: https://github.com/fiskaltrust/interface-doc/blob/m
 
 ### Datenspeicher
 
-- Lokale Optionen:
+Folgende Optionen sind über die Konfiguration der Queue einstellbar:
+
+- Lokale Speicher:
   - [SQLite-Storage](../features/SQLite-Storage.md) 
   - [EF-Storage](../features/EF-Storage.md) 
 
-- Cloud:
+- Cloud Speicher:
   -  [Azure-table-Storage](../features/Azure-table-Storage.md) 
 
 ### Daten Export

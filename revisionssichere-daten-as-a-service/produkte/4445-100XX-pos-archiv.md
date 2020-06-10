@@ -13,3 +13,4 @@ Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durc
 - [DFKA-Taxonomie-Kassendaten-Export](../features/DFKA-Taxonomie-Kassendaten-Export.md) 
 -  [revisionssichere-Queue-Items](../features/revisionssichere-Queue-Items.md) 
 -  [unveraenderbarer-speicher](../features/unveraenderbarer-speicher.md)
+-   [Azure-table-Storage](../../compliance-as-a-service/features/Azure-table-Storage.md) 
