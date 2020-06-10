@@ -1,4 +1,4 @@
-# fiskaltrust Sorglos ohne TSE
+# fiskaltrust Sorglos ohne TSE (in Entwicklung)
 
 **Produktnummer:** 4445-10040
 

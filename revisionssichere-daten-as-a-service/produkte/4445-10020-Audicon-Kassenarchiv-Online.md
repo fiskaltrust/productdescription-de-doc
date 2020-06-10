@@ -1,4 +1,4 @@
-# Audicon Kassenarchiv Online (AKO)
+# Audicon Kassenarchiv Online (AKO) (in Entwicklung)
 
 **Produktnummer:** 4445-10020
 

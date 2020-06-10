@@ -1,1 +1,1 @@
-
+# DFKA Taxonomie Kassendaten Export (in Entwicklung)
