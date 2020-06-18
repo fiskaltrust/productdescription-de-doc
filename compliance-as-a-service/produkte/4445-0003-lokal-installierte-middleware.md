@@ -99,7 +99,7 @@ Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 -  [TSE-A-Trust-Interoperabilität](../features/TSE-A-Trust-Interoperabilität.md) 
 -  [TSE-Cryptovision-Interoperabilität](../features/TSE-Cryptovision-Interoperabilität.md) 
 -  [TSE-Deutsche-Fiskal-Interoperabilität](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) 
--  [TSE-Diebold-Interoperabilität](../features/TSE-Diebold-Interoperabilität.md) 
+-  [TSE-Diebold-Nixdorf-Interoperabilität](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) 
 -  [TSE-Epson-Interoperabilität](../features/TSE-Epson-Interoperabilität.md) 
 -  [TSE-Fiskaly-Interoperabilität](../features/TSE-Fiskaly-Interoperabilität.md) 
 -  [TSE-Swissbit-Interoperabilität](../features/TSE-Swissbit-Interoperabilität.md) 
