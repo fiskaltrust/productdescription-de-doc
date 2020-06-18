@@ -2,6 +2,19 @@
 
 ## SCU
 
+Das _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf_-Package ermöglicht die Verbindung der Middleware mit einer Diebold Nixdorf-TSE über einen seriellen COM-Port.
+
+**Verfügbar ab Version**: 1.3.1
+
+## Parameter
+
+| Name | Beschreibung | Optional |
+| ---- | ------------ |--------- |
+| _ComPort_ | Der COM-Port, über den die serielle Kommunikation mit der TSE erfolgt | nein | 
+| _AdminUser_ | Der Benutzername des Admin-Users. Falls nicht angebeben, wird der vom Hersteller definierte Default-Wert verwendet. | ja | 
+| _AdminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja | 
+| _TimeAdminUser_ | Der Benutzername des Time-Admin-Users. Falls nicht angebeben, wird der vom Hersteller definierte Default-Wert verwendet. | ja | 
+| _TimeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja | 
 
 
 ## Hardware

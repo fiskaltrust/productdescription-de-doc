@@ -2,6 +2,17 @@
 
 ## SCU
 
+Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit-TSE über das von der TSE emulierte Dateisystem.
+
+**Verfügbar ab Version**: 1.3.x (in Entwicklung)
+
+## Parameter
+
+| Name | Beschreibung | Optional |
+| ---- | ------------ |--------- |
+| _devicePath_ | Pfad zum Laufwerk, unter dem die TSE erreichbar ist (z.B. `D:`), ohne abschließenden Slash | nein | 
+| _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja | 
+| _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja | 
 
 
 ## Hardware
