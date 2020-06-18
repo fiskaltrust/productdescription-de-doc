@@ -1,4 +1,4 @@
-# Diebold Interoperabilität (in Entwicklung)
+# Diebold Nixdorf Interoperabilität (in Entwicklung)
 
 ## SCU
 
