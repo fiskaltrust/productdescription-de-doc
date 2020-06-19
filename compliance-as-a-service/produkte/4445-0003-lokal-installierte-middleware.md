@@ -20,7 +20,7 @@ Die fiskaltrust.Middleware besteht aus
 Die fiskaltrust.Middleware läuft als Dienst auf allen Windows Plattformen ab Windows 7 in 32 + 64 bit.
 Windows XP wird nicht unterstützt, da die gesetzliche Forderung der „sichern Systemumgebung“ nicht gegeben ist.
 
-| Betriebssystem                      | Version           | C++ Runtime | .net Framework |         |           |
+| Betriebssystem                      | Version           | C++ Runtime | .NET Framework |         |           |
 | ----------------------------------- | ----------------- | ----------- | -------------- | ------- | --------- |
 |                                     | unterstützt       | benötigt    | inkludiert     | minimum | empfohlen |
 | Windows XP                          | nicht unterstützt |             |                |         |           |
@@ -50,7 +50,7 @@ Windows XP wird nicht unterstützt, da die gesetzliche Forderung der „sichern 
 
 ### Linux
 
-Die fiskaltrust.Middleware kann auf verschiedenen Linux-Varianten als Deamon betrieben werden.
+Die fiskaltrust.Middleware kann in Österreich und Frankreich auf verschiedenen Linux-Varianten als Deamon betrieben werden. Die Linux-Middleware für den deutschen Markt befindet sich in Entwicklung.
 
 
 
@@ -67,7 +67,7 @@ Die fiskaltrust.Middleware für Android befindet sich in Entwicklung.
 freie Auswahl folgender konfigurierbarer Schnittstellentechnologien:
 
 - WCF
-- GRPC
+- gRPC
 - REST
 
 Schnittstellendokumentation: https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/communication/communication.md
