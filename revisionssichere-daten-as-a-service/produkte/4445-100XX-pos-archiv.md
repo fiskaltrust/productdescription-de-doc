@@ -4,7 +4,7 @@
 
 Das POS Archiv speichert Daten revisionssicher, basierend auf die übermittelten Belege über die fiskaltrust.Middleware, über einen Zeitraum von 10 Jahren. Zu diesem Zeitpunkt wird auch das spezielle Journal der erstellten unterschriebenen Geldeingänge abgedeckt.
 
-Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durchgeführt und eine zusätzliche Exportdatei erstellt und auf einem unveränderlichen Speicher in der fiskaltrust-cloud gespeichert.
+Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durchgeführt und eine zusätzliche Exportdatei erstellt und auf einem unveränderlichen Speicher in der fiskaltrust-cloud, entsprechend den steuerlichen Bestimmungen in deutschen Rechenzentren, gespeichert.
 
 ## Features
 
