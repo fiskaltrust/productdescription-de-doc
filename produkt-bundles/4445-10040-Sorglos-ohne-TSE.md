@@ -10,3 +10,7 @@ Dieses Bundle inkludiert folgende Produkte:
 - [4445-100XX-Finanzamtsmeldungen](../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md) 
 
 **Hinweis:** Im Sorglos-ohne-TSE-Bundle ist keine Online- bzw. Offline TSE enthalten.
+
+### Entitlements ("Händer-Ansprüche")
+
+Dieses Produkt-Bundle kann (nur) in Form von Entitlements für den Resale erworben werden. Der Händler kann die erworbenen Ansprüche zu eigenen Konditionen an seine Kunden verkaufen und im Anschluß diese Ansprüche zur Einlösung freischalten oder, wenn der Händler bevollmächtigt ist im Namen des Kunden Verträge zu unterzeichnen und Käufe zu tätigen, im Namen seines Kunden die erworbenen Ansprüche für den Kunden einlösen.
