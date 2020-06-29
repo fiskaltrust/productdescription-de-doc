@@ -27,7 +27,7 @@ Der Kassenhändler stellt dem Endkunden das Produkt-Bundle in Rechnung. Zugleich
 
 ### Middleware Addon-Produkte
 
-(nicht als Entitlements verfügbar)
+nicht als Entitlements verfügbar
 
 ### Einzelprodukte
 
@@ -35,4 +35,4 @@ Der Kassenhändler stellt dem Endkunden das Produkt-Bundle in Rechnung. Zugleich
 
 ### Technische Sicherheitseinrichtungen
 
-(nicht als Entitlements verfügbar)
+nicht als Entitlements verfügbar
