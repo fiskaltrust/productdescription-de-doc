@@ -1,0 +1,1 @@
+Rollout documentation of entitlements
