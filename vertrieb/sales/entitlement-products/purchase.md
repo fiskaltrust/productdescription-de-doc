@@ -1,4 +1,4 @@
-# pre-conditions
+# pre-conditions (CCT)
 
 ## credit limit
 
