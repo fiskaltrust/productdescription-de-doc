@@ -1,4 +1,4 @@
-# fiskaltrust Sorglos Offline TSE (in Entwicklung)
+# fiskaltrust Sorglos Hardware TSE (in Entwicklung)
 
 **Produktnummer:** 4445-10050
 
