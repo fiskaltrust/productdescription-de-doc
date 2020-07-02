@@ -10,11 +10,25 @@ Das _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf_-Package ermöglicht die Verbi
 
 | Name | Beschreibung | Optional |
 | ---- | ------------ |--------- |
-| _tseurl_ | Die URL, unter der die TSE erreichbar ist (ohne Port) | nein | 
-| _tseport_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja | 
-| _deviceid_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja | 
-| _timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja | 
+| _tseurl_ | Die URL, unter der die TSE erreichbar ist (ohne Port) | nein |
+| _tseport_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja |
+| _deviceid_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja |
+| _timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja |
 
+## Pilotinstallation
+
+Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine Pilotinstallation.
+
+### Rahmenbedingungen
+
+• Abgeschlossene oder kurz vor dem Abschluss stehende Implementierung der Middleware
+• Registrierung am (Produktiv) Portal als PosCreator oder PosDealer
+• Registrierung am Sandbox Portal und trial-configuration knowledge
+• Partner bezieht die TSE Hardware für den zukünftigen Rollout über fiskaltrust
+
+### Teilnahme an der Pilotinstallation
+
+Bitte kontakieren Sie info@fiskaltrust.de für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
 
 ## Hardware
 
