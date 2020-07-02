@@ -9,7 +9,7 @@ Der Kassenhändler stellt dem Endkunden das Produkt bzw. Produkt-Bundle in Rechn
 - Als PosDealer im Produktiv-Portal registriert und verifiziert
 - Ein Rahmenvertrag ab einer geplanten Abnahmemenge von über 200 Entitlements
 
-**Für einen Rahmenvertrag kontaktieren Sie bitte den fiskaltrust Support (info@fiskaltrust.de)**
+**Für einen Rahmenvertrag kontaktieren Sie bitte das fiskaltrust.Team (info@fiskaltrust.de)**
 
 ## Distribution von Entitlements
 
