@@ -1,6 +1,6 @@
 # Entitlements ("Ansprüche")
 
-Entitlements stellen für [Kassenhändler]( [Kassenhaendler.md](../../../angebote-nach-kundensegment/Kassenhaendler.md) ) eine Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen. Durch die Abnahme einer in Rahmenverträgen zu definierenden Gesamtmenge an Produkt-Bundles über alle Kunden hinweg ermöglicht die partnerschaftliche Rabattstaffelung von fiskaltrust dem Kassenhändler einen großen Spielraum hinsichtlich dessen individueller, den Bedürfnissen der eigenen Kunden entsprechender Preisgestaltung.
+Entitlements stellen für [Kassenhändler](../../../angebote-nach-kundensegment/Kassenhaendler.md) eine Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen. Durch die Abnahme einer in Rahmenverträgen zu definierenden Gesamtmenge an Produkt-Bundles über alle Kunden hinweg ermöglicht die partnerschaftliche Rabattstaffelung von fiskaltrust dem Kassenhändler einen großen Spielraum hinsichtlich dessen individueller, den Bedürfnissen der eigenen Kunden entsprechender Preisgestaltung.
 
 Der Kassenhändler stellt dem Endkunden das Produkt-Bundle in Rechnung. Zugleich stellt der Kassenhändler dem Endkunden das  Produkt-Bundle-Entitlement als "Händlerpackage" im fiskaltrust.Webshop zur Verfügung. Der Kassenhändler kann das Produkt-Bundle-Entitlement (Händlerpackage) unter bestimmten Rahmenbedingungen im Namen des Endkunden im fiskaltrust.Webshop kaufen und seinem Kunden eine fertige Cashbox Konfiguration zur Verfügung stellen.
 
@@ -15,7 +15,7 @@ Der Kassenhändler stellt dem Endkunden das Produkt-Bundle in Rechnung. Zugleich
 
 [Kauf-Prozess](purchase.md)
 
-[Resell-Prozess]( [rollout.md](rollout.md) )
+[Resell-Prozess](rollout.md)
 
 ## Als Entitlement verfügbare Produkte
 
@@ -27,8 +27,8 @@ Der Kassenhändler stellt dem Endkunden das Produkt-Bundle in Rechnung. Zugleich
 
 ### Middleware Addon-Produkte
 
-- [POS Archiv]( [4445-100XX-pos-archiv.md](../../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) )
-- [Finanzamtsmeldung]( [4445-100XX-Finanzamtsmeldungen.md](../../../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md) )
+- [POS Archiv](../../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md)
+- [Finanzamtmeldung](../../../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md)
 
 ### Einzelprodukte
 
