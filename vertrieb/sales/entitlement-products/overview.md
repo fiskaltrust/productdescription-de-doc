@@ -36,4 +36,4 @@ Der Kassenhändler stellt dem Endkunden das Produkt bzw. Produkt-Bundle in Rechn
 
 ### Technische Sicherheitseinrichtungen
 
-nur im Rahmen der Produkt Bundles als Entitlements verfügbar
+Nur im Rahmen der Produkt Bundles als Entitlements verfügbar
