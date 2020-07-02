@@ -15,7 +15,7 @@ Der Kassenhändler stellt dem Endkunden das Produkt bzw. Produkt-Bundle in Rechn
 
 [Kauf-Prozess](purchase.md)
 
-[Resell-Prozess](rollout.md)
+[Resell-Prozess](redistribution.md)
 
 ## Als Entitlement verfügbare Produkte
 
