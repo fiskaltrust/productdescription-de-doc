@@ -4,7 +4,7 @@ Als technische Implementierung der Sicherheit wird jeder Request und auch jede R
 
 
 
- ![receipt-chain](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/compliance-as-a-service/media/receipt-chain.png)
+ ![receipt-chain](../media/receipt-chain.png)
 
  
 
