@@ -7,6 +7,6 @@ Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltr
 Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundenbedürfnisse werden unterschiedliche Ausprägungen dieser Sorglos-Produkt-Bundles angeboten:
 
 -  [4445-10040 Sorglos ohne TSE](4445-10040-Sorglos-ohne-TSE.md) 
--  [4445-10050 Sorglos offline TSE](4445-10050-Sorglos-offline-TSE.md) 
--  [4445-10060 Sorglos online TSE](4445-10060-Sorglos-online-TSE.md) 
+-  [4445-10050 Sorglos mit Hardware TSE](4445-10050-Sorglos-offline-TSE.md) 
+-  [4445-10060 Sorglos mit Cloud TSE](4445-10060-Sorglos-online-TSE.md) 
 
