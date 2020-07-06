@@ -16,7 +16,7 @@ Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgend
 
 ### Pre-Sales Bereich
 
-- Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten 
+- [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](pre-sales/haendler-preisliste.md) 
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
 - Dokumentationen zur Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
 
