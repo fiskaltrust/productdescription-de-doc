@@ -16,4 +16,4 @@
 
 ### Vertrieb von fiskaltrust.Produkten
 
-- [Vertriebsmodell für Kassenhändler](vertrieb\overview.md)
+- [Vertriebsmodell für Kassenhändler](vertrieb/overview.md)
