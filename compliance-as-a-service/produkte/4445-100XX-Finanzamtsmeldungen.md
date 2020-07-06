@@ -7,3 +7,11 @@ Mitteilung an das zuständige Finanzamt von Inbetriebnahme bzw. Außerbetriebnah
 ## Features
 
 - Automatisierte Meldung an das zuständige Finanzamt
+
+## Voraussetzungen
+
+Die Finanzamtmeldungen setzen ein aktives [POS Archiv](../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) Produkt voraus.
+
+## Verkaufseinheit
+
+Verkauf pro Kasse pro Meldung

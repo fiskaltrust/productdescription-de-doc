@@ -53,3 +53,7 @@ Folgende Daten werden über einen automatischen Daten-upload via fiskaltrust.Mid
 - [Datenexport, basierend auf Start- und Enddatum, im fiskaltrust-Portal für DSFinV-K-Datei](../features/DSFinV-K-Export.md)
 - Datenexport, basierend auf einem Token, der Zeitrahmen enthält, über eine AKO-Webseite (Mandantenlösung für Betriebsprüfungen)
 - [Request & Responses bleiben im Original gespeichert](../features/unveraenderbarer-speicher.md)
+
+## Verkaufseinheit
+
+Verkauf pro Filiale pro Jahr

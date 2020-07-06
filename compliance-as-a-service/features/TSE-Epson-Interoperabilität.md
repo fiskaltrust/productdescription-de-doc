@@ -21,10 +21,10 @@ Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine
 
 ### Rahmenbedingungen
 
-• Abgeschlossene oder kurz vor dem Abschluss stehende Implementierung der Middleware
-• Registrierung am (Produktiv) Portal als PosCreator oder PosDealer
-• Registrierung am Sandbox Portal und trial-configuration knowledge
-• Partner bezieht die TSE Hardware für den zukünftigen Rollout über fiskaltrust
+- Abgeschlossene oder kurz vor dem Abschluss stehende Implementierung der Middleware
+- Registrierung am (Produktiv) Portal als PosCreator oder PosDealer
+- Registrierung am Sandbox Portal und trial-configuration knowledge
+- Partner bezieht die TSE Hardware für den zukünftigen Rollout über fiskaltrust
 
 ### Teilnahme an der Pilotinstallation
 
