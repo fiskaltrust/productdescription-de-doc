@@ -16,3 +16,7 @@
 ### Einzelprodukte
 
 [4445-10020-Audicon-Kassenarchiv-Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+
+## Verkaufseinheit
+
+Verkauf pro Filiale pro Jahr
