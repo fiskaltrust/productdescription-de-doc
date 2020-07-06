@@ -34,7 +34,7 @@ Folgende Daten können über einen automatisierten Daten-upload via API in das A
 
 
 
-### Automatischer Datenupload (?)
+### Automatischer Datenupload
 
 Folgende Daten werden über einen automatischen Daten-upload via fiskaltrust.Middleware in das Archiv hochgeladen, damit sowohl Belegdaten von Kassen, die die fiskaltrust.Middleware nicht unterstützen, als auch Belgdaten von Kassen, die die fiskaltrust.Middleware unterstützen, an einem zentralen Ort revisionssicher aufbewahrt werden: 
 
