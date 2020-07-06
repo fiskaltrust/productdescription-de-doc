@@ -10,4 +10,4 @@ Als technische Implementierung der Sicherheit wird jeder Request und auch jede R
 
 
 
-Um das Risiko eines Angriffs auf die Kette ab dem letzten nicht verketteten Hashwert zu begrenzen, bietet fiskaltrust einen Mechanismus, der die aktuellen Daten in die [fiskaltrust-Cloud](../revisionssichere-daten-as-a-service/features/revisionssichere-Queue-Items.md) spiegelt. Dieser Datenspiegel bietet die Möglichkeit, Angriffe zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
+Um das Risiko eines Angriffs auf die Kette ab dem letzten nicht verketteten Hashwert zu begrenzen, bietet fiskaltrust einen Mechanismus, der die aktuellen Daten in die [fiskaltrust-Cloud]( [revisionssichere-Queue-Items.md](../../revisionssichere-daten-as-a-service/features/revisionssichere-Queue-Items.md) ) spiegelt. Dieser Datenspiegel bietet die Möglichkeit, Angriffe zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
