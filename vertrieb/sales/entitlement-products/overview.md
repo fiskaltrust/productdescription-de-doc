@@ -40,7 +40,7 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 ### Middleware Addon-Produkte
 
 - [POS Archiv](../../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md)
-- [Finanzamtmeldung](../../../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md)
+- [Finanzamtmeldung](../../../compliance-as-a-service/produkte/4445-10030-Finanzamtsmeldung.md)
 
 ### Einzelprodukte
 

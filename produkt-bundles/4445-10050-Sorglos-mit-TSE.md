@@ -12,7 +12,7 @@
 
 - TSE-As-A-Service (wahlweise Hardware-TSE oder Cloud-TSE, pro Filiale)
 -  [4445-10010-pos-archiv](../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
--  [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md) 
+-  [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-10030-Finanzamtsmeldung.md) 
 
 **Hinweis:** Eine Auswahl des Hardware- oder Cloud TSE Anbieters ist im Sorglos-mit-TSE Bundle nicht möglich.
 

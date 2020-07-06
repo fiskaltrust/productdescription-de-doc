@@ -12,7 +12,7 @@
 
 - Hardware TSE-As-A-Service
 -  [4445-10010-pos-archiv](../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
--  [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md) 
+-  [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-10030-Finanzamtsmeldung.md) 
 
 **Hinweis:** Eine Auswahl des Hardware TSE Anbieters ist im Sorglos mit Hardware TSE Bundle nicht möglich.
 
