@@ -2,7 +2,7 @@
 
 Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundles finden Sie hier:
 
- [PosDealer-Preisliste.pdf](media/PosDealer-Preisliste.pdf)
+ [PosDealer-Preisliste.pdf](/media/PosDealer-Preisliste.pdf)
 
 ## Voraussetzungen für den Anspruch auf Mengenrabatte
 
