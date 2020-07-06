@@ -28,7 +28,7 @@ Mit Hilfe von Entitlements hat fiskaltrust eine Lösung entwickelt, welches Kass
 - Templates & Corporate Branding
 - Rollout Szenarien, Tipps & Tricks
 
-#### After-Sales Bereich
+### After-Sales Bereich
 
 - TSE Verwaltung
 - Vertragsmanagement
