@@ -20,7 +20,7 @@ Folgende Service-Einzelprodukte können für den Resale an Kassenbetreiber erwor
 
 - [4445-100XX-pos-archiv](../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
 - [4445-10020-Audicon-Kassenarchiv-Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
-- [4445-100XX-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-100XX-Finanzamtsmeldungen.md) 
+- [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
 
 
 
