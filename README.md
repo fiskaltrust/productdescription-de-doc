@@ -13,3 +13,7 @@
 ### Kundensegment
 
 - [Angebote nach Kundensegment](angebote-nach-kundensegment)
+
+### Vertrieb von fiskaltrust.Produkten
+
+- [Vertriebsmodell für Kassenhändler](vertrieb\overview.md)
