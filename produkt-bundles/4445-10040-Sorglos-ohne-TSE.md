@@ -2,20 +2,22 @@
 
 **Produktnummer:** 4445-10040
 
+Das Produkt-Bundle "fiskaltrust.Sorglos" enthält das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sowie allen Kassen einer Filiale bzw. eines Standortes:
+
 ## Basis-Produkt
 
-[4445-0003-lokal-installierte-middleware](../compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
+[Lokal installierte Middleware](../services/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
 ### Addon-Produkte der Middleware
 
--  [4445-10010-pos-archiv](../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
-- [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
+-  [POS Archiv](../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md) 
+-  [Finanzamtmeldung](../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
 
 **Hinweis:** Im Sorglos-ohne-TSE-Bundle ist keine Online- bzw. Offline TSE-As-A-Service enthalten.
 
 ### Einzelprodukte
 
-[4445-10020-Audicon-Kassenarchiv-Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+[Audicon Kassenarchiv Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ## Verkaufseinheit
 

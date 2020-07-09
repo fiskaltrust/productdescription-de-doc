@@ -6,9 +6,8 @@
 
 fiskaltrust bietet Kassenhändlern folgende All-in-One-Produktebundles für den Resale an Kassenbetreiber an:
 
-- [4445-10040-Sorglos-ohne-TSE](../produkt-bundles/4445-10040-Sorglos-ohne-TSE.md) 
-- [4445-10050-Sorglos-offline-TSE](../produkt-bundles/4445-10050-Sorglos-offline-TSE.md) 
-- [4445-10060-Sorglos-online-TSE](../produkt-bundles/4445-10060-Sorglos-online-TSE.md)  
+- [fiskaltrust.Sorglos ohne TSE](4445-10040-Sorglos-ohne-TSE.md) 
+- [fiskaltrust.Sorglos mit TSE](4445-100XX-Sorglos-mit-TSE.md) 
 
 
 
@@ -18,9 +17,9 @@ fiskaltrust bietet Kassenhändlern folgende All-in-One-Produktebundles für den 
 
 Folgende Service-Einzelprodukte können für den Resale an Kassenbetreiber erworben werden:
 
-- [4445-100XX-pos-archiv](../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
-- [4445-10020-Audicon-Kassenarchiv-Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
-- [4445-10030-Finanzamtmeldung](../compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
+- [4445-10010-pos-archiv](../services/revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
+- [4445-10020-Audicon-Kassenarchiv-Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+- [4445-10030-Finanzamtmeldung](../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
 
 
 
