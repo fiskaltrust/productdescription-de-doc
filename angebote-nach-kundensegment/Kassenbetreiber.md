@@ -2,14 +2,18 @@
 
 fiskaltrust bietet für Kassenbetreiber folgende Produkte:
 
-### Wenn in der Kassa die fiskaltrust.Middleware implementiert ist
+## Wenn in der Kassa die fiskaltrust.Middleware implementiert ist
 
-Für den [Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler](Kassenhaendler.md) 
+Siehe [Produktliste für Kassenhändler](Kassenhaendler.md). 
+
+Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 
 
 
-### Wenn in der Kassa die fiskaltrust.Middleware NICHT implementiert ist
+## Wenn in der Kassa die fiskaltrust.Middleware NICHT implementiert ist
 
-fiskaltrust bietet das [Audicon Kassenarchiv Online (AKO)](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
+fiskaltrust bietet das [Audicon Kassenarchiv Online (AKO)](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
 
-Für den [Bezug von AKO wenden Sie sich bitte an Ihren Kassenhändler](Kassenhaendler.md) 
+Siehe [Produktliste für Kassenhändler](Kassenhaendler.md). 
+
+Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.

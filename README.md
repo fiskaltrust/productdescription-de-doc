@@ -1,36 +1,30 @@
 # fiskaltrust Produkt- und Servicebeschreibung für den deutschen Markt
 
+## Ziel des Dokuments
+
+Produkt- und Servicebeschreibung als Ergänzung zum Portal Handbuch und zur Interface Dokumentation. Das Repository besteht aus folgenden Abschnitten:
+
 
 ## Leistungsbeschreibung
 
-Beschreibung des Kerngeschäfts von fiskaltrust und deren Leistung. Versioniert und optional als pdf-download verfügbar.
+Beschreibung des Kerngeschäfts von fiskaltrust und dessen Leistung. Versioniert und optional als pdf-download verfügbar.
 
-[Leistungsbeschreibung]( [overview.md](leistungsbeschreibung/overview.md) )
+[Leistungsbeschreibung](leistungsbeschreibung/overview.md)
 
-
-
-## Angebote aufgeschlüsselt nach 
-
-### Services
+## Produkt- und Servicebeschreibung
 
 Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. Einführung in das Produktportfolio von fiskaltrust.
 
-[Services]( [overview.md](services/overview.md) )
+[Services](services/overview.md) 
 
-### Produkte
+## Produkt-Angebote nach Kundensegment
 
-Beschreibung der Produkte und deren Kombination zu Produkt-Bundles aus der Perspektive der Marktkommunikation
+Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfnisse.
 
-- [Produkt Bundles](produkt-bundles/overview.md)
+[Angebote nach Kundensegment](angebote-nach-kundensegment)
 
-### Kundensegment
-
-Zugang zu Produkte und Services nach Zielgruppe und Bedürfnisse.
-
-- [Angebote nach Kundensegment](angebote-nach-kundensegment)
-
-### Vertrieb von fiskaltrust.Produkten
+## Vertrieb von fiskaltrust Produkten
 
 Vertriebsmodell von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
 
-- [Vertriebsmodell für Kassenhändler](vertrieb/overview.md)
+[Vertriebsmodell für Kassenhändler](vertrieb/overview.md)

@@ -1,69 +1,68 @@
-# Für Kassenhändler
+# Angebote für Kassenhändler
 
-### Wenn in der Kassa die fiskaltrust.Middleware implementiert ist
+## Wenn in der Kasse die fiskaltrust.Middleware implementiert ist
 
-#### Produktbundles
+### Basis-Produkt
 
-fiskaltrust bietet Kassenhändlern folgende All-in-One-Produktebundles für den Resale an Kassenbetreiber an:
+[Lokal installierte Middleware](../services/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
-- [fiskaltrust.Sorglos ohne TSE](4445-10040-Sorglos-ohne-TSE.md) 
-- [fiskaltrust.Sorglos mit TSE](4445-100XX-Sorglos-mit-TSE.md) 
+#### Addons zum Basis-Produkt
 
+- [POS Archiv](../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md) 
+- [Finanzamtmeldung](../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
 
+### Einzelprodukte
 
-#### Einzelprodukte
+[Audicon Kassenarchiv Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
-##### Services
+### Sorglos Bundles
 
-Folgende Service-Einzelprodukte können für den Resale an Kassenbetreiber erworben werden:
+Sorglos-Produkt-Bundles sind eine Kombination aus dem Basis-Produkt fiskaltrust.Middleware und den Addons, und inludiert alle Kassen einer Filiale bzw. eines Standortes. 
 
-- [4445-10010-pos-archiv](../services/revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md) 
-- [4445-10020-Audicon-Kassenarchiv-Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
-- [4445-10030-Finanzamtmeldung](../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
+- [fiskaltrust.Sorglos](produkt-bundles/4445-10040-Sorglos-ohne-TSE.md) 
+- [fiskaltrust.Sorglos mit TSE](produkt-bundles/4445-100XX-Sorglos-mit-TSE.md) 
 
-
-
-##### Technische Sicherheitseinrichtungen
-
-Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
-
-###### Online-TSE
-
-- [A-Trust](../compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
-- [Deutsche Fiskal](../compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
-- [Fiskaly](../compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
-
-###### Offline TSE
-
-- [Cryptovision (Bundesruckerei)](../compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
-- [Diebold Nixdorf](../compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
-- [Epson](../compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
-- [Swissbit](../compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
-
-
-
-### Wenn in der Kassa die fiskaltrust.Middleware NICHT implementiert ist
-
-#### Einzelprodukte
-
-##### Services
-
-fiskaltrust bietet das [Audicon Kassenarchiv Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
-
-- [4445-10020-Audicon-Kassenarchiv-Online](../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
-
-
-
-##### Technische Sicherheitseinrichtungen
+### Technische Sicherheitseinrichtungen
 
 Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
 
-###### Offline TSE
+#### Cloud TSE
 
-- [Cryptovision (Bundesruckerei)](../compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
-- [Diebold](../compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
-- [Epson](../compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
-- [Swissbit](../compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
+- [A-Trust](../services/compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
+- [Deutsche Fiskal](../services/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
+- [Fiskaly](../services/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
+
+#### Hardware TSE
+
+- [Bundesruckerei (Cryptovision)](../services/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
+- [Diebold Nixdorf](../services/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
+- [Epson](../services/compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
+- [Swissbit](../services/compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
+
+## Wenn in der Kasse die fiskaltrust.Middleware NICHT implementiert ist
+
+### Einzelprodukte
+
+fiskaltrust bietet das [Audicon Kassenarchiv Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
+
+- [Audicon Kassenarchiv Online](../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+
+### Technische Sicherheitseinrichtungen
+
+Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
+
+#### Cloud TSE
+
+- [A-Trust](../services/compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
+- [Deutsche Fiskal](../services/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
+- [Fiskaly](../services/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
+
+#### Hardware TSE
+
+- [Bundesruckerei (Cryptovision)](../services/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
+- [Diebold Nixdorf](../services/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
+- [Epson](../services/compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
+- [Swissbit](../services/compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
 
 
 
