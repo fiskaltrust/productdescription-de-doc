@@ -2,7 +2,7 @@
 
 ## Ziel des Dokuments
 
-Produkt- und Servicebeschreibung als Ergänzung zum Portal Handbuch und zur Interface Dokumentation. Das Repository besteht aus folgenden Abschnitten:
+Produkt- und Servicebeschreibung als Ergänzung zum [Portal Handbuch](https://github.com/fiskaltrust/portal-manual-doc) und zur [Interface Dokumentation](https://github.com/fiskaltrust/interface-doc). Das Repository besteht aus folgenden Abschnitten:
 
 
 ## Leistungsbeschreibung
@@ -15,13 +15,13 @@ Beschreibung des Kerngeschäfts von fiskaltrust und dessen Leistung. Versioniert
 
 Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. Einführung in das Produktportfolio von fiskaltrust.
 
-[Services](services/overview.md) 
+[Produkt- und Servicebeschreibung](services/overview.md) 
 
 ## Produkt-Angebote nach Kundensegment
 
-Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfnisse.
+Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfnisse als Ausgangspunkt für die Marktkommunikation.
 
-[Angebote nach Kundensegment](angebote-nach-kundensegment)
+[Angebote nach Kundensegment](angebote-nach-kundensegment\overview.md)
 
 ## Vertrieb von fiskaltrust Produkten
 

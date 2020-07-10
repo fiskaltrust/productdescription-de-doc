@@ -1,4 +1,4 @@
-# Services
+# Produkt- und Servicebeschreibung
 
 fiskaltrust ist ein Softwarehersteller und entwickelt für Kassenhersteller und Kassenhändler Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service Produkte.
 

@@ -11,4 +11,3 @@ Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sow
 - [Für Kassenhersteller](Kassenhersteller.md)
 - [Für Kassenhändler](Kassenhaendler.md)
 - [Für Kassenbetreiber](Kassenbetreiber.md)
-

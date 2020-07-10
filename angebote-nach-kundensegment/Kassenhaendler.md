@@ -17,7 +17,7 @@
 
 ### Sorglos Bundles
 
-Sorglos-Produkt-Bundles sind eine Kombination aus dem Basis-Produkt fiskaltrust.Middleware und den Addons, und inludiert alle Kassen einer Filiale bzw. eines Standortes. 
+Sorglos-Produkt-Bundles sind eine Kombination aus dem Basis-Produkt fiskaltrust.Middleware und den Addons, und inkludiert alle Kassen einer Filiale bzw. eines Standortes. 
 
 - [fiskaltrust.Sorglos](produkt-bundles/4445-10040-Sorglos-ohne-TSE.md) 
 - [fiskaltrust.Sorglos mit TSE](produkt-bundles/4445-100XX-Sorglos-mit-TSE.md) 
