@@ -23,8 +23,8 @@ Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfn
 
 [Angebote nach Kundensegment](angebote-nach-kundensegment\overview.md)
 
-## Vertrieb von fiskaltrust Produkten
+## Informationen für Kassenhändler
 
-Vertriebsmodell von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
+Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
 
-[Vertriebsmodell für Kassenhändler](vertrieb/overview.md)
+[Übersicht für Kassenhändler](resources-posdealer/overview.md)
