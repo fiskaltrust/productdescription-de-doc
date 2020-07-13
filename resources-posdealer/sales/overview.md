@@ -1,6 +1,6 @@
 # Entitlements ("Ansprüche")
 
-Entitlements stellen für [Kassenhändler](../../../angebote-nach-kundensegment/Kassenhaendler.md) eine Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen. Durch die Abnahme einer in Rahmenverträgen zu definierenden Gesamtmenge an Produkten bzw. Produkt-Bundles über alle Kunden hinweg ermöglicht die partnerschaftliche Rabattstaffelung von fiskaltrust dem Kassenhändler einen großen Spielraum hinsichtlich dessen individueller, den Bedürfnissen der eigenen Kunden entsprechender Preisgestaltung.
+Entitlements stellen für [Kassenhändler](../../angebote-nach-kundensegment/Kassenhaendler.md) eine Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen. Durch die Abnahme einer in Rahmenverträgen zu definierenden Gesamtmenge an Produkten bzw. Produkt-Bundles über alle Kunden hinweg ermöglicht die partnerschaftliche Rabattstaffelung von fiskaltrust dem Kassenhändler einen großen Spielraum hinsichtlich dessen individueller, den Bedürfnissen der eigenen Kunden entsprechender Preisgestaltung.
 
 Der Kassenhändler stellt dem Endkunden das Produkt bzw. Produkt-Bundle in Rechnung. Zugleich stellt der Kassenhändler dem Endkunden das  Produkt-Entitlement als "Händlerpackage" im fiskaltrust.Webshop zur Verfügung. Der Kassenhändler kann das Produkt-Entitlement (Händlerpackage) unter bestimmten Rahmenbedingungen im Namen des Endkunden im fiskaltrust.Webshop kaufen und seinem Kunden eine fertige Cashbox Konfiguration zur Verfügung stellen.
 
@@ -33,17 +33,17 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ### Produkt-Bundles
 
--  [Sorglos ohne TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-10040-Sorglos-ohne-TSE.md)
--  [Sorglos mit TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-100XX-Sorglos-mit-TSE.md)
+-  [Sorglos ohne TSE](../../angebote-nach-kundensegment/produkt-bundles/4445-10040-Sorglos-ohne-TSE.md)
+-  [Sorglos mit TSE](../../angebote-nach-kundensegment/produkt-bundles/4445-100XX-Sorglos-mit-TSE.md)
 
 ### Middleware Addon-Produkte
 
-- [POS Archiv](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md)
-- [Finanzamtmeldung](../../../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
+- [POS Archiv](../../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md)
+- [Finanzamtmeldung](../../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
 
 ### Einzelprodukte
 
--  [Audicon Kassenarchiv Online](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+-  [Audicon Kassenarchiv Online](../../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen
 
