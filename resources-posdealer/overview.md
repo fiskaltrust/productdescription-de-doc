@@ -1,4 +1,4 @@
-# PosDealer ("Händler") Resources
+# PosDealer ("KassenHändler") Resources
 
 ## Rollenbeschreibung PosDealer
 
