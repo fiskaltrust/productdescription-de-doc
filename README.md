@@ -21,7 +21,7 @@ Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. E
 
 Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfnisse als Ausgangspunkt für die Marktkommunikation.
 
-[Angebote nach Kundensegment](angebote-nach-kundensegment\overview.md)
+[Angebote nach Kundensegment](angebote-nach-kundensegment/overview.md)
 
 ## Informationen für Kassenhändler
 
