@@ -1,12 +1,8 @@
-# Produkt- und Servicebeschreibung
-
-fiskaltrust ist ein Softwarehersteller und entwickelt für Kassenhersteller und Kassenhändler Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service Produkte.
-
-## Compliance-as-a-Service
+# Compliance-as-a-Service
 
 Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust-Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust-Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
 
-![Überblick über die Funktionsweise von fiskaltrust](compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
+![Überblick über die Funktionsweise von fiskaltrust](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/services/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
 
 Diese Lösung macht die fiskaltrust-Middleware zu einem wesentlichen Bestandteil des Possystems und damit auch zu dessen Instanz zur Registrierkasse.
 
@@ -20,7 +16,7 @@ Als technische Implementierung der Sicherheit wird jeder Request und auch jede R
 
 
 
- ![receipt-chain](compliance-as-a-service/media/receipt-chain.png)
+ ![receipt-chain](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/services/compliance-as-a-service/media/receipt-chain.png)
 
  
 
@@ -32,7 +28,7 @@ Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu se
 
  
 
-  ![cashbox](compliance-as-a-service/media/cashbox.png)
+  ![cashbox](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/services/compliance-as-a-service/media/cashbox.png)
 
  
 
@@ -40,29 +36,12 @@ Der von der CashboxId identifizierte Konfigurationscontainer kann in verschieden
 
 ## fiskaltrust Produkte & Features
 
-[Compliance-as-a-Service Produkte](compliance-as-a-service/produkte/overview.md)
+[Compliance-as-a-Service Produkte](produkte/overview.md)
 
-[Compliance-as-a-Service Features](compliance-as-a-service/features/overview.md)
+[Compliance-as-a-Service Features](features/overview.md)
 
 
 
 **Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die in einem eigenen github repository öffentlich zugänglich ist: 
 
 https://github.com/fiskaltrust/interface-doc
-
-
-
-# Revisionssichere Daten-as-a-Service
-
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Pos-System verwenden, das die fiskaltrust.Middleware enthält. 
-
-## fiskaltrust-cloud
-
-Die fiskaltrust cloud befindet sich in einer tiefen Integration mit der fiskaltrust-Middleware, die die Daten als Teil des Sicherheitsmechanismus in die cloud spiegelt. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt, und die Vollständigkeit kann durch Nachverfolgung der Kassenbeleg-Hash-Kette überprüft werden. Dies bedeutet, dass alle Originaldatensätze erhalten bleiben und unveränderlich sind. Der Schutz vor Datenverlust wird durch eine Lösung mit standortverteilten Daten-Speichern gewährleistet. Die Daten werden – entsprechend den steuerlichen Bestimmungen – in deutschen Rechenzentren gespeichert.
-
-## fiskaltrust Produkte & Features
-
-[Revisionssichere Daten-as-a-Service Produkte](revisionssichere-daten-as-a-service/produkte/overview.md)
-
-[Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/overview.md)
-
