@@ -4,7 +4,7 @@ Entitlements stellen für [Kassenhändler](../../../angebote-nach-kundensegment/
 
 Der Kassenhändler stellt dem Endkunden das Produkt bzw. Produkt-Bundle in Rechnung. Zugleich stellt der Kassenhändler dem Endkunden das  Produkt-Entitlement als "Händlerpackage" im fiskaltrust.Webshop zur Verfügung. Der Kassenhändler kann das Produkt-Entitlement (Händlerpackage) unter bestimmten Rahmenbedingungen im Namen des Endkunden im fiskaltrust.Webshop kaufen und seinem Kunden eine fertige Cashbox Konfiguration zur Verfügung stellen.
 
-![entitlements](../../media/entitlements.png)
+![entitlements](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/resources-posdealer/media/entitlements.png)
 
 Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine Kunden Betreiber A, Betreiber B und Betreiber C jeweils einzeln Entitlements für Produktbundles von fiskaltrust bezieht. Für jeden einzelnen Einkaufsvorgang erhält der Händler einen entsprechenden Mengenrabatt (z.b. für 200 Entitlements -25%, für 500 Entitlements -30%). Die Preisgestaltung für den Weiterverkauf obliegt dem Händler.
 
@@ -12,7 +12,7 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 Mit Hilfe von Rahmenverträgen können Entitlements gebündelt werden und ermöglichen noch bessere Einkaufskonditionen.
 
-![bundled-entitlements](../../media/bundled-entitlements.png)
+![bundled-entitlements](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/resources-posdealer/media/bundled-entitlements.png)
 
 Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine Kunden Betreiber A, Betreiber B und Betreiber C einen Rahmenvertrag über die gesamte benötigte Abnahmemenge abschließt und dadurch bessere Einkaufskonditionen erhält. Der Weiterverkauf der Ansprüche erfolgt gleich wie im erstgenannten Beispiel.
 
@@ -33,18 +33,17 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ### Produkt-Bundles
 
--  [4445-10040-Sorglos-ohne-TSE.md](../../../produkt-bundles/4445-10040-Sorglos-ohne-TSE.md) 
--  [4445-10050-Sorglos-offline-TSE.md](../../../produkt-bundles/4445-10050-Sorglos-offline-TSE.md) 
--  [4445-10060-Sorglos-online-TSE.md](../../../produkt-bundles/4445-10060-Sorglos-online-TSE.md) 
+-  [Sorglos ohne TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-10040-Sorglos-ohne-TSE.md)
+-  [Sorglos mit TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-100XX-Sorglos-mit-TSE.md)
 
 ### Middleware Addon-Produkte
 
-- [POS Archiv](../../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md)
-- [Finanzamtmeldung](../../../compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
+- [POS Archiv](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md)
+- [Finanzamtmeldung](../../../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
 
 ### Einzelprodukte
 
--  [4445-10020-Audicon-Kassenarchiv-Online.md](../../../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+-  [Audicon Kassenarchiv Online](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen
 
