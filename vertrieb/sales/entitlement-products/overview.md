@@ -33,18 +33,17 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ### Produkt-Bundles
 
--  [4445-10040-Sorglos-ohne-TSE.md](../../../produkt-bundles/4445-10040-Sorglos-ohne-TSE.md) 
--  [4445-10050-Sorglos-offline-TSE.md](../../../produkt-bundles/4445-10050-Sorglos-offline-TSE.md) 
--  [4445-10060-Sorglos-online-TSE.md](../../../produkt-bundles/4445-10060-Sorglos-online-TSE.md) 
+-  [Sorglos ohne TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-10040-Sorglos-ohne-TSE.md)
+-  [Sorglos mit TSE](../../../angebote-nach-kundensegment/produkt-bundles/4445-100XX-Sorglos-mit-TSE.md)
 
 ### Middleware Addon-Produkte
 
-- [POS Archiv](../../../revisionssichere-daten-as-a-service/produkte/4445-100XX-pos-archiv.md)
-- [Finanzamtmeldung](../../../compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
+- [POS Archiv](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md)
+- [Finanzamtmeldung](../../../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
 
 ### Einzelprodukte
 
--  [4445-10020-Audicon-Kassenarchiv-Online.md](../../../revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+-  [Audicon Kassenarchiv Online](../../../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen
 
