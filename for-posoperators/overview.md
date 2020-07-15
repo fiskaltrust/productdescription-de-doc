@@ -20,6 +20,6 @@ Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 
 fiskaltrust bietet das [Audicon Kassenarchiv Online (AKO)](../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
 
-Siehe [Produktliste für Kassenhändler](../for-posdealers/angebote.md). 
+Siehe [Produktliste für Kassenhändler](../for-posdealers/01-produkte/overview.md). 
 
 Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.
