@@ -16,7 +16,7 @@ Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sow
 
 ### Produkt Übersicht für KassenHändler
 
-[Zur Produkt-Übersicht für Kassenhändler](produkt-bundles/overview.md)
+[Zur Produkt-Übersicht für Kassenhändler](01-produkt-bundles/overview.md)
 
 ## Vertriebsunterstützung für KassenHändler
 
