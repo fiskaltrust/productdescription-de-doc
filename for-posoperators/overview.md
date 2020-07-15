@@ -10,7 +10,7 @@ fiskaltrust bietet für Kassenbetreiber folgende Produkte:
 
 ## Wenn in der Kassa die fiskaltrust.Middleware implementiert ist
 
-Siehe [Produktliste für Kassenhändler](../for-posdealers/angebote.md). 
+Siehe [Produktliste für Kassenhändler](../for-posdealers/01-produkte/overview.md). 
 
 Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 
