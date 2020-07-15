@@ -8,7 +8,7 @@ Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter un
 
 ## Produkt-Angebote für KassenHändler
 
-fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/overview.md) ) und [Revisionssichere-Daten-as-a-Service](../product-service-description/overview.md) an. Die Verwendung des Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md), ist kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes.
+fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/overview.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/overview.md) an. Die Verwendung des Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md), ist kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes.
 
 Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe von kostenpflichtigen Addon-Produkte zur Middleware pro Kasse. Diese sind abhängig vom jeweilig Markt backup-Lösungen, Daten-Exporte oder Automatisierungs-Services. 
 
