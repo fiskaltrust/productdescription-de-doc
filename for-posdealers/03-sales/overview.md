@@ -33,8 +33,8 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ### Produkt-Bundles
 
--  [Sorglos ohne TSE](../01-produkt-bundles/4445-10040-Sorglos-ohne-TSE.md)
--  [Sorglos mit TSE](../01-produkt-bundles/4445-100XX-Sorglos-mit-TSE.md)
+-  [Sorglos ohne TSE](../01-produkt-angebote/4445-10040-Sorglos-ohne-TSE.md)
+-  [Sorglos mit TSE](../01-produkt-angebote/4445-100XX-Sorglos-mit-TSE.md)
 
 ### Middleware Addon-Produkte
 

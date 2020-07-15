@@ -14,41 +14,13 @@ Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltr
 
 Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sowie allen Kassen einer Filiale bzw. eines Standortes, ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundensegmente und -bedürfnisse werden unterschiedliche Produkte und Ausprägungen der Sorglos-Produkt-Bundles angeboten.
 
-### Produkt Übersicht für KassenHändler
+[Zur Produkt-Übersicht für Kassenhändler](01-produkt-angebote/overview.md)
 
-[Zur Produkt-Übersicht für Kassenhändler](01-produkt-bundles/overview.md)
-
-## Vertriebsunterstützung für KassenHändler
-
-fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von compliance-as-a-service Produkten für Kassenhersteller und Kassenhändler innerhalb Europas konzentriert.
+## Vertrieb von fiskaltrust.Produkten
 
 Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen Kassenbetreibers berücksichtigt und erfüllt.
 
-![distributsionsmodell](media/distributsionsmodell.png)
-
-
-
-Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgende Sammlung aus Unterlagen, Informationen, Vorlagen und Dokumentationen zur Verfügung:
-
-#### Pre-Sales Bereich
-
-- [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
-- Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
-- Dokumentationen zur Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
-
-#### Sales Bereich
-
-Mit Hilfe von Entitlements hat fiskaltrust eine Lösung entwickelt, welches Kassenhändler beim Einkauf und Weiterverkauf von fiskaltrust.Produkten unterstützt.
-
-- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/overview.md)
-- Templates & Corporate Branding
-- Rollout Szenarien, Tipps & Tricks
-
-#### After-Sales Bereich
-
-- TSE Verwaltung
-- Vertragsmanagement
-- Hilfestellung für Kundensupport
+[Zum Vertriebs-Breich für KassenHändler](vertriebsmodell.md)
 
 ## Weiterführende externe Informationen
 
