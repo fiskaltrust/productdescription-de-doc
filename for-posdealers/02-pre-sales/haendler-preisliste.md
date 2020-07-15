@@ -2,7 +2,7 @@
 
 Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundles finden Sie hier:
 
- [PosDealer-Preisliste.pdf](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/resources-posdealer/pre-sales/media/PosDealer-Preisliste.pdf)
+ [PosDealer-Preisliste.pdf](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/02-pre-sales/media/PosDealer-Preisliste.pdf)
 
 ## Voraussetzungen für den Anspruch auf Mengenrabatte
 
