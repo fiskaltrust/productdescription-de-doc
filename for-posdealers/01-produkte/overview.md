@@ -49,9 +49,9 @@ Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
 
 ### Einzelprodukte
 
-fiskaltrust bietet das [Audicon Kassenarchiv Online](../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
+fiskaltrust bietet das [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) für die revisionssichere Archivierung von Kassendaten (DSFinV-K und TSE TAR files) an.
 
-- [Audicon Kassenarchiv Online](../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+- [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen
 
