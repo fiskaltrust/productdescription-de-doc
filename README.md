@@ -15,16 +15,22 @@ Beschreibung des Kerngeschäfts von fiskaltrust und dessen Leistung. Versioniert
 
 Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. Einführung in das Produktportfolio von fiskaltrust.
 
-[Produkt- und Servicebeschreibung](services/overview.md) 
+[Produkt- und Servicebeschreibung](product-service-description/overview.md) 
 
-## Produkt-Angebote nach Kundensegment
-
-Produkt- und Service Angebote von fiskaltrust nach Zielgruppe und deren Bedürfnisse als Ausgangspunkt für die Marktkommunikation.
-
-[Angebote nach Kundensegment](angebote-nach-kundensegment/overview.md)
-
-## Informationen für Kassenhändler
+## Informationen für KassenHersteller
 
 Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
 
-[Übersicht für Kassenhändler](resources-posdealer/overview.md)
+[Übersicht für KassenHersteller](for-poscreators/overview.md)
+
+## Informationen für KassenHändler
+
+Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
+
+[Übersicht für Kassenhändler](for-posdealers/overview.md)
+
+## Informationen für KassenBetreiber
+
+Informationen für KassenBetreiber.
+
+[Übersicht für KassenBetreiber](for-posoperators/overview.md)

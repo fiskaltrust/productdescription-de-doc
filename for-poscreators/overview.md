@@ -1,10 +1,16 @@
-# PosCreator ("KassenHersteller") Resources
+# Informationen für PosCreators ("KassenHersteller")
 
-## Rollenbeschreibung PosCreator
+## Rollenbeschreibung KassenHersteller
 
 Der KassenHersteller entwickelt Pos-Systeme und integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
-## Resources
+## Produkt-Angebote für KassenHersteller
+
+fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/overview.md) ) und [Revisionssichere-Daten-as-a-Service](../product-service-description/overview.md) an. Die Integration und Verwendung des Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md), ist für Kassenhersteller kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes:
+
+[Lokal installierte Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
+
+## Weiterführende externe Informationen
 
 ### fiskaltrust Interface Dokumentation
 

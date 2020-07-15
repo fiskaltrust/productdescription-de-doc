@@ -8,16 +8,16 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" enthält das Basis-Produkt fisk
 
 ## Basis-Produkt
 
-[Lokal installierte Middleware](../../services/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
+[Lokal installierte Middleware](../../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
 ### Addon-Produkte zur Middleware
 
--  [POS Archiv](../../services/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md) 
--  [Finanzamtmeldung](../../services/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
+-  [POS Archiv](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md) 
+-  [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md) 
 
 ### Einzelprodukte
 
-[Audicon Kassenarchiv Online](../../services/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+[Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtung
 

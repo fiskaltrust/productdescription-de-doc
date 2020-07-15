@@ -6,7 +6,7 @@ fiskaltrust ist ein Softwarehersteller und entwickelt für Kassenhersteller und 
 
 Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust-Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust-Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
 
-![Überblick über die Funktionsweise von fiskaltrust](../services/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
+![Überblick über die Funktionsweise von fiskaltrust](../product-service-description/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
 
 Diese Lösung macht die fiskaltrust-Middleware zu einem wesentlichen Bestandteil des Possystems und damit auch zu dessen Instanz zur Registrierkasse.
 
@@ -20,7 +20,7 @@ Als technische Implementierung der Sicherheit wird jeder Request und auch jede R
 
 
 
- ![receipt-chain](../services/compliance-as-a-service/media/receipt-chain.png)
+ ![receipt-chain](../product-service-description/compliance-as-a-service/media/receipt-chain.png)
 
  
 
@@ -32,7 +32,7 @@ Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu se
 
  
 
-  ![cashbox](../services/compliance-as-a-service/media/cashbox.png)
+  ![cashbox](../product-service-description/compliance-as-a-service/media/cashbox.png)
 
  
 
