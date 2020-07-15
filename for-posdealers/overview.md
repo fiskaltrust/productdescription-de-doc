@@ -14,7 +14,7 @@ Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltr
 
 Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sowie allen Kassen einer Filiale bzw. eines Standortes, ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundensegmente und -bedürfnisse werden unterschiedliche Produkte und Ausprägungen der Sorglos-Produkt-Bundles angeboten.
 
-[Zur Produkt-Übersicht für Kassenhändler](01-produkt-angebote/overview.md)
+[Zur Produkt-Übersicht für Kassenhändler](01-produkte/overview.md)
 
 ## Vertrieb von fiskaltrust.Produkten
 
