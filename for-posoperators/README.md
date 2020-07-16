@@ -1,6 +1,6 @@
 # Informationen für PosOperators ("KassenBetreiber")
 
-Rollenbeschreibung KassenBetreiber
+## Rollenbeschreibung KassenBetreiber
 
 Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein KassenBetreiber. Wenn alles reibungslos läuft, bekommen KassenBetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der KassenBetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des  Kassenhändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
 
