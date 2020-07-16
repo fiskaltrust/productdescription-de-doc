@@ -40,9 +40,9 @@ Der von der CashboxId identifizierte Konfigurationscontainer kann in verschieden
 
 ## fiskaltrust Produkte & Features
 
-[Compliance-as-a-Service Produkte](compliance-as-a-service/produkte/overview.md)
+[Compliance-as-a-Service Produkte](compliance-as-a-service/produkte/README.md)
 
-[Compliance-as-a-Service Features](compliance-as-a-service/features/overview.md)
+[Compliance-as-a-Service Features](compliance-as-a-service/features/README.md)
 
 
 
@@ -62,7 +62,7 @@ Die fiskaltrust cloud befindet sich in einer tiefen Integration mit der fiskaltr
 
 ## fiskaltrust Produkte & Features
 
-[Revisionssichere Daten-as-a-Service Produkte](revisionssichere-daten-as-a-service/produkte/overview.md)
+[Revisionssichere Daten-as-a-Service Produkte](revisionssichere-daten-as-a-service/produkte/README.md)
 
-[Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/overview.md)
+[Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/README.md)
 

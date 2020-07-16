@@ -36,9 +36,9 @@ Der von der CashboxId identifizierte Konfigurationscontainer kann in verschieden
 
 ## fiskaltrust Produkte & Features
 
-[Compliance-as-a-Service Produkte](produkte/overview.md)
+[Compliance-as-a-Service Produkte](produkte/README.md)
 
-[Compliance-as-a-Service Features](features/overview.md)
+[Compliance-as-a-Service Features](features/README.md)
 
 
 

@@ -20,7 +20,7 @@ Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgend
 
 Mit Hilfe von Entitlements hat fiskaltrust eine Lösung entwickelt, welches Kassenhändler beim Einkauf und Weiterverkauf von fiskaltrust.Produkten unterstützt.
 
-- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/overview.md)
+- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
 - Templates & Corporate Branding
 - Rollout Szenarien, Tipps & Tricks
 

@@ -9,28 +9,28 @@ Produkt- und Servicebeschreibung als Ergänzung zum [Portal Handbuch](https://gi
 
 Beschreibung des Kerngeschäfts von fiskaltrust und dessen Leistung. Versioniert und optional als pdf-download verfügbar.
 
-[Leistungsbeschreibung](leistungsbeschreibung/overview.md)
+[Leistungsbeschreibung](leistungsbeschreibung/README.md)
 
 ## Produkt- und Servicebeschreibung
 
 Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. Einführung in das Produktportfolio von fiskaltrust.
 
-[Produkt- und Servicebeschreibung](product-service-description/overview.md) 
+[Produkt- und Servicebeschreibung](product-service-description/README.md) 
 
 ## Informationen für KassenHersteller
 
 Informationen für KassenHersteller.
 
-[Übersicht für KassenHersteller](for-poscreators/overview.md)
+[Übersicht für KassenHersteller](for-poscreators/README.md)
 
 ## Informationen für KassenHändler
 
 Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
 
-[Übersicht für Kassenhändler](for-posdealers/overview.md)
+[Übersicht für Kassenhändler](for-posdealers/README.md)
 
 ## Informationen für KassenBetreiber
 
 Informationen für KassenBetreiber.
 
-[Übersicht für KassenBetreiber](for-posoperators/overview.md)
+[Übersicht für KassenBetreiber](for-posoperators/README.md)
