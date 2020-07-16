@@ -8,7 +8,7 @@ Die fiskaltrust cloud befindet sich in einer tiefen Integration mit der fiskaltr
 
 ## fiskaltrust Produkte & Features
 
-[Revisionssichere Daten-as-a-Service Produkte](produkte/overview.md)
+[Revisionssichere Daten-as-a-Service Produkte](produkte/README.md)
 
-[Revisionssichere Daten-as-a-Service Features](features/overview.md)
+[Revisionssichere Daten-as-a-Service Features](features/README.md)
 
