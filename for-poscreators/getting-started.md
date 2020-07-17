@@ -123,11 +123,11 @@ In der oben gennanten Postman Collection befinden sich viele weitere Beispiele f
 
 ## Weiterführende Informationsquellen
 
-Deutsche fiskaltrust Website: [https://fiskaltrust.de](https://fiskaltrust.de/)
-fiskaltrust Dokumentations-Platform: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
-FAQ: [fiskaltrust docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
-fiskaltrust Gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
-fiskaltrust Videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
+- Deutsche fiskaltrust Website: [https://fiskaltrust.de](https://fiskaltrust.de/)
+- fiskaltrust Dokumentations-Platform: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
+- FAQ: [fiskaltrust docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
+- fiskaltrust Gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
+- fiskaltrust Videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
 
 
 
