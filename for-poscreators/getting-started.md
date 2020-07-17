@@ -6,13 +6,13 @@ Als Kassenhersteller haben Sie Anfangs das  Ziel sich mit unserer kostenlosen ft
 
 Im Einzelnen sind folgende Schritte zu durchlaufen:
 
-1. Registrierung im Live Portal
-2. Registrierung im Sandbox Portal
-3. Konfiguration einer Cashbox (Konfigurationscontainer) im ft.Portal
-4. Downloaden und Starten des Launcher
-5. Initialisierung mit einem Startbeleg
-6. Absetzen weiterer Requests
-7. Weiterführende Informationsquellen
+1. [Registrierung im Live Portal](#registrierung-im-live-portal)
+2. [Registrierung im Sandbox Portal](#registrierung-im-sandbox-portal)
+3. [Konfiguration einer Cashbox (Konfigurationscontainer) im Portal](#konfiguration-einer-cashbox)
+4. [Downloaden und Starten des Launcher](#download-und-starten-des-launcher)
+5. [Initialisierung mit einem Startbeleg](#initialisierung-mit-einem-startbeleg)
+6. [Absetzen weiterer Requests](#absetzen-weiterer-requests)
+7. [Weiterführende Informationsquellen](#weiterführende-informationsquellen)
 
 Im Folgenden werden wir auf die einzelnen Schritte detailierter eingehen.
 
