@@ -64,7 +64,7 @@ Geben Sie den Com Anschluß an dem sie die TSE angeschlossen haben. Zum Beispiel
 In Überarbeitung.
 
 #### Fiskaly TSE
-Geben Sie die TSS-ID, API-Schlüssel und den "Geheimen" Schlüssel ein. Diese erhalten Sie beim Kauf der Fiskaly TSE. Im Sandbox-Portal können Sie eine Test - Fiskaly TSE zum Testen kostenlos über unseren Shop beziehen.
+Geben Sie die TSS-ID, API-Schlüssel und den "Geheimen" Schlüssel ein. Alternativ können Sie in unserem Test-Shop eine kostenlose Test-Fiskaly TSE beziehen. Dabei wird automatich eine SCU mit den dazugehörigen Daten für Sie erstellt. Hinweis: Wählen Sie im Shop vor dem Einlegen der Test-Fiskaly TSE in den Warenkorb die Filiale aus (Outlet Dropdown im oberen Bereich).
 
 Speichern Sie die Konfiguration Ihrer SCU nach Eingabe der benötigten Daten. Im nächsten Schritt werden wir die Queue konfigurieren.
 
