@@ -1,7 +1,7 @@
 # Rollout Szenarien, Tipps & Tricks für DE
 Um die fiskaltrust.Middleware in Verbindung mit Kassen und TSEs zu verwenden kommen unterschiedliche Szenarien in Frage. Diese werden weiter unten erläutert, es gibt allerdings einige Grundvoraussetzungen welche auf jeden Fall gegeben sein müssen, unabhängig vom Szenario.
 
-- Pro POS-System (Standort) muss mindestens eine SCU inkl. TSE zugeordnet sein.
+- Pro POS-System (Standort) muss mindestens eine [SCU](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md) inkl. TSE zugeordnet sein.
 - Für jede Kassa die dem Finanzamt gemeldet werden muss, muss eine Queue zugeordnet sein.
 
 ## Hardware TSE
