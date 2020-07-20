@@ -10,6 +10,12 @@ fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/READ
 
 [Lokal installierte Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
+## Getting started
+
+Dieses Dokument enthält alle notwendigen Schritte für KassenHersteller im deutschen Markt, die neu bei fiskaltrust sind, und unsere kostenlose ft.Middlerware mit ihrem Kassensystem verbinden wollen. 
+
+[Getting started](getting-started.md) 
+
 ## Weiterführende externe Informationen
 
 ### fiskaltrust Interface Dokumentation
