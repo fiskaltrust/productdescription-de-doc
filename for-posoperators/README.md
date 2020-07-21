@@ -24,4 +24,4 @@ Für den Bezug der Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 
 ## Preisliste
 
-[Hier finden Sie die aktuelle Preisliste für Endverbraucher.](endverbraucher-preisliste.md)
+[Hier finden Sie die aktuelle Preisliste für Endkunden.](endkunden-preisliste.md)
