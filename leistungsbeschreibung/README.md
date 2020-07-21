@@ -1,57 +1,57 @@
 # fiskaltrust.Leistungsbeschreibung
 
-fiskaltrust ist ein Softwarehersteller und entwickelt für Kassenhersteller und Kassenhändler Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service Produkte.
+Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service .
 
 ## Compliance-as-a-Service
 
-Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust-Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust-Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
+Als Kassenhersteller erhalten Sie Compliance-as-a-Service, indem Sie die fiskaltrust.Middleware in Ihr Produkt integrieren. Durch die Übermittlung der Belegdaten, Transaktionen und anderer relevanten Daten an die fiskaltrust.Middleware wird Konformität als Service bereitgestellt. 
+
+Die fiskaltrust.Middleware stellt eine länderübergreifende Schnittstelle zur Verfügung (IPOS Schnittstelle), die über verschiedene Technologien (REST, grpc, wcf) für Ihr Kassensystem erreichbar ist.
 
 ![Überblick über die Funktionsweise von fiskaltrust](../product-service-description/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
 
-Diese Lösung macht die fiskaltrust-Middleware zu einem wesentlichen Bestandteil des Possystems und damit auch zu dessen Instanz zur Registrierkasse.
+Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensystems und gewährleistet damit die Konformität als Registrierkasse.Sie erzeugt die Belegnummer als eindeutige, fortlaufende Identifikation eines von der Registrierkasse übermittelten Beleges und stellt somit nachvollziebar dar, dass jeder Beleg von ihr verarbeitet wurde.
 
-Die fiskaltrust-Middleware verarbeitet einige der wichtigsten Datenfelder auf dem Beleg. Die Belegnummer als eindeutige Identifikation eines von der Registrierkasse übermittelten Beleges wird von der fiskaltrust-Middleware erstellt, um sicherzustellen, dass jeder Beleg von ihr verarbeitet wird.
+Die Konformität wird durch die Kombination diverser Methoden und Komponenten erreicht.
 
-Die Konformität wird durch die Kombination mehrerer Methoden und Komponenten erreicht.
+Zunächst wird über die fiskaltrust.Middleware sichergestellt, dass alle Belege von einer dritten Partei (fiskaltrust) neben dem Kassenhersteller und dem Kassenhändler verarbeitet werden. Dies nennen wir die organisatorische Implementierung des Schutzes vor Manipulation.
 
-Zunächst stellt die fiskaltrust-Middleware sicher, dass alle Belege von einem Dritten neben dem Poscreator und dem Posoperator verarbeitet werden. Dies ist die organisatorische Implementierung der Sicherheit.
+Zur technische Implementierung des Schutzes vor Manipulation wird jeder Request von dem Kassensystem und auch jeder Response von der fiskaltrust.Middleware gehasht, wodurch die Datenintegrität der Requests und Responses sichergestellt wird. Um nachweisen zu können, dass keine Manipulation stattgefunden hat, wird ein weiterer Hash-Wert erzeugt, der sich auf die gesamte Request-Response-Kette bezieht. Dieser wird aus folgenden Werten generiert:
+- der eindeutigen Identifikation der Kette
+- dem Erstellungszeitpunkt
+- der Belegnummer
+- der Hash-Werte des Request und Response 
+- sowohl als auch dem Hash-Wert des vorherigen Blocks. 
 
-Als technische Implementierung der Sicherheit wird jeder Request und auch jede Response gehasht, wodurch die Datenintegrität der Anforderungen und Antworten sichergestellt wird. Um Unveränderlichkeit zu gewährleisten, wird ein weiterer Hash-Wert generiert, der sich auf den gesamten Anforderungs-Antwort-Zyklus bezieht, einschließlich der Identifizierung des Zyklus, des Betriebszeitpunkts, der vom Menschen lesbaren Belegnummer und der Hash-Werte von Anforderung, Antwort und vorherigem Empfang, der so genannte Belegs-Hash-Wert. Diese Verkettung des Empfangs-Hash-Werts bietet Unveränderlichkeit und bietet die Möglichkeit, alle Änderungen und auch das Löschen bei jeder vom Possystem bereitgestellten Aktion zu erkennen.
-
-
+Diese Verkettung bietet die Möglichkeit, Manipulationen sicher zu erkennen.
 
  ![receipt-chain](../product-service-description/compliance-as-a-service/media/receipt-chain.png)
 
- 
 
-Um das Risiko eines Angriffs auf die Kette ab dem letzten nicht verketteten Hashwert zu begrenzen, bietet fiskaltrust einen Mechanismus, der die aktuellen Daten in die fiskaltrust-Cloud spiegelt. Dieser Datenspiegel bietet die Möglichkeit, Angriffe zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
+Um das Risiko einer Manipulation der Kette auf den letzten nicht verketteten Hash-Wert zu begrenzen, stellt fiskaltrust einen Mechanismus bereit, der die aktuellen Daten in die fiskaltrust.Cloud hochlädt und dadurch spiegelt. Diese Datenspiegelung ermöglicht es, Manipulationen zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
 
-Als letzte Komponente des fiskaltrust-Sicherheitsmechanismus bietet die fiskaltrust-Middleware auch marktbezogene Sicherheitsmechanismen.
+Als letzte Komponente des fiskaltrust.SecurityMechanism stellt die fiskaltrust.Middleware marktbezogene Sicherheitsmechanismen zur Verfügung. In Deutschland wird zum Beispiel die TSE (Technische Sicherheitseinrichtung) über die SCU (Security Creation Unit) der fiskaltrust.Middleware angebunden.
 
-Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu sein und das Versprechen zu erfüllen, als stabile Schnittstelle zum Possystem zu fungieren, folgt die fiskaltrust-Middleware einer strengen Architektur.
-
- 
+Um für verschiedene Plattformen und Betriebssysteme zur Verfügung zu stehen und um das Versprechen zu erfüllen, als einheitliche Schnittstelle zum Kassensystemen zu fungieren, ist die fiskaltrust.Middleware nach folgender Architektur aufgebaut.
 
   ![cashbox](../product-service-description/compliance-as-a-service/media/cashbox.png)
 
- 
 
-Der von der CashboxId identifizierte Konfigurationscontainer kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Verwaltung der Konfiguration und des Status dieser Komponenten erfolgt im marktbezogenen fiskaltrust-Portal. Der fiskaltrust-Sicherheitsmechanismus wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt, die die Bindung an die marktbezogenen Sicherheitsmechanismus-Anforderungen darstellen.
-
+Der durch die CashboxId identifizierte Konfigurationscontainer (Cashbox) kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Erstellung und Verwaltung der Konfiguration inklusive der dazugehörigen Komponenten erfolgt im marktbezogenen fiskaltrust.Portal. Der fiskaltrust.SecurityMechanism wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt. Die SCU-Komponente stellt die Anbindung an den marktbezogenen Sicherheitsmechanismus (z.B. TSE) dar.
 
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Pos-System verwenden, das die fiskaltrust.Middleware enthält. 
+Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassensystem verwenden, das die fiskaltrust.Middleware verwendet. 
 
-## fiskaltrust-cloud
+## fiskaltrust.Cloud
 
-Die fiskaltrust cloud befindet sich in einer tiefen Integration mit der fiskaltrust-Middleware, die die Daten als Teil des Sicherheitsmechanismus in die cloud spiegelt. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt, und die Vollständigkeit kann durch Nachverfolgung der Kassenbeleg-Hash-Kette überprüft werden. Dies bedeutet, dass alle Originaldatensätze erhalten bleiben und unveränderlich sind. Der Schutz vor Datenverlust wird durch eine Lösung mit standortverteilten Daten-Speichern gewährleistet. Die Daten werden – entsprechend den steuerlichen Bestimmungen – in deutschen Rechenzentren gespeichert.
+Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.SecurityMechanism in die fiskaltrust.Cloud. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt, und die Vollständigkeit kann durch Nachverfolgung der Hash-Kette überprüft werden (s.o.). Dies stellt sicher, dass alle Originaldatensätze erhalten bleiben und nicht verändert werden. Der Schutz vor Datenverlust wird durch unsere Lösung mit standortverteilten Daten-Speicherung gewährleistet. Die Daten werden in deutschen Rechenzentren gespeichert.
 
 ## POS Archiv
 
-Das POS Archiv speichert Daten, basierend auf die übermittelten Belege über die fiskaltrust.Middleware, über einen Zeitraum von 10 Jahren. Zu diesem Zeitpunkt wird auch das spezielle Journal der erstellten unterschriebenen Geldeingänge abgedeckt.
+Das fiskaltrust POS Archiv speichert die von der fiskaltrust.Middleware übegebenen Belegdaten über einen Zeitraum von 10 Jahren. Über das fiskalttrust.Portal kann auf die Daten zugegriffen werden.
 
-Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durchgeführt und eine zusätzliche Exportdatei erstellt und auf einem unveränderlichen Speicher in der fiskaltrust-Cloud gespeichert.
+Bei Erstellen eines Monatsabschuss wird ein Datencheck zur Konsistenz der Daten durchgeführt und eine zusätzliche Exportdatei erstellt die ebenfalls in der fiskaltrust.Cloud gespeichert wird.
 
 [PDF Download der Leistungsbeschreibung](media/leistungsbeschreibung.pdf)
