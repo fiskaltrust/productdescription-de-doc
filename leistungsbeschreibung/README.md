@@ -6,11 +6,11 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und
 
 Als Kassenhersteller erhalten Sie Compliance-as-a-Service, indem Sie die fiskaltrust.Middleware in Ihr Produkt integrieren. Durch die Übermittlung der Belegdaten, Transaktionen und anderer relevanten Daten an die fiskaltrust.Middleware wird Konformität als Service bereitgestellt. 
 
-Die fiskaltrust.Middleware stellt eine länderübergreifende Schnittstelle zur Verfügung (IPOS Schnittstelle), die über verschiedene Technologien (REST, grpc, wcf) für Ihr Kassensystem erreichbar ist.
+Die fiskaltrust.Middleware stellt eine länderübergreifende Schnittstelle zur Verfügung, die über verschiedene Technologien (WCF, REST, gRPC, Serial-stream oder TCP-stream protocol) für Ihr Kassensystem erreichbar ist.
 
 ![Überblick über die Funktionsweise von fiskaltrust](../product-service-description/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
 
-Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensystems und gewährleistet damit die Konformität als Registrierkasse.Sie erzeugt die Belegnummer als eindeutige, fortlaufende Identifikation eines von der Registrierkasse übermittelten Beleges und stellt somit nachvollziebar dar, dass jeder Beleg von ihr verarbeitet wurde.
+Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensystems und gewährleistet damit die Konformität als Registrierkasse. Sie erzeugt die Belegnummer als eindeutige, fortlaufende Identifikation eines von der Registrierkasse übermittelten Beleges und stellt somit nachvollziebar dar, dass jeder Beleg von ihr verarbeitet wurde.
 
 Die Konformität wird durch die Kombination diverser Methoden und Komponenten erreicht.
 
@@ -30,7 +30,7 @@ Diese Verkettung bietet die Möglichkeit, Manipulationen sicher zu erkennen.
 
 Um das Risiko einer Manipulation der Kette auf den letzten nicht verketteten Hash-Wert zu begrenzen, stellt fiskaltrust einen Mechanismus bereit, der die aktuellen Daten in die fiskaltrust.Cloud hochlädt und dadurch spiegelt. Diese Datenspiegelung ermöglicht es, Manipulationen zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
 
-Als letzte Komponente des fiskaltrust.SecurityMechanism stellt die fiskaltrust.Middleware marktbezogene Sicherheitsmechanismen zur Verfügung. In Deutschland wird zum Beispiel die TSE (Technische Sicherheitseinrichtung) über die SCU (Security Creation Unit) der fiskaltrust.Middleware angebunden.
+Als weitere Komponente des fiskaltrust.SecurityMechanism stellt die fiskaltrust.Middleware marktbezogene Sicherheitsmechanismen zur Verfügung. In Deutschland wird zum Beispiel die TSE (Technische Sicherheitseinrichtung) über die SCU (Security Creation Unit) der fiskaltrust.Middleware angebunden.
 
 Um für verschiedene Plattformen und Betriebssysteme zur Verfügung zu stehen und um das Versprechen zu erfüllen, als einheitliche Schnittstelle zum Kassensystemen zu fungieren, ist die fiskaltrust.Middleware nach folgender Architektur aufgebaut.
 
