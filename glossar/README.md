@@ -1,0 +1,7 @@
+# Glossar
+
+## Kasse
+
+## Standort
+
+## Terminal
