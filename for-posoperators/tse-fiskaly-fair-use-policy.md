@@ -17,15 +17,15 @@ Voraussetzung für die Nutzung der Fiskaly Cloud-TSE ist die Verwendung der TSE 
 
 ## Anzahl der Endgeräte innerhalb eines Standortes, welche die Fiskaly Clound-TSE verwenden
 
-Die Verwendung einer Fiskaly Clound-TSE innerhalb eines Standortes ist für maximal 25 Endgeräte (GoBD Kassen, Terminals) dieses Standortes, die auf die TSE zugreifen, zulässig. Übersteigt die Anzahl der Endgeräte diese Grenze, muß eine zusätzliche Fiskaly Cloud-TSE für diesen Standort erworben werden.
+Die Verwendung einer Fiskaly Clound-TSE innerhalb eines Standortes ist für maximal 25 Endgeräte (GoBD Kassen, Terminals) dieses Standortes, die auf die gleiche TSE zugreifen, zulässig. Übersteigt die Anzahl der Endgeräte diese Grenze, muß eine zusätzliche Fiskaly Cloud-TSE für diesen Standort erworben werden.
 
-## Anzahl der nutzbaren Signaturen der Fiskaly TSE pro Monat
+## Anzahl der maximal nutzbaren Signaturen der Fiskaly TSE pro Monat
 
-Die Verwendung der Fiskaly Cloud-TSE ist mit einer Nutzungsgrenze von maximal 150.000 Signaturen pro Kalendermonat zulässig. Bei Überschreitung dieser Nutzungsgrenze muß eine zusätzliche Fiskaly Cloud-TSE für diesen Standort erworben werden.
+Die Verwendung der Fiskaly Cloud-TSE ist mit einer Nutzungsgrenze von maximal 150.000 Signaturen pro Kalendermonat zulässig. Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann eine zusätzliche Fiskaly Cloud-TSE für diesen Standort erworben werden.
 
 ## Nichteinhaltung der Fair Use Policy
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Dienst für den Standort, der die Fair Use Policy verletzt, einzustellen.
+Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene Fiskaly Cloud-TSE nach erfolgloser Mahnung einzustellen.
 
 ## Servicestelle
 
