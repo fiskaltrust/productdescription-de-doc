@@ -6,7 +6,7 @@ As a POS creator, your first goal is to be able to send requests to our free ft.
 
 The following steps have to be passed through:
 
-1. [Registration in our live portall](#registration-in-our-live-portal)
+1. [Registration in our live portal](#registration-in-our-live-portal)
 2. [Registration in our sandbox portal](#registration-in-our-sandbox-portal)
 3. [Configuration of a CashBox (configuration container) in the portal](#configuration-of-a-cashbox)
 4. [Download and start the launcher](#download-and-start-the-launcher)
