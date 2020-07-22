@@ -47,6 +47,8 @@ Ja beduetet, dass eine Internetverbindung vor Ort vorhanden ist.
 - [Rechenzentrum als operational environment](#Rechenzentrum-als-operational-environment)
 
 ## Hardware-TSE pro Kasse
+Das ist das technisch einfachste Szenario, benötigt allerdings auch die maximale Anzahl an TSEs. Technisch ist diese Lösung sehr einfach zu handhaben, da die Exporte der TSE ausschließlich direkt an der Kasse erfolgen.
+
 ![tse-per-cashregister](media/tse-per-cashregister.png)
 
 ## Cloud-TSE mit Hauptkasse
