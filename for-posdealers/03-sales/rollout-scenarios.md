@@ -2,7 +2,7 @@
 Um die fiskaltrust.Middleware in Verbindung mit Kassen und TSEs zu verwenden kommen unterschiedliche Szenarien in Frage. Bei jedem dieser Szenarien handelt es sich immer um einen Standort. Diese werden weiter unten erläutert, es gibt allerdings einige Grundvoraussetzungen welche auf jeden Fall gegeben sein müssen, unabhängig vom Szenario.
 
 - Pro POS-System (Standort) muss mindestens eine [SCU](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md) inkl. TSE zugeordnet sein. Die TSE kann entweder eine Hardware TSE vor Ort sein, oder eine zertifizierte Cloud TSE.
-- Jeder Kasse welche dem Finanzamt gemeldet werden muss, muss eine fiskaltrust.Queue zugeordnet sein.
+- Jeder fiskaltrust.Queue (Kasse) muss dem Finanzamt gemeldet werden.
 - Alle Komponenten müssen sich am gleichen Standort befinden, im sogenannten "operational environment" (sichere Einsatzumgebung).
 - Jede Kasse kann nur eine TSE nutzen.
 
@@ -35,7 +35,7 @@ Am Server wird eine fiskaltrust.CashBox betrieben welche die SCU enthält und di
 ![terminals-multi-queue](media/terminals-multi-queue.png)
 
 ## Terminals mit Single-Queue
-"Terminals" bedeutet, die Eingabegeräte sind Tablets oder ähnliches, das heißt es ist gar nicht möglich hier eine Hardware-TSE anzuschließen bzw. die fiskaltrust.Middleware am Gerät selbst zu installieren. In diesem Fall wird keine fiskaltrust.CashBox am Terminal installiert, sondern am Server oder einer Hauptkasse. Die Terminals dienen nur als Eingabegeräte und verbinden sich mit dem Server oder der Kasse. Wenn die Terminals nicht dem Finanzamt gemeldet werden mmüssenuss, reicht eine fiskaltrust.Queue aus. Da hier nur eine TSE im Einsatz ist, muss der Server immer laufen und die TSE erreichbar sein. Bei einer großen Anzahl an Requests pro Sekunde oder einer großen Anzahl an Terminals empfehlen wir den Einsatz einer oder mehreren zusätzlichen fiskaltrust.Queues und TSEs, hier gibt es mehr Informationen dazu: [Performance](#Performance).
+"Terminals" bedeutet, die Eingabegeräte sind Tablets oder ähnliches, das heißt es ist gar nicht möglich hier eine Hardware-TSE anzuschließen bzw. die fiskaltrust.Middleware am Gerät selbst zu installieren. In diesem Fall wird keine fiskaltrust.CashBox am Terminal installiert, sondern am Server oder einer Hauptkasse. Die Terminals dienen nur als Eingabegeräte und verbinden sich mit dem Server oder der Kasse. Wenn die Terminals nicht dem Finanzamt gemeldet werden müssen, reicht eine fiskaltrust.Queue aus. Da hier nur eine TSE im Einsatz ist, muss der Server immer laufen und die TSE erreichbar sein. Bei einer großen Anzahl an Requests pro Sekunde oder einer großen Anzahl an Terminals empfehlen wir den Einsatz einer oder mehreren zusätzlichen fiskaltrust.Queues und TSEs, hier gibt es mehr Informationen dazu: [Performance](#Performance).
 
 ![terminals-single-queue.png](media/terminals-single-queue.png)
 
