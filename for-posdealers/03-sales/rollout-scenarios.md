@@ -2,7 +2,7 @@
 Um die fiskaltrust.Middleware in Verbindung mit Kassen und TSEs zu verwenden kommen unterschiedliche Szenarien in Frage. Bei jedem dieser Szenarien handelt es sich immer um einen Standort. Diese werden weiter unten erläutert, es gibt allerdings einige Grundvoraussetzungen welche auf jeden Fall gegeben sein müssen, unabhängig vom Szenario.
 
 - Pro POS-System (Standort) muss mindestens eine [SCU](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md) inkl. TSE zugeordnet sein. Die TSE kann entweder eine Hardware TSE vor Ort sein, oder eine zertifizierte Cloud TSE.
-- Jeder fiskaltrust.Queue (Kasse) muss dem Finanzamt gemeldet werden.
+- Jede fiskaltrust.Queue (Kasse) muss dem Finanzamt gemeldet werden.
 - Alle Komponenten müssen sich am gleichen Standort befinden, im sogenannten "operational environment" (sichere Einsatzumgebung).
 - Jede Kasse kann nur eine TSE nutzen.
 
