@@ -1,6 +1,8 @@
 # Glossar
 
-## Kasse
+## Kasse ("PosSystem")
+
+### Kassenseriennummer
 
 ## KassenBetreiber ("PosOperator")
 
@@ -8,6 +10,6 @@
 
 ## KassenHersteller ("PosCreator")
 
-## Standort
+## Standort ("Outlet")
 
 ## Terminal
