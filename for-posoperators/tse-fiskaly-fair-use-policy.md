@@ -13,7 +13,7 @@ Dabei sind zur fairen Nutzung folgende Dinge zu beachten:
 
 ## Verwendung der Fiskaly Cloud-TSE an einem Standort
 
-Voraussetzung für die Nutzung der Fiskaly Cloud-TSE ist die Verwendung der TSE für maximal einen einzigen Standort. Die Nutzung der TSE über mehrere Standorte hinweg ist nicht zulässig. Standorte eines Unternehmens sind die Orte (Plätze, abgegrenzte Räume), denen betriebliches Leistungspotential zur Durchführung der Leistungsprozesse zugeordnet ist (z.B. Event-Locations im Rahmen der Leistungserfüllung im Gastro/Catering-Bereich), sowie geographische Orte einer Betriebsstätte (z. B. Produktions-, Vertriebs-, Verwaltungsstätte).
+Voraussetzung für die Nutzung der Fiskaly Cloud-TSE ist die Verwendung der TSE für maximal einen einzigen Standort. Die Nutzung der TSE über mehrere Standorte hinweg ist nicht zulässig. 
 
 ## Anzahl der Endgeräte innerhalb eines Standortes, welche die Fiskaly Clound-TSE verwenden
 
