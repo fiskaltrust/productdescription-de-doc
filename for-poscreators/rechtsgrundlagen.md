@@ -1,8 +1,10 @@
-# Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland
+# Übersicht über die rechtlichen Anforderungen an elektronische Aufzeichnungssysteme in Deutschland
 
 ## Ziel des Dokumentes
 
 Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellennachweis und der Information, ob die rechtliche Anforderung durch eine Lösung von fiskaltrust abgedeckt ist.
+
+## Übersicht 
 
 | Datum      | Rechtsgrundlage                                              | Quellenangabe                                                | gültig ab | Compliance durch Nutzung einer Lösung von fiskaltrust |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- | ----------------------------------------------------- |
