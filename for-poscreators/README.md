@@ -14,7 +14,8 @@ fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/READ
 
 Dieses Dokument enthält alle notwendigen Schritte für KassenHersteller im deutschen Markt, die neu bei fiskaltrust sind, und unsere kostenlose ft.Middlerware mit ihrem Kassensystem verbinden wollen. 
 
-[Getting started](getting-started.md) 
+[Getting started deutsch](getting-started.md) 
+[Getting started englisch](getting-started-en.md) 
 
 ## Weiterführende externe Informationen
 
