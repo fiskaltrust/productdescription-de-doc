@@ -9,7 +9,7 @@ Um die fiskaltrust.Middleware in Verbindung mit Kassen und TSEs zu verwenden kom
 - Der Wechsel und die Kombination der unten dargestellten Szenarien ist jederzeit möglich.
 
 #### TSE in der Cloud
-Bei einer Cloud TSE läuft eine Komponente im Rechenzentrum des Cloud TSE Anbieters. Ist diese TSE Komponente nicht mehr erreichbar, wechselt die fiskaltrust.Middleware in den Ausfallsmodus. Bei der Nutzung von Cloud TSEs möchten wir zusätzlich auf unsere [Fair-Use-Policy](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/for-posoperators/tse-fiskaly-fair-use-policy.md) hinweisen.
+Bei einer Cloud TSE läuft eine Komponente im Rechenzentrum des Cloud TSE Anbieters. Ist diese TSE Komponente nicht mehr erreichbar, wechselt die fiskaltrust.Middleware in den Ausfallsmodus. Bei der Nutzung von Cloud TSEs möchten wir zusätzlich auf unsere Fair-Use-Policy hinweisen.
 
 #### Hardware-TSE
 Pro Kasse kann nur eine Hardware-TSE angeschlossen werden. Grundsätzlich per SD-Karte oder per USB-Anschluss.
