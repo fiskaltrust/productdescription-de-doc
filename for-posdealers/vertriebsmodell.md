@@ -22,7 +22,7 @@ Mit Hilfe von Entitlements hat fiskaltrust eine Lösung entwickelt, welches Kass
 
 - [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
 - Templates & Corporate Branding
-- Rollout Szenarien, Tipps & Tricks
+- [Rollout Szenarien, Tipps & Tricks](03-sales/rollout-scenarios.md)
 
 ## After-Sales Bereich
 
