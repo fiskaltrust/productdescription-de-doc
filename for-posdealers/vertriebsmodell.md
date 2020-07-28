@@ -1,4 +1,4 @@
-# Vertriebsmodell für KassenHändler
+# Vertriebsmodell für Kassenhändler
 
 fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von compliance-as-a-service Produkten für Kassenhersteller und Kassenhändler innerhalb Europas konzentriert.
 
