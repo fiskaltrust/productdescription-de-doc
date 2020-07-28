@@ -17,27 +17,31 @@ Pro Kasse kann nur eine Hardware-TSE angeschlossen werden. Grundsätzlich per SD
 ## TSE pro Kasse
 Aus technischer Sicht ist es das einfachste Szenario, benötigt allerdings auch die maximale Anzahl an TSEs. Ein Vorteil dieser Lösung ist, dass wenn eine TSE ausfällt oder verloren geht, die anderen Kassen nicht betroffen sind. Ein weiterer Vorteil ist, dass Performanceprobleme vermieden werden, weil jede Kasse ihre eigene TSE nutzt und somit nur die Requests dieser Kasse an die TSE gesendet werden.
 
-![tse-per-cashregister](media/tse-per-cashregister.png)
+![tse-per-cashregister](media/kasse-queue-scu-tse.png)
 
-## TSE am Server
-Auf jeder Kasse und auf dem Server läuft die fiskaltrust.Middleware. Die fiskaltrust.CashBox des Servers konfiguriert die fiskaltrust.Middleware mit einer fiskaltrust.Queue und einer SCU. Die für den Server konfigurierte SCU greift auf eine TSE zu. Die fiskaltrust.CashBoxen der Kassen sind so konfiguriert, dass deren fiskaltrust.Middleware nur mit einer fiskaltrust.Queue ausgestattet wird. Die hier eingesetzten fiskaltrust.Queues verbinden sich mit der SCU des Server. Dieses Szenario ermöglicht eine Einsparung von TSEs, da jedoch hierbei alle Requests über die SCU des Server laufen müssen, wird der Server zum Bottleneck. Beim Ausfall des Server oder der TSE sind alle Kassen davon betroffen. Des Weiteren kann es in diesem Szenario zu Performanceengpässen in der TSE kommen. Weitere Informationen hierzu finden sie unter [Performance](#Performance). Sollten Sie ich für dieses Szenario entscheiden, empfehlen wir bei einer großen Anzahl von Requests den Einsatz einer oder mehrerer zusätzlichen TSEs.
+## Hardware TSE am lokalen Server für mehrere Kassen
+Auf jeder Kasse und auf dem lokalen Server läuft die fiskaltrust.Middleware. Die hardware TSE wird an den lokalen Server (z.B. per USB) angeschlossen. Die fiskaltrust.CashBox des Servers konfiguriert die fiskaltrust.Middleware mit einer SCU. Die für den Server konfigurierte SCU greift auf eine hardware TSE zu. Die fiskaltrust.CashBoxen der einzelnen Kassen sind so konfiguriert, dass deren fiskaltrust.Middleware nur mit einer fiskaltrust.Queue ausgestattet wird. Die hier eingesetzten fiskaltrust.Queues verbinden sich mit der SCU des Server. Dieses Szenario ermöglicht eine Einsparung von TSEs. Da jedoch hierbei alle Requests über die SCU des Server laufen müssen, wird der Server zum Bottleneck. Auch die TSE wird zum Bottleneck. Beim Ausfall des Server oder der TSE sind alle Kassen davon betroffen. Des Weiteren kann es in diesem Szenario zu Performanceengpässen in der hardware TSE kommen. Weitere Informationen hierzu finden sie unter [Performance](#Performance). Sollten Sie ich für dieses Szenario entscheiden, empfehlen wir bei einer großen Anzahl von Requests den Einsatz einer oder mehrerer zusätzlichen TSEs.
 
-![tse-separated](media/tse-separated.png)
+![tse-separated](media/server-mit-hw-tse.png)
 
-## Hauptkasse statt Server
-Auf jeder Kasse läuft die fiskaltrust.Middleware. Die fiskaltrust.CashBox der Hauptkasse konfiguriert die fiskaltrust.Middleware mit einer fiskaltrust.Queue und einer SCU. Die für die Hauptkasse konfigurierte SCU greift auf eine TSE zu. Die fiskaltrust.CashBoxen der anderen Kassen sind so konfiguriert, dass deren fiskaltrust.Middleware nur mit einer fiskaltrust.Queue ausgestattet wird. Die hier eingesetzten fiskaltrust.Queues verbinden sich mit der SCU der Hauptkasse. Dieses Szenario ermöglicht eine Einsparung von TSEs, da jedoch hierbei alle Requests über die SCU der Hauptkasse laufen müssen, wird die Hauptkasse zum Bottleneck. Beim Ausfall der Hauptkasse oder der TSE sind alle anderen Kassen davon betroffen. Des Weiteren kann es in diesem Szenario zu Performanceengpässen in der TSE kommen. Weitere Informationen hierzu finden sie unter [Performance](#Performance). Sollten Sie ich für dieses Szenario entscheiden, empfehlen wir bei einer großen Anzahl von Requests den Einsatz einer oder mehrerer zusätzlichen TSEs.
+## Hardware TSE an der Hauptkasse für mehrere zusätzliche Kassen
+Auf jeder Kasse läuft die fiskaltrust.Middleware. Die fiskaltrust.CashBox der Hauptkasse konfiguriert die fiskaltrust.Middleware mit einer fiskaltrust.Queue und einer SCU. Die für die Hauptkasse konfigurierte SCU greift auf eine TSE zu. Die fiskaltrust.CashBoxen der anderen Kassen sind so konfiguriert, dass deren fiskaltrust.Middleware nur mit einer fiskaltrust.Queue ausgestattet wird. Die hier eingesetzten fiskaltrust.Queues verbinden sich mit der SCU der Hauptkasse. Dieses Szenario ermöglicht eine Einsparung von TSEs. Da jedoch hierbei alle Requests über die SCU der Hauptkasse laufen müssen, wird die Hauptkasse zum Bottleneck. Auch die hardware TSE wird zum Bottleneck. Beim Ausfall der Hauptkasse oder der hardware TSE sind alle anderen Kassen davon betroffen. Des Weiteren kann es in diesem Szenario zu Performanceengpässen in der TSE kommen. Weitere Informationen hierzu finden sie unter [Performance](#Performance). Sollten Sie ich für dieses Szenario entscheiden, empfehlen wir bei einer großen Anzahl von Requests den Einsatz einer oder mehrerer zusätzlichen TSEs.
 
-![tse-on-cashregister](media/tse-on-cashregister.png)
+![tse-on-cashregister](media/kasse-als-server-mit-hw-tse.png)
 
+## Eine Cloud TSE für mehrere Kassen
+Auf jeder Kasse läuft die fiskaltrust.Middleware. Die fiskaltrust.CashBox jeder Kasse konfiguriert die fiskaltrust.Middleware mit einer eigenen fiskaltrust.Queue und einer eigenen SCU. Jede SCU greift auf die gleiche Cloud-TSE zu. Dieses Szenario ermöglicht eine Einsparung von Cloud-TSEs. Da jedoch hierbei alle Requests an die gleiche Cloud-TSE gesendet werden, wird die TSE zum Bottleneck. Des Weiteren sind hierbei ebenfalls sowohl mögliche Performanceengpässe in der Cloud-TSE zu berücksichtigen als auch unsere Fair-Use-Policy.
+
+![tse-on-cashregister](media/kassen-mit-cloud-tse.png)
 
 ## Szenario mit Terminals
 Terminals sind Eingabegeräte wie Tablets, Handhelds oder ähnliches (ohne Kassenfunktion), bei denen es nicht möglich ist eine Hardware-TSE anzuschließen bzw. die fiskaltrust.Middleware am Gerät selbst zu installieren. In diesem Fall wird die fiskaltrust.Middleware an einer Kasse oder an einem Server betrieben und sollte stets erreichbar sein. Die Terminals dienen nur als Eingabegeräte und verbinden sich mit dem Server oder der Kasse. Bei vielen gleichzeitigen Requests kann es zu Performanceengpässen in der TSE kommen. Weitere Informationen hierzu finden sie unter [Performance](#Performance). Sollten Sie ich für dieses Szenario entscheiden, empfehlen wir bei einer großen Anzahl von Requests den Einsatz mehrerer Kassen mit zusätzlichen TSEs (alternativ: mehrere fiskaltrust.Middleware Instanzen mit eigener TSE auf dem Server).
 
-![terminals-single-queue.png](media/terminals-single-queue.png)
+![terminals-single-queue.png](media/terminals-eine-queue.png)
 
 Eine weitere mögliche Variante dieses Szenario ist die Zuordnung jedes Terminals zu einer eigenen fiskaltrust.Queue.
 
-![terminals-multi-queue](media/terminals-multi-queue.png)
+![terminals-multi-queue](media/terminals-mehrere-queues.png)
 
 
 ## Rechenzentrum als operational environment
