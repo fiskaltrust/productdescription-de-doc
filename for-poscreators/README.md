@@ -2,7 +2,7 @@
 
 ## Rollenbeschreibung KassenHersteller
 
-Der KassenHersteller entwickelt Pos-Systeme und integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
+[Zur Rollenbeschreibung des KassenHerstellers](../glossar/README.md)
 
 ## Produkt-Angebote für KassenHersteller
 

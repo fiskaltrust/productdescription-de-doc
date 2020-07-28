@@ -2,9 +2,7 @@
 
 ## Rollenbeschreibung KassenHändler
 
-Der Händler ist ein Systemintegrator, welcher POS Software in POS Hardware integriert und Dienstleistungen für die Installation und den Betrieb von Registrierkassen anbietet.  
-
-Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter und stehen in direkter Beziehung zu Posoperatoren ("Betreiber"). Händler verfügen über hohe Fähigkeiten in Vertrieb, Projektmanagement und Kundenservice.
+[Zur Rollenbeschreibung des KassenHändlers](../glossar/README.md)
 
 ## Produkt-Angebote für KassenHändler
 
