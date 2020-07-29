@@ -37,7 +37,7 @@ After registering on the live portal, repeat the steps described above to regist
 
 ## Configuration of a CashBox
 
-A so-called CashBox is a configuration container that contains the configuration of the individual components of the ft.Middleware. The configurations can be linked together via the CashBox. The CashBox can contain the configuration of the Queue, SCU and various helpers and connects them with each other. In the following we will configure the SCU and the Queue needed for testing, include them in the CashBox and connect them.
+A so-called CashBox is a configuration container that contains the configuration of the individual components of the fiskaltrust.Middleware. The configurations can be linked together via the CashBox. The CashBox can contain the configuration of the Queue, SCU and various helpers and connects them with each other. In the following we will configure the SCU and the Queue needed for testing, include them in the CashBox and connect them.
 
 ![cashbox](media/middleware.png)
 
@@ -70,7 +70,7 @@ Save the configuration of your SCU after entering the required data. In the next
 
 ### Configuration of the Queue
 
-The Queue is a component of the ft.Middleware, that collects the received data from the POS System and is responsible for creating the request chain. The Queue is the component of the ft.Middleware with which your POS system communicates. You send your data to it and receive signatures and other data back.
+The Queue is a component of the fiskaltrust.Middleware, that collects the received data from the POS System and is responsible for creating the request chain. The Queue is the component of the fiskaltrust.Middleware with which your POS system communicates. You send your data to it and receive signatures and other data back.
 
 Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press the button to get to the input form. Enter a short description (name) and the CashboxIdentification. The CashboxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a "printable string" with a maximum of 20 characters. After saving, a form appears in which you can specify the communication endpoint. We will use this later to send requests to the queue. For our example we can choose http(REST) by pressing the corresponding button. After saving, we are done with the configuration of the Queue and can now create the CashBox (our configuration container) in the next step.
 
