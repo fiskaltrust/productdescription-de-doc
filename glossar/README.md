@@ -1,6 +1,6 @@
 # Glossar
 
-## Elektronisches Aufzeichnungssystem, Kasse, Registrierkasse, Kassensystem ("PosSystem"), Eingabestation ("Terminal"), 
+## Elektronisches Aufzeichnungssystem, Kasse, Registrierkasse, Kassensystem, Eingabestation ("Terminal"), 
 
 ### Elektronisches Aufzeichnungssystem
 
