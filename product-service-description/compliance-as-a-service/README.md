@@ -1,16 +1,16 @@
 # Compliance-as-a-Service
 
-Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust-Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust-Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
+Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust.Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust.Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
 
 ![Überblick über die Funktionsweise von fiskaltrust](media/overview-pos-ft-middleware.png)                                
 
-Diese Lösung macht die fiskaltrust-Middleware zu einem wesentlichen Bestandteil des Possystems und damit auch zu dessen Instanz zur Registrierkasse.
+Diese Lösung macht die fiskaltrust.Middleware zu einem wesentlichen Bestandteil des Possystems und damit auch zu dessen Instanz zur Registrierkasse.
 
-Die fiskaltrust-Middleware verarbeitet einige der wichtigsten Datenfelder auf dem Beleg. Die Belegnummer als eindeutige Identifikation eines von der Registrierkasse übermittelten Beleges wird von der fiskaltrust-Middleware erstellt, um sicherzustellen, dass jeder Beleg von ihr verarbeitet wird.
+Die fiskaltrust.Middleware verarbeitet einige der wichtigsten Datenfelder auf dem Beleg. Die Belegnummer als eindeutige Identifikation eines von der Registrierkasse übermittelten Beleges wird von der fiskaltrust.Middleware erstellt, um sicherzustellen, dass jeder Beleg von ihr verarbeitet wird.
 
 Die Konformität wird durch die Kombination mehrerer Methoden und Komponenten erreicht.
 
-Zunächst stellt die fiskaltrust-Middleware sicher, dass alle Belege von einem Dritten neben dem Poscreator und dem Posoperator verarbeitet werden. Dies ist die organisatorische Implementierung der Sicherheit.
+Zunächst stellt die fiskaltrust.Middleware sicher, dass alle Belege von einem Dritten neben dem Poscreator und dem Posoperator verarbeitet werden. Dies ist die organisatorische Implementierung der Sicherheit.
 
 Als technische Implementierung der Sicherheit wird jeder Request und auch jede Response gehasht, wodurch die Datenintegrität der Anforderungen und Antworten sichergestellt wird. Um Unveränderlichkeit zu gewährleisten, wird ein weiterer Hash-Wert generiert, der sich auf den gesamten Anforderungs-Antwort-Zyklus bezieht, einschließlich der Identifizierung des Zyklus, des Betriebszeitpunkts, der vom Menschen lesbaren Belegnummer und der Hash-Werte von Anforderung, Antwort und vorherigem Empfang, der so genannte Belegs-Hash-Wert. Diese Verkettung des Empfangs-Hash-Werts bietet Unveränderlichkeit und bietet die Möglichkeit, alle Änderungen und auch das Löschen bei jeder vom Possystem bereitgestellten Aktion zu erkennen.
 
@@ -22,9 +22,9 @@ Als technische Implementierung der Sicherheit wird jeder Request und auch jede R
 
 Um das Risiko eines Angriffs auf die Kette ab dem letzten nicht verketteten Hashwert zu begrenzen, bietet fiskaltrust einen Mechanismus, der die aktuellen Daten in die fiskaltrust-Cloud spiegelt. Dieser Datenspiegel bietet die Möglichkeit, Angriffe zu erkennen, die an der Registrierkasse selbst nicht erkennbar wären.
 
-Als letzte Komponente des fiskaltrust-Sicherheitsmechanismus bietet die fiskaltrust-Middleware auch marktbezogene Sicherheitsmechanismen.
+Als letzte Komponente des fiskaltrust-Sicherheitsmechanismus bietet die fiskaltrust.Middleware auch marktbezogene Sicherheitsmechanismen.
 
-Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu sein und das Versprechen zu erfüllen, als stabile Schnittstelle zum Possystem zu fungieren, folgt die fiskaltrust-Middleware einer strengen Architektur.
+Um für verschiedene Plattformen und Betriebssysteme so offen wie möglich zu sein und das Versprechen zu erfüllen, als stabile Schnittstelle zum Possystem zu fungieren, folgt die fiskaltrust.Middleware einer strengen Architektur.
 
  
 
