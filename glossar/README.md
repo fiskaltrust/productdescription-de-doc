@@ -40,9 +40,21 @@ Datenerfassungsgerät welches elektronische Aufzeichnungen an die mit ihr verbun
 
 in Bearbeitung
 
+### Verwendung der oben beschriebenen Begriffe im Kontext von fiskaltrust
+
+Bei fiskaltrust wird im Sinne der Vereinfachung für die PC-Registrierkasse, Elektronische Registrierkasse und Eingabestation der Begriff "Kasse" verwendet. Diese Kasse entspricht der "Queue" im Portal, welche zugleich die zu fiskalisierende und dem Finanzamt zu meldende Einheit darstellt.
+
+Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. Siehe Bereich [Rollout Szenarios]( [rollout-scenarios.md](../for-posdealers/03-sales/rollout-scenarios.md) ).
+
+## Cashbox
+
+Die Cashbox ist ein Konfigurationscontainer, der die Konfiguration der einzelenen Komponenten der ft.Middleware beinhaltet. Über die Cashbox können die Konfigurationen miteinander verbunden werden. So kann die Cashbox die Konfiguration von Queue, SCU und diversen Helper beinhalten und diese miteinander verbinden. 
+
 ## KassenBetreiber ("PosOperator")
 
 Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein KassenBetreiber. Wenn alles reibungslos läuft, bekommen KassenBetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der KassenBetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des  Kassenhändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
+
+Der Kassenbetreiber betreibt die ft. Middleware lokal an seinem Standort.
 
 ## Kassenhändler ("PosDealer")
 
@@ -52,14 +64,27 @@ Der Händler ist ein Systemintegrator, welcher POS Software in POS Hardware inte
 
 Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter und stehen in direkter Beziehung zu PosOperatoren ("Betreiber"). Händler verfügen über hohe Fähigkeiten in Vertrieb, Projektmanagement und Kundenservice.
 
+Der Kassenhändler vertreibt die ft.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
+
 ## KassenHersteller ("PosCreator")
 
 Der KassenHersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
 
 Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
-## Standort ("Outlet")
+Der Kassenhersteller integriert die ft.Middleware in seine Software.
+
+## SCU
+
+[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md).
+
+## Standort ("Outlet", "Location")
 
 Standorte eines Unternehmens sind die Orte (Plätze, abgegrenzte Räume), denen betriebliches Leistungspotential zur Durchführung der Leistungsprozesse zugeordnet ist (z.B. Event-Locations im Rahmen der Leistungserfüllung im Gastro/Catering-Bereich), sowie geographische Orte einer Betriebsstätte (z. B. Produktions-, Vertriebs-, Verwaltungsstätte).
 
 In Deutschland muss jeder PosOperator für jedes PosSystem und jeden Standort (Outlet) mindestens eine Queue betreiben.
+
+## Queue
+
+[Siehe Queue Abstarktion](..\product-service-description\compliance-as-a-service\features\Queue-Abstraktion.md).
+
