@@ -1,8 +1,8 @@
-# Lokal installierte Middleware
+# fiskaltrust.Middleware
 
 **Produktnummer:** 0003
 
-Die fiskaltrust.Middleware bietet die Einbindung von TSE aller Hersteller an die Registrierkasse, sowie eine vereinfachte Umsetzung der Anforderungen der Digitalen Schnittstelle der Finanzverwaltung für Kassensysteme.
+Die lokal installierte fiskaltrust.Middleware bietet die Einbindung von TSE aller Hersteller an die Registrierkasse, sowie eine vereinfachte Umsetzung der Anforderungen der Digitalen Schnittstelle der Finanzverwaltung für Kassensysteme.
 
 ![middleware](../media/middleware.png)
 
