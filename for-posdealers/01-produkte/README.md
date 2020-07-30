@@ -6,7 +6,7 @@
 
 Zur Erfüllung der KassenSichV
 
-[Lokal installierte Middleware](../../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
+[fiskaltrust.Middleware](../../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
 #### Addons zum Basis-Produkt
 
@@ -25,7 +25,7 @@ Für Kassen mit oder ohne fiskaltrust.Middleware
 
 Das Basis-Produkt fiskaltrust.Middleware in Kombination mit den Addons, sowie allen Kassen einer Filiale bzw. eines Standortes, ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundensegmente und -bedürfnisse werden unterschiedliche Produkte und Ausprägungen der Sorglos-Produkt-Bundles angeboten: 
 
-- [fiskaltrust.Sorglos](4445-10040-Sorglos-ohne-TSE.md) 
+- [fiskaltrust.Sorglos ohne TSE](4445-10040-Sorglos-ohne-TSE.md) 
 - [fiskaltrust.Sorglos mit TSE](4445-100XX-Sorglos-mit-TSE.md) 
 
 ### Technische Sicherheitseinrichtungen

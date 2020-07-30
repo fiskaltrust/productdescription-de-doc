@@ -1,10 +1,10 @@
-# Informationen für PosDealers ("KassenHändler")
+# Informationen für Kassenhändler ("PosDealers")
 
-## Rollenbeschreibung KassenHändler
+## Rollenbeschreibung Kassenhändler
 
-[Zur Rollenbeschreibung des KassenHändlers](../glossar/README.md)
+[Zur Rollenbeschreibung des Kassenhändlers](../glossar/README.md)
 
-## Produkt-Angebote für KassenHändler
+## Produkt-Angebote für Kassenhändler
 
 fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/README.md) an. Die Verwendung des Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md), ist kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes.
 
@@ -18,7 +18,7 @@ Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sow
 
 Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen Kassenbetreibers berücksichtigt und erfüllt.
 
-[Zum Vertriebs-Breich für KassenHändler](vertriebsmodell.md)
+[Zum Vertriebs-Breich für Kassenhändler](vertriebsmodell.md)
 
 ## Weiterführende externe Informationen
 
