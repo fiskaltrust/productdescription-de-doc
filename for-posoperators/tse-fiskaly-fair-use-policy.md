@@ -29,8 +29,8 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Begriffsdefinitionen
 
-- Elektronische Aufzeichnungssysteme
-- Standort
+- [Elektronische Aufzeichnungssysteme](../glossar/README.md#elektronisches-aufzeichnungssystem-kasse-registrierkasse-kassensystem-possystem-eingabestation-terminal)
+- [Standort](../glossar/README.md#standort-outlet)
 
 ## Servicestelle
 

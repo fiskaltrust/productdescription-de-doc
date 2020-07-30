@@ -34,3 +34,9 @@ Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive
 Informationen für Kassenbetreiber.
 
 [Übersicht für Kassenbetreiber](for-posoperators/README.md)
+
+## Glossar
+
+Begriffsdefinitionen im Zusammenhang mit Produkten von fiskaltrust und Kassensystemen.
+
+[Zum Glossar](glossar/README.md)
