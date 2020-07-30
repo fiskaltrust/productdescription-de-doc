@@ -2,7 +2,7 @@
 
 ## Ziel des Dokumentes
 
-Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellennachweis und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt ist.
+Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellennachweis, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt wird.
 
 ## Übersicht 
 
