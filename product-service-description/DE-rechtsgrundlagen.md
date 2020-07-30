@@ -4,6 +4,10 @@
 
 Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellennachweis, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt wird.
 
+## Hintergrund
+
+Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (BGBl. I 2016 S. 3152)](media\20161228-G-z-Schutz-v-Manipulationen-an-digitalen-Grundaufzeichnungen.pdf) wurde geregelt, dass Daten, die mit Hilfe eines elektronischen Aufzeichnungssystems erfasst werden, ab dem 01. Januar 2020 mit einer zertifizierten technischen Sicherheitseinrichtung (TSE) zu schützen sind (vgl. [§ 146a AO](media/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf) i.V.m. der [KassenSichV](media/20170926-KassenSichV.pdf)). Diese Daten sind der Finanzverwaltung anlässlich einer Außenprüfung oder einer Kassen-Nachschau über eine einheitliche digitale Schnittstelle ([§ 4 KassenSichV](media/20170926-KassenSichV.pdf)) zur Verfügung zu stellen (vgl. [§ 146a AO](media/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf)). Die einheitliche digitale Schnittstelle besteht aus der Einbindungsschnittstelle, der Exportschnittstelle sowie der DSFinV-K (vgl. Nr. 4 des [AEAO zu § 146a](media/20180619-AEAO-zu-§-146-Ordnungsvorschriften-für-die-Buchführung-und-für-Aufzeichnungen.pdf)). Über sie sind jeweils verpflichtend die erforderlichen Daten sowie Formate definiert.
+
 ## Aktuell gültige Rechtsgrundlagen
 
 Überblick über aktuell gültige Rechtsgrundlagen, sortiert nach Gültigkeitszeitraum (neueste zuerst).
@@ -26,7 +30,7 @@ Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische A
 
 | Datum      | Titel                                                        | Rechtsgrundlage                              | Gültigkeitszeitraum   | Compliance erfüllt durch fiskaltrust |
 | ---------- | ------------------------------------------------------------ | -------------------------------------------- | --------------------- | ------------------------------------ |
-| 14.11.2014 | Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD) | [20141114-GoBD.pdf](media/20141114-GoBD.pdf) | 01.01.2015-31.12.2019 |                                      |
+| 14.11.2014 | Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD) | [20141114-GoBD.pdf](media/20141114-GoBD.pdf) | 01.01.2015-31.12.2019 | noch nicht am Markt aktiv            |
 
 
 
