@@ -1,8 +1,8 @@
-# Übersicht über die rechtlichen Anforderungen an elektronische Aufzeichnungssysteme in Deutschland
+# Übersicht über die rechtlichen Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
 
 ## Ziel des Dokumentes
 
-Bereitstellung von Informationen über die Rechtsgrundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellennachweis, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt wird.
+Bereitstellung von Informationen über die rechtlichen Grundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellen, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt wird.
 
 ## Hintergrund
 
@@ -14,6 +14,7 @@ Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (
 
 | Datum      | Titel                                                        | Rechtsgrundlage                                              | Gültigkeits-Zeitraum  | Compliance erfüllt durch fiskaltrust |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- | ------------------------------------ |
+| 24.06.2020 | Digitale Schnittstelle der Finanzverwaltung für Kassensysteme (DSFinV-K) v.2.2 | [Dateiensammlung zur DSFinV-K mit Stand: Juni 2020](media/dsfinv_k_v_2_2.zip) | 24.06.2020-heute      |                                      |
 | 05.11.2019 | Nichtbeanstandungsregelung bei Verwendung  elektronischer Aufzeichnungssysteme im Sinne des § 146a AO ohne zertifizierte technische Sicherheitseinrichtung nach dem 31. Dezember 2019 | [2019-11-05-nichtbeanstandungsregelung-bei-verwendung-elektronischer-aufzeichnungssysteme.pdf](media/2019-11-05-nichtbeanstandungsregelung-bei-verwendung-elektronischer-aufzeichnungssysteme.pdf) | 01.01.2020-30.09.2020 |                                      |
 | 28.11.2019 | Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD) | [2019-11-28-GoBD.pdf](media/2019-11-28-GoBD.pdf)             | 01.01.2020-heute      |                                      |
 | 17.06.2019 | „AEAO zu § 146a - Ordnungsvorschriften für die Buchführung und für Aufzeichnungen mittels elektronischer Aufzeichnungssysteme | [2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf](media/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf) | 17.06.2019-heute      |                                      |
@@ -24,9 +25,9 @@ Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (
 | 22.12.2016 | Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen | [20161228-G-z-Schutz-v-Manipulationen-an-digitalen-Grundaufzeichnungen.pdf](media/20161228-G-z-Schutz-v-Manipulationen-an-digitalen-Grundaufzeichnungen.pdf) | 29.12.2016 - heute    |                                      |
 | 14.11.2014 | Ergänzende Informationen zur Datenträgerüberlassung          | [20141114-GoBD-Ergaenzende-Informationen-zur-Datentraegerueberlassung.pdf](media/20141114-GoBD-Ergaenzende-Informationen-zur-Datentraegerueberlassung.pdf) | 01.01.2015-heute      |                                      |
 
-## Rechtsgrundlagen Archiv 
+## Rechtliche Grundlagen - Archiv 
 
-Überblick über Rechtsgrundlagen mit Gültigkeitszeitraum liegt in der Vergangenheit.
+Überblick über die rechtlichen Grundlagen mit einem Gültigkeitszeitraum in der Vergangenheit.
 
 | Datum      | Titel                                                        | Rechtsgrundlage                              | Gültigkeitszeitraum   | Compliance erfüllt durch fiskaltrust |
 | ---------- | ------------------------------------------------------------ | -------------------------------------------- | --------------------- | ------------------------------------ |
@@ -38,7 +39,6 @@ Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (
 
 | Datum      | Titel                                                        | Quelle                                                       |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 24.06.2020 | Zusammenstellung der Beschlüsse und Bundeskonventionen zu den Standardtabellen im Bereich der Kassenbuchhaltung - Digitale Schnittstelle der Finanzverwaltung für Kassensysteme (DSFinV-K) - DSFinV-K 2.2 | [20200625_DSFinV_K_2.2.pdf](media/20200625_DSFinV_K_2.2.pdf) |
 | 18.02.2020 | FAQ des BMF zum Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen vom 22. Dezember 2016 | [Zu den FAQ des BMF](https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html) |
 | 29.11.2019 | Orientierungshilfe für die Anwendung des § 146a AO und der KassenSichV | [20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf](media/20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf) |
 | 22.11.2019 | Belegmerkmale Rechnung//UStG/UStDV == Beleg//AEAO/KassenSichV/AEAO/DSFinV-K == Quittung | [20191122-ft-Belegmerkmale-DE-v0.5.pdf](media/20191122-ft-Belegmerkmale-DE-v0.5.pdf) |
