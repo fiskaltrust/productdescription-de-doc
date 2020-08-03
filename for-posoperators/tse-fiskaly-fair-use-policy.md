@@ -1,9 +1,8 @@
 # Fair Use Policy
 
-der fiskaltrust gmbh<br/>
-c/o Audicon GmbH<br/>
-Toulouser Allee 19a<br/>
-D-40211 Düsseldorf<br/>
+der fiskaltrust gmbh
+Unter den Linden 26-30
+D-10117 Berlin
 
 
 
@@ -29,10 +28,13 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Begriffsdefinitionen
 
-- [Elektronische Aufzeichnungssysteme](../glossar/README.md#elektronisches-aufzeichnungssystem-kasse-registrierkasse-kassensystem-possystem-eingabestation-terminal)
-- [Standort](../glossar/README.md#standort-outlet)
+- [Elektronische Aufzeichnungssysteme](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#elektronisches-aufzeichnungssystem-kasse-registrierkasse-kassensystem-eingabestation-terminal)
+- [Standort](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#standort-outlet-location)
 
 ## Servicestelle
 
 Bei Fragen, Anregungen und Bewschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an info@fiskaltrust.de
 
+
+
+[PDF Download der Fair Use Policy](media/tse-fiskaly-fair-use-policy.pdf)
