@@ -2,7 +2,7 @@
 
 ## SCU
 
-Das _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf_-Package ermöglicht die Verbindung der Middleware mit einer Diebold Nixdorf-TSE über einen seriellen COM-Port.
+Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der Middleware mit einer Diebold Nixdorf-TSE über einen seriellen COM-Port.
 
 **Verfügbar ab Version**: 1.3.x (in Entwicklung)
 
