@@ -40,7 +40,7 @@ Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (
 | Datum      | Titel                                                        | Quelle                                                       |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 01.08.2020 | DFKA - Neue gesetzliche Anforderungen für Kassensysteme      | [DFKA-Neue-gesetzliche-Anforderungen-Stand-2020-08-01.pdf](media/DFKA-Neue-gesetzliche-Anforderungen-Stand-2020-08-01.pdf) |
-| 18.02.2020 | FAQ des BMF zum Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen vom 22. Dezember 2016 | [Zu den FAQ des BMF](https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html) |
+| 26.06.2020 | FAQ des BMF zum Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen vom 22. Dezember 2016 | [Zu den FAQ des BMF](https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html) |
 | 29.11.2019 | Orientierungshilfe für die Anwendung des § 146a AO und der KassenSichV | [20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf](media/20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf) |
 | 22.11.2019 | Belegmerkmale Rechnung//UStG/UStDV == Beleg//AEAO/KassenSichV/AEAO/DSFinV-K == Quittung | [20191122-ft-Belegmerkmale-DE-v0.5.pdf](media/20191122-ft-Belegmerkmale-DE-v0.5.pdf) |
 | 06.02.2019 | DFKA-Taxonomie für Kassendaten                               | https://dfka.net/taxonomie/                                  |
