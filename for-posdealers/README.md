@@ -2,7 +2,7 @@
 
 ## Rollenbeschreibung Kassenhändler
 
-[Zur Rollenbeschreibung des Kassenhändlers](../glossar/README.md)
+[Zur Rollenbeschreibung des Kassenhändlers](../glossar/README.md#kassenhändler-posdealer)
 
 ## Produkt-Angebote für Kassenhändler
 
