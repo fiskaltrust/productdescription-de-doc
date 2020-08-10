@@ -2,7 +2,7 @@
 
 ## Rollenbeschreibung Kassenhersteller
 
-[Zur Rollenbeschreibung des Kassenherstellers](../glossar/README.md)
+[Zur Rollenbeschreibung des Kassenherstellers](../glossar/README.md#kassenhersteller-poscreator)
 
 ## Produkt-Angebote für Kassenhersteller
 
