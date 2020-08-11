@@ -18,4 +18,4 @@ Verkauf pro Kasse pro Meldung
 
 ## Verfügbarkeit
 
-Einige Woche ab Verfügbarkeit geeigneter Systeme (Schnittstellen) zur Automatisierung der Meldungen an das jeweils zuständige Finanzamt.
+Einige Wochen ab Verfügbarkeit geeigneter Systeme (Schnittstellen) zur Automatisierung der Meldungen an das jeweils zuständige Finanzamt.
