@@ -18,7 +18,7 @@ Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fisk
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
 - [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
 
-## Sales Bereich
+## Sales & Rollout Bereich
 
 Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, angefangen vom Einkauf von Händler-Packages bis hin zum re-sales, sowie Optionen für (Massen-) Einladungs-, Konfigurations- und Rollout-Management bis hin zur Inbetriebnahme der Middleware.
 
