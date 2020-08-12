@@ -48,7 +48,7 @@ Windows XP wird nicht unterstützt, da die gesetzliche Forderung der „sichern 
 
 
 
-### Linux
+### Linux, MacOs
 
 Die fiskaltrust.Middleware kann in Österreich und Frankreich auf verschiedenen Linux-Varianten als Deamon betrieben werden. 
 
