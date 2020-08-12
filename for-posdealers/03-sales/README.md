@@ -48,3 +48,5 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 ### Technische Sicherheitseinrichtungen
 
 Nur im Rahmen der Produkt Bundles als Entitlements verfügbar
+
+How-to-guide: Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
