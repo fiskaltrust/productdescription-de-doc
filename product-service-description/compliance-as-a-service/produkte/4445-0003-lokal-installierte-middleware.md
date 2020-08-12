@@ -11,7 +11,14 @@ Die fiskaltrust.Middleware besteht aus
 - einer Launcher App zum Installieren der Middleware lokal auf dem Kassenrechner
 - einem Middleware Dienstprogramm (Service/Daemon; läuft dauerhaft auf dem Kassenrechner)
 
+## Hardware Voraussetzungen
 
+| Hardware                          | Mindestanforderung                                           |
+| --------------------------------- | ------------------------------------------------------------ |
+| Allgemeine Hardware Anforderungen | Die Middleware kann grundsätzlich auf einem [Rasperry PI 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) betrieben werden. |
+| lokaler Speicher                  | ca. 500 MB (200 MB für die Middleware + 200 MB reserviert für update-packages); optional: Speicher für SQLite DB (ca. 8-10Kb/Beleg) |
+| Hardware Anschlüsse für TSE       | USB, SD, Micro-SD oder COM Port bei lokal angeschlossener TSE |
+| Internet Connektivität            | optional: (WIFI)Modem für Internet Anschluß zur Nutzung von Cloud TSE, data as a service-, backup,- oder Konfigurations-/update Services. Bitte beachten sie die [Firewall Einstellungen](../../../for-posdealers/03-sales/firewall-settings.md). |
 
 ## Voraussetzungen für den Betrieb
 
