@@ -1,4 +1,4 @@
-# [Leistungsbeschreibung](leistingsbeschreibung/README.md)
+# [Leistungsbeschreibung](leistungsbeschreibung/README.md)
 
 # [Produkt- und Servicebeschreibung](product-service-description/README.md)
 ## [Compliance-as-a-Service Produkte](product-service-description/compliance-as-a-service/produkte/README.md)
