@@ -20,7 +20,7 @@ Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fisk
 
 ## Sales & Rollout Bereich
 
-Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, angefangen vom Einkauf von Händler-Packages bis hin zum re-sales, sowie Optionen für (Massen-) Einladungs-, Konfigurations- und Rollout-Management bis hin zur Inbetriebnahme der Middleware.
+Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, angefangen vom Einkauf der Händler-Packages bis zu Wiederverkäufen. Sie finden weiters Informationen zu (Massen-)Einladungen für Kassenbetreiber, zu  Konfigurations- und Rollout-Management und auch zur Inbetriebnahme der fiskaltrust.Middleware.
 
 - [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
 - Templates & Corporate Branding
