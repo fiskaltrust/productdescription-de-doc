@@ -36,4 +36,4 @@ Die verwendeten Zertifikate stehen im fiskaltrust Portal unter "Werkzeuge -> Dow
 
 ## Troubleshooting
 
-[Hilfestellung bei Problemen, bzw. bei sehr restriktiven Firewall-Einstellungen]( [troubleshooting-firewall.md](../04-after-sales/troubleshooting-firewall.md) ).
+[Hilfestellung bei Problemen, bzw. bei sehr restriktiven Firewall-Einstellungen](../04-after-sales/troubleshooting-firewall.md).
