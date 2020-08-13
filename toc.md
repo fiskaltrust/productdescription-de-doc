@@ -14,7 +14,7 @@
 ## [Übersicht](for-posdealers/README.md)
 ## [Produkte](for-posdealers/01-produkte/README.md)
 ## [Vertriebsmodell](for-posdealers/vertriebsmodell.md)
-## [Rollout Szenarien](for-posdealers/03-sales/rollout-scenarios.md)
+## [Rollout Szenarien](for-posdealers/02-pre-sales/rollout-scenarios.md)
 # [Informationen für Kassenbetreiber](for-posoperators/README.md)
 ## [Übersicht](for-posoperators/README.md)
 ## [Preisliste](for-posoperators/endkunden-preisliste.md)
