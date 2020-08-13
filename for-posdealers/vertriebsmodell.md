@@ -28,7 +28,7 @@ Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, an
 
 ## After-Sales Bereich
 
-Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluß des Rollouts, angefangen bei Hilfestellungen im Kundensupport, über Produkt-updates bis hin zur Erneuerung der Subscriptions. 
+Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen bei Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
 
 - TSE Verwaltung
 - Vertragsmanagement
