@@ -12,19 +12,23 @@ Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgend
 
 ## Pre-Sales Bereich
 
+Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen.
+
 - [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
-- Dokumentationen zur Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
+- [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
 
-## Sales Bereich
+## Sales & Rollout Bereich
 
-Mit Hilfe von Entitlements hat fiskaltrust eine Lösung entwickelt, welches Kassenhändler beim Einkauf und Weiterverkauf von fiskaltrust.Produkten unterstützt.
+Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, angefangen vom Einkauf der Händler-Packages bis zu Wiederverkäufen. Sie finden weiters Informationen zu (Massen-)Einladungen für Kassenbetreiber, zu  Konfigurations- und Rollout-Management und auch zur Inbetriebnahme der fiskaltrust.Middleware.
 
 - [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
 - Templates & Corporate Branding
-- [Rollout Szenarien, Tipps & Tricks](03-sales/rollout-scenarios.md)
+- Dokumentationen zur Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
 
 ## After-Sales Bereich
+
+Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen bei Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
 
 - TSE Verwaltung
 - Vertragsmanagement

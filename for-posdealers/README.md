@@ -14,6 +14,12 @@ Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sow
 
 [Zur Produkt-Übersicht für Kassenhändler](01-produkte/README.md)
 
+## Getting started
+
+Dieses Dokument enthält alle notwendigen Schritte für Kassenhändler im deutschen Markt, die neu bei fiskaltrust sind, und unsere Produkte weiterverkaufen wollen. 
+
+[Getting-Started](getting-started.md) 
+
 ## Vertrieb von fiskaltrust.Produkten
 
 Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen Kassenbetreibers berücksichtigt und erfüllt.
