@@ -12,7 +12,7 @@ Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgend
 
 ## Pre-Sales Bereich
 
-Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust an und enthält alle Informationen, Materialien und Guidelines um es Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen.
+Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen.
 
 - [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
