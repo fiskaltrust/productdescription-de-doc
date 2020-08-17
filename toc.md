@@ -6,9 +6,7 @@
 ## [Revisionssichere Daten-as-a-Service Produkte](product-service-description/revisionssichere-daten-as-a-service/produkte/README.md)
 ## [Revisionssichere Daten-as-a-Service Features](product-service-description/revisionssichere-daten-as-a-service/features/README.md)
 ## [Übersicht rechtlicher Grundlagen](product-service-description/DE-rechtliche-grundlagen.md)
-
 ## [Business Modell in Deutschland](product-service-description/DE-business-model.md)
-
 # [Informationen für Kassenhersteller](for-poscreators/README.md)
 ## [Übersicht](for-poscreators/README.md)
 ## [Getting started deutsch](for-poscreators/getting-started.md)
