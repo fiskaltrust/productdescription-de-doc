@@ -20,11 +20,11 @@ Im Folgenden werden wir auf die einzelnen Schritte detailierter eingehen.
 
 ### Firmendaten und Kooperationsvertrag
 
-Um kostenlosen Support von fiskaltrust zu erhalten müssen Sie sich zuerst in unserem Live Portal registrieren. Dieses finden Sie unter  [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/). 
+Um kostenlosen Support von fiskaltrust zu erhalten, müssen Sie sich zuerst in unserem Live Portal registrieren. Dieses finden Sie unter  [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/). 
 
-Sobald Sie sich im Portal registriert haben wird Ihnen ein Formular zur Auswahl Ihrer Rolle angezeigt. Wählen Sie die Option "Kassenhersteller" und unterschreiben Sie unseren Kooperationsvertrag indem Sie Ihren Namen ins Eingabefeld eingeben. Sollten Sie zudem auch Kassenhändler sein, wählen Sie bitte danach auch diese Option aus. 
+Sobald Sie sich im Portal registriert haben, wird Ihnen ein Formular zur Auswahl Ihrer Rolle angezeigt. Wählen Sie die Option "Kassenhersteller" und unterschreiben Sie unseren Kooperationsvertrag, indem Sie Ihren Namen ins Eingabefeld eingeben. Sollten Sie zudem auch Kassenhändler sein, wählen Sie bitte danach auch diese Option aus. 
 
-Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt auf kostenlosen Support für Einrichtigsfragen und Onboarding zuzugreifen. Sie können unser Support-Team unter info@fiskaltrust.de erreichen.
+Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt auf kostenlosen Support für Einrichtungsfragen und Onboarding zuzugreifen. Sie können unser Support-Team unter info@fiskaltrust.de erreichen.
 
 ### Registrieren Ihres Kassensystems
 
@@ -43,11 +43,11 @@ Eine sogenannte Cashbox ist ein Konfigurationscontainer, der die Konfiguration d
 
 ### Konfiguration der SCU
 
-Die SCU (Security Creation Unit, deutsch: Signatur-Erstellungs-Einheit) ist eine Komponente der ft.Middelware, die für die Kommunikation mit der TSE zuständig ist. Je nachdem welche TSE sie benutzen möchten benötigt die SCU eine entsprechende Konfiguration.
+Die SCU (Security Creation Unit, deutsch: Signatur-Erstellungs-Einheit) ist eine Komponente der ft.Middelware, die für die Kommunikation mit der TSE zuständig ist. Je nachdem welche TSE sie benutzen möchten, benötigt die SCU eine entsprechende Konfiguration.
 
-Um die SCU Konfiguration anzulegen wählen Sie im Portal den Menüpunkt  ``Konfiguration -> Signatur-Erstellungs-Einheit``  und drücken Sie den Button "Erstellen". Geben Sie eine kurze Beschreibung (Bezeichnung) ein und wählen Sie bei "Package Name" das Paket für Ihre TSE aus. Wählen Sie danach die neueste Version unter "Package Version" aus und drücken Sie auf "Speichern".
+Um die SCU Konfiguration anzulegen, wählen Sie im Portal den Menüpunkt  ``Konfiguration -> Signatur-Erstellungs-Einheit``  und drücken Sie den Button "Erstellen". Geben Sie eine kurze Beschreibung (Bezeichnung) ein und wählen Sie bei "Package Name" das Paket für Ihre TSE aus. Wählen Sie danach die neueste Version unter "Package Version" aus und drücken Sie auf "Speichern".
 
-Es werden nun weitere Konfigurationangaben abverlangt. Je nach vorher gehähltem TSE-Paket können diese variiren. Im allgemeinen geben Sie hier an, wie die SCU die TSE ereichen kann und über welchen Endpunkt die Queue mit der SCU kommunizieren wird. Um den Kommunkationsendpunkt zum Erreichen der SCU anzugeben, wählen sie z.B. gRPC aus indem Sie den entsprechenden Knopf im unteren Bereich drücken. Das Eingabefeld wird automatisch ausgefüllt und kann bei Bedarf weiter editiert werden. Für unser Zeil in diesem Dokument reicht der automatisch vorgegebene gRPC Endpunkt. 
+Es werden nun weitere Konfigurationangaben abverlangt. Je nach vorher gewähltem TSE-Paket können diese variieren. Im allgemeinen geben Sie hier an, wie die SCU die TSE ereichen kann und über welchen Endpunkt die Queue mit der SCU kommunizieren wird. Um den Kommunkationsendpunkt zum Erreichen der SCU anzugeben, wählen sie z.B. gRPC aus indem Sie den entsprechenden Knopf im unteren Bereich drücken. Das Eingabefeld wird automatisch ausgefüllt und kann bei Bedarf weiter editiert werden. Für unser Ziel in diesem Dokument reicht der automatisch vorgegebene gRPC Endpunkt. 
 
 Als Nächstes können Sie im oberen Bereich angeben, wie die SCU die gewählte TSE erreichen kann:
 
@@ -58,7 +58,7 @@ Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an 
 Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an dem sie die TSE angeschlossen haben. Zum Beispiel ```E:```
 
 #### Diebold Nixdorf
-Geben Sie den Com Anschluß an dem sie die TSE angeschlossen haben. Zum Beispiel ```COM6```
+Geben Sie den Com Anschluß, an dem sie die TSE angeschlossen haben. Zum Beispiel ```COM6```
 
 #### Epson
 In Überarbeitung.
@@ -70,15 +70,15 @@ Speichern Sie die Konfiguration Ihrer SCU nach Eingabe der benötigten Daten. Im
 
 ### Konfiguration der Queue
 
-Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente mit der fiskaltrust.Middleware mit der Ihr Kassensystem kommuniziert. An sie senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
+Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente mit der fiskaltrust.Middleware mit dem Kassensystem kommuniziert. An sie senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
 
-Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashboxIdentification ein. Die CashboxIdentifikation wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die Cashbox, also unseren Konfigurationscontainer anlegen.
+Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button, um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashboxIdentification ein. Die CashboxIdentifikation wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die Cashbox, also unseren Konfigurationscontainer anlegen.
 
 ### Cashbox anlegen, Queue und SCU verbinden
 
-Unter dem Menüpunkt ``Konfiguration -> CashBox`` befindet sich der Button zum Anlegen einer neuen Cashbox. Drücken Sie diesen um zur Eingabemaske zu gelangen. Drücken Sie nach Eingabe einer kurzen Beschreibung (Bezeichnung) den Speichern Button. Die Cashbox wurde angelegt und erscheint nun in der Liste. 
+Unter dem Menüpunkt ``Konfiguration -> CashBox`` befindet sich der Button zum Anlegen einer neuen Cashbox. Drücken Sie diesen, um zur Eingabemaske zu gelangen. Drücken Sie nach Eingabe einer kurzen Beschreibung (Bezeichnung) den Speichern Button. Die Cashbox wurde angelegt und erscheint nun in der Liste. 
 
-Als Nächstes wollen wir die Konfiguration der Queue und SCU in die angelegte Cashbox packen und diese mit einander verbinden. Drücken Sie dazu den zur Cashbox zugeordneten Button mit Listensymbol. Hier können Sie nun die zuvor angelege Queue und SCU über die dazugehörigen Checkboxen auswählen und Ihre Auswahl speichern. Im Folgenden werden wir die Queue mit der SCU verbinden. Klappen Sie dazu in der Übersicht der Chasboxen den Listeneintrag der neuen Cashbox auf. Der Detailbereich zeigt die enthaltenen Konfigurationen. Der Queuekonfiguration sind rechts zwei Buttons zugeordnet. Drücken Sie den ersten Button (Pfeilsymbol) um die neue SCU der Queue zuzuordnen. Ein Popup erscheint in dem Sie die SCU auswählen können. Nach dem Zuordnen und Speichern sind wir mit der Konfiguration unserer Cashbox fertig.
+Als Nächstes wollen wir die Konfiguration der Queue und SCU in die angelegte Cashbox packen und diese mit einander verbinden. Drücken Sie dazu den zur Cashbox zugeordneten Button mit Listensymbol. Hier können Sie nun die zuvor angelegte Queue und SCU über die dazugehörigen Checkboxen auswählen und Ihre Auswahl speichern. Im Folgenden werden wir die Queue mit der SCU verbinden. Klappen Sie dazu in der Übersicht der Chasboxen den Listeneintrag der neuen Cashbox auf. Der Detailbereich zeigt die enthaltenen Konfigurationen. Der Queuekonfiguration sind rechts zwei Buttons zugeordnet. Drücken Sie den ersten Button (Pfeilsymbol), um die neue SCU der Queue zuzuordnen. Ein Popup erscheint in dem Sie die SCU auswählen können. Nach dem Zuordnen und Speichern sind wir mit der Konfiguration unserer Cashbox fertig.
 
 
 ## Download und Starten des Launcher
@@ -98,7 +98,7 @@ Nach dem Starten des Launcher steht Ihnen die lokale Middleware zur Verfügung. 
 
 ### Konfiguration der Postman Collection
 
-Die Postman Collection muss so konfiguriert werden, dass sie Requests an die zuvor gestarete, lokale Middleware senden kann kann. Gehen Sie dazu auf "Edit" und wählen Sie den Tab "Variables". Hier befinden sich die für uns zwei wichtigen Variablen:  ```base_url``` und  ```cashbox_id```, deren Werte wir eingeben müssen. 
+Die Postman Collection muss so konfiguriert werden, dass sie Requests an die zuvor gestarete, lokale Middleware senden kann. Gehen Sie dazu auf "Edit" und wählen Sie den Tab "Variables". Hier befinden sich die für uns zwei wichtigen Variablen:  ```base_url``` und  ```cashbox_id```, deren Werte wir eingeben müssen. 
 
 #### base_url
 
