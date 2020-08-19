@@ -58,7 +58,7 @@ Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an 
 Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an dem sie die TSE angeschlossen haben. Zum Beispiel ```E:```
 
 #### Diebold Nixdorf
-Geben Sie den Com Anschluß, an dem sie die TSE angeschlossen haben. Zum Beispiel ```COM6```
+Geben Sie den Com Anschluß an, an den Sie die TSE angeschlossen haben. Zum Beispiel ```COM6```
 
 #### Epson
 In Überarbeitung.
@@ -70,7 +70,7 @@ Speichern Sie die Konfiguration Ihrer SCU nach Eingabe der benötigten Daten. Im
 
 ### Konfiguration der Queue
 
-Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente mit der fiskaltrust.Middleware mit dem Kassensystem kommuniziert. An sie senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
+Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente der fiskaltrust.Middleware mit der das Kassensystem kommuniziert. An die Queue senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
 
 Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button, um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashboxIdentification ein. Die CashboxIdentifikation wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die Cashbox, also unseren Konfigurationscontainer anlegen.
 
