@@ -12,7 +12,7 @@ fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/READ
 
 ## Lead Präsentation
 
-Diese PowerPoint Präsentation verwenden wir beim Erstgespräch mit Kassenherstellern. Sie hat den Anspruch einen Überblick zur fisklatrust Lösung bereit zu stellen und einen möglichen Integrationsweg in das Kassensystem des Kassenherstellers aufzuzeigen. Gerne können Sie unsere Präsentation auch intern in Ihrer Firma verwerden um Ihre Kollegen über die fiskaltrust Lösung zu informieren.
+Diese PowerPoint Präsentation verwenden wir beim Erstgespräch mit Kassenherstellern. Sie hat den Anspruch einen Überblick zur fiskaltrust Lösung bereit zu stellen und einen möglichen Integrationsweg in das Kassensystem des Kassenherstellers aufzuzeigen. Gerne können Sie unsere Präsentation auch intern in Ihrer Firma verwerden um Ihre Kollegen über die fiskaltrust Lösung zu informieren.
 
 [Lead Präsentation deutsch](lead-presentation-de.md) <br/>
 [Lead Präsentation englisch](lead-presentation-en.md) <br/>
