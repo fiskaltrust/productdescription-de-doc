@@ -10,12 +10,12 @@ fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/READ
 
 [Lokal installierte Middleware](../product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.md) 
 
-## Onboarding Präsentation
+## Lead Präsentation
 
-Diese PowerPoint Präsentation verwenden wir beim Onboarding unserer Partner. Sie hat den Anspruch einen Überblick zur fisklatrust Lösung bereit zu stellen und einen möglichen Integrationsweg in das Kassensystem des Kassenherstellers aufzuzeigen. Gerne können Sie unsere Präsentation auch intern in Ihrer Firma verwerden um Ihre Kollegen über die fiskaltrust Lösung zu informieren.
+Diese PowerPoint Präsentation verwenden wir beim Erstgespräch mit Kassenherstellern. Sie hat den Anspruch einen Überblick zur fisklatrust Lösung bereit zu stellen und einen möglichen Integrationsweg in das Kassensystem des Kassenherstellers aufzuzeigen. Gerne können Sie unsere Präsentation auch intern in Ihrer Firma verwerden um Ihre Kollegen über die fiskaltrust Lösung zu informieren.
 
-[Onboarding Präsentation deutsch](presentation/onboarding_de.pptx)
-[Onboarding Präsentation englisch](presentation/onboarding_en.pptx) 
+[Lead Präsentation deutsch](lead-presentation-de.md)
+[Lead Präsentation englisch](lead-presentation-en.md) 
 
 ## Getting started
 
