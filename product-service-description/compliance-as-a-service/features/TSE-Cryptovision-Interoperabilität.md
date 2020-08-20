@@ -17,7 +17,7 @@ Das _fiskaltrust.Middleware.SCU.DE.CryptoVision_-Package ermöglicht die Verbind
 
 ## Hardware
 
-### Bundesdruckerei TSE, microsSD, 8GB
+### Bundesdruckerei TSE, microSD, 8GB
 
 **Artikel Nummer:** 4445-20300
 

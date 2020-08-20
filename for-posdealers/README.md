@@ -2,7 +2,7 @@
 
 ## Rollenbeschreibung Kassenhändler
 
-[Zur Rollenbeschreibung des Kassenhändlers](../glossar/README.md)
+[Zur Rollenbeschreibung des Kassenhändlers](../glossar/README.md#kassenhändler-posdealer)
 
 ## Produkt-Angebote für Kassenhändler
 
@@ -13,6 +13,12 @@ Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltr
 Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sowie allen Kassen einer Filiale bzw. eines Standortes, ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundensegmente und -bedürfnisse werden unterschiedliche Produkte und Ausprägungen der Sorglos-Produkt-Bundles angeboten.
 
 [Zur Produkt-Übersicht für Kassenhändler](01-produkte/README.md)
+
+## Getting started
+
+Dieses Dokument enthält alle notwendigen Schritte für Kassenhändler im deutschen Markt, die neu bei fiskaltrust sind, und unsere Produkte weiterverkaufen wollen. 
+
+[Getting-Started](getting-started.md) 
 
 ## Vertrieb von fiskaltrust.Produkten
 

@@ -65,7 +65,11 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 [Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/README.md)
 
-# Rechtliche Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
+## Rechtliche Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
 
 [Zur Übersicht über die rechtlichen Grundlagen in Deutschland](DE-rechtliche-grundlagen.md)
+
+## fiskaltrust Business Modell für Deutschland
+
+[Beschreibung des Business Modelles von fiskaltrust für den deutschen Markt](DE-business-model.md) 
 

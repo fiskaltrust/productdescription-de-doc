@@ -10,7 +10,7 @@ Abgabenordnung, ein zentrales Gesetz des Steuerrechts, in dem die wesentlichen A
 
 ## Authentizität (TSE)
 
-Im Zusammen mit der TSE bedeutet Authentizität, dass die Daten tatsächlich vom angeblichen Urheber, z.B. dem jeweiligen Unternehmen stammen.
+Im Zusammenhang mit der TSE bedeutet Authentizität, dass die Daten tatsächlich vom angeblichen Urheber, z.B. dem jeweiligen Unternehmen stammen.
 
 ## BMF
 
@@ -48,13 +48,13 @@ Fahrscheinautomaten, Fahrscheindrucker, elektronische Buchhaltungsprogramme, War
 
 **Schutz durch eine zertifizierte technische Sicherheitseinrichtung**
 
-Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem sowie die damit zur führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
+Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem sowie die damit zu führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
 
 Werden mehrere einzelne elektronische Aufzeichnungssysteme (z. B. Verbundwaagen, Bestellsysteme ohne Abrechnungsteil, App-Systeme) mit einem Kassensystem verbunden, dann wird es nicht beanstandet, wenn die damit zu führenden digitalen Aufzeichnungen mit einer zertifizierten technischen Sicherheitseinrichtung geschützt werden, die alle im Verbund befindlichen elektronischen Aufzeichnungssysteme gemeinsam nutzen. 
 
 #### Computergestütztes Kassensystem
 
-Unter einem computergestützten Kassensystem versteht man eine EDV-Lösung zur Einbindung von Peripheriegeräten (z. B. Drucker oder externe Datenträger) oder -software mit einer PC- oder elektronischen Registrierkasse. 
+Unter einem computergestützten Kassensystem versteht man eine EDV-Lösung zur Einbindung von Peripheriegeräten (z. B. Drucker oder externe Datenträger) oder Software mit einer PC- oder elektronischen Registrierkasse. 
 
 #### PC-Registrierkasse
 
@@ -92,7 +92,7 @@ Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und
 
 ## Integrität (der Daten und TSE)
 
-Integrität im Zusammenhang mit Daten bedeutet, dass diese seit der Erstellung unverändert geblieben sind. In Zusammen mit der TSE bedeutet es auch, dass keine Datensätze nachträglich entfernt wurden.
+Integrität im Zusammenhang mit Daten bedeutet, dass diese seit der Erstellung unverändert geblieben sind. In Zusammenhang mit der TSE bedeutet es auch, dass keine Datensätze nachträglich entfernt wurden.
 
 
 ## Kassenbetreiber ("PosOperator")
@@ -117,11 +117,11 @@ Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert b
 
 Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
-Der Kassenhersteller integriert die ftiskaltrust.Middleware in seine Software.
+Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
 
 ## Kassen-Nachschau
 
-Zum 1.1.2018 neu gesetzlich eingeführte Möglichkeit der Finanzbehörden, die Kassenführung unangemeldet außerhalb normaler Betriebsprüfungen zu kontrollieren. Auch vorher gab es einzelnen Kassen-Nachschauen, die allerdings das bereits länger existierende Instrument der Umsatzsteuer-Nachschau genutzt haben.
+Zum 1.1.2018 neu gesetzlich eingeführte Möglichkeit der Finanzbehörden, die Kassenführung unangemeldet außerhalb normaler Betriebsprüfungen zu kontrollieren. Auch vorher gab es einzelne Kassen-Nachschauen, die allerdings das bereits länger existierende Instrument der Umsatzsteuer-Nachschau genutzt haben.
 
 ## KassenSichV
 
