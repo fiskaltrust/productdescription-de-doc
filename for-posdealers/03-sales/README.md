@@ -33,17 +33,17 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ### Produkt-Bundles
 
--  [Sorglos ohne TSE](../01-produkte/4445-10040-Sorglos-ohne-TSE.md)
--  [Sorglos mit TSE](../01-produkte/4445-100XX-Sorglos-mit-TSE.md)
+-  [Sorglos ohne TSE](../01-produkte/Sorglos-ohne-TSE.md)
+-  [Sorglos mit TSE](../01-produkte/Sorglos-mit-TSE.md)
 
 ### Middleware Addon-Produkte
 
-- [POS Archiv](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md)
-- [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/produkte/4445-10030-Finanzamtmeldung.md)
+- [POS Archiv](../../product-service-description/revisionssichere-daten-as-a-service/produkte/pos-archiv.md)
+- [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/produkte/Finanzamtmeldung.md)
 
 ### Einzelprodukte
 
--  [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/4445-10020-Audicon-Kassenarchiv-Online.md) 
+-  [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen
 

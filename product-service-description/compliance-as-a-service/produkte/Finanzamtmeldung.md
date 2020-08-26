@@ -1,6 +1,6 @@
 # Finanzamtmeldung (in Entwicklung)
 
-**Produktnummer:** 4445-10030
+**Produktnummer:** 4445-040030
 
 Mitteilung an das zuständige Finanzamt von Inbetriebnahme bzw. Außerbetriebnahme von elektronischen Aufzeichnungssystemen, sobald vom Finanzamt gefordert
 
@@ -10,7 +10,7 @@ Mitteilung an das zuständige Finanzamt von Inbetriebnahme bzw. Außerbetriebnah
 
 ## Voraussetzungen
 
-Die Finanzamtmeldungen setzen ein aktives [POS Archiv](../../revisionssichere-daten-as-a-service/produkte/4445-10010-pos-archiv.md) Produkt voraus.
+Die Finanzamtmeldungen setzen ein aktives [POS Archiv](../../revisionssichere-daten-as-a-service/produkte/pos-archiv.md) Produkt voraus.
 
 ## Verkaufseinheit
 

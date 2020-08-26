@@ -1,6 +1,6 @@
 # POS Archiv
 
-**Produktnummer:** 4445-10010
+**Produktnummer:** 4445-040010
 
 Das POS Archiv speichert Daten revisionssicher, basierend auf die übermittelten Belege über die fiskaltrust.Middleware, über einen Zeitraum von 12 Jahren. Zu diesem Zeitpunkt wird auch das spezielle Journal der signierten Transaktionen abgedeckt.
 
