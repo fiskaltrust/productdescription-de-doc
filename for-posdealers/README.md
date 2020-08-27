@@ -24,7 +24,41 @@ Dieses Dokument enthält alle notwendigen Schritte für Kassenhändler im deutsc
 
 Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen Kassenbetreibers berücksichtigt und erfüllt.
 
-[Zum Vertriebs-Breich für Kassenhändler](vertriebsmodell.md)
+Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgende Sammlung aus Unterlagen, Informationen, Vorlagen und Dokumentationen zur Verfügung:
+
+## Pre-Sales & Einkauf
+
+Der Pre-Sales & Einkaufs-Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust und endet mit dem Einkauf der Händler-Packages. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen, sowie die Schritte für den Abschluß von Rahenverträgen für Mengenrabatte.
+
+- [Produkte & Produkt-Bundles]( [README.md](01-produkte/README.md) )
+
+- [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
+- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
+- Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
+- [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
+
+## Weiterverkauf & Rollout
+
+Der Sales-Bereich beinhaltet Unterstützung im Weiterverkaufs- und Rollout-Prozess. Sie finden weiters Informationen zu (Massen-)Einladungen für Kassenbetreiber, zu  Konfigurations- und Rollout-Management und auch zur Inbetriebnahme der fiskaltrust.Middleware.
+
+- Bulk-Einladungs-Szenarien
+- Templates & Corporate Branding
+- Bulk-Konfigurations- und Rollout Szenarien
+
+- [Firewall Konfiguration](03-sales/firewall-settings.md) 
+
+## After-Sales
+
+Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen bei Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
+
+- TSE Verwaltung
+- Vertragsmanagement
+- Hilfestellung für Kundensupport
+
+### Troubleshooting Guidelines
+
+- [Troubleshooting TSE-as-a-Service](04-after-sales/troubleshooting-tse-as-a-service.md) 
+- [Troubleshooting Firewall Konfigurationen](04-after-sales/troubleshooting-firewall.md) 
 
 ## Weiterführende externe Informationen
 

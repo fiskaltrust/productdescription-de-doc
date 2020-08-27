@@ -52,10 +52,6 @@ In folgenden Fällen verfällt der Anspruch auf den Tausch der Hardware TSE:
 
 Bei voraussichtlicher Überschreitung der maximal nutzbaren Signaturen der TSE pro Monat kann eine zusätzliche TSE für diesen Standort erworben, und so der Anspruch auf einen kostenlosen Tausch der Hardware TSE, welche der Subscription zugeordnet ist, erhalten werden.
 
-#### Antrag auf Tausch einer Hardware TSE
-
-Um einen Anspruch auf einen Tausch der Hardware TSE für Ihre aktive fiskaltrust.Sorglos mit Hardware TSE-Subscription geltend zu machen, wenden Sie sich bitte an Ihren Kassenhändler, von dem Sie das Subscription-Bundle bezogen haben.
-
 ## Nichteinhaltung der Fair Use Policy
 
 Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.

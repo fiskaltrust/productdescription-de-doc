@@ -61,7 +61,7 @@ Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
 
 - [A-Trust](../../product-service-description/compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
 - [Deutsche Fiskal](../../product-service-description/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
-- [Fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
+- [fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
 
 #### Hardware TSE
 

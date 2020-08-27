@@ -31,3 +31,5 @@
 - [TSE-A-Trust-Interoperabilität.md](TSE-A-Trust-Interoperabilität.md) 
 - [TSE-Deutsche-Fiskal-Interoperabilität.md](TSE-Deutsche-Fiskal-Interoperabilität.md) 
 - [TSE-Fiskaly-Interoperabilität.md](TSE-Fiskaly-Interoperabilität.md) 
+
+### [TSE-as-a-Service](TSE-as-a-service.md)
