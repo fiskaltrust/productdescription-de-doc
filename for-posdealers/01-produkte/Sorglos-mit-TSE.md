@@ -39,7 +39,8 @@ Sollten Sie aus Performancegründen oder zur Einhaltung der Fair Use Policy mehr
 
 #### 1.b Marketing-Materialien
 
-in Bearbeitung.
+- Informationen für Kassenbetreiber (in Bearbeitung).
+- Verkaufsargumente (in Bearbeitung)
 
 #### 1.c Einkauf
 
@@ -60,14 +61,10 @@ Voraussetzungen
 - Genehmigtes Kreditlimit für den geplanten Einkauf
 - Optional: Rahmenvertrag für Mengenrabatte (empfohlen ab einem geplanten Einkauf von über 10 Sorglos-Paketen)
 
-
-
 Nach dem Kauf dieses Produktes stehen im Shop im Bereich "Entitlements" folgende Entitlements ("Ansprüche") zur Verfügung:
 
 - DE_FISKALTRUST_CAREFREE
 - DE_FISKALTRUST_CAREFREE_TSE
-
-
 
 ### 2. Sales & Rollout
 
