@@ -46,15 +46,12 @@ Sollten Sie aus Performancegründen oder zur Einhaltung der [Fair Use Policy](..
 
 ##### Preise
 
-Produktnummer für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als Händler:
+Produktinformationen für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als Händler:
 
-**Händlereinkaufsprodukt:** 4445-021050
-
-**Mengenrabatte möglich:** ja, ab 10 Bundles
-
-Preisliste inklusive Mengenrabatte:
-
-[Händlerpreise & Mengenrabatte](../02-pre-sales/haendler-preisliste.md)
+| **Händlereinkaufsprodukt Artikelnummer** | 4445-021050                                                  |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| **Mengenrabatte möglich**                | ja, ab 10 Bundles                                            |
+| **Preisliste inklusive Mengenrabatte**   | [Händlerpreise & Mengenrabatte](../02-pre-sales/haendler-preisliste.md) |
 
 ##### Bezugsmöglichkeiten
 
