@@ -95,11 +95,11 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Kund
 
 ### Vertiefende Informationen
 
-[Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) 
-
 [Informationsmaterial über fiskaltrust-Produkte für Kassenbetreiber](02-pre-sales/sales-material.md)
 
 [Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/sales-material.md)
+
+[Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) 
 
 ## Optional: Abschluss eines Rahmenvertrages
 
