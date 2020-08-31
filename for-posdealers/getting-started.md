@@ -11,7 +11,7 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 ## Übersicht
 
 1. [Über fiskaltrust](#über-fiskaltrust)
-2. [Das Angebot von fiskaltrust an Kassenhändler](#das-angebot-von-fiskaltrust-an-kassenhändler)
+2. [Vorteile für Kassenhändler](#vorteile-für-kassenhändler)
 3. [Vertriebsmodell und Rollen](#vertriebsmodell-und-rollen)
 4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#das-produktangebot-von-fiskaltrust)
 5. [Abschluss eines Kooperationsvertrages](#abschluss-eines-kooperationsvertrages)
@@ -34,7 +34,7 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und
 - [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md)
 - [Geschäftsmodell von fiskaltrust](../product-service-description/DE-business-model.md)
 
-## Das Angebot von fiskaltrust an Kassenhändler
+## Vorteile für Kassenhändler
 
 fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen und All-In-One-Produkt-Bundles im Bereich Fiskalisierung an. Durch Mengenrabatte und Rahmenverträge wird für Kassenhändler ein attraktives Kooperationsmodell geboten. Werkzeuge zur Einladung & Verwaltung von Kunden, Konfigurationen von Kassen und automatisierte Rollout-Lösungen erleichtern Kassenhändlern die Integration und Wartung.
 
