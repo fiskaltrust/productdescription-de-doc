@@ -44,7 +44,9 @@ fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einze
 
 ## Vertriebsmodell und Rollen
 
-fiskaltrust vertreibt seine Produkte und Produkt-Bundles über Kassenhändler. Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales und erhält dadurch sogenannte Entitlements ("Ansprüche"). Nach dem Weiterverkauf der Produkte an seine Kunden (Kassenbetreiber) über sein eigenes System, kann der Kassenhändler seine zuvor erhaltenen Ansprüche im Portal einlösen und seinen Kunden die entsprechenden Produkte zuweisen. Um mit den dafür notwendigen Rechten in der Verwaltung des Portales ausgestattet zu sein, ist die korrekte Aktivierung der Rollen von Kassenhersteller, Kassenhändler und Kassenbetreiber wichtig.
+fiskaltrust vertreibt seine Produkte und Produkt-Bundles über Kassenhändler. 
+
+Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales und erhält dadurch sogenannte Entitlements ("Ansprüche"). Nach dem Weiterverkauf der Produkte an seine Kunden (Kassenbetreiber) über sein eigenes System, kann der Kassenhändler seine zuvor erhaltenen Ansprüche im Portal einlösen und seinen Kunden die entsprechenden Produkte zuweisen. Um mit den dafür notwendigen Rechten in der Verwaltung des Portales ausgestattet zu sein, ist die korrekte Aktivierung der Rollen von Kassenhersteller, Kassenhändler und Kassenbetreiber wichtig.
 
 ### Vertiefende Informationen
 
