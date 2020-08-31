@@ -23,7 +23,7 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" enthält das Basis-Produkt fisk
 
 **Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie die [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md).
 
-## How-to-Guide: Vertrieb
+## How-to-Guide: Einkauf & Weiterverkauf
 
 Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des fiskaltrust.Sorglos mit TSE-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
 
@@ -50,11 +50,11 @@ Produktnummer für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als Händle
 
 **Händlereinkaufsprodukt:** 4445-021050
 
-Mengenrabatte möglich: ja, ab 10 Bundles
+**Mengenrabatte möglich:** ja, ab 10 Bundles
 
 Preisliste inklusive Mengenrabatte:
 
-[Händlerpreise & Mengenrabatte]( [haendler-preisliste.md](../02-pre-sales/haendler-preisliste.md) )
+[Händlerpreise & Mengenrabatte](../02-pre-sales/haendler-preisliste.md)
 
 ##### Bezugsmöglichkeiten
 
