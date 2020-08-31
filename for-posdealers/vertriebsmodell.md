@@ -10,7 +10,7 @@ Der Kassenbetreiber bleibt in diesem Modell der Kunde des Kassenhändlers.
 
 Die Preisgestaltung der fiskaltrust Produkte ermöglicht den Kassenhändlern, die Produkte in ihr eigenes Produktportfolio zu integrieren.
 
-fiskaltrust übermimmt den Support von Kassenhändler, und Kassenhändler übernehmen der Support ihrer Kunden.
+fiskaltrust übernimmt den Support von Kassenhändler, und Kassenhändler übernehmen der Support ihrer Kunden.
 
 ## Weiterführende Informationen
 
