@@ -14,9 +14,9 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 2. [Das Angebot von fiskaltrust an Kassenhändler](#das-angebot-von-fiskaltrust-an-kassenhändler)
 3. [Vertriebsmodell und Rollen](#vertriebsmodell-und-rollen)
 4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#das-produktangebot-von-fiskaltrust)
-5. [Registrierung am Portal](#registrierung-am-portal)
+5. [Abschluss eines Kooperationsvertrages](#abschluss-eines-kooperationsvertrages)
 6. [Einkaufsplanung](#einkaufsplanung)
-7. [Optional: Rahmenvertrag](#optional-rahmenvertrag)
+7. [Optional: Abschluss eines Rahmenvertrages](#optional-abschluss-eines-rahmenvertrages)
 8. Rollout Optionen, Planung & Vorbereitung
 9. Einkauf der Produkte
 10. Einladung der Kunden
@@ -70,7 +70,7 @@ Werden an einem Standort mehrere Kassen betrieben, bietet fiskaltrust Produkt-Bu
 
 [fiskaltrust Produkte & Bundles](01-produkte/README.md) 
 
-## Registrierung am Portal
+## Abschluss eines Kooperationsvertrages
 
 Um als Kassenhändler Produkte von fiskaltrust vertreiben zu können, müssen Sie eine Kooperationspartnerschaft mit fiskaltrust eingehen.
 
@@ -99,7 +99,7 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Kund
 
 [Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/sales-material.md)
 
-## Optional: Rahmenvertrag
+## Optional: Abschluss eines Rahmenvertrages
 
 Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Bitte kalkulieren Sie eine Durchlaufzeit von 1-2 Wochen bis zum Abschluss des Vertrages in Ihrer Rollout-Planung mit ein. Mit Abschluss eines Rahmenvertrages können Sie die im Rahmenvertrag inkludierten Produkte zum vereinbarten Einkaufspreis im Webshop einkaufen.
 
