@@ -26,9 +26,9 @@ Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerscha
 
 Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgende Sammlung aus Unterlagen, Informationen, Vorlagen und Dokumentationen zur Verfügung:
 
-## Pre-Sales & Einkauf
+### Einkauf & Pre-Sales
 
-Der Pre-Sales & Einkaufs-Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust und endet mit dem Einkauf der Händler-Packages. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen, sowie die Schritte für den Abschluß von Rahenverträgen für Mengenrabatte.
+Der Einkaufs- & Pre-Sales-Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust und endet mit dem Einkauf der Händlereinkaufsprodukte. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen, sowie die Schritte für den Abschluss von Rahmenverträgen für Mengenrabatte.
 
 - [Produkte & Produkt-Bundles]( [README.md](01-produkte/README.md) )
 
@@ -37,7 +37,7 @@ Der Pre-Sales & Einkaufs-Bereich unterstützt Händler vom ersten Berührungspun
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
 - [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
 
-## Weiterverkauf & Rollout
+### Weiterverkauf & Rollout
 
 Der Sales-Bereich beinhaltet Unterstützung im Weiterverkaufs- und Rollout-Prozess. Sie finden weiters Informationen zu (Massen-)Einladungen für Kassenbetreiber, zu  Konfigurations- und Rollout-Management und auch zur Inbetriebnahme der fiskaltrust.Middleware.
 
@@ -47,7 +47,7 @@ Der Sales-Bereich beinhaltet Unterstützung im Weiterverkaufs- und Rollout-Proze
 
 - [Firewall Konfiguration](03-sales/firewall-settings.md) 
 
-## After-Sales
+### After-Sales
 
 Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen bei Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
 
@@ -55,7 +55,7 @@ Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem A
 - Vertragsmanagement
 - Hilfestellung für Kundensupport
 
-### Troubleshooting Guidelines
+#### Troubleshooting Guidelines
 
 - [Troubleshooting TSE-as-a-Service](04-after-sales/troubleshooting-tse-as-a-service.md) 
 - [Troubleshooting Firewall Konfigurationen](04-after-sales/troubleshooting-firewall.md) 

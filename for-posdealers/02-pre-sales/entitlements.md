@@ -22,6 +22,8 @@ In diesem Fall ermittelt der Händler den Bedarf an Produkten vorab bei all sein
 
 Der Weiterverkauf der Produkte erfolgt konsistent zum ersten Beispiel. Die Marge beträgt in diesem Beispiel nun jedoch 191.040 €/Jahr aufgrund der besseren Einkaufskonditionen.
 
-## Weiterführende Informationen
+## Voraussetzungen für den Bezug von Mengenrabatten
 
-Abschließen von Rahmenverträgen
+[Registrierung als Kassenhändler im Portal](voraussetzungen-einkauf.md)
+
+[Abschluss von Rahmenverträgen](01-purchase-agreement.md)

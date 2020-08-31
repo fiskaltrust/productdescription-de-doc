@@ -25,7 +25,7 @@ Die obige Grafik stellt den Einkaufsprozess eines Händlers dar, der für seine 
 
 ## Distribution von Entitlements
 
-[Kauf-Prozess](purchase.md)
+[Kauf-Prozess](02-purchase.md)
 
 [Resell-Prozess](rollout.md)
 

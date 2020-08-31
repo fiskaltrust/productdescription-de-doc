@@ -27,15 +27,15 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" enthält das Basis-Produkt fisk
 
 Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des fiskaltrust.Sorglos mit TSE-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
 
-### 1. Pre-Sales
+### 1. Einkauf & Pre-Sales
 
 #### 1.a Systemintegration/Planung
 
-Das fiskaltrust.Sorglos Paket gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert.
+Das fiskaltrust.Sorglos Paket gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert. Der nachfolgende link soll Sie bei der Bedarfsanalyse und Rollout-Planung unterstützen:
 
-[Zur Verfügung stehende Optionen um mehrere Queues mit einer TSE zu konfigurieren.](../02-pre-sales/rollout-scenarios.md).
+[Zur Verfügung stehende Optionen um mehrere Queues mit einer TSE zu konfigurieren.](../02-pre-sales/rollout-scenarios.md)
 
-Sollten Sie aus Performancegründen oder zur Einhaltung der Fair Use Policy mehrere TSE benötigen, so müssen diese für den betroffenen Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden.
+Sollten Sie aus Performancegründen oder zur Einhaltung der [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md) mehrere TSE benötigen, so müssen diese für den betroffenen Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden.
 
 #### 1.b Marketing-Materialien
 
@@ -46,20 +46,35 @@ Sollten Sie aus Performancegründen oder zur Einhaltung der Fair Use Policy mehr
 
 ##### Preise
 
+Produktnummer für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als Händler:
+
 **Händlereinkaufsprodukt:** 4445-021050
+
+Mengenrabatte möglich: ja, ab 10 Bundles
+
+Preisliste inklusive Mengenrabatte:
 
 [Händlerpreise & Mengenrabatte]( [haendler-preisliste.md](../02-pre-sales/haendler-preisliste.md) )
 
 ##### Bezugsmöglichkeiten
 
-Wird das Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. 
+###### Option A - Bezug für weniger als 10 Standorte
 
-Voraussetzungen
+Wird das Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Unter folgendem Link finden Sie die Voraussetzungen für den Bezug von fiskaltrust Produkten als Händler:
 
-- Registrierung im Produktiv-Portal
-- Aktivierte Rolle inkl. unterzeichnetem Kooperationsvertrag als Kassenhändler ("PosDealer")
-- Genehmigtes Kreditlimit für den geplanten Einkauf
-- Optional: Rahmenvertrag für Mengenrabatte (empfohlen ab einem geplanten Einkauf von über 10 Sorglos-Paketen)
+[Voraussetzungen]( [voraussetzungen-einkauf.md](../02-pre-sales/voraussetzungen-einkauf.md) )
+
+###### Option B - Bezug im Rahmen einer Rahmenvereinbarung
+
+Ist der Bezug von mehr als 10 Produktbundles geplant, empfiehlt fiskaltrust den Abschluss einer Rahmenvereinbarung, um die Vorteile von Mengenrabatten nutzen zu können.
+
+[Anschluss einer Rahmenvereinbarung]( [01-purchase-agreement.md](../02-pre-sales/01-purchase-agreement.md) )
+
+###### Zahlungskonditionen
+
+in Bearbeitung
+
+###### Kaufabschluss - Entitlements
 
 Nach dem Kauf dieses Produktes stehen im Shop im Bereich "Entitlements" folgende Entitlements ("Ansprüche") zur Verfügung:
 
@@ -79,8 +94,10 @@ Die Entscheidung zwischen Hardware- und Cloud TSE kann also relativ spät im Pro
 
 #### 3.a Templates
 
-vorkonfigurierte Templates, Verweis auf Bulk-Rollout Optionen
+vorkonfigurierte Templates, Verweis auf Bulk-Rollout Optionen (in Bearbeitung)
 
 ### 4. After-sales support
+
+Verfügbare Troubleshooting-Guidleines für das fiskaltrust.Sorglos mit TSE Bundle:
 
  [troubleshooting-tse-as-a-service.md](../04-after-sales/troubleshooting-tse-as-a-service.md) 
