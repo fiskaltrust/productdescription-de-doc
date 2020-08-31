@@ -62,13 +62,13 @@ Preisliste inklusive Mengenrabatte:
 
 Wird das Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Unter folgendem Link finden Sie die Voraussetzungen für den Bezug von fiskaltrust Produkten als Händler:
 
-[Voraussetzungen]( [voraussetzungen-einkauf.md](../02-pre-sales/voraussetzungen-einkauf.md) )
+[Voraussetzungen](../02-pre-sales/voraussetzungen-einkauf.md)
 
 ###### Option B - Bezug im Rahmen einer Rahmenvereinbarung
 
 Ist der Bezug von mehr als 10 Produktbundles geplant, empfiehlt fiskaltrust den Abschluss einer Rahmenvereinbarung, um die Vorteile von Mengenrabatten nutzen zu können.
 
-[Anschluss einer Rahmenvereinbarung]( [01-purchase-agreement.md](../02-pre-sales/01-purchase-agreement.md) )
+[Anschluss einer Rahmenvereinbarung](../02-pre-sales/01-purchase-agreement.md)
 
 ###### Zahlungskonditionen
 
@@ -76,7 +76,7 @@ in Bearbeitung
 
 ###### Kaufabschluss - Entitlements
 
-Nach dem Kauf dieses Produktes stehen im Shop im Bereich "Entitlements" folgende Entitlements ("Ansprüche") zur Verfügung:
+Nach dem Kauf dieses Produktes stehen im Shop im Bereich "Entitlements" folgende [Entitlements ("Ansprüche")](../02-pre-sales/entitlements.md) zur Verfügung:
 
 - DE_FISKALTRUST_CAREFREE
 - DE_FISKALTRUST_CAREFREE_TSE

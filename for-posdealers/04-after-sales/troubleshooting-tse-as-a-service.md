@@ -1,6 +1,6 @@
 # Troubleshooting TSE-as-a-Service
 
-Bei einer Verlängerung der Subscription, oder falls die auf der Hardware TSE zur Verfügung stehenden Signaturen aufgebraucht wurden, erfolgt keine automatische Lieferung einer neuen Hardware TSE. 
+Bei einer Verlängerung der Subscription, oder falls die auf der Hardware TSE zur Verfügung stehenden Signaturen aufgebraucht wurden, erfolgt derzeit keine automatische Lieferung einer neuen Hardware TSE. 
 
 Die zur Verfügung gestellte Hardware TSE bleibt im Eigentum der fiskaltrust Germany GmbH und ist bei Tausch bzw. Ersatz sowie bei Vertragsende zu retournieren.
 
@@ -10,6 +10,6 @@ Um einen Anspruch auf einen Tausch der Hardware TSE für ein fiskaltrust.Sorglos
 
 ## Weiterführende Informationen
 
-[Fair Use Policy]( [market-de-fair-use-policy.md](../../for-posoperators/market-de-fair-use-policy.md) )
+[Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md)
 
-[Feature Dokumentation]( [TSE-as-a-service.md](../../product-service-description/compliance-as-a-service/features/TSE-as-a-service.md) )
+[Feature Dokumentation](../../product-service-description/compliance-as-a-service/features/TSE-as-a-service.md)
