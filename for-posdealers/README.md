@@ -30,7 +30,7 @@ Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgend
 
 Der Einkaufs- & Pre-Sales-Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust und endet mit dem Einkauf der Händlereinkaufsprodukte. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen, sowie die Schritte für den Abschluss von Rahmenverträgen für Mengenrabatte.
 
-- [Produkte & Produkt-Bundles]( [README.md](01-produkte/README.md) )
+- [Produkte & Produkt-Bundles](01-produkte/README.md)
 
 - [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
 - [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)

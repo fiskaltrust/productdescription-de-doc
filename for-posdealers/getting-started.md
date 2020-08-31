@@ -40,7 +40,7 @@ fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einze
 
 ### Vertiefende Informationen
 
-[Benefits für Kassenhändler]( [benefits-for-posdealers.md](02-pre-sales/benefits-for-posdealers.md) )
+[Benefits für Kassenhändler](02-pre-sales/benefits-for-posdealers.md)
 
 ## Vertriebsmodell und Rollen
 
