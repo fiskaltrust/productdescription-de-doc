@@ -70,7 +70,7 @@ Datenerfassungsgerät welches elektronische Aufzeichnungen an die mit ihr verbun
 
 ### Kassenseriennummer
 
-in Bearbeitung
+Die Kassenseriennummer ist eine Information, die auf den Beleg geprintet werden muss. Dazu wird von fiskaltrust die CashboxIdentification verwendet, Base64 encodiert, Sonderzeichen entfernt  und von der fiskaltrust.Middleware im Signatureblock in der Response (ftSignatureTypes) zurückgeliefert. Die CashboxIdentifikation selbst ist die frei wählbare Bezeichnung für eine Queue. Sie wird auch von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. 
 
 ### Verwendung der oben beschriebenen Begriffe im Kontext von fiskaltrust
 
