@@ -55,7 +55,7 @@ Produktinformationen für den Bezug des "fiskaltrust.Sorglos mit TSE" Produkt-Bu
 
 ###### Option A - Bezug für weniger als 10 Standorte
 
-Wird das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Bitte beachten Sie hierbei unsere [Voraussetzungen für den Bezug von fiskaltrust Produkten als Kassenhändler]((../02-pre-sales/voraussetzungen-einkauf.md)).
+Wird das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Bitte beachten Sie hierbei unsere [Voraussetzungen für den Bezug von fiskaltrust Produkten als Kassenhändler](../02-pre-sales/voraussetzungen-einkauf.md).
 
 ###### Option B - Bezug im Rahmen einer Rahmenvereinbarung
 
