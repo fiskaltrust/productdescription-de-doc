@@ -10,7 +10,7 @@ D-10117 Berlin<br />
 
 Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service enthalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
 
-Dabei sind zur fairen Nutzung folgende Dinge zu beachten:
+Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
 
 ### Verwendung der TSE an einem Standort
 
@@ -45,8 +45,8 @@ In einer fiskaltrust.Sorglos mit Hardware TSE-Subscription wird bei erstmaliger 
 In folgenden Fällen verfällt der Anspruch auf den Tausch der Hardware TSE:
 
 - Wenn innerhalb eines Subscription Zyklusses kein Tausch der Hardware TSE in Anspruch genommen wurde, wird der Anspruch nicht mit dem darauffolgenden Zyklus aufsummiert, sondern verfällt. 
-- Bei einer Überschreitung der maximal nutzbaren Signaturen der TSE pro Monat (s.o.) verfällt der Anspruch auf einen kostenlose Tausch der Hardware TSE im betroffenen Subscription Zyklus.
-- Bei einem gekündigten Vertrag mit dem vertraglichen Ende der Leistung.
+- Bei einer nicht Einhaltung der oben beschriebenen Regel zur maximalen Anzahl der zugelassenen Signaturen pro Kalendermonat, d.h. bei Überschreitung, verfällt der Anspruch auf einen kostenlosen Tausch der Hardware TSE im betroffenen Subscription-Zyklus.
+- Bei einem gekündigten Vertrag verfällt der Anspruch mit dem vertraglichen Ende der Leistung.
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
@@ -68,3 +68,4 @@ Bei Fragen, Anregungen und Bewschwerden im Zusammenhang mit dieser Fair Use Poli
 
 
 [PDF Download der Fair Use Policy](media/market-de-fair-use-policy.pdf)
+

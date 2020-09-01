@@ -2,9 +2,9 @@
 
 ## Inhalt des Dokumentes
 
-Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Die einzelnen Schritte werden oberflächlich beschrieben und verweisen auf Dokumente, welche detailliertere Informationen dazu enthalten.
+Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Die einzelnen Schritte werden heir oberflächlich beschrieben, verweisen aber auf Dokumente, welche detailliertere Informationen dazu enthalten.
 
-## Ziel des Dokumentes
+## Ziel dieser Anleitung
 
 Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue Kassenhändler erhalten ein Grundverständnis über die Produkte sowie die für den Vertrieb notwendigen Prozesse, und können im Anschluß weitgehend ohne fremde Hilfe Produkte von fiskaltrust vertreiben.
 
@@ -26,7 +26,7 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 
 ## Über fiskaltrust
 
-Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein. Aus Sicht eines Kassenbetreibers ist fiskaltrust daher ein All-in-One-Lösungsanbieter für Fiskalisierung. Das bedeutet, dass ein Kassenbetreiber, der Kunde eines fiskaltrust.Sorglos mit TSE Produktbundle ist, sich jetzt und in Zukunft keine Gedanken mehr zum Thema Fiskalisierung machen muss.
+Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Diese Produkte werden von Kassenhersteller und Kassenhändler als Teil Ihrer eigenen Lösungen beim Kassenbetreiber eingesetzt. Aus Sicht eines Kassenbetreibers ist fiskaltrust daher ein All-in-One-Lösungsanbieter für Fiskalisierung. Das bedeutet, dass ein Kassenbetreiber, der Nutzer eines fiskaltrust.Sorglos mit TSE Produkt-Bundle ist, sich für die Dauer der Subscription keine Gedanken mehr über das Thema Fiskalisierung machen muss.
 
 ### Vertiefende Informationen
 
@@ -36,7 +36,7 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und
 
 ## Vorteile für Kassenhändler
 
-fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen und All-In-One-Produkt-Bundles im Bereich Fiskalisierung an. Durch Mengenrabatte und Rahmenverträge wird für Kassenhändler ein attraktives Kooperationsmodell geboten. Werkzeuge zur Einladung & Verwaltung von Kunden, Konfigurationen von Kassen und automatisierte Rollout-Lösungen erleichtern Kassenhändlern die Integration und Wartung.
+fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen (TSE) und  "Sorglos" Produkt-Bundles im Bereich Fiskalisierung an. Durch Mengenrabatte und Rahmenverträge wird für Kassenhändler ein attraktives Kooperationsmodell angeboten. Werkzeuge zur Einladung & Verwaltung von Kunden, Konfigurationen von Kassen und automatisierte Rollout-Lösungen erleichtern Kassenhändlern die Integration und Wartung der Produkte.
 
 ### Vertiefende Informationen
 
@@ -46,7 +46,7 @@ fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einze
 
 fiskaltrust vertreibt seine Produkte und Produkt-Bundles über Kassenhändler. 
 
-Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales und erhält dadurch sogenannte Entitlements ("Ansprüche"). Nach dem Weiterverkauf der Produkte an seine Kunden (Kassenbetreiber) über sein eigenes System, kann der Kassenhändler seine zuvor erhaltenen Ansprüche im Portal einlösen und seinen Kunden die entsprechenden Produkte zuweisen. Um mit den dafür notwendigen Rechten in der Verwaltung des Portales ausgestattet zu sein, ist die korrekte Aktivierung der Rollen von Kassenhersteller, Kassenhändler und Kassenbetreiber wichtig.
+Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales und erhält dadurch sogenannte Entitlements ("Ansprüche"). Nach dem Weiterverkauf der Produkte an seine Kunden (Kassenbetreiber) als Teil seiner eigenen Lösung über sein eigenes Verkaufssystem, kann der Kassenhändler die zuvor erhaltenen Ansprüche im Portal einlösen und seinen Kunden die entsprechenden Produkte zuweisen. Um mit den dafür notwendigen Rechten in der Verwaltung des Portales ausgestattet zu sein, ist die korrekte Aktivierung der Rollen von Kassenhersteller, Kassenhändler und Kassenbetreiber wichtig.
 
 ### Vertiefende Informationen
 
@@ -60,13 +60,13 @@ Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales 
 
 ## Das Produktangebot von fiskaltrust
 
-Das Basis-Produkt von fiskaltrust ist die Middleware, eine Software welche bereits die gesetzlichen Grund-Anforderungen der Fiskalisierung erfüllt. Die Middleware ist kostenlos und wurde bereits vom Kassenhersteller integriert. Aufgrund der gesetzlichen Anforderungen muss die Middleware lokal auf der Kasse beim Kassenbetreiber betrieben werden. Über diese Middleware können lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie Daten der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.
+Das Basis-Produkt von fiskaltrust ist die fiskaltrust.Middleware, eine Software welche die gesetzlichen Grund-Anforderungen der Fiskalisierung erfüllt. Die fiskaltrust.Middleware ist kostenlos und wurde bereits vom Kassenhersteller integriert. Aufgrund der gesetzlichen Anforderungen muss die fiskaltrust.Middleware lokal auf der Kasse beim Kassenbetreiber betrieben werden. Über diese Middleware können lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie Daten der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.
 
-Basierend auf die Middleware bietet fiskaltrust kostenpflichtige Addon-Produkte an, wie z.B. das POS-Archiv für die gesetzlich geforderte revisionssichere Aufbewahrung der Kassenbelege, oder automatisierte Finanzamtmeldungen. Zusätzlich vertreibt fiskaltrust Technische Sicherheitseinrichtungen (TSE). 
+Basierend auf die Middleware bietet fiskaltrust kostenpflichtige Addon-Produkte an, wie z.B. das POS-Archiv für die gesetzlich geforderte revisionssichere Aufbewahrung der Kassenbelege, oder z.B. eine Lösung für automatisierte Finanzamtmeldungen. Zusätzlich vertreibt fiskaltrust Technische Sicherheitseinrichtungen (TSE). 
 
-Unabhängig von einer in der Kasse integrierten Middleware und Kassenherstellern bietet fiskaltrust das Audicon Kassenarchiv Online als Einzelprodukt an. Dieses Archiv bietet die revisionssichere Speicherung der exportierten Kassendaten (Tagesabschlüsse) im DSFinV-K Format sowie blob-Daten, für z.B. Verfahrensdokumentation, an.
+Unabhängig von der in der Kassesoftware integrierten fislatrust.Middleware, bietet fiskaltrust das Audicon Kassenarchiv Online als gesondertes Einzelprodukt an. Diese Archivierungslösung bietet die revisionssichere Speicherung von exportierten Kassendaten (Tagesabschlüsse) im DSFinV-K Format sowie die Archivierung weiterer, für eine mögliche Finanzamt-Prüfung wichtige Dokumente, wie z.B. alle Versionen der Verfahrensdokumentationen und aller relevanten sonstigen Dokumente (z.B. Speisekarten) in beliebigen Formaten.
 
-Werden an einem Standort mehrere Kassen betrieben, bietet fiskaltrust Produkt-Bundles an. Diese Produktbundles enthalten die oben beschriebenen Addons und Einzelprodukte zu einem jährlichen Pauschalbetrag unabhängig von der Anzahl der am Standort betriebenen Kassen an, und enthalten auf Wunsch auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service). 
+Werden an einem Standort mehrere Kassen betrieben, bietet fiskaltrust dafür Produkt-Bundles an. Diese Produkt-Bundles enthalten die oben beschriebenen Addons und Einzelprodukte zu einem jährlichen Pauschalbetrag unabhängig von der Anzahl der am Standort betriebenen Kassen an, und enthalten auf Wunsch auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service). 
 
 ### Vertiefende Informationen
 
@@ -80,7 +80,7 @@ Dazu müssen sie sich am Portal von fiskaltrust registrieren, und im Anschluss d
 
 Damit erhalten Sie die notwendigen Rechte im Portal, um im Webshop des Portals Produkte von fiskaltrust einzukaufen, ihre Kunden einzuladen, zu verwalten, ihnen die entsprechenden Produkte zuzuweisen, zu konfigurieren und auszurollen.
 
-Falls Sie Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschreibung entspricht ([vgl. oben](#vertriebsmodell-und-rollen)), Sie zum Beispiel sowohl als Kassenhersteller als auch Kassenhändler und vielleicht sogar auch als Kassenbetreiber auftreten, so stellen Sie bitte sicher dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
+Falls Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschreibung entspricht ([vgl. oben](#vertriebsmodell-und-rollen)), Sie zum Beispiel sowohl als Kassenhersteller als auch Kassenhändler und vielleicht sogar auch als Kassenbetreiber auftreten, so stellen Sie bitte sicher dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
 
 ### Vertiefende Informationen
 
@@ -88,9 +88,9 @@ Falls Sie Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschre
 
 ## Einkaufsplanung
 
-In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Kunden in welcher Menge benötigt werden. Der Bedarf kann je nach eingesetztem Kassensystem, der Systemarchitektur am Standort des Betreibers und bereits etwaigen vorhandenen Produkten stark variieren. Abhängig vom ermittelten Bedarf empfehlen wir den Abschluss von Rahmenverträgen, um sich bessere Einkaufskonditionen zu sichern und mehr Flexibilität im Rollout zu erhalten.
+In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Ihrer Kunden (Kassenbetreiber) in welcher Menge benötigt werden. Der Bedarf kann je nach eingesetztem Kassensystem, der Systemarchitektur am Standort des Betreibers und bereits etwaigen vorhandenen Produkten stark variieren. Abhängig vom ermittelten Bedarf empfehlen wir den Abschluss eines Rahmenvertrags, damit Sie sich bessere Einkaufskonditionen sichern und mehr Flexibilität im Rollout-Prozess erhalten.
 
-- Informieren und beraten SIe Ihre Kunden bezüglich der Produkte von fiskaltrust
+- Informieren und beraten Sie Ihre Kunden bezüglich der Produkte von fiskaltrust
 - Ermitteln Sie den Bedarf abhängig von Kassensystem und Standortbedingungen
 
 ### Vertiefende Informationen
@@ -103,7 +103,7 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Kund
 
 ## Optional: Abschluss eines Rahmenvertrages
 
-Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Bitte kalkulieren Sie eine Durchlaufzeit von 1-2 Wochen bis zum Abschluss des Vertrages in Ihrer Rollout-Planung mit ein. Mit Abschluss eines Rahmenvertrages können Sie die im Rahmenvertrag inkludierten Produkte zum vereinbarten Einkaufspreis im Webshop einkaufen.
+Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Bitte rechnen Sie eine Bearbeitungszeit von 1-2 Wochen bis zum Abschluss des Vertrages in Ihre Rollout-Planung mit ein. Mit Abschluss eines Rahmenvertrages können Sie die inkludierten Produkte zum im Rahmenvertrag vereinbarten Einkaufspreis über den fiskaltrust.Webshop erwerben.
 
 ### Vertiefende Informationen
 

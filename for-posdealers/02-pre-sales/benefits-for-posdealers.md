@@ -1,3 +1,3 @@
-# Benefits für Kassenhersteller
+# Vorteile für Kassenhändler
 
 in Bearbeitung

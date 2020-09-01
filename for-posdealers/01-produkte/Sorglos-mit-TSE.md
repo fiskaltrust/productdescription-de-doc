@@ -2,13 +2,13 @@
 
 ## Produktbeschreibung
 
-Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" enthält das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten, sowie allen Kassen einer Filiale bzw. eines Standortes, und einer TSE-as-a-Service:
+Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt "fiskaltrust.Middleware", die unten gelisteten Zusatzprodukte (Addon-Produkte der fiskaltrust.Middleware und Einzelprodukte), sowie eine TSE-as-a-Service. Dieses Produkt-Bundle wird pro Standort verkauft und ist für den gesamten Standort einsetzbar. D.h. es kann von allen Kassen (Queues) der Filiale bzw. des Standorts genutzt werden.
 
 ### Basis-Produkt
 
 [Lokal installierte Middleware](../../product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md) 
 
-#### Addon-Produkte zur Middleware
+#### Addon-Produkte der fiskaltrust.Middleware
 
 -  [POS Archiv](../../product-service-description/revisionssichere-daten-as-a-service/produkte/pos-archiv.md) 
 -  [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/produkte/Finanzamtmeldung.md) 
@@ -17,25 +17,23 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" enthält das Basis-Produkt fisk
 
 [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/Audicon-Kassenarchiv-Online.md) 
 
-#### Technische Sicherheitseinrichtung
+#### Technische Sicherheitseinrichtung (TSE)
 
--  [TSE-as-a-Service](../../product-service-description/compliance-as-a-service/features/TSE-as-a-service.md) - enthält eine Hardware- oder eine Cloud TSE pro Filiale. 
+-  [TSE-as-a-Service](../../product-service-description/compliance-as-a-service/features/TSE-as-a-service.md) - enthält eine Hardware- oder eine Cloud TSE pro Filiale/Standort. 
 
-**Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie die [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md).
+**Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie auch unsere [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md).
 
 ## How-to-Guide: Einkauf & Weiterverkauf
 
-Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des fiskaltrust.Sorglos mit TSE-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
+Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des "fiskaltrust.Sorglos mit TSE" Produkt-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
 
 ### 1. Einkauf & Pre-Sales
 
 #### 1.a Systemintegration/Planung
 
-Das fiskaltrust.Sorglos Paket gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert. Der nachfolgende link soll Sie bei der Bedarfsanalyse und Rollout-Planung unterstützen:
+Das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert. Um Sie bei der Bedarfsananlyse und Rollout-Planung zu unterstützen haben wir die Dokumentation möglicher [Rollout-Szenarien](../02-pre-sales/rollout-scenarios.md) vorgenommen. In dieser Dokumentation können sie zum Beispiel erfahren, welche Optionen Ihnen zur Verfügung stehen um mehrere Queues mit einer TSE zu betreiben.
 
-[Zur Verfügung stehende Optionen um mehrere Queues mit einer TSE zu konfigurieren.](../02-pre-sales/rollout-scenarios.md)
-
-Sollten Sie aus Performancegründen oder zur Einhaltung der [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md) mehrere TSE benötigen, so müssen diese für den betroffenen Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden.
+Sollten Sie aus Performancegründen oder zur Einhaltung unserer [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md) mehrere TSEs benötigen, so können Sie diese für den betreffenden Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) erwerben.
 
 #### 1.b Marketing-Materialien
 
@@ -46,7 +44,7 @@ Sollten Sie aus Performancegründen oder zur Einhaltung der [Fair Use Policy](..
 
 ##### Preise
 
-Produktinformationen für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als Händler:
+Produktinformationen für den Bezug des "fiskaltrust.Sorglos mit TSE" Produkt-Bundles als Kassenhändler:
 
 | **Händlereinkaufsprodukt Artikelnummer** | 4445-021050                                                  |
 | ---------------------------------------- | ------------------------------------------------------------ |
@@ -57,15 +55,11 @@ Produktinformationen für den Bezug des fiskaltrust.Sorglos mit TSE Bundles als 
 
 ###### Option A - Bezug für weniger als 10 Standorte
 
-Wird das Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Unter folgendem Link finden Sie die Voraussetzungen für den Bezug von fiskaltrust Produkten als Händler:
-
-[Voraussetzungen](../02-pre-sales/voraussetzungen-einkauf.md)
+Wird das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Bitte beachten Sie hierbei unsere [Voraussetzungen für den Bezug von fiskaltrust Produkten als Kassenhändler]((../02-pre-sales/voraussetzungen-einkauf.md)).
 
 ###### Option B - Bezug im Rahmen einer Rahmenvereinbarung
 
-Ist der Bezug von mehr als 10 Produktbundles geplant, empfiehlt fiskaltrust den Abschluss einer Rahmenvereinbarung, um die Vorteile von Mengenrabatten nutzen zu können.
-
-[Anschluss einer Rahmenvereinbarung](../02-pre-sales/01-purchase-agreement.md)
+Ist der Bezug von mehr als 10 "fiskaltrust.Sorglos mit TSE" Produkt-Bundles geplant, empfiehlt fiskaltrust den [Abschluss einer Rahmenvereinbarung](../02-pre-sales/01-purchase-agreement.md) um die Vorteile von Mengenrabatten nutzen zu können.
 
 ###### Zahlungskonditionen
 
@@ -73,28 +67,28 @@ in Bearbeitung
 
 ###### Kaufabschluss - Entitlements
 
-Nach dem Kauf dieses Produktes stehen im Shop im Bereich "Entitlements" folgende [Entitlements ("Ansprüche")](../02-pre-sales/entitlements.md) zur Verfügung:
+Nach dem Kauf dieses Produkt-Bundles stehen im Shop im Bereich "Entitlements" folgende [Ansprüche ("Entitlements")](../02-pre-sales/entitlements.md) zur Verfügung:
 
 - DE_FISKALTRUST_CAREFREE
 - DE_FISKALTRUST_CAREFREE_TSE
 
 ### 2. Sales & Rollout
 
-#### 2.a Einlösen von Ansprüchen
+#### 2.a Einlösen von Entitlements
 
-Die wie oben beschrieben erworbenen Ansprüche können später (üblicherweise im Rahmen eines Rollouts für einen Kassenbetreiber) im Webshop eingelöst werden, um im Namen des Kunden an einem ausgewählten Standort wahlweise eine der beiden Subscription Bundles einzulösen:
+Nach dem Erwerb können die wie oben gelisteten Entitlements zu einem späteren Zeitpunkt, üblicherweise im Rahmen eines Rollouts für einen Kassenbetreiber, im Webshop eingelöst werden, um im Namen des Kassenbetreiber, an einem ausgewählten Standort, wahlweise eins der folgenden beiden "Subscription Bundles" einzulösen:
 
 - 4445+030050 fiskaltrust.Sorglos Hardware-TSE Subscription pro Standort
 - 4445+030060 fiskaltrust.Sorglos Cloud-TSE Subscription pro Standort
 
-Die Entscheidung zwischen Hardware- und Cloud TSE kann also relativ spät im Prozess getroffen werden um eine möglichste große Flexibilität des Händlers im Rahmen des Rollouts zu ermöglichen.
+Die Entscheidung ob eine Hardware- und Cloud TSE eingesetzt werden soll, kann also relativ spät im Prozess getroffen werden. Dies ermöglicht für Sie als Kassenhändler ein hohes Maß an Flexibilität Rahmen des Rollouts.
 
 #### 3.a Templates
 
-vorkonfigurierte Templates, Verweis auf Bulk-Rollout Optionen (in Bearbeitung)
+Vorkonfigurierte Templates, Verweis auf Bulk-Rollout Optionen (in Bearbeitung)
 
 ### 4. After-sales support
 
-Verfügbare Troubleshooting-Guidleines für das fiskaltrust.Sorglos mit TSE Bundle:
+Verfügbare Troubleshooting-Guidleines für das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle:
 
  [troubleshooting-tse-as-a-service.md](../04-after-sales/troubleshooting-tse-as-a-service.md) 
