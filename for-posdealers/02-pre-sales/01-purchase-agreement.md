@@ -12,7 +12,7 @@ Einen fiskaltrust Rahmenvertrag für Kassenhändler empfehlen wir, wenn Sie als 
 
 - [Unterzeichnete Kooperationsvereinbarung als Kassenhändler](voraussetzungen-einkauf.md)
 - **Abgeschlossene Einkaufsplanung**
-  - [Produkte und Produkt-Bundles](..\01-produkte\README.md)
+  - [Produkte und Produkt-Bundles](../01-produkte/README.md)
   - [Rollout-Planung](rollout-scenarios.md) 
 
 ## Kontakt
