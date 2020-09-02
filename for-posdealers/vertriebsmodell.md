@@ -1,35 +1,17 @@
 # Vertriebsmodell für Kassenhändler
 
-fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von compliance-as-a-service Produkten für Kassenhersteller und Kassenhändler innerhalb Europas konzentriert.
+fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von Ciskaltrust bietet [Compliance-as-a-Service](../product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/README.md) Produkten für Kassenbetreiber innerhalb Europas konzentriert. Das fiskaltrust Basisprodukt, die fsikaltrust.Middleware, wird von Kassenherstellern direkt als Bestandteil Ihrer Kassensoftware integriert.
 
-Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen Kassenbetreibers berücksichtigt und erfüllt.
+Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen seiner Kunden (Kassenbetreiber) berücksichtigt und erfüllt.
 
 ![distributsionsmodell](media/distributsionsmodell.png)
 
+Der Kassenbetreiber bleibt in diesem Modell der Kunde des Kassenhändlers.
 
+Die Preisgestaltung der fiskaltrust Produkte ermöglicht den Kassenhändlern, die Produkte in ihr eigenes Produktportfolio zu integrieren.
 
-Zur Unterstützung des Vertriebes stellt fiskaltrust für Kassenhändler folgende Sammlung aus Unterlagen, Informationen, Vorlagen und Dokumentationen zur Verfügung:
+fiskaltrust übernimmt den Support der Kassenhändler, und Kassenhändler übernehmen der Support ihrer Kunden.
 
-## Pre-Sales Bereich
+## Weiterführende Informationen
 
-Der Pre-Sales Bereich unterstützt Händler vom ersten Berührungspunkt mit fiskaltrust. Er enthält alle Informationen, Materialien und Guidelines um es dem Händler zu ermöglichen, seine Kunden zu beraten und die Produkte von fiskaltrust weiterzuverkaufen.
-
-- [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
-- Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
-- [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
-
-## Sales & Rollout Bereich
-
-Der Sales-Bereich beinhaltet Unterstützung im Verkaufs- und Rollout-Prozess, angefangen vom Einkauf der Händler-Packages bis zu Wiederverkäufen. Sie finden weiters Informationen zu (Massen-)Einladungen für Kassenbetreiber, zu  Konfigurations- und Rollout-Management und auch zur Inbetriebnahme der fiskaltrust.Middleware.
-
-- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
-- Templates & Corporate Branding
-- Dokumentationen zur Einladung & Verwaltung der Kunden über das fiskaltrust.Portal
-
-## After-Sales Bereich
-
-Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen bei Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
-
-- TSE Verwaltung
-- Vertragsmanagement
-- Hilfestellung für Kundensupport
+[Entitlements - Geschäftsmodell für Kassenhändler](02-pre-sales/entitlements.md)

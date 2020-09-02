@@ -1,6 +1,6 @@
 # Audicon Kassenarchiv Online (AKO) (in Entwicklung)
 
-**Produktnummer:** 4445-10020
+**Produktnummer:** 4445-040020
 
 Das AKO ist grundsätzlich unabhängig von der Fiskaltrust-Middleware. Die Daten werden durch manuelles Hochladen oder API-basiertes Hochladen von strukturierten Tagesabschluss-Daten oder anderen Blob-Daten, wie zum Beispiel Verfahrensdokumentation, erfasst. Alle ursprünglich hochgeladenen Daten werden mithilfe eines unveränderlichen Speichers im Backend, entsprechend den steuerlichen Bestimmungen in deutschen Rechenzentren, über einen Zeitraum von 12 Jahren im Original beibehalten.
 
