@@ -28,7 +28,7 @@
                 "init_ftQueueDE": [
                     {
                         "ftQueueDEId": "|[queue0_id]|",
-                        "CashBoxIdentification": "|[tcpos_shopcode]|-|[tcpos_tillcode]|",
+                        "CashBoxIdentification": "|[my_shopcode]|-|[my_tillcode]|",
                         "ftSignaturCreationUnitDEId": "|[scu0_id]|"
                     }
                 ],
