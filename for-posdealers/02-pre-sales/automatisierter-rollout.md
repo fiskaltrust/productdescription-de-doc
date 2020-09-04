@@ -2,6 +2,8 @@
 
 Dieses Dokument soll Kassenhändler beim Rollout-Prozess unterstützen indem es Möglichkeiten der Vereinfachung und Optimierung des Rollout durch Automatisierung aufzeigt. 
 
+
+
 ## Einleitung
 
 Jede fiskaltrust.Middelware Instanz wird mit einer sogenannten Cashbox konfiguriert. Dieser Konfigurationscontainer wird zusammen mit der fiskaltrust.Middleware beim Kassenbetreiber ausgerollt. Dazu wird zum Beispiel der Launcher aus dem Portal heruntergeladen und in der Kasse gestartet. Der Launcher beinhaltet die fiskaltrust.Middleware und deren Konfiguration in Form einer Cashbox. Die Cashbox beinhaltet hauptsächlich die Konfigurationen der Queue und der SCU kann aber auch Helperkonfigurationen beinhalten. 
@@ -105,7 +107,7 @@ Ein `PackageConfiguration` Objekt ist wie folgt aufgebaut:
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
-| `Id` |ja |  ```GUID String```  | Identifiziert die Instanz des Elements, das hier konfiguriert wird (SCU, Queue oder Helper). Für die Queue kann die Systemvariable `queue[0...n]_id` verwendet werden. Für die SCU kann hier die Systemvariable `scu[0...n]_id` zum Einsatz kommen. Für Helper  `helper[0...n]_id`. |
+| `Id` |ja |  ```GUID String```  | Identifiziert die Instanz des Elements, das hier konfiguriert wird (SCU, Queue oder Helper). Für die Queue kann die Systemvariable `queue{0-9}_id` verwendet werden. Für die SCU kann hier die Systemvariable `scu{0-9}_id` zum Einsatz kommen. Für Helper  `helper{0-9}_id`. |
 | `Package` |ja | ```String``` | Name des Package das zum Erstellen des Elements verwendet werden soll. Z.b. `fiskaltrust.Middleware.SCU.DE.CryptoVision` für eine SCU, die mit einer Cyptovision-TSE kommunizieren soll. Aktuell unterstützte Packages finden sie weiter unten. |
 | `Version` |nein |  ```String```| Version des Package das zum Erstellen des Elements verwendet werden soll. Wenn keine Version angegeben wird, so wird die neueste Version verwendet.|
 | `Configuration` |nein | `<String, Object>`| Konfigurationsparameter des Elements. Z.B. Laufwerkbuchstabe der TSE bei der Cryptovision SCU, damit der SCU bekannt ist wie sie auf die TSE zugreifen soll. Je nach Element-Typ zu befüllen. Siehe unten. |
@@ -145,7 +147,7 @@ Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue 
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
-| `ftQueueId` |ja |  ```GUID String``` | Identifikation der Queue. Die Systemvariable `queue[0...n]_id` kann verwendet werden.|
+| `ftQueueId` |ja |  ```GUID String``` | Identifikation der Queue. Die Systemvariable `queue{0-9}_id` kann verwendet werden.|
 | `ftCashBoxId` |ja |  ```GUID String``` | Identifikation  der Cashbox. Die Systemvariable ```|[cashbox_id]|```  kann hier verwendet werden.|
 | `CountryCode` |ja |  ```String``` | Länderkürzel. Für Deutschland: "DE".|
 | `Timeout` |nein |  ```Int``` | Timeout in Millisekunden. |
@@ -154,14 +156,14 @@ Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue 
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
-| `ftQueueDEId` |ja |  ```GUID String``` | Identifikation der Queue. Die Systemvariable `queue[0...n]_id` kann verwendet werden. (Hier muss der gleiche Wert wie bei `ftQueueId` verwendet werden.) |
+| `ftQueueDEId` |ja |  ```GUID String``` | Identifikation der Queue. Die Systemvariable `queue{0-9}_id` kann verwendet werden. (Hier muss der gleiche Wert wie bei `ftQueueId` verwendet werden.) |
 | `CashBoxIdentification` |ja |  ```printable String (20)``` | Kassenseriennummer. Wird auch als Client-ID für die TSE verwendet. Printable String, max. 20 Zeichen.|
 | `ftSignaturCreationUnitDEId` |ja |  ```GUID String```  | Die ID der SCU mit der sich diese Queue verbinden soll.|
 
 Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue im Feld `init_ftSignaturCreationUnitDE`  verwendet:
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
-| `ftSignaturCreationUnitDEId` |ja |  ```GUID String``` | Identifikation der SCU mit der sich diese Queue verbinden soll. Die Systemvariable `scu[0...n]_id` kann verwendet werden. |
+| `ftSignaturCreationUnitDEId` |ja |  ```GUID String``` | Identifikation der SCU mit der sich diese Queue verbinden soll. Die Systemvariable `scu{0-9}_id` kann verwendet werden. |
 | `Url` |ja |  ```String``` | Kommunikationsendpunkte der SCU. Als Array im String Bsp: ```"[\"grpc://localhost:10081\", \"grpc://localhost:10082\"]"```. Normalerweise wird nur ein Endpunkt benötigt. |
 
 **SCU**
@@ -220,6 +222,31 @@ Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer SCU je
 | `apiSecret` |ja |  ```String``` | Fiskaly API Secret |
 | `tssId` |ja |  ```GUID String``` | ID der TSE von Fiskaly |
 
+### Systemvariablen
+
+Folgende Systemvariablen stehen Ihnen zur Verwendung im Template zur Verfügung:
+
+| Variable                                  | Wert                                                         |
+| ----------------------------------------- | ------------------------------------------------------------ |
+| `outlet_number`                           | `{max(outlets used in account's existing cashboxes) + 1}`    |
+| `description`                             | `ft{yyyyMMddHHmmss}`                                         |
+| `cashbox_description`                     | `ft{yyyyMMddHHmmss}`                                         |
+| `cashbox_id`                              | Random GUID                                                  |
+| `cashbox_ipaddress`                       | Empty string                                                 |
+| `scu{0-9}_id`                             | Random GUID                                                  |
+| `scu{0-9}_description`                    | `{description}`                                              |
+| `scu{0-9}_url`                            | `net.pipe://localhost/{scu_id}`                              |
+| `helper{0-9}_id`                          | Random GUID                                                  |
+| `helper{0-9}_description`                 | `{description}`                                              |
+| `helper{0-9}_url`                         | `net.pipe://localhost/{helper_id}`                           |
+| `queue{0-9}_id`                           | Random GUID                                                  |
+| `queue{0-9}_id_base64withoutspecialchars` | `{queue_id}`, converted to Base64 without special characters |
+| `queue{0-9}_description`                  | `{description}`                                              |
+| `queue{0-9}_url`                          | `http://localhost:1200/fiskaltrust` for the first queue, `http://localhost:1200/fiskaltrust{1-9}` for others |
+
+_Dynamische Werte werden in dieser Tabelle durch {} hervorgehoben._
+
+
 
 ### Zur Verfügung stellen des Konfigurations-Template über das Portal
 
@@ -260,9 +287,49 @@ Unter bestimmten Umständen kann der Kassenhändler selbst für den Kassenbetrei
 
 
 
-## Nutzung von API oder PowerShell zum Ausführen der Templates
+## Nutzung von API oder PowerShell zum automatisierten Ausführen der Templates
 
+
+
+fiskaltrust stelle eine HTTP-API zur Verfügung mit der Sie die Automatisierung der Cashboxgenerierung mit Hilfe von Konfigurations-Templates vornehmen können. Im diesem Kapitel wird die API beschrieben und ein Aufruf am Beispiel PowerShell vorgeführt.
 
 ### API
+Die Ausführung von Templates kann über unsere HTTP-API leicht automatisiert werden. Sie benötigen dazu das Template als JSON String, die AccountId und den AccessToken des Accounts (z.B. des Kassenbetreibers) für den das Template ausgeführt werden soll. AccountId und Accesstoken finden Sie im fiskaltrust.Portal innerhalb des entsprechenden Account (Menüpunkt: [`Firmanname -> Übersicht`](https://portal.fiskaltrust.de/AccountProfile) im unteren Bereich befindet sich die Sektion `API Zugriff`).
+
+![Authetifizierung](media/accesstoken.png)
+
+Ihr Request sollte wie folgt aussehen:
+
+- _Method_: **POST**
+- _Headers_: 
+  - `accountid`: `<your-account-id>`
+  - `accesstoken`: `<your-access-token>`
+- _Body_: JSON template
+- _URLs_: 
+  - Sandbox: `https://helipad-sandbox.fiskaltrust.cloud/api/configuration`
+  - Production: `https://helipad.fiskaltrust.cloud/api/configuration`
+
+#### Prametrisierung
+
+Zusätzlich können Variablen zum Query-String der URL hinzugefügt werden, die dann automatisch im Template ersetzt werden.  Ändern Sie beispielsweise die obige URL auf den Wert:
+
+`https://helipad.fiskaltrust.cloud/api/configuration?my_variable=123` 
+
+so werden vor dem Ausführen des Template die Vorkomnisse `|[my_variable]|` mit dem String  `123`  ersetzt.
+
+Falls nicht über den Query-String überschrieben, werden [Systemvariablen](#systemvariablen) im Template wie oben beschrieben automatisch vom System ersetzt.
+
+
+
 ### PowerShell
 
+Das folgende Beispiel zeigt wie mit Hilfe der PowerShell der Request an unsere API gesendet werden kann:
+
+```powershell
+$headers = @{ accountid = "your-account-id" ; accesstoken = "your-access-token" }
+$uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration"
+# Read from template.json and escape JSON string
+$template = (Get-Content .\template.json -Raw).Replace('\', '\\').Replace('"', '\"')
+
+Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
+```
