@@ -355,6 +355,14 @@ Das Anlegen der Standorte ist nur über das Portal möglich und kann nicht über
 
 #### Angabe des Outlets im API Aufruf
 
+Über den Parameter `outlet_number` kann im Query-String die Outlet-Nummer angebenen werden für die das Template ausgeführt werden soll:
+
+`https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?outlet_number=12`
+
+### Beispiel automatisiertes Ausführen verschiedener Templates unter Berücksichtigung der Outlets
+
+Powershell:
+
 ```powershell
 $headers = @{ accountid = "163c4ac7-46e1-e911-a838-000d3a289110" ; accesstoken = "BFYqg87qyOp0yfZ8qIA/2PdqkRzUIn+xZQkjZQaHum10XnVHXfBQpdtVUjcIx9xDvM7SQRfk2J9pJAc0mQtzx3I="  }
 
@@ -364,12 +372,33 @@ foreach ($outlet in $outlets)
 {
     $template = (Get-Content .\$($outlet.Template) -Raw).Replace('\', '\\').Replace('"', '\"')
 
-    $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?description=$([uri]::EscapeDataString($outlet.Name))&outlet_number=$([uri]::EscapeDataString($outlet.OutletNumber))&tcpos_shopcode=$($outlet.OutletNumber)&tcpos_tillcode=$($outlet.TillCode)"
+    $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?description=$([uri]::EscapeDataString($outlet.Name))&outlet_number=$([uri]::EscapeDataString($outlet.OutletNumber))&my_shopcode=$($outlet.OutletNumber)&my_tillcode=$($outlet.TillCode)"
 
     Write-Output $uri
     Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
 }
 ```
+Schritt 1: Header definieren (accountId und accesstoken setzen)
+
+Schritt 2: Outlets aus der [`fiskaltrustOutletsWithTemplateFile.csv`](fiskaltrustOutletsWithTemplateFile.csv) Datei einlesen. Diese Datei wird sowohl für das Anlegen der Outlets (Import im Portal) als auch zum Ausführen der Templates verwendet. Nach dem Import im Portal wird sie hier eingelesen. Beispielhafter Inhalt:
+
+`
+LocationId;OutletNumber;Name;Address;ContactName;Telephone;Fax;PostalCode;City;County;StateOrProvince;Country;Template;TillCode
+;15;Outlet 5;street address5;;;;80803;München;;;DE;template1.json;till1
+;16;Outlet 6;street address6;;;;80803;München;;;DE;template2.json;till2
+;17;Outlet 7;street address7;;;;80803;München;;;DE;template1.json;till3
+`
+
+Schritt 3: Iteration über die eingelesenen Zeilen aus der Outlet Datei.
+
+Schritt 4: für jede eingelesene Zeile wird das entsprechende Template eingelesen und vorbereitet. Z.B. für Zeile 1 wird der Inhalt der Datei [`template1.json`](media/template1.json) eingelesen. In Zeile 2 wird für ein anderes Outlet ein anderes Template [`template2.json`](media/template2.json) benötigt.
+
+Schritt 5: für jede eingelesene Zeile wird die Uri für den API Aufruf wird aufgebaut. Hierbei wird die Outlet Nummer als Parameter im Query-String übergeben.
+
+Schritt 6: für jede eingelesene Zeile wird ein Aufruf der HTTP-API mit dem zuvor vorbereiteten Header, Uri und Template abgesetzt.
+
+
 
 ## Automatisierter Rollout der fiskaltrust.Middleware
+
 - TODO: Distribution ohne Download
