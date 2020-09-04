@@ -71,11 +71,11 @@ Im oben dargestellten Screenshot wird für alle Queues mit der `fiskaltrust.Midd
 
 ## Templating zum Anlegen von Cashboxen
 
-Beim Templating besteht die Möglichkeit mit Hilfe eines Konfiguration-Template automatisiert Checkboxen für den Kassenbetreiber anzulegen. Es wird dafür ein Template vorbereitet und für den Kassenbetreiber im Portal hinterlegt. Daraufhin erscheint das Template im fisklatrust.Webshop innerhalb des Accounts des Kassenberteibers als kostenloses Produkt. Es kann dort in beliebiger Menge ausgecheckt werden. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal die entsprechende Anzahl von Cashboxen durch Anwendung des Templates automatisch generiert und im Account des Kassenbetreiber hinterlegt. 
+Beim Templating besteht die Möglichkeit mit Hilfe eines Konfigurations-Template automatisiert Checkboxen für den Kassenbetreiber anzulegen. Es wird dafür ein Template vorbereitet und für den Kassenbetreiber im Portal hinterlegt. Daraufhin erscheint das Template im fisklatrust.Webshop innerhalb des Accounts des Kassenberteibers als kostenloses Produkt. Es kann dort in beliebiger Menge ausgecheckt werden. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal durch Anwendung des Templates die entsprechende Anzahl von Cashboxen automatisch generiert und im Account des Kassenbetreiber hinterlegt. 
 
 Im Folgenden werden die einzelenen Schritte des oben beschriebenen Prozess detailiert dargestellt.
 
-### Erstellung und Inhalte des Konfiguration-Template
+### Erstellung und Inhalte des Konfigurations-Template
 
 Das Template ist ein JSON String der eine parametrisierbare Variante der Cashbox (Konfigurationskontainer als JSON String) darstellt und somit die Konfigurationen von Queues, SCUs und  Helper beinhalten kann. Parametrisierbar ist es insofern, dass hier die Struktur für die zu generierende Cashbox definiert werden kann (z.B. fünf Queues, eine SCU). Zudem können bei den Werten Variablen als Platzhalter eingesetzt werden können. Sobald die Generierung der daraus resultierenden Cashbox stattfindet, werden die Variablen mit konkreten, finalen Werten befüllt.
 
@@ -120,13 +120,13 @@ Folgende Packages stehen aktuell für Queues zur Verfügung:
 | `fiskaltrust.Middleware.Queue.EF` |Entity Framework wird als lokaler Persistenzlayer verwendet. |
 | `fiskaltrust.Middleware.Queue.MySQL` | Eine MySQL Datenbank wird als lokaler Persistenzlayer verwendet. |
 
-Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue verwendet:
+Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue verwendet:
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
-| `init_ftQueue` |ja |  ```Configuration``` | Allgemeiner Teil der Queue Konfiguration.|
-| `init_ftQueueDE` |ja |  ```Configuration``` | Länderspezifischer Teil der Queue Konfiguration.|
-| `init_ftSignaturCreationUnitDE` |nein |  ```Configuration``` | Zum Verknüpfen der Queue mit einer SCU. Hier werden Verbindungswerte hinterlegt.|
+| `init_ftQueue` |ja |  ```Configuration``` | Initialisierungsparameter für die Queue (allgemeiner Teil der Queue Konfiguration).|
+| `init_ftQueueDE` |ja |  ```Configuration``` | Initialisierungsparameter für die Queue (länderspezifischer Teil der Queue Konfiguration).|
+| `init_ftSignaturCreationUnitDE` |nein |  ```Configuration``` | Initialisierungsparameter zum Verknüpfen der Queue mit einer SCU. Hier werden Verbindungswerte hinterlegt.|
 | `connectionstring` |nein |  ```String``` | Verbindungsstring zum Persistenzlayer. Beispiel siehe unten. Bei SQLite kann dieses Feld weggelassen werden wenn keine eigene Datenbak vorhanden ist. In diesem Fall legt fiskaltrust automatisch eine SQLite Datenbank an. |
 
 Beispiel für einen `connectionstring` bei Verwendung von Entity Framework:
@@ -141,7 +141,7 @@ Beispiel für einen `connectionstring` bei Verwendung von SQLite:
 
 `TODO` 
 
-Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue im Feld `init_ftQueue`  verwendet:
+Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue im Feld `init_ftQueue`  verwendet:
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
@@ -150,7 +150,7 @@ Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue im Fel
 | `CountryCode` |ja |  ```String``` | Länderkürzel. Für Deutschland: "DE".|
 | `Timeout` |nein |  ```Int``` | Timeout in Millisekunden. |
 
-Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue im Feld `init_ftQueueDE`  verwendet:
+Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue im Feld `init_ftQueueDE`  verwendet:
 
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
@@ -158,7 +158,7 @@ Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue im Fel
 | `CashBoxIdentification` |ja |  ```printable String (20)``` | Kassenseriennummer. Wird auch als Client-ID für die TSE verwendet. Printable String, max. 20 Zeichen.|
 | `ftSignaturCreationUnitDEId` |ja |  ```GUID String```  | Die ID der SCU mit der sich diese Queue verbinden soll.|
 
-Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer Queue im Feld `init_ftSignaturCreationUnitDE`  verwendet:
+Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer Queue im Feld `init_ftSignaturCreationUnitDE`  verwendet:
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
 | `ftSignaturCreationUnitDEId` |ja |  ```GUID String``` | Identifikation der SCU mit der sich diese Queue verbinden soll. Die Systemvariable `scu[0...n]_id` kann verwendet werden. |
@@ -176,7 +176,7 @@ Folgende Packages stehen aktuell für SCUs zur Verfügung:
 | `fiskaltrust.Middleware.SCU.DE.Fiskaly` | Dieses Package ermöglicht die Kommunikation mit eine Fiskaly TSE.|
 | `fiskaltrust.Middleware.SCU.DE.Swissbit` | Dieses Package ermöglicht die Kommunikation mit eine rSwissbit TSE.|
 
-Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer SCU je nach Hersteller der TSE verwendet:
+Folgende Schlüssel-Wert Paare werden in dem `Configuration` Objekt einer SCU je nach Hersteller der TSE verwendet:
 
 **Swissbit TSE**
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
@@ -221,38 +221,44 @@ Folgende Key-Value Pairs werden in dem `Configuration` Objekt einer SCU je nach 
 | `tssId` |ja |  ```GUID String``` | ID der TSE von Fiskaly |
 
 
-### Zur Verfügung stellen des Konfiguration-Template über das Portal
+### Zur Verfügung stellen des Konfigurations-Template über das Portal
 
-Kassenhersteller und Kassenhändler können Konfiguration-Templates im fiskaltrust Portal ablegen. Dies können sie unter dem Menüpunkt `Konfiguration->Templates`vornehmen. Sobald des Template wie oben beschrieben vorbereitet wurde, kann dort ein neuer Eintrag angelegt werden und der JSON String angegeben werden. 
+Kassenhersteller und Kassenhändler können Konfigurations-Templates im fiskaltrust.Portal ablegen und freigeben. Dies können sie unter dem Menüpunkt `Konfiguration->Templates` vornehmen. 
+
+Das Template selbst (JSON String) wird dabeim im das Formularfeld `Content`  hinterlegt.
 
 Beim Anlegen des Template kann gewählt werden an welche Zielgruppe das Template freigegeben werden soll. 
 
-Optionen für Kassenhersteller:
+Optionen für **Kassenhersteller**:
 
 | **Option**        | **Beschreibung**          |
 |----------------------|----------------------|
 | `Deaktiviert` | Keine Freigabe, Template befindet sich noch in Vorbereitung oder wurde pausiert. |
-| `Privat (nur Besitzer)` | Freigabe nur für dem Kassenhersteller selbst. Zum Beispiel zum Testen. |
-| `Geteilt mit Händler` | Freigabe für den Kassenhersteller selbst und für alle mit ihm verbundenen Händler.|
+| `Privat (nur Besitzer)` | Freigabe nur für dem Kassenhersteller selbst (z.B. zum Testen) |
+| `Geteilt mit Händler` | Freigabe für den Kassenhersteller selbst und für alle mit ihm verbundenen Kassenhändler. |
 | `Getielt mit Betreiber` | Freigabe für den Kassenhersteller selbst und für alle mit seinen Kassenhändler verbundenen Kassenbetreiber.|
 
-Optionen für Kassenhersteller:
+Optionen für **Kassenhändler**:
 
 | **Option**        | **Beschreibung**          |
 |----------------------|----------------------|
 | `Deaktiviert` | Keine Freigabe, Template befindet sich noch in Vorbereitung oder wurde pausiert. |
-| `Privat (nur Besitzer)` | Freigabe nur für dem Kassenhändler selbst. Zum Beispiel zum Testen. |
+| `Privat (nur Besitzer)` | Freigabe nur für dem Kassenhändler selbst (z.B. zum Testen). |
 | `Getielt mit Betreiber` | Freigabe für den Kassenhändler selbst und für alle mit ihm verbundenen Kassenbetreiber.|
 
-Stellt der kassenhersteller ein Template für seine Kassenhändler zur Verfügung so können diese das Template clonen, eventuell anpassen und als neues Template ihren Kassenbetreibern zur Verfügung stellen.
+Des Weiteren kann das Template mit einem Bild personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint wird durch dieses Branding eine besseren Erkennung ermöglicht.
 
-### Manuelles Ausführen der Konfiguration-Template
+Stellt der Kassenhersteller ein Template für seine Kassenhändler zur Verfügung, so können diese das Template clonen, eventuell anpassen und als neues Template ihren Kassenbetreibern zur Verfügung stellen.
 
-Sobald ein Template für einen Account freigeben wurde, so erscheint dieses als kostenloses Produkt innerhalb des fiskaltrust Shop des entsprechenden Account. Der Account Besitzer kann das Template nun in beliebiger Menge auschecken. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal die entsprechende Anzahl von Cashboxen durch Anwendung des Templates automatisch generiert und im Account hinterlegt. 
+### Manuelles Ausführen der Konfigurations-Template
 
-Handelt es sich hierbei um den Account eines Kassenbetreibers so sollte vor der Übernahme des Templates in den Warenkorb auf die Standortauswahl geachtet werden (Auswahl Standort-Dropdown oben links im Shop).
+Sobald ein Template für einen Account freigeben wurde, so erscheint dieses als kostenloses Produkt im fiskaltrust.Webshop innerhalb des freigegebenen Account. Der Account-Besitzer kann das Template nun in beliebiger Menge auschecken. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal durch Anwendung des Templates die entsprechende Anzahl von Cashboxen automatisch generiert und im Account bei den Konfigurationen hinterlegt (Menüpunkt: `Konfiguration->Cashbox`). 
 
-Unter bestimmten Umständen kann der Kassenhändler selbst für den Kassenbetreiber das Auschecken des Template vornehmen. Dies stellt eine zeitsparende Optimierung dar, die es Kassenhändlern ermöglicht beim Rollout ohne das Zutun des Kassenbetreibers zu operieren. Dafür benötig jedoch der Kassenhändler eine generelle Erlaubniss des Kassenbetreibers zur sog. "Surrogating Funktion". Damit kann dann der Kassenhändler in den Account des Kassenbetreiber switchen.
+Handelt es sich hierbei um den Account eines Kassenbetreibers, so sollte vor der Übernahme des Templates in den Warenkorb auf die Standortauswahl geachtet werden (Auswahl: Standort-Dropdown oben links im Shop).
+
+Unter bestimmten Umständen kann der Kassenhändler selbst für den Kassenbetreiber das Auschecken des Template vornehmen. Dies stellt eine zeitsparende Optimierung dar, die es Kassenhändlern ermöglicht beim Rollout ohne das Zutun des Kassenbetreibers zu operieren. Dafür benötig jedoch der Kassenhändler eine generelle Erlaubniss des Kassenbetreibers zur sog. "Surrogating Funktion". Mit dieser Funktion kann der Kassenhändler in den Account des Kassenbetreiber switchen.
+
+
 
 ## Nutzung von API oder PowerShell zum Ausführen der Templates
 
