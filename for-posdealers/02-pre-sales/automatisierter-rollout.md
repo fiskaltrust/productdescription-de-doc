@@ -250,7 +250,7 @@ _Dynamische Werte werden in dieser Tabelle durch {} hervorgehoben._
 
 ### Zur Verfügung stellen des Konfigurations-Template über das Portal
 
-Kassenhersteller und Kassenhändler können Konfigurations-Templates im fiskaltrust.Portal ablegen und freigeben. Dies können sie unter dem Menüpunkt `Konfiguration->Templates` vornehmen. 
+Kassenhersteller, Kassenhändler und Kassebbetreiber können Konfigurations-Templates im fiskaltrust.Portal ablegen und freigeben. Dies können sie unter dem Menüpunkt `Konfiguration->Templates` vornehmen. 
 
 Das Template selbst (JSON String) wird dabei im das Formularfeld `Content`  hinterlegt.
 
@@ -273,18 +273,29 @@ Optionen für **Kassenhändler**:
 | `Privat (nur Besitzer)` | Freigabe nur für dem Kassenhändler selbst (z.B. zum Testen). |
 | `Getielt mit Betreiber` | Freigabe für den Kassenhändler selbst und für alle mit ihm verbundenen Kassenbetreiber.|
 
-Des Weiteren kann das Template mit einem Bild personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint wird durch dieses Branding eine besseren Erkennung ermöglicht.
+Optionen für **Kassenbetreiber**:
+
+| **Option**        | **Beschreibung**          |
+|----------------------|----------------------|
+| `Deaktiviert` | Keine Freigabe, Template befindet sich noch in Vorbereitung oder wurde pausiert. |
+| `Privat (nur Besitzer)` | Freigabe nur für dem Kassenbetreiber selbst. |
+
+Des Weiteren kann das Template mit einem Bild personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint, wird durch dieses Branding eine besseren Erkennung ermöglicht.
 
 Stellt der Kassenhersteller ein Template für seine Kassenhändler zur Verfügung, so können diese das Template klonen, eventuell anpassen und als neues Template ihren Kassenbetreibern zur Verfügung stellen.
+
 
 ### Manuelles Ausführen der Konfigurations-Template
 
 Sobald ein Template für einen Account freigeben wurde, so erscheint dieses als kostenloses Produkt im fiskaltrust.Webshop innerhalb des freigegebenen Account. Der Account-Besitzer kann das Template nun in beliebiger Menge auschecken. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal durch Anwendung des Templates die entsprechende Anzahl von Cashboxen automatisch generiert und im Account bei den Konfigurationen hinterlegt (Menüpunkt: `Konfiguration->Cashbox`). 
 
-Handelt es sich hierbei um den Account eines Kassenbetreibers, so sollte vor der Übernahme des Templates in den Warenkorb auf die Standortauswahl geachtet werden (Auswahl: Standort-Dropdown oben links im Shop).
+Handelt es sich hierbei um den Account eines Kassenbetreibers, besteht die Möglichkeit je nach Outlet unterschiedliche Templates auszuchecken. Deshalb sollte vor der Übernahme des Templates in den Warenkorb auf die Standortauswahl geachtet werden (Auswahl: Standort-Dropdown oben links im Shop).
 
 Unter bestimmten Umständen kann der Kassenhändler selbst für den Kassenbetreiber das Auschecken des Template vornehmen. Dies stellt eine zeitsparende Optimierung dar, die es Kassenhändlern ermöglicht beim Rollout ohne das Zutun des Kassenbetreibers zu operieren. Dafür benötig jedoch der Kassenhändler eine generelle Erlaubnis des Kassenbetreibers zur sog. "Surrogating Funktion". Mit dieser Funktion kann der Kassenhändler in den Account des Kassenbetreiber switchen.
 
+### FAQ: Template nur für einen Kunden
+
+Eine häufig gestellte Frage in diesem Kontext ist, ob ein Template auch nur für einen bestimmten Kunden (Kassenbetreiber) zur Verfügung gestellt werden kann. Um dies zu erreichen, kann der Kassenhändler mit der "Surrogating Funktion" in den Account des Kassenbetreiber wechseln und dort unter das Template anlegen und mit der Freigabestufe `Privat (nur Besitzer)` freigeben. Somit wird dieses Template über den fiskaltrust.Webshop nur im Account dieses Kassenbetreibers sichtbar.
 
 
 ## Nutzung von API oder PowerShell zum automatisierten Ausführen der Templates
@@ -319,8 +330,6 @@ so werden vor dem Ausführen des Template die Vorkommnisse `|[my_variable]|` mit
 
 Falls nicht über den Query-String überschrieben, werden [Systemvariablen](#systemvariablen) im Template wie oben beschrieben automatisch vom System ersetzt.
 
-
-
 ### PowerShell
 
 Das folgende Beispiel zeigt wie mit Hilfe der PowerShell der Request an unsere API gesendet werden kann:
@@ -333,3 +342,34 @@ $template = (Get-Content .\template.json -Raw).Replace('\', '\\').Replace('"', '
 
 Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
 ```
+
+### Handling von Standorten/Outlets
+
+Wie weiter oben bereits erwähnt, kann das auschecken von Templates mit dem Standort des Kassenbetreibers verknüpft werden. In diese Kapitel wird aufgezeigt wie diese Funktion automatisiert über die API vrogenommen werden kann.
+
+#### Anlegen oder Importieren der Outlets im Portal
+
+Standorte (sogenannte Outlets) können manuell über das Portal im Account des Kassenbetreibers angelegt werden. Siehe Menüpunkt `Outlets` . Des Weiteren kann als Optimierungsvariante unter dem selben Menüpunkt mit Hilfe einer csv. Datei eine ganze Liste von Standorten importiert werden. Der Aufbau einer solchen Liste ist im Portal beschrieben.
+
+Das Anlegen der Standorte ist nur über das Portal möglich und kann nicht über die API erfolgen.
+
+#### Angabe des Outlets im API Aufruf
+
+```powershell
+$headers = @{ accountid = "163c4ac7-46e1-e911-a838-000d3a289110" ; accesstoken = "BFYqg87qyOp0yfZ8qIA/2PdqkRzUIn+xZQkjZQaHum10XnVHXfBQpdtVUjcIx9xDvM7SQRfk2J9pJAc0mQtzx3I="  }
+
+$outlets = Import-Csv -Path .\fiskaltrustOutletsWithTemplateFile.csv -Delimiter ';'
+
+foreach ($outlet in $outlets)
+{
+    $template = (Get-Content .\$($outlet.Template) -Raw).Replace('\', '\\').Replace('"', '\"')
+
+    $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?description=$([uri]::EscapeDataString($outlet.Name))&outlet_number=$([uri]::EscapeDataString($outlet.OutletNumber))&tcpos_shopcode=$($outlet.OutletNumber)&tcpos_tillcode=$($outlet.TillCode)"
+
+    Write-Output $uri
+    Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
+}
+```
+
+## Automatisierter Rollout der fiskaltrust.Middleware
+- TODO: Distribution ohne Download
