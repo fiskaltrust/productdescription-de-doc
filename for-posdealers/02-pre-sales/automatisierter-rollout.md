@@ -2,8 +2,6 @@
 
 Dieses Dokument soll Kassenhändler beim Rollout-Prozess unterstützen indem es Möglichkeiten der Vereinfachung und Optimierung des Rollouts durch Automatisierung aufzeigt. 
 
-
-
 ## Einleitung
 
 Jede fiskaltrust.Middleware Instanz wird mit einer sogenannten Cashbox konfiguriert. Dieser Konfigurationscontainer wird zusammen mit der fiskaltrust.Middleware beim Kassenbetreiber ausgerollt. Dazu wird zum Beispiel der Launcher aus dem Portal heruntergeladen und in der Kasse gestartet. Der Launcher beinhaltet die fiskaltrust.Middleware und deren Konfiguration in Form einer Cashbox. Die Cashbox beinhaltet hauptsächlich die Konfigurationen der Queue und der SCU kann aber auch Helperkonfigurationen beinhalten. 
@@ -30,7 +28,7 @@ miteinander verknüpft.
 
 Es existieren auch andere Szenarien (siehe dazu [Rollout-Szenarien](/rollout-scenarios.md) ) auf die wir jedoch erst später eingehen. Die Konfiguration der Cashbox ist im [Getting Started Guide](../for-poscreators/getting-started-en.md) für Kassenhersteller beschrieben.
 
-Sobald die Cashbox für die Kasse im Portal angelegt, konfiguriert und zusammengestellt wurde, kann der Launcher aus dem Portal heruntergeladen werden und auf der Kasse gestartet werden. Sobald der Launcher gestartet wird, wendet er die enthaltene Cashbox an und es entsteht daraus eine interne Middleware-Konfiguration. Dadurch ist die Middleware bereit und wird im nächsten Schritt vom Launcher gestartet. 
+Sobald die Cashbox für die Kasse im Portal angelegt, konfiguriert und zusammengestellt wurde, kann der Launcher aus dem Portal bereits heruntergeladen werden und auf der Kasse gestartet werden. Sobald der Launcher zum ersten mal gestartet wird, wird die enthaltene Konfiguration angewendet. Dadurch ist die Middleware bereit und wird im nächsten Schritt vom Launcher gestartet. 
 
 D.h. im manuellen Prozess sind beim Rollout mindestens folgende initialen Schritte für jede Kasse vorzunehmen:
 
@@ -176,7 +174,7 @@ Folgende Packages stehen aktuell für SCUs zur Verfügung:
 | `fiskaltrust.Middleware.SCU.DE.DieboldNixdorf` | Dieses Package ermöglicht die Kommunikation mit einer Diebold Nixdorf TSE.|
 | `fiskaltrust.Middleware.SCU.DE.Epson` | Dieses Package ermöglicht die Kommunikation mit einer Epson TSE.|
 | `fiskaltrust.Middleware.SCU.DE.Fiskaly` | Dieses Package ermöglicht die Kommunikation mit eine Fiskaly TSE.|
-| `fiskaltrust.Middleware.SCU.DE.Swissbit` | Dieses Package ermöglicht die Kommunikation mit eine rSwissbit TSE.|
+| `fiskaltrust.Middleware.SCU.DE.Swissbit` | Dieses Package ermöglicht die Kommunikation mit einer Swissbit TSE. |
 
 Folgende Schlüssel-Wert Paare werden in dem **`Configuration`** Objekt einer **SCU** je nach Hersteller der TSE verwendet:
 
@@ -280,12 +278,12 @@ Optionen für **Kassenbetreiber**:
 | `Deaktiviert` | Keine Freigabe, Template befindet sich noch in Vorbereitung oder wurde pausiert. |
 | `Privat (nur Besitzer)` | Freigabe nur für dem Kassenbetreiber selbst. |
 
-Des Weiteren kann das Template mit einem Bild personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint, wird durch dieses Branding eine besseren Erkennung ermöglicht.
+Des Weiteren kann das Template mit einem Bild und Link personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint, wird durch dieses Branding eine besseren Erkennung ermöglicht.
 
 Stellt der Kassenhersteller ein Template für seine Kassenhändler zur Verfügung, so können diese das Template klonen, eventuell anpassen und als neues Template ihren Kassenbetreibern zur Verfügung stellen.
 
 
-### Manuelles Ausführen der Konfigurations-Template
+### Manuelles Ausführen des Konfigurations-Template
 
 Sobald ein Template für einen Account freigeben wurde, so erscheint dieses als kostenloses Produkt im fiskaltrust.Webshop innerhalb des freigegebenen Account. Der Account-Besitzer kann das Template nun in beliebiger Menge auschecken. Die Menge stellt dabei die Anzahl der Cashboxen dar, die automatisch generiert werden sollen. Sobald der Checkout-Prozess abgeschlossen ist, wird vom Portal durch Anwendung des Templates die entsprechende Anzahl von Cashboxen automatisch generiert und im Account bei den Konfigurationen hinterlegt (Menüpunkt: `Konfiguration->Cashbox`). 
 
@@ -330,6 +328,10 @@ so werden vor dem Ausführen des Template die Vorkommnisse `|[my_variable]|` mit
 
 Falls nicht über den Query-String überschrieben, werden [Systemvariablen](#systemvariablen) im Template wie oben beschrieben automatisch vom System ersetzt.
 
+#### Antwort
+
+Als Antwort gibt die API einen JSON String zurück, der die `cashboxid` der angelegten Cashbox, den `accesstoken` und das Template beinhaltet. Die erhaltene `cashboxid` ist wichtig für die vollständige Automatisierung des Rollout. Siehe dazu auch [Automatisierter Rollout der fiskaltrust.Middleware](#automatisierter-rollout-der-fiskaltrust.middleware).
+
 ### PowerShell
 
 Das folgende Beispiel zeigt wie mit Hilfe der PowerShell der Request an unsere API gesendet werden kann:
@@ -345,7 +347,7 @@ Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "applic
 
 ### Handling von Standorten/Outlets
 
-Wie weiter oben bereits erwähnt, kann das auschecken von Templates mit dem Standort des Kassenbetreibers verknüpft werden. In diese Kapitel wird aufgezeigt wie diese Funktion automatisiert über die API vrogenommen werden kann.
+Wie weiter oben bereits erwähnt, kann das Auschecken von Templates mit dem Standort des Kassenbetreibers verknüpft werden. In diese Kapitel wird aufgezeigt wie diese Funktion automatisiert über die API vrogenommen werden kann.
 
 #### Anlegen oder Importieren der Outlets im Portal
 
@@ -357,7 +359,7 @@ Das Anlegen der Standorte ist nur über das Portal möglich und kann nicht über
 
 Über den Parameter `outlet_number` kann im Query-String die Outlet-Nummer angebenen werden für die das Template ausgeführt werden soll:
 
-`https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?outlet_number=12`
+`https://helipad-sandbox.fiskaltrust.cloud/api/configuration?outlet_number=12`
 
 ### Beispiel automatisiertes Ausführen verschiedener Templates unter Berücksichtigung der Outlets
 
@@ -372,7 +374,7 @@ foreach ($outlet in $outlets)
 {
     $template = (Get-Content .\$($outlet.Template) -Raw).Replace('\', '\\').Replace('"', '\"')
 
-    $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/Configuration?description=$([uri]::EscapeDataString($outlet.Name))&outlet_number=$([uri]::EscapeDataString($outlet.OutletNumber))&my_shopcode=$($outlet.OutletNumber)&my_tillcode=$($outlet.TillCode)"
+    $uri = "https://helipad-sandbox.fiskaltrust.cloud/api/configuration?description=$([uri]::EscapeDataString($outlet.Name))&outlet_number=$([uri]::EscapeDataString($outlet.OutletNumber))&my_shopcode=$($outlet.OutletNumber)&my_tillcode=$($outlet.TillCode)"
 
     Write-Output $uri
     Invoke-WebRequest -uri  $uri -Headers $headers -Method POST -ContentType "application/json" -Body "`"$template`""
@@ -393,12 +395,28 @@ Schritt 3: Iteration über die eingelesenen Zeilen aus der Outlet Datei.
 
 Schritt 4: für jede eingelesene Zeile wird das entsprechende Template eingelesen und vorbereitet. Z.B. für Zeile 1 wird der Inhalt der Datei [`template1.json`](media/template1.json) eingelesen. In Zeile 2 wird für ein anderes Outlet ein anderes Template [`template2.json`](media/template2.json) benötigt.
 
-Schritt 5: für jede eingelesene Zeile wird die Uri für den API Aufruf wird aufgebaut. Hierbei wird die Outlet Nummer als Parameter im Query-String übergeben.
+Schritt 5: für jede eingelesene Zeile wird die Uri für den API Aufruf aufgebaut. Hierbei wird die Outlet Nummer als Parameter im Query-String übergeben.
 
 Schritt 6: für jede eingelesene Zeile wird ein Aufruf der HTTP-API mit dem zuvor vorbereiteten Header, Uri und Template abgesetzt.
 
-
+Zusammenfassung: In dem obigen Beispiel wurden mit Hilfe der [`fiskaltrustOutletsWithTemplateFile.csv`](fiskaltrustOutletsWithTemplateFile.csv) Datei sowohl die Outlets im Portal angelegt (Bulk-Import) als auch für jedes Outlet das dazugehörige Template (einmalig - als Beispiel) ausgeführt.
 
 ## Automatisierter Rollout der fiskaltrust.Middleware
 
-- TODO: Distribution ohne Download
+Die fiskaltrust Launcher steht Ihnen als [Nugget-Package](https://www.nuget.org/packages/fiskaltrust.service.launcher/) frei zur Verfügung. Dadurch können Sie den Launcher downloaden, seine Konfiguration anpassen und als Teil Ihres Rollouts automatisiert auf die Kassen der Betreiber ausliefern und starten. 
+
+Wichtig ist es hierbei beim ersten Start darauf zu achten, dass die fiskaltrust.Middleware richtig, d.h. mit der dazugehörigen Cashbox initialisiert wird. Dafür stellt der Launcher ein Konfigurationsfile (fiskaltrust.exe.config) zur Verfügung. Dieses können Sie vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen. 
+
+Bitte geben Sie dazu in dem Bereich `appSetting` die Werte für `cashboxid` und `accesstoken` an. Diese Werte erhalten Sie als Rückgabewerte des [API Aufruf](#antwort) zum Ausführen des Konfigurations-Template.
+
+```xml
+<configuration>
+<appSettings>
+  <add key="cashboxid" value="3cf85e5e-95f7-4fcd-bed1-0867fd8d55ee" />
+  <add key="accesstoken" value="BL3BxJfIOMMGE9Zu+aKvp5s0c6qEDfn2s6y5wrSYYm9pMMQa/jYZvlvm9YFE3+96WmqJ5jWIM9axt3Tyi3X2ptY=" />
+```
+Nun können Sie den Launcher mit der angepassten Konfigurationsdatei auf die Kasse des Betreibers ausliefern und mit `fiskaltrust.exe` starten. Der Launcher wird sich automatisch die Cashbox (Konfigurationscontainer) zur in `fiskaltrust.exe.config` angegebenen `cashboxid`  vom fiskaltrust Server herunterladen und die fiskaltrust.Middleware entsprechend konfigurieren und starten.
+
+## Hoher Automatisierungsgrad
+
+Durch die oben beschriebene Vorgehensweisen zum Ausführen der Konfigirations-Templates über die API und zum automatisierten Rollout der fisklatrust.Middleware ist ein hoher Automatisierungsgrad des Rollouts erreichbar. Lediglich die Outlets müssen mit Hilfe des Bulk-Import im Portal manuell angelegt werden.
