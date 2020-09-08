@@ -6,7 +6,7 @@ Die zur Verfügung gestellte Hardware TSE bleibt im Eigentum der fiskaltrust Ger
 
 #### Antrag auf Tausch einer Hardware TSE
 
-Um einen Anspruch auf Tausch der Hardware TSE für ein fiskaltrust.Sorglos mit Hardware TSE-Subscription geltend zu machen, wenden Sie sich bitte an unseren Händler Support: support-posdealer@fiskaltrust.de
+Um einen Anspruch auf Tausch der Hardware TSE für ein fiskaltrust.Sorglos mit Hardware TSE-Subscription geltend zu machen, wenden Sie sich bitte an unseren Händler Support:  [support-posdealer@fiskaltrust.de](mailto:isupport-posdealer@fiskaltrust.de)
 
 ## Weiterführende Informationen
 
