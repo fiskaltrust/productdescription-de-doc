@@ -419,4 +419,4 @@ Nun können Sie den Launcher mit der angepassten Konfigurationsdatei auf die Kas
 
 ## Hoher Automatisierungsgrad
 
-Durch die oben beschriebene Vorgehensweisen zum Ausführen der Konfigirations-Templates über die API und zum automatisierten Rollout der fisklatrust.Middleware ist ein hoher Automatisierungsgrad des Rollouts erreichbar. Lediglich die Outlets müssen mit Hilfe des Bulk-Import im Portal manuell angelegt werden.
+Durch die oben beschriebene Vorgehensweisen zum Ausführen der Konfigurations-Templates über die API und zum automatisierten Rollout der fiskaltrust.Middleware ist ein hoher Automatisierungsgrad des Rollouts erreichbar. Lediglich die Outlets müssen mit Hilfe des Bulk-Import im Portal manuell angelegt werden.
