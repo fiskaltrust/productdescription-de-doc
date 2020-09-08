@@ -135,11 +135,11 @@ Beispiel für einen `connectionstring` bei Verwendung von Entity Framework:
 
 Beispiel für einen `connectionstring` bei Verwendung von MySQL:
 
-`TODO` 
+`Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;` 
 
 Beispiel für einen `connectionstring` bei Verwendung von SQLite:
 
-`TODO` 
+`Data Source=c:\mydb.db;Version=3;Password=myPassword;` 
 
 Folgende Schlüssel-Wert Paare werden in dem **`Configuration` **Objekt einer Queue im Feld **`init_ftQueue`**  verwendet:
 
