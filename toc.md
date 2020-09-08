@@ -18,6 +18,7 @@
 ## [Produkte](for-posdealers/01-produkte/README.md)
 ## [Vertriebsmodell](for-posdealers/vertriebsmodell.md)
 ## [Rollout Szenarien](for-posdealers/02-pre-sales/rollout-scenarios.md)
+## [Rollout Optimierung durch Automatisierung](for-posdealers/02-pre-sales/automatisierter-rollout.md)
 # [Informationen für Kassenbetreiber](for-posoperators/README.md)
 ## [Übersicht](for-posoperators/README.md)
 ## [Preisliste](for-posoperators/endkunden-preisliste.md)
