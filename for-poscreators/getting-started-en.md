@@ -24,7 +24,7 @@ To receive free support from fiskaltrust you must first register in our live por
 
 As soon as you have registered in the portal, a form for selecting your role will be displayed. Select the option "POSCreator" and sign our cooperation agreement by entering your name in the input field. If you are also a POS dealer, please select this option as well. 
 
-By registering in the live portal and digitally signing our cooperation agreement, you are now entitled to access free support for setup questions and onboarding. You can reach our support team at info@fiskaltrust.de.
+By registering in the live portal and digitally signing our cooperation agreement, you are now entitled to access free support for setup questions and onboarding. You can reach our support team at [info@fiskaltrust.de](mailto:info@fiskaltrust.de).
 
 ### Registering your POS system
 

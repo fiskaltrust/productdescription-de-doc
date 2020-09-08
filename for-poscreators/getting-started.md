@@ -24,7 +24,7 @@ Um kostenlosen Support von fiskaltrust zu erhalten, müssen Sie sich zuerst in u
 
 Sobald Sie sich im Portal registriert haben, wird Ihnen ein Formular zur Auswahl Ihrer Rolle angezeigt. Wählen Sie die Option "Kassenhersteller" und unterschreiben Sie unseren Kooperationsvertrag, indem Sie Ihren Namen ins Eingabefeld eingeben. Sollten Sie zudem auch Kassenhändler sein, wählen Sie bitte danach auch diese Option aus. 
 
-Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt auf kostenlosen Support für Einrichtungsfragen und Onboarding zuzugreifen. Sie können unser Support-Team unter info@fiskaltrust.de erreichen.
+Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt auf kostenlosen Support für Einrichtungsfragen und Onboarding zuzugreifen. Sie können unser Support-Team unter [info@fiskaltrust.de](mailto:info@fiskaltrust.de) erreichen.
 
 ### Registrieren Ihres Kassensystems
 
