@@ -23,8 +23,7 @@ Im Folgenden gehen wir auf diese und andere Möglichkeiten der Optimierung ein u
 
 ## Überblick manueller Prozess
 
-Wie bereits in der Einleitung erwähnt wird grundsätzlich pro Kasse eine Cashbox benötigt. Im Normalfall wird hier die Konfiguration einer Queue und einer SCU vorgenommen und diese werden 
-miteinander verknüpft. 
+Wie bereits in der Einleitung erwähnt wird grundsätzlich pro Kasse eine Cashbox benötigt. Im Normalfall wird hier die Konfiguration einer Queue und einer SCU vorgenommen und diese werden miteinander verknüpft. 
 
 Es existieren auch andere Szenarien (siehe dazu [Rollout-Szenarien](rollout-scenarios.md) ) auf die wir jedoch erst später eingehen. Die Konfiguration der Cashbox ist im [Getting Started Guide](../../for-poscreators/getting-started-en.md) für Kassenhersteller beschrieben.
 
@@ -42,7 +41,7 @@ D.h. im manuellen Prozess sind beim Rollout mindestens folgende initialen Schrit
 
 Möchte man später die Konfiguration updaten (z.B. eine neue SCU Package Version verwenden), dann sind folgende Schritte vorzunehmen:
 
-1. Update der betroffenen Konfiguration im Portal  (z.B. SCU Konfiguration)
+1. Update der betroffenen Konfiguration im Portal (z.B. SCU Konfiguration)
 2. Rebuild Configuration für die Cashbox im Portal (Zusammenbauen/Aktualisieren der Cashbox)
 3. Stoppen der Middleware und Neustart des Launchers an der Kasse. 
 
@@ -99,7 +98,7 @@ Folgende Tabellen zeigen die möglichen Inhalte (Datenstruktur) eines Template:
 | `ftSignaturCreationDevices` |nein | `PackageConfiguration [ ]` | Array, beinhaltet die Konfigurationen der zu verwendenden SCUs |
 | `ftQueues` |nein | `PackageConfiguration [ ]` | Array, beinhaltet die Konfigurationen der zu verwendenden Queues |
 | `helpers` |nein | `PackageConfiguration [ ]` | Array, beinhaltet die Konfigurationen der zu verwendenden Helper |
-| `TimeStamp` |nein | ```DateTime.UtcNow.Ticks``` | Zeitpunkt der  Erstellung des Template|
+| `TimeStamp` |nein | ```DateTime.UtcNow.Ticks``` | Zeitpunkt der Erstellung des Template|
 
 Ein **`PackageConfiguration`** Objekt ist wie folgt aufgebaut:
 
@@ -282,7 +281,7 @@ Optionen für **Kassenbetreiber**:
 | `Deaktiviert` | Keine Freigabe, Template befindet sich noch in Vorbereitung oder wurde pausiert. |
 | `Privat (nur Besitzer)` | Freigabe nur für dem Kassenbetreiber selbst. |
 
-Des Weiteren kann das Template mit einem Bild und Link personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint, wird durch dieses Branding eine besseren Erkennung ermöglicht.
+Des Weiteren kann das Template mit einem Bild und Link personalisiert werden. Da später das Template im fiskaltrust.Webshop für freigegebene Accounts erscheint, wird durch dieses Branding eine bessere Erkennung ermöglicht.
 
 Stellt der Kassenhersteller ein Template für seine Kassenhändler zur Verfügung, so können diese das Template klonen, eventuell anpassen und als neues Template ihren Kassenbetreibern zur Verfügung stellen.
 
