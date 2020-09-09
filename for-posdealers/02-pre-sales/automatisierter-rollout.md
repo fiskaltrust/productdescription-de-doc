@@ -369,7 +369,7 @@ Das Anlegen der Standorte ist nur über das Portal möglich und kann nicht über
 Powershell:
 
 ```powershell
-$headers = @{ accountid = "..." ; accesstoken = "..."  }
+$headers = @{ accountid = "your-account-id" ; accesstoken = "your-access-token"  }
 
 $outlets = Import-Csv -Path .\fiskaltrustOutletsWithTemplateFile.csv -Delimiter ';'
 
@@ -415,8 +415,8 @@ Bitte geben Sie dazu in dem Bereich `appSetting` die Werte für `cashboxid` und 
 ```xml
 <configuration>
 <appSettings>
-  <add key="cashboxid" value="..." />
-  <add key="accesstoken" value="..." />
+  <add key="cashboxid" value="your-cashbox-id" />
+  <add key="accesstoken" value="your-access-token" />
 ```
 Nun können Sie den Launcher mit der angepassten Konfigurationsdatei auf die Kasse des Betreibers ausliefern und mit `fiskaltrust.exe` starten. Der Launcher wird sich automatisch die Cashbox (Konfigurationscontainer) zur in `fiskaltrust.exe.config` angegebenen `cashboxid`  vom fiskaltrust Server herunterladen und die fiskaltrust.Middleware entsprechend konfigurieren und starten.
 
