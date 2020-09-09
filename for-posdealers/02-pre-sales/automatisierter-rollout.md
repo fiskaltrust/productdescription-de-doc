@@ -179,6 +179,7 @@ Folgende Packages stehen aktuell für SCUs zur Verfügung:
 Folgende Schlüssel-Wert Paare werden in dem **`Configuration`** Objekt einer **SCU** je nach Hersteller der TSE verwendet:
 
 **Swissbit TSE**
+
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
 | `devicePath` |ja |  ```String``` | Laufwerksbuchstabe gefolgt von Doppelpunkt (z.B. `E:`). Repräsentiert das Laufwerk an dem die Swissbit TSE an der Kasse angeschossen wird. |
@@ -186,6 +187,7 @@ Folgende Schlüssel-Wert Paare werden in dem **`Configuration`** Objekt einer **
 | `timeAdminPin` |nein |  ```String``` | Time Admin PIN. Nur anzugeben wenn es sich um eine außerhalb von fiskaltrust initialisierte TSE handelt. Falls die TSE noch nicht initialisiert ist, wird dieser Wert nicht benötigt.|
 
 **Cryptovision TSE**
+
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
 | `devicePath` |ja |  ```String``` | Laufwerksbuchstabe gefolgt von Doppelpunkt (z.B. `E:`). Repräsentiert das Laufwerk an dem die Cryptovision TSE an der Kasse angeschossen wird. |
@@ -193,6 +195,7 @@ Folgende Schlüssel-Wert Paare werden in dem **`Configuration`** Objekt einer **
 | `timeAdminPin` |nein |  ```String``` | Time Admin PIN. Nur anzugeben wenn es sich um eine außerhalb von fiskaltrust initialisierte TSE handelt. Falls die TSE noch nicht initialisiert ist, wird dieser Wert nicht benötigt.|
 
 **Diebold Nixdorf**
+
 | **Fieldname**        | **Pflicht**              | **Inhalt**          | **Beschreibung**          |
 |----------------------|--------------------------|--------------------------|---------------------|
 | `comPort` |ja (nur USB) |  ```String``` | Definiert den Com Anschluß an, an dem die TSE angeschlossen wird. Zum Beispiel `COM6`. Nur zu verwenden wenn es sich um eine USB-TSE ohne Connect Box handelt. |
@@ -366,7 +369,7 @@ Das Anlegen der Standorte ist nur über das Portal möglich und kann nicht über
 Powershell:
 
 ```powershell
-$headers = @{ accountid = "163c4ac7-46e1-e911-a838-000d3a289110" ; accesstoken = "BFYqg87qyOp0yfZ8qIA/2PdqkRzUIn+xZQkjZQaHum10XnVHXfBQpdtVUjcIx9xDvM7SQRfk2J9pJAc0mQtzx3I="  }
+$headers = @{ accountid = "..." ; accesstoken = "..."  }
 
 $outlets = Import-Csv -Path .\fiskaltrustOutletsWithTemplateFile.csv -Delimiter ';'
 
@@ -412,8 +415,8 @@ Bitte geben Sie dazu in dem Bereich `appSetting` die Werte für `cashboxid` und 
 ```xml
 <configuration>
 <appSettings>
-  <add key="cashboxid" value="3cf85e5e-95f7-4fcd-bed1-0867fd8d55ee" />
-  <add key="accesstoken" value="BL3BxJfIOMMGE9Zu+aKvp5s0c6qEDfn2s6y5wrSYYm9pMMQa/jYZvlvm9YFE3+96WmqJ5jWIM9axt3Tyi3X2ptY=" />
+  <add key="cashboxid" value="..." />
+  <add key="accesstoken" value="..." />
 ```
 Nun können Sie den Launcher mit der angepassten Konfigurationsdatei auf die Kasse des Betreibers ausliefern und mit `fiskaltrust.exe` starten. Der Launcher wird sich automatisch die Cashbox (Konfigurationscontainer) zur in `fiskaltrust.exe.config` angegebenen `cashboxid`  vom fiskaltrust Server herunterladen und die fiskaltrust.Middleware entsprechend konfigurieren und starten.
 
