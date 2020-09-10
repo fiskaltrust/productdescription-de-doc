@@ -15,6 +15,8 @@
 ## [Getting started englisch](for-poscreators/getting-started-en.md)
 # [Informationen für Kassenhändler](for-posdealers/README.md)
 ## [Übersicht](for-posdealers/README.md)
+## [Präsentationen zur Rolloutvorbereitung](for-posdealers/prepare-rollout-presentations-de.md)
+## [Getting started](for-posdealers/getting-started.md)
 ## [Produkte](for-posdealers/01-produkte/README.md)
 ## [Vertriebsmodell](for-posdealers/vertriebsmodell.md)
 ## [Rollout Szenarien](for-posdealers/02-pre-sales/rollout-scenarios.md)

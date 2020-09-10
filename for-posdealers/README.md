@@ -14,6 +14,12 @@ Das Basis-Produkt fiskaltrust.Middleware in Kombination mit Addon-Produkten für
 
 [Zur Produkt-Übersicht für Kassenhändler](01-produkte/README.md)
 
+## Präsentationen zur Rolloutvorbereitung
+
+Hier finden Sie unsere Präsentationen zur Rolloutvorbereitung für Kassenhändler:
+
+[Präsentationen zur Rolloutvorbereitung](prepare-rollout-presentations-de.md) <br/>
+
 ## Getting started
 
 Dieses Dokument beschreibt die notwendigen Schritte für Kassenhändler im deutschen Markt, die neu bei fiskaltrust sind, und unsere Produkte im Rahmen ihrer eigenen Produkte und Services weiterverkaufen möchten. 
