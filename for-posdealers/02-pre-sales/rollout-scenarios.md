@@ -110,4 +110,4 @@ Eine mögliche Optimierung der oben beschriebenen Option könnte sein, dass die 
 ![virtualisierungs-vorschlag-ausserhalb](media/virtualisierung-vorschlag-scu-im-server.png)
 
 ## Performanceempfehlung
-Bei internen Tests haben wir festgestellt, dass 3 TSE-Transaktionen pro Sekunde von jeder TSE gut verarbeitet werden können. Bei mehr als 3 Transaktionen pro Sekunde kommt es zu Verzögerungen. Bitte achten Sie darauf, dass bei einem implicit-Flow 2 TSE-Transaktionen pro Request abgesetzt werden. Wir empfehlen deshalb bei einer zu erwartenden höheren Menge an Transkationen pro Sekunde entsprechend zusätzliche TSEs bei der Planung zu berücksichtigen. 
+Bei internen Tests haben wir festgestellt, dass 3 Signaturen pro Sekunde von jeder TSE gut verarbeitet werden können. Bei mehr als 3 Signaturen pro Sekunde kommt es zu Verzögerungen. Bitte achten Sie darauf, dass bei einem implicit-Flow 2 Signaturen pro Request abgesetzt werden. Wir empfehlen deshalb bei einer zu erwartenden höheren Menge an Signaturen der TSE pro Sekunde entsprechend zusätzliche TSEs bei der Planung zu berücksichtigen. 
