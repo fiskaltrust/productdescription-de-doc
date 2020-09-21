@@ -24,7 +24,7 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 12. Inbetriebnahme
 13. After-sales Support
 
-## Über fiskaltrust
+## 1. Über fiskaltrust
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Diese Produkte werden von Kassenhersteller und Kassenhändler als Teil Ihrer eigenen Lösungen beim Kassenbetreiber eingesetzt. Aus Sicht eines Kassenbetreibers ist fiskaltrust daher ein All-in-One-Lösungsanbieter für Fiskalisierung. Das bedeutet, dass ein Kassenbetreiber, der Nutzer eines fiskaltrust.Sorglos mit TSE Produkt-Bundle ist, sich für die Dauer der Subscription keine Gedanken mehr über das Thema Fiskalisierung machen muss.
 
@@ -34,7 +34,7 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im B
 - [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md)
 - [Geschäftsmodell von fiskaltrust](../product-service-description/DE-business-model.md)
 
-## Vorteile für Kassenhändler
+## 2. Vorteile für Kassenhändler
 
 fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen (TSE) und  "Sorglos" Produkt-Bundles im Bereich Fiskalisierung an. Durch Mengenrabatte und Rahmenverträge wird für Kassenhändler ein attraktives Kooperationsmodell angeboten. Werkzeuge zur Einladung & Verwaltung von Kunden, Konfigurationen von Kassen und automatisierte Rollout-Lösungen erleichtern Kassenhändlern die Integration und Wartung der Produkte.
 
@@ -42,7 +42,7 @@ fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einze
 
 [Benefits für Kassenhändler](02-pre-sales/benefits-for-posdealers.md)
 
-## Vertriebsmodell und Rollen
+## 3. Vertriebsmodell und Rollen
 
 fiskaltrust vertreibt seine Produkte und Produkt-Bundles über Kassenhändler. 
 
@@ -58,7 +58,7 @@ Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales 
 
 [Begriffsdefinition Kassenbetreiber](../glossar/README.md#kassenbetreiber-posdoperator)
 
-## Das Produktangebot von fiskaltrust
+## 4. Das Produktangebot von fiskaltrust
 
 Das Basis-Produkt von fiskaltrust ist die fiskaltrust.Middleware, eine Software welche die gesetzlichen Grund-Anforderungen der Fiskalisierung erfüllt. Die fiskaltrust.Middleware ist kostenlos und wurde bereits vom Kassenhersteller integriert. Aufgrund der gesetzlichen Anforderungen muss die fiskaltrust.Middleware lokal auf der Kasse beim Kassenbetreiber betrieben werden. Über diese Middleware können lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie Daten der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.
 
@@ -72,7 +72,7 @@ Werden an einem Standort mehrere Kassen betrieben, bietet fiskaltrust dafür Pro
 
 [fiskaltrust Produkte & Bundles](01-produkte/README.md) 
 
-## Abschluss eines Kooperationsvertrages
+## 5. Abschluss eines Kooperationsvertrages
 
 Um als Kassenhändler Produkte von fiskaltrust vertreiben zu können, müssen Sie eine Kooperationspartnerschaft mit fiskaltrust eingehen.
 
@@ -86,7 +86,7 @@ Falls Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschreibun
 
  [Voraussetzungen für den Einkauf von Produkten als Kassenhändler](02-pre-sales/voraussetzungen-einkauf.md) 
 
-## Einkaufsplanung
+## 6. Einkaufsplanung
 
 In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Ihrer Kunden (Kassenbetreiber) in welcher Menge benötigt werden. Der Bedarf kann je nach eingesetztem Kassensystem, der Systemarchitektur am Standort des Betreibers und bereits etwaigen vorhandenen Produkten stark variieren. Abhängig vom ermittelten Bedarf empfehlen wir den Abschluss eines Rahmenvertrags, damit Sie sich bessere Einkaufskonditionen sichern und mehr Flexibilität im Rollout-Prozess erhalten.
 
@@ -101,7 +101,7 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Ihre
 
 [Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) 
 
-## Optional: Abschluss eines Rahmenvertrages
+## 7. Optional: Abschluss eines Rahmenvertrages
 
 Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Bitte rechnen Sie eine Bearbeitungszeit von 1-2 Wochen bis zum Abschluss des Vertrages in Ihre Rollout-Planung mit ein. Mit Abschluss eines Rahmenvertrages können Sie die inkludierten Produkte zum im Rahmenvertrag vereinbarten Einkaufspreis über den fiskaltrust.Webshop erwerben.
 
@@ -109,3 +109,25 @@ Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werd
 
 [Abschluss eines Rahmenvertrages](02-pre-sales/01-purchase-agreement.md)
 
+## 8. Rollout Optionen, Planung & Vorbereitung
+
+Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedliche Optionen für den Rollout der Middleware zur Verfügung. In manchen dieser Szenarien lassen sich Konfigurationen von z.B TSEs vorkonfigurieren bzw. Standorte automatisiert anlegen und mit vorkonfigurierten Templates verknüpfen. Manche Optionen erfordern die Zusammenarbeit mit dem Kassenhersteller, andere Optionen haben wiederum Einfluss auf zu kaufende Produkte. Daher empfehlen wir die Entscheidung zur Wahl des Rollouts vor dem wirtschaftlichen Einkauf der Produkte zu treffen.
+
+### Optionen für die Erstellung von Cashboxen ("Konfigurations-Container")
+
+| Option                                  | Anmerkung                                                    |
+| --------------------------------------- | ------------------------------------------------------------ |
+| manuelle Konfiguration                  | manuelle Anlage von einzelnen Cashboxen. Einfach umsetzbar, empfohen für eine geringe Anzahl an zu konfigurierender Cashboxen (<50) |
+| manuelle Ausführung von Templates       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. Empfohlen ab. ca. 50 zu konfigurierende Cashboxen. |
+| automatisierte Ausführung von Templates | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. |
+
+### Optionen für die Auslieferung der Middleware
+
+| Option                                                       | Anmerkung                                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Download der Middleware inkl. Konfigurationsdatei über das Portal | Die Middleware wird gemeinsam mit der basierend auf die Cashbox-Konfiguration erzeugten Konfigurationsdatei auf die Kasse geladen. |
+| Distribution eines generischen Nugget-Launchers inkl. separater Lieferung einer jeweils angepassten Konfiguration | Diese Option empfiehlt sich, wenn die Middleware als Teil des POS Systems ausgeliefert werden soll. |
+
+### Vertiefende Informationen
+
+ [Rollout Automatisierung](02-pre-sales\automatisierter-rollout.md) 
