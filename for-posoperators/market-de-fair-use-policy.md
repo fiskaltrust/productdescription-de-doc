@@ -18,7 +18,7 @@ Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal e
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei geplantem Einsatz von fiskaltrust.Middleware an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
+Bei geplantem Einsatz von Compliance-as-a-Service Produkten bzw. Features an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
 
 ### Anzahl der im Verbund befindlichen elektronischen Aufzeichnungssysteme innerhalb eines Standortes, welche die TSE verwenden
 
