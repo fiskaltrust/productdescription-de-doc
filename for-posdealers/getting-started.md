@@ -2,22 +2,38 @@
 
 ## Inhalt des Dokumentes
 
-Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Die einzelnen Schritte werden heir oberflächlich beschrieben, verweisen aber auf Dokumente, welche detailliertere Informationen dazu enthalten.
+Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten.
+
+### Zielgruppen
+
+- [Shareholder, Owner](../glossar/personas-posdealer.md#posdealer---shareholder-owner)
+- [Account-manager/Sales](../glossar/personas-posdealer.md#posdealer---account-managersales)
+- [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)
+- [Support](../glossar/personas-posdealer.md#posdealer---support)
 
 ## Ziel dieser Anleitung
 
 Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue Kassenhändler erhalten ein Grundverständnis über die Produkte sowie die für den Vertrieb notwendigen Prozesse, und können im Anschluß weitgehend ohne fremde Hilfe Produkte von fiskaltrust vertreiben.
 
+## Kontakt
+
+Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fiskaltrust gerne zur Verfügung:
+
+- [support@fiskaltrust.de](mailto:support@fiskaltrust.de) 
+- +49 211 54013 432 (Telefonische Kontaktaufnahmen werden in E-Mails an die oben genannte Adresse umgewandelt)
+
+Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
+
 ## Übersicht
 
-1. [Über fiskaltrust](#über-fiskaltrust)
-2. [Vorteile für Kassenhändler](#vorteile-für-kassenhändler)
-3. [Vertriebsmodell und Rollen](#vertriebsmodell-und-rollen)
-4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#das-produktangebot-von-fiskaltrust)
-5. [Abschluss eines Kooperationsvertrages](#abschluss-eines-kooperationsvertrages)
-6. [Einkaufsplanung](#einkaufsplanung)
-7. [Optional: Abschluss eines Rahmenvertrages](#optional-abschluss-eines-rahmenvertrages)
-8. Rollout Optionen, Planung & Vorbereitung
+1. [Über fiskaltrust](#1.über-fiskaltrust)
+2. [Vorteile für Kassenhändler](#2.vorteile-für-kassenhändler)
+3. [Vertriebsmodell und Rollen](#3.vertriebsmodell-und-rollen)
+4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#4.das-produktangebot-von-fiskaltrust)
+5. [Abschluss eines Kooperationsvertrages](#5.abschluss-eines-kooperationsvertrages)
+6. [Einkaufsplanung](#6.einkaufsplanung)
+7. [Optional: Abschluss eines Rahmenvertrages](#7.optional-abschluss-eines-rahmenvertrages)
+8. [Rollout Optionen, Planung & Vorbereitung](#8.rollout-optionen-planung-vorbereitung)
 9. Einkauf der Produkte
 10. Einladung der Kunden
 11. Konfiguration & Rollout
@@ -97,7 +113,7 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Ihre
 
 [Informationsmaterial über fiskaltrust-Produkte für Kassenbetreiber](02-pre-sales/sales-material.md)
 
-[Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/sales-material.md)
+[Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/rollout-scenarios.md)
 
 [Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) 
 
@@ -131,3 +147,4 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 ### Vertiefende Informationen
 
  [Rollout Automatisierung](02-pre-sales\automatisierter-rollout.md) 
+

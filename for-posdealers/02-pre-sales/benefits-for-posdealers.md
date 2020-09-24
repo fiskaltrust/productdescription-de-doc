@@ -1,5 +1,18 @@
 # Vorteile für Kassenhändler
 
+## Inhalt des Dokumentes
+
+Dieser Dokument enthält Informationen, wie fiskaltrust für Kassenhändler Wert erzeugt und wie der Kassenhändler von den Produkten von fiskaltrust profitieren kann.
+
+### Zielgruppen
+
+- [Shareholder, Owner](../glossar/personas-posdealer.md#posdealer---shareholder-owner)
+- [Account-manager/Sales](../glossar/personas-posdealer.md#posdealer---account-managersales)
+
+## Ziel dieses Dokumentes
+
+Der Inhalt dient neuen Kassenhändlern zur Orientierung bzw. hilft Kassenhändler bei der Entscheidung, Produkte von fiskaltrust an die eigenen Kunden weiterzuverkaufen.
+
 ## Produkte
 
 ### Gesetzeskonforme Fiskalisierung aus einer Hand
