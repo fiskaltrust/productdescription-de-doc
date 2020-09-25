@@ -2,6 +2,17 @@
 
 !(media/revisionsichere-daten-as-a-service.png)
 
+|  | POSArchiv | AKO |
+| --- | --- | --- |
+| Speichern der Belegdaten | X |  |
+| Speichern der Kassenabschlüsse | X | X |
+| revisionssichere Belege | X |  |
+| Belegsicherung in der Cloud | X | X |
+| tar-File Export | X |  |
+| DSFinV-K Export | X | X |
+| DATEV/DEFKA Export | X |  |
+
+
 - [POS Archiv](pos-archiv.md) 
 
   - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse),
