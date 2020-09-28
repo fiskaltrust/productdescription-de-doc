@@ -6,8 +6,8 @@ Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Eink
 
 ### Zielgruppen
 
-- [Shareholder, Owner](../glossar/personas-posdealer.md#posdealer---shareholder-owner)
-- [Account-manager/Sales](../glossar/personas-posdealer.md#posdealer---account-managersales)
+- [Shareholder, Owner](../glossar/personas-posdealer.md)
+- [Account-manager/Sales](../glossar/personas-posdealer.md)
 - [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)
 - [Support](../glossar/personas-posdealer.md#posdealer---support)
 
