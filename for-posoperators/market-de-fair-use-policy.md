@@ -8,7 +8,7 @@ D-10117 Berlin<br />
 
 ## Verwendung der TSE-as-a-Service
 
-Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service enrhalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
+Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service erhalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
 
 Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
 
