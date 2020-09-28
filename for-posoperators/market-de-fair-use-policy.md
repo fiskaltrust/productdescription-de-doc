@@ -8,7 +8,7 @@ D-10117 Berlin<br />
 
 ## Verwendung der TSE-as-a-Service
 
-Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service enthalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
+Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service enthalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop haben bzw. über einen fiskaltrust.Kassenhändler welcher diese aus dem fiskaltrust.Shop bezogen hat.
 
 Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
 
@@ -18,7 +18,7 @@ Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal e
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei geplantem Einsatz von fiskaltrust Services an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
+Bei geplantem Einsatz von Compliance-as-a-Service Produkten bzw. Features an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
 
 ### Anzahl der im Verbund befindlichen elektronischen Aufzeichnungssysteme innerhalb eines Standortes, welche die TSE verwenden
 
@@ -54,7 +54,7 @@ Bei voraussichtlicher Überschreitung der maximal nutzbaren Signaturen der TSE p
 
 ## Nichteinhaltung der Fair Use Policy
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
+Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
 
 ## Begriffsdefinitionen
 
@@ -63,7 +63,7 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Servicestelle
 
-Bei Fragen, Anregungen und Bewschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de)
+Bei Fragen, Anregungen und Beschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de)
 
 
 
