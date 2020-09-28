@@ -146,5 +146,5 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 
 ### Vertiefende Informationen
 
- [Rollout Automatisierung](02-pre-sales\automatisierter-rollout.md) 
+ [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) 
 
