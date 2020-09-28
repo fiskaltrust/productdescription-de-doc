@@ -6,8 +6,8 @@ Dieser Dokument enthält Informationen, wie fiskaltrust für Kassenhändler Wert
 
 ### Zielgruppen
 
-- [Shareholder, Owner](../glossar/personas-posdealer.md#posdealer---shareholder-owner)
-- [Account-manager/Sales](../glossar/personas-posdealer.md#posdealer---account-managersales)
+- [Shareholder, Owner](../glossar/personas-posdealer.md)
+- [Account-manager/Sales](../glossar/personas-posdealer.md)
 
 ## Ziel dieses Dokumentes
 
