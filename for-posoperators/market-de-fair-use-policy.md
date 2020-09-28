@@ -20,10 +20,6 @@ Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal e
 
 Bei geplantem Einsatz von Compliance-as-a-Service Produkten bzw. Features an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
 
-#### Empfehlung zur Einhaltung der Fair Use Regel
-
-Bei voraussichtlicher Überschreitung der maximalen Anzahl der elektronischen Aufzeichnungssysteme im Verbund kann eine zusätzliche TSE für diesen Standort erworben werden.
-
 ### Anzahl der maximal nutzbaren Signaturen der TSE pro Monat
 
 Die Verwendung der TSE ist mit einer Nutzungsgrenze von maximal 150.000 Signaturen pro Kalendermonat zulässig. 
