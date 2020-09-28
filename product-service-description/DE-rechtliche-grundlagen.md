@@ -45,7 +45,7 @@ Mit dem [Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen (
 | 26.06.2020 | FAQ des BMF zum Gesetz zum Schutz vor Manipulationen an digitalen Grundaufzeichnungen vom 22. Dezember 2016 | [Zu den FAQ des BMF](https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html) |
 | 29.11.2019 | Orientierungshilfe für die Anwendung des § 146a AO und der KassenSichV | [20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf](media/20191129_Orientierungshilfe-fuer-die-anwendung-des-paragraf-146a-AO-und-der-KassenSichV.pdf) |
 | 22.11.2019 | Belegmerkmale Rechnung//UStG/UStDV == Beleg//AEAO/KassenSichV/AEAO/DSFinV-K == Quittung | [20191122-ft-Belegmerkmale-DE-v0.5.pdf](media/20191122-ft-Belegmerkmale-DE-v0.5.pdf) |
-| 06.02.2019 | DFKA-Taxonomie für Kassendaten                               | https://dfka.net/taxonomie/                                  |
+| 06.02.2019 | DFKA-Taxonomie für Kassendaten                               | https://df.webla.de/taxonomie/                               |
 |            | FAQ des BSI                                                  | https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/Grundaufzeichnungen/FAQ/faq_node.html#faq12384088 |
 |            | FAQ von fiskaltrust                                          | https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language |
 
