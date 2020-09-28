@@ -39,7 +39,7 @@ Der Einkaufs- & Pre-Sales-Bereich unterstützt Händler vom ersten Berührungspu
 - [Produkte & Produkt-Bundles](01-produkte/README.md)
 
 - [Preisliste für Händler, Unterlagen und Informationen zu fiskaltrust.Produkten](02-pre-sales/haendler-preisliste.md) 
-- [Entitlements - Geschäftsmodell für Kassenhändler](03-sales/README.md)
+- [Entitlements - Geschäftsmodell für Kassenhändler](02-pre-sales/entitlements.md)
 - Vorlagen & Produkt-Material zur freien Verwendung für den eigenen Vertrieb (Marktkommunikation) 
 - [Rollout Szenarien Planung, Tipps & Tricks](03-sales/rollout-scenarios.md)
 

@@ -18,7 +18,7 @@ Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal e
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei geplantem Einsatz von fiskaltrust Services an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
+Bei geplantem Einsatz von Compliance-as-a-Service Produkten bzw. Features an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
@@ -50,7 +50,7 @@ Bei voraussichtlicher Überschreitung der maximal nutzbaren Signaturen der TSE p
 
 ## Nichteinhaltung der Fair Use Policy zur Verwendung der TSE-as-a-Service
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
+Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
 
 ## Verwendung des POS Archives
 
@@ -77,7 +77,7 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Servicestelle
 
-Bei Fragen, Anregungen und Bewschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de)
+Bei Fragen, Anregungen und Beschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de)
 
 
 
