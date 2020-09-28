@@ -1,12 +1,12 @@
-# Diebold Nixdorf Interoperabilität (in Entwicklung)
+# Diebold Nixdorf Interoperabilität 
 
 ## SCU
 
 Das _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf_-Package ermöglicht die Verbindung der Middleware mit einer Diebold Nixdorf-TSE über einen seriellen COM-Port.
 
-**Verfügbar ab Version**: 1.3.1
+**RC verfügbar ab Version**: 1.3.1
 
-**Status:** Release Candidate (Verwendung in Produktion möglich, u.U. noch nicht komplett stabil. Finales Release ("Stable") erfolgt nach ausreichendem Feedback aus dem Produktionsbetrieb)
+**Stabil ab Version:** 1.3.6
 
 ## Parameter
 
