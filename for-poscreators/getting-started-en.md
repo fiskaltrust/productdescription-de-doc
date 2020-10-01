@@ -115,15 +115,15 @@ Under the menu item ``Configuration -> CashBox`` you will find the button to cre
 
 Next, we want to put the configuration of the Queue and SCU into the created CashBox and connect them to each other. To do this, press the button with list symbol assigned to the CashBox.
 
-![icon-list](media/icon-list.png)
+![icon-list-config](media/icon-list-config.png)
 
 Here you can now select the previously created Queue and SCU using the corresponding checkboxes and then save your selection. In the following we will connect the Queue with the SCU. To do this, expand the list entry of the new Cashbox in the overview of the CashBoxes. The detail area shows the contained configurations. Two buttons are assigned to the Queue configuration on the right. Press the first button (box and arrow symbol) to assign the new SCU to the Queue.
 
-![icon-arrow](media/icon-arrow.png)
+![icon-box-and-arrow](media/icon-box-and-arrow.png)
 
 A popup appears in which you can select the SCU. After assigning and saving we are done with the configuration of our CashBox.
 
-![queue-and-scu-assignment](media/queue-and-scu-assignment.png)
+![queue-to-scu-assignment](media/queue-to-scu-assignment.png)
 
 ## 3. Middleware Launcher
 
@@ -133,11 +133,11 @@ The ft.Middleware Launcher starts the required services on the local machine, an
 
 Before downloading the launcher **it is important that you "rebuild" the CashBox**. To do this, press the "Rebuild configuration" button (first grey button with reload symbol) in the CashBox line. **This action must be performed every time you change the configuration of the CashBox or one of its components**.
 
-![icon-rebuild](media/icon-rebuild.png)
+![icon-rebuild-cashbox](media/icon-rebuild-cashbox.png)
 
 After rebuild you can now download the launcher. The download of the launcher is initiated by clicking the button "Download .NET Launcher" (globe symbol).
 
-![icon-download](media/icon-download.png)
+![icon-download-launcher](media/icon-download-launcher.png)
 
 ### 3.2 Enabling debug mode
 
