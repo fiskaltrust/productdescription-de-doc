@@ -37,7 +37,7 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 9. Erwerb von Händlereinkaufsprodukten 
 10. Weiterverkauf von Produkten von fiskaltrust
 11. Hinzufügen von Kassenbetreibern
-12. Konfiguration & Rollout
+12. Rollout - Übertragung von Entitlements & Konfiguration
 13. Inbetriebnahme
 14. After-sales Support
 
@@ -165,7 +165,7 @@ Mit dem Erwerb der Entitlements ist die Pre-Sales bzw. Einkaufsphase abgeschloss
 
 Der Weiterverkauf der Produkte von fiskaltrust geschieht außerhalb des Ökosystems von fiskaltrust. Kassenhändler können die Produkte von fiskaltrust in ihr eigenes Produkt- und Serviceportfolio beliebig integrieren und anbieten.
 
-Wurden vom Händler Produkte von fiskaltrust an einen Betreiber verkauft, muss dieser Betreiber vom Händler im Portal von fiskaltrust hinzugefügt werden, damit die zuvor erworbenen Ansprüche auf den Kunden übertragen und die Produkte für den Kunden hergestellt und letztendlich von ihm genutzt werden können. Die dafür notwendigen Schritte werden im Folgenden Teil erläutert.
+Wurden vom Händler Produkte von fiskaltrust an einen Betreiber verkauft, muss dieser Betreiber vom Händler im Portal von fiskaltrust hinzugefügt werden, damit die zuvor erworbenen Ansprüche auf den Kunden übertragen und die Produkte für den Kunden hergestellt und von ihm genutzt werden können. Die dafür notwendigen Schritte werden im Folgenden Teil erläutert.
 
 ## 11. Hinzufügen von Kassenbetreibern
 
@@ -181,11 +181,13 @@ zum Portal hinzugefügt werden.
 
 In allen Fällen wird eine Einladungs-Email an den Kassenbetreiber gesendet, in der er je nach gewählter Methode unterschiedliche Informationen erhält bzw. Handlungen setzen muss. 
 
-Konfiguration & Rollout
+## 12. Rollout - Übertragung von Entitlements & Konfiguration
 
-Inbetriebnahme
 
-## After-sales Support
+
+## 13. Inbetriebnahme
+
+## 14. After-sales Support
 
 fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 
