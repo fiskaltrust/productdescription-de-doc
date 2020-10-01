@@ -6,11 +6,15 @@ D-10117 Berlin<br />
 
 
 
-## Verwendung der TSE-as-a-Service
+# Verwendung des fiskaltrust.Sorglos Produkt-Bundles
 
-Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service erhalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
+Kunden, die ein fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE Produkt-Bundle erworben haben, können dieses gemäß unserer Fair Use Policy nutzen. 
 
 Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
+
+## Verwendung des TSE-as-a-Service
+
+Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service erhalten haben, haben zur fairen Nutzung folgende Regeln zu beachten:
 
 ### Verwendung der TSE an einem Standort
 
@@ -26,7 +30,7 @@ Die Verwendung der TSE ist mit einer Nutzungsgrenze von maximal 150.000 Signatur
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann eine zusätzliche TSE für diesen Standort erworben werden.
+Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
 
 ### Tausch einer Hardware TSE
 
@@ -37,12 +41,12 @@ In einer fiskaltrust.Sorglos mit Hardware TSE-Subscription wird bei erstmaliger 
 In folgenden Fällen verfällt der Anspruch auf den Tausch der Hardware TSE:
 
 - Wenn innerhalb eines Subscription Zyklusses kein Tausch der Hardware TSE in Anspruch genommen wurde, wird der Anspruch nicht mit dem darauffolgenden Zyklus aufsummiert, sondern verfällt. 
-- Bei einer nicht Einhaltung der oben beschriebenen Regel zur maximalen Anzahl der zugelassenen Signaturen pro Kalendermonat, d.h. bei Überschreitung, verfällt der Anspruch auf einen kostenlosen Tausch der Hardware TSE im betroffenen Subscription-Zyklus.
+- Bei einer nicht Einhaltung der oben beschriebenen Regel zur maximalen Anzahl der nutzbaren Signaturen pro Kalendermonat, d.h. bei Überschreitung, verfällt der Anspruch auf einen kostenlosen Tausch der Hardware TSE im betroffenen Subscription-Zyklus.
 - Bei einem gekündigten Vertrag verfällt der Anspruch mit dem vertraglichen Ende der Leistung.
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung der maximal nutzbaren Signaturen der TSE pro Monat kann eine zusätzliche TSE für diesen Standort erworben, und so der Anspruch auf einen kostenlosen Tausch der Hardware TSE, welche der Subscription zugeordnet ist, erhalten werden.
+Bei voraussichtlicher Überschreitung der maximalen Anzahl an nutzbaren Signaturen kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
 
 ## Nichteinhaltung der Fair Use Policy zur Verwendung der TSE-as-a-Service
 
@@ -60,11 +64,11 @@ Die Verwendung des POS Archives innerhalb eines Standortes ist für maximal 25 i
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung der maximal nutzbaren Queues für das POS Archiv kann ein zuzsätzliches POS Archiv pro Queue (elektronische Aufzeichnungssysteme; GoBD Kassen inkl. angeschlossene Eingabegeräte) erworben werden.
+Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
 
 ## Nichteinhaltung der Fair Use Policy zur Verwendung des POS Archives
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, die Anzahl der überschrittenen Queues inklusive zusätzlicher Bearbeitungsgebühr in Rechnung zu stellen.
+Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, ein zusätzliches fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE-Produkt Bundle inklusive zusätzlicher Bearbeitungsgebühr in Rechnung zu stellen.
 
 ## Begriffsdefinitionen
 
