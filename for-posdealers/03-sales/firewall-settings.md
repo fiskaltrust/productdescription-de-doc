@@ -14,10 +14,10 @@ Unter Linux kann kein net.pipe verwendet werden, weiters benötigt jeder Teil (S
 
 ### Die fiskaltrust.Sicherheitseinrichtung kommuniziert in folgenden Fällen mit dem Internet
 
-- Zum ansprechend des Dienstes (SignatureCloud)
-- Zum signieren (A-Trust Online, fiskaltrust.HSM)
+- Zum Ansprechen des Dienstes (SignatureCloud)
+- Zum Signieren (A-Trust Online, fiskaltrust.HSM, fiskaly TSE)
 - Zur Prüfung der Konfiguration und zum Download der Pakete beim Online Launcher
-- Zum Upload der Daten in die fiskalturst.Cloud
+- Zum Upload der Daten in die fiskaltrust.Cloud
 
 ### Dafür werden folgende Freigaben benötigt
 
@@ -29,6 +29,7 @@ Port 443 https ausgehend für
 - packages.fiskaltrust.at
 - signing.fiskaltrust.at
 - signaturcloud.fiskaltrust.at
+- kassensichv.io bei Verwendung der fiskaly TSE
 
 ## Zertifikate
 

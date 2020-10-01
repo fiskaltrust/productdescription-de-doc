@@ -8,7 +8,7 @@ D-10117 Berlin<br />
 
 ## Verwendung der TSE-as-a-Service
 
-Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service enthalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
+Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service erhalten haben, können diese gemäß unserer Fair Use Policy nutzen. Dies gilt auch für Kunden, die eine fiskaly Cloud-TSE über den fiskaltrust.Shop erworben haben. Nicht angewendet wird dieses Prinzip für Kunden, die eine fiskaly Cloud-TSE über andere Kanäle als den fiskaltrust.Shop bezogen haben.
 
 Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
 
@@ -18,15 +18,7 @@ Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal e
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei geplantem Einsatz von fiskaltrust Services an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
-
-### Anzahl der im Verbund befindlichen elektronischen Aufzeichnungssysteme innerhalb eines Standortes, welche die TSE verwenden
-
-Die Verwendung einer TSE innerhalb eines Standortes ist für maximal 25 im Verbund befindliche elektronische Aufzeichnungssysteme (GoBD Kassen inkl. angeschlossene Eingabegeräte) dieses Standortes, die auf die gleiche TSE zugreifen, zulässig. 
-
-#### Empfehlung zur Einhaltung der Fair Use Regel
-
-Bei voraussichtlicher Überschreitung der maximalen Anzahl der elektronischen Aufzeichnungssysteme im Verbund kann eine zusätzliche TSE für diesen Standort erworben werden.
+Bei geplantem Einsatz von Compliance-as-a-Service Produkten bzw. Features an mehreren Standorten erwerben Sie bitte die benötigten Produkte je Standort.
 
 ### Anzahl der maximal nutzbaren Signaturen der TSE pro Monat
 
@@ -52,9 +44,27 @@ In folgenden Fällen verfällt der Anspruch auf den Tausch der Hardware TSE:
 
 Bei voraussichtlicher Überschreitung der maximal nutzbaren Signaturen der TSE pro Monat kann eine zusätzliche TSE für diesen Standort erworben, und so der Anspruch auf einen kostenlosen Tausch der Hardware TSE, welche der Subscription zugeordnet ist, erhalten werden.
 
-## Nichteinhaltung der Fair Use Policy
+## Nichteinhaltung der Fair Use Policy zur Verwendung der TSE-as-a-Service
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
+Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Zugriff auf die betroffene TSE nach erfolgloser Mahnung einzustellen.
+
+## Verwendung des POS Archives
+
+Kunden, die das POS Archiv im Bundle fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE erhalten haben, können dieses gemäß unserer Fair Use Policy nutzen. 
+
+Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
+
+### Anzahl der maximal nutzbaren Queues pro Standort, die das POS Archiv verwenden
+
+Die Verwendung des POS Archives innerhalb eines Standortes ist für maximal 25 im Verbund befindliche Queues (elektronische Aufzeichnungssysteme; GoBD Kassen inkl. angeschlossene Eingabegeräte) dieses Standortes  zulässig. 
+
+#### Empfehlung zur Einhaltung der Fair Use Regel
+
+Bei voraussichtlicher Überschreitung der maximal nutzbaren Queues für das POS Archiv kann ein zuzsätzliches POS Archiv pro Queue (elektronische Aufzeichnungssysteme; GoBD Kassen inkl. angeschlossene Eingabegeräte) erworben werden.
+
+## Nichteinhaltung der Fair Use Policy zur Verwendung des POS Archives
+
+Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, die Anzahl der überschrittenen Queues inklusive zusätzlicher Bearbeitungsgebühr in Rechnung zu stellen.
 
 ## Begriffsdefinitionen
 
@@ -63,7 +73,7 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Servicestelle
 
-Bei Fragen, Anregungen und Bewschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an info@fiskaltrust.de
+Bei Fragen, Anregungen und Beschwerden im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de)
 
 
 

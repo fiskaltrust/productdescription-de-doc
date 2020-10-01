@@ -18,7 +18,7 @@ Einen fiskaltrust Rahmenvertrag für Kassenhändler empfehlen wir, wenn Sie als 
 ## Kontakt
 
 Für den Abschluss eines Rahmenvertrages nehmen Sie bitte Kontakt mit unserem Sales Team auf: 
-sales@fiskaltrust.de
+[sales@fiskaltrust.de](mailto:sales@fiskaltrust.de)
 
 ## Erforderliche Daten
 

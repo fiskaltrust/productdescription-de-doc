@@ -28,7 +28,7 @@ Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine
 
 ### Teilnahme an der Pilotinstallation
 
-Bitte kontakieren Sie info@fiskaltrust.de für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
+Bitte kontakieren Sie [info@fiskaltrust.de](mailto:info@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
 
 ## Hardware
 
