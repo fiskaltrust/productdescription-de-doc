@@ -8,4 +8,4 @@ Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundl
 
 - Als PosDealer im Produktiv-Portal registriert und verifiziert
 
-**Für ein Angebot kontaktieren Sie bitte das fiskaltrust.Team (info@fiskaltrust.de)**
+**Für ein Angebot kontaktieren Sie bitte das fiskaltrust.Team ([info@fiskaltrust.de](mailto:info@fiskaltrust.de))**
