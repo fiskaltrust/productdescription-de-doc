@@ -1,14 +1,5 @@
 # Kundensupport für Kassenhändler
 
-fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
-
-| Supportmittel                           | Inhalte                                                      |
-| --------------------------------------- | ------------------------------------------------------------ |
-| FAQ                                     | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
-| Produkt-Dokumentation für Kassenhändler | Der Dokumentationsbereich speziell für Kassenhändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
-| Release Notes                           | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
-| Kundensupport                           | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
-
 ## Entgegennahme der Anfragen in elektronischer Form 
 Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fiskaltrust gerne zur Verfügung:
 
@@ -40,3 +31,15 @@ Es werden drei verschiedene nachgelagerte Support-Einheiten betrieben.
 - Der spezialisierte Support für Kassenhersteller bearbeitet beispielsweise Anfragen im Bereich von Middleware Anbindung und Implementierungsunterstützung von verschiedenen Geschäftsfällen.
 - Der spezialisierte Support für Kassenhändler bearbeitet beispielsweise Anfragen im Bereich von Middleware Roll-Out und Kassenbetreiber Onboarding. 
 - Der Support durch das Site Reliability Engineering bearbeitet beispielsweise Anfragen im Bereich des Plattformbetriebs. 
+
+## Weiterführende Informationen
+
+fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
+
+| Supportmittel                           | Inhalte                                                      |
+| --------------------------------------- | ------------------------------------------------------------ |
+| FAQ                                     | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
+| Produkt-Dokumentation für Kassenhändler | Der Dokumentationsbereich speziell für Kassenhändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
+| Release Notes                           | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
+| Kundensupport                           | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
+
