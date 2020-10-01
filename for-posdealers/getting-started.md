@@ -19,7 +19,7 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 
 Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fiskaltrust gerne zur Verfügung:
 
-- [support@fiskaltrust.de](mailto:support@fiskaltrust.de) 
+- [support@fiskaltrust.de](mailto:support@fiskaltrust.de) (E-Mails werden priorisiert und in Tickets umgewandelt bzw. zugeordnet)
 - +49 211 54013 432 (Telefonische Kontaktaufnahmen werden in E-Mails an die oben genannte Adresse umgewandelt)
 
 Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
@@ -34,11 +34,12 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 6. [Einkaufsplanung](#6.einkaufsplanung)
 7. [Optional: Abschluss eines Rahmenvertrages](#7.optional-abschluss-eines-rahmenvertrages)
 8. [Rollout Optionen, Planung & Vorbereitung](#8.rollout-optionen-planung-vorbereitung)
-9. Einkauf der Produkte
-10. Einladung der Kunden
-11. Konfiguration & Rollout
-12. Inbetriebnahme
-13. After-sales Support
+9. Erwerb von Händlereinkaufsprodukten 
+10. Weiterverkauf von Produkten von fiskaltrust
+11. Hinzufügen von Kassenbetreibern
+12. Konfiguration & Rollout
+13. Inbetriebnahme
+14. After-sales Support
 
 ## 1. Über fiskaltrust
 
@@ -133,8 +134,8 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 
 | Option                                  | Anmerkung                                                    |
 | --------------------------------------- | ------------------------------------------------------------ |
-| manuelle Konfiguration                  | manuelle Anlage von einzelnen Cashboxen. Einfach umsetzbar, empfohen für eine geringe Anzahl an zu konfigurierender Cashboxen (<50) |
-| manuelle Ausführung von Templates       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. Empfohlen ab. ca. 50 zu konfigurierende Cashboxen. |
+| manuelle Konfiguration                  | manuelle Anlage von einzelnen Cashboxen. Einfach umsetzbar, empfohlen für eine geringe Anzahl an gleich zu konfigurierender Cashboxen (<25) |
+| manuelle Ausführung von Templates       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. Empfohlen ab. ca. 25 gleich zu konfigurierende Cashboxen. |
 | automatisierte Ausführung von Templates | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. |
 
 ### Optionen für die Auslieferung der Middleware
@@ -148,3 +149,40 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 
  [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) 
 
+## 9. Erwerb von Händlereinkaufsprodukten
+
+Händlereinkaufsprodukte für den Weiterverkauf an Kassenbetreiber können bei fiskaltrust direkt über den im Portal integrierten Webshop erworben werden.
+
+Nach dem Einkauf der Händlereinkaufsprodukte stehen ihnen diese Produkte in Form von "Entitlements" ("Ansprüche; eine Art Gutscheine") im Portal zur Verfügung.
+
+Mit dem Erwerb der Entitlements ist die Pre-Sales bzw. Einkaufsphase abgeschlossen.
+
+### Vertiefende Informationen
+
+[Erwerb von Händlereinkaufsprodukten](02-pre-sales/02-purchase.md)
+
+## 10. Weiterverkauf von Produkten von fiskaltrust
+
+Der Weiterverkauf der Produkte von fiskaltrust geschieht außerhalb des Ökosystems von fiskaltrust. Kassenhändler können die Produkte von fiskaltrust in ihr eigenes Produkt- und Serviceportfolio beliebig integrieren und anbieten.
+
+Wurden vom Händler Produkte von fiskaltrust an einen Betreiber verkauft, muss dieser Betreiber vom Händler im Portal von fiskaltrust hinzugefügt werden, damit die zuvor erworbenen Ansprüche auf den Kunden übertragen und die Produkte für den Kunden hergestellt und letztendlich von ihm genutzt werden können. Die dafür notwendigen Schritte werden im Folgenden Teil erläutert.
+
+## 11. Hinzufügen von Kassenbetreibern
+
+Kunden eines Kassenhändler, die Anspruch auf die Nutzung von Produkten von fiskaltrust haben, müssen als ersten Schritt vom Händler zum Portal von fiskaltrust hinzugefügt werden.
+
+Kassenbetreiber können 
+
+- manuell 
+- über eine CSV Datei, oder 
+- über das Feature "KassenHändler Auto-Invitation "
+
+zum Portal hinzugefügt werden. 
+
+In allen Fällen wird eine Einladungs-Email an den Kassenbetreiber gesendet, in der er je nach gewählter Methode unterschiedliche Informationen erhält bzw. Handlungen setzen muss. 
+
+Konfiguration & Rollout
+
+Inbetriebnahme
+
+After-sales Support
