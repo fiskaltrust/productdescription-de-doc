@@ -1,4 +1,4 @@
-# Support für Kassenhändler
+# Kundensupport für Kassenhändler
 
 fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 
@@ -9,10 +9,7 @@ fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tät
 | Release Notes                           | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
 | Kundensupport                           | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
 
-## Kundensupport
-
-### Entgegennahme der Anfragen in elektronischer Form 
-
+## Entgegennahme der Anfragen in elektronischer Form 
 Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fiskaltrust gerne zur Verfügung:
 
 - [support@fiskaltrust.de](mailto:support@fiskaltrust.de) 
@@ -24,8 +21,7 @@ Anfragen und Störungen werden bei Entgegennahme mit einer eindeutigen Ticket Nu
 
 Diese Ticket Nummer ist in E-Mail-Kommunikation in den Titel bzw. Subjekt aufzunehmen, um auf die jeweilige Anfrage zu referenzieren. Auch bei telefonischer Kommunikation soll die Ticket Nummer zur eindeutigen Zuordnung genannt werden. 
 
-### Qualifizierte Störungsbearbeitung im eigenen Zuständigkeitsbereich 
-
+## Qualifizierte Störungsbearbeitung im eigenen Zuständigkeitsbereich 
 Reguläre Supportzeiten sind Mo-Do 9:00 – 16:00. 
 
 Anfragen und Störungen werden in drei verschiedene Klassen eingeteilt. 
@@ -36,8 +32,7 @@ Anfragen und Störungen werden in drei verschiedene Klassen eingeteilt.
 
 Entsprechend der Einstufung nach Klasse wird von fiskaltrust eine Reaktionszeit und ein Zeitrahmen für ein Statusupdate eingeräumt. Die angegebenen Zeiten laufen nur während der regulären Supportzeiten. 
 
-### Weiterleitung von komplexeren Problemen an nachgelagerte Support-Einheiten 
-
+## Weiterleitung von komplexeren Problemen an nachgelagerte Support-Einheiten 
 fiskaltrust leitet komplexe Anfragen an Support-Einheiten weiter, welche in verbundenen Unternehmen agieren und wird diese nachgelagerten Support-Einheiten auch zu den vereinbarten Reaktionszeiten verpflichten. 
 
 Es werden drei verschiedene nachgelagerte Support-Einheiten betrieben. 
