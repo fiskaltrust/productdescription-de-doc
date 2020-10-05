@@ -1,8 +1,8 @@
-# Empfohlene Schritte für Kassenhändler
+# Getting started - Empfohlene Schritte für Kassenhändler
 
 ## Inhalt des Dokumentes
 
-Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten.
+Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten.
 
 ### Zielgruppen
 
@@ -167,25 +167,37 @@ Der Weiterverkauf der Produkte von fiskaltrust geschieht außerhalb des Ökosyst
 
 Wurden vom Händler Produkte von fiskaltrust an einen Betreiber verkauft, muss dieser Betreiber vom Händler im Portal von fiskaltrust hinzugefügt werden, damit die zuvor erworbenen Ansprüche auf den Kunden übertragen und die Produkte für den Kunden hergestellt und von ihm genutzt werden können. Die dafür notwendigen Schritte werden im Folgenden Teil erläutert.
 
+### Vertiefende Informationen
+
+Marketing Materialien (in Bearbeitung)
+
 ## 11. Hinzufügen von Kassenbetreibern
 
 Kunden eines Kassenhändler, die Anspruch auf die Nutzung von Produkten von fiskaltrust haben, müssen als ersten Schritt vom Händler zum Portal von fiskaltrust hinzugefügt werden.
 
-Kassenbetreiber können 
+Dabei stehen folgende Optionen zur Verfügung:
 
-- manuell 
-- über eine CSV Datei, oder 
-- über das Feature "KassenHändler Auto-Invitation "
+| **Option**                         | **Anmerkung**                                                | **Vorteil**e                                                 | **Nachteile**                                                |
+| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **manuelle Einladung**             | E-Mail Adressen werden manuell in ein Eingabefeld für den Versand der Einladungen eingetragen.<br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Geringer Aufwand für kleine Händler bei einer geringen Anzahl von Betreibern | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler beim Betreiber das Einverständnis einholen, in seinem Namen Cashboxen verwalten zu können. |
+| **CSV Import von E-Mail Adressen** | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler beim Betreiber das Einverständnis einholen, in seinem Namen Cashboxen verwalten zu können. |
+| **KassenHändler Auto-Invitation**  | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen Cashboxen verwalten zu können.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar. | Einholung des Einverständnisses für die Cashboxverwaltung muss vorab und ausserhalb des fiskaltrust .Portales erfolgen. |
 
-zum Portal hinzugefügt werden. 
+Grundsätzlich wird empfohlen, den Weiterverkauf der fiskaltrust Produkte ausserhalb des Ökosystems aus dem vorhergehenden Schritt mit einer Einverständniserklärung zur Cashboxverwaltung zur Kassenhändler Auto-Invitation zu kombinieren, um den Betreiber bestmöglich zu unterstützen und den Koordinationsaufwand so gering als möglich zu halten.
 
-In allen Fällen wird eine Einladungs-Email an den Kassenbetreiber gesendet, in der er je nach gewählter Methode unterschiedliche Informationen erhält bzw. Handlungen setzen muss. 
+### Vertiefende Informationen
+
+How-to-guide für die Einladung von Kassenbetreibern (in Bearbeitung)
+
+Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung)
 
 ## 12. Rollout - Übertragung von Entitlements & Konfiguration
 
 
 
 ## 13. Inbetriebnahme
+
+
 
 ## 14. After-sales Support
 
@@ -198,3 +210,8 @@ fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tät
 | Release Notes                           | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
 | Kundensupport                           | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
 
+### Vertiefende Informationen
+
+Kundensupport für Kassenhändler (in Bearbeitung)
+
+Übersicht After-Sales Support- und Troubleshooting Guidelines (in Bearbeitung)
