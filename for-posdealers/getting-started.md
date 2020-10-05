@@ -1,5 +1,4 @@
-# Getting started - Empfohlene Schritte für Kassenhändler
-
+# Getting started - empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
 ## Inhalt des Dokumentes
 
 Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten.
@@ -132,18 +131,18 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 
 ### Optionen für die Erstellung von Cashboxen ("Konfigurations-Container")
 
-| Option                                  | Anmerkung                                                    |
-| --------------------------------------- | ------------------------------------------------------------ |
-| manuelle Konfiguration                  | manuelle Anlage von einzelnen Cashboxen. Einfach umsetzbar, empfohlen für eine geringe Anzahl an gleich zu konfigurierender Cashboxen (<25) |
-| manuelle Ausführung von Templates       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. Empfohlen ab. ca. 25 gleich zu konfigurierende Cashboxen. |
-| automatisierte Ausführung von Templates | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. |
+| Option                                      | Anmerkung                                                    |
+| ------------------------------------------- | ------------------------------------------------------------ |
+| **manuelle Konfiguration**                  | manuelle Anlage von einzelnen Cashboxen. Einfach umsetzbar, empfohlen für eine geringe Anzahl an gleich zu konfigurierender Cashboxen (<25) |
+| **manuelle Ausführung von Templates**       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. Empfohlen ab. ca. 25 gleich zu konfigurierende Cashboxen. |
+| **automatisierte Ausführung von Templates** | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. |
 
 ### Optionen für die Auslieferung der Middleware
 
 | Option                                                       | Anmerkung                                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Download der Middleware inkl. Konfigurationsdatei über das Portal | Die Middleware wird gemeinsam mit der basierend auf die Cashbox-Konfiguration erzeugten Konfigurationsdatei auf die Kasse geladen. |
-| Distribution eines generischen Nugget-Launchers inkl. separater Lieferung einer jeweils angepassten Konfiguration | Diese Option empfiehlt sich, wenn die Middleware als Teil des POS Systems ausgeliefert werden soll. |
+| **Download der Middleware inkl. Konfigurationsdatei über das Portal** | Die Middleware wird gemeinsam mit der basierend auf die Cashbox-Konfiguration erzeugten Konfigurationsdatei auf die Kasse geladen. |
+| **Distribution eines generischen Nugget-Launchers inkl. separater Lieferung einer jeweils angepassten Konfiguration** | Diese Option empfiehlt sich, wenn die Middleware als Teil des POS Systems ausgeliefert werden soll. |
 
 ### Vertiefende Informationen
 
@@ -203,15 +202,15 @@ Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants 
 
 fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 
-| Supportmittel                           | Inhalte                                                      |
-| --------------------------------------- | ------------------------------------------------------------ |
-| FAQ                                     | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
-| Produkt-Dokumentation für Kassenhändler | Der Dokumentationsbereich speziell für Kassenhändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
-| Release Notes                           | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
-| Kundensupport                           | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
+| Supportmittel                                                | Inhalte                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[FAQ](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language)** | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
+| **[Produkt-Dokumentation für Kassenhändler](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/README.html)** | Der Dokumentationsbereich speziell für Kassenhändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
+| **[Release Notes](https://github.com/fiskaltrust/release-notes)** | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
+| **[Kundensupport für Kassenhändler](support.md)**            | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
 
 ### Vertiefende Informationen
 
-Kundensupport für Kassenhändler (in Bearbeitung)
+[Kundensupport für Kassenhändler](support.md)
 
 Übersicht After-Sales Support- und Troubleshooting Guidelines (in Bearbeitung)

@@ -57,9 +57,9 @@ Der Sales-Bereich beinhaltet Unterstützung im Weiterverkaufs- und Rollout-Proze
 
 Der After-Sales Bereich bietet Unterstützung für Händler nach erfolgreichem Abschluss des Rollouts. Angefangen mit Hilfestellungen im Kundensupport, über Produkt-Updates bis hin zur Erneuerung der Subscriptions. 
 
+- [Kundensupport für Kassenhändler](support.md)
 - TSE Verwaltung
 - Vertragsmanagement
-- Hilfestellung für Kundensupport
 
 #### Troubleshooting Guidelines
 
