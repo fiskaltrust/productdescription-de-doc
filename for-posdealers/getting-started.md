@@ -23,6 +23,12 @@ Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fisk
 
 Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 
+Empfohlene Unterlagen
+
+
+
+
+
 ## Übersicht
 
 1. [Über fiskaltrust](#1.über-fiskaltrust)
@@ -172,17 +178,24 @@ Marketing Materialien (in Bearbeitung)
 
 ## 11. Hinzufügen von Kassenbetreibern
 
-Kunden eines Kassenhändler, die Anspruch auf die Nutzung von Produkten von fiskaltrust haben, müssen als ersten Schritt vom Händler zum Portal von fiskaltrust hinzugefügt werden.
+Kunden eines Kassenhändlers, die Anspruch auf die Nutzung von Produkten von fiskaltrust haben, müssen als ersten Schritt vom Händler zum Portal von fiskaltrust hinzugefügt werden.
 
 Dabei stehen folgende Optionen zur Verfügung:
 
-| **Option**                         | **Anmerkung**                                                | **Vorteil**e                                                 | **Nachteile**                                                |
+| **Option**                         | Beschreibung                                                 | **Vorteil**e                                                 | **Nachteile**                                                |
 | ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **manuelle Einladung**             | E-Mail Adressen werden manuell in ein Eingabefeld für den Versand der Einladungen eingetragen.<br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Geringer Aufwand für kleine Händler bei einer geringen Anzahl von Betreibern | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler beim Betreiber das Einverständnis einholen, in seinem Namen Cashboxen verwalten zu können. |
 | **CSV Import von E-Mail Adressen** | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler beim Betreiber das Einverständnis einholen, in seinem Namen Cashboxen verwalten zu können. |
 | **KassenHändler Auto-Invitation**  | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen Cashboxen verwalten zu können.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar. | Einholung des Einverständnisses für die Cashboxverwaltung muss vorab und ausserhalb des fiskaltrust .Portales erfolgen. |
 
 Grundsätzlich wird empfohlen, den Weiterverkauf der fiskaltrust Produkte ausserhalb des Ökosystems aus dem vorhergehenden Schritt mit einer Einverständniserklärung zur Cashboxverwaltung zur Kassenhändler Auto-Invitation zu kombinieren, um den Betreiber bestmöglich zu unterstützen und den Koordinationsaufwand so gering als möglich zu halten.
+
+Folgende Rechte können seitens des Betreibers eingeholt werden, um in seinem Namen tätig sein zu können:
+
+| Rechte                                  | Benefit                                                      |
+| --------------------------------------- | ------------------------------------------------------------ |
+| Surrogate                               | Kassenhändler mit Surrogate-Rechten können in den Account des Betreibers einsteigen und dieselben Funktionen wie der Betreiber selbst ausführen. Dies wird z.B. benötigt, um für Betreiber Cashboxen zu konfigurieren oder einen DSFinV-K Export im Falle einer Betriebsprüfung für den Betreiber durchführen zu können. |
+| Contract Conclusion (Vertragsabschluss) | Mit Vertragsabschluss-Rechten können Kassenhändler im Namen des Betreibers Verträge abschliessen und Einkäufe tätigen. Dies wird z.B. benötigt, um Betreibern die Registrierung im Portal zu sparen oder im Namen des Betreibers Ansprüche aus Entitlements einlösen und Produkte herstellen kann. Die Vertragsabschluss Rechte werden vom Händler somit benötigt, und Kunden ein Full-Service anbieten zu können, in welchem Betreiber mit fiskaltrust kaum in Berührung kommen. |
 
 ### Vertiefende Informationen
 
@@ -191,6 +204,15 @@ How-to-guide für die Einladung von Kassenbetreibern (in Bearbeitung)
 Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung)
 
 ## 12. Rollout - Übertragung von Entitlements & Konfiguration
+
+Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, empfehlen wir dem Händler seine Entitlements auf diesen Betreiber zu übertragen und die Produkte im Namen des Betreibers für den Betreiber zur Nutzung herzustellen und zu konfigurieren. 
+
+| Voraussetzung                                              | Option                                                       | Beschreibung                                                 | Vorteile | Nachteile |
+| ---------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | --------- |
+| Keine Rechte für Surrogate und Vertragsabschluss vorhanden | Händler stellt Produkte (und optional Konfigurations-Templates) für seine Kunden im fiskaltrust.Shop zur Verfügung | Händler überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der Betreiber checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der Betreiber konfiguriert das Produkt. |          |           |
+| Rechte für Surrogate vorhanden                             | Händler                                                      |                                                              |          |           |
+| Rechte für Vertragsabschluss vorhanden                     |                                                              |                                                              |          |           |
+| Rechte für Surrogate und Vertragsabschluss vorhanden       |                                                              |                                                              |          |           |
 
 
 
