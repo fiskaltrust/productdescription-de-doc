@@ -47,25 +47,7 @@ Möchte man später die Konfiguration updaten (z.B. eine neue SCU Package Versio
 
 Der Launcher lädt daraufhin automatisch die neue Version der Cashbox, wendet diese an und startet die Middleware mit der neuen Konfiguration.
 
-Bei einer großen Menge von Kassen sind sowohl der initiale Rollout als auch ein Update sehr zeitaufwendig, wenn sie mit Hilfe der oben beschriebenen, manuellen Prozessen vorgenommen werden. 
-
-
-
-## Massenupdate über das Portal
-
-Für einen Massenupdate bereits ausgerollter Cashboxen stellt fiskaltrust unter dem Portalmenüpunkt ```Konfiguration -> Update``` die Möglichkeit zur Verfügung viele der Cashboxen gleichzeitig zu aktualisieren. 
-
-Wird zum Beispiel eine neue Package Version des Persistenzlayer benötigt, so kann diese für alle betroffenen Cashboxen gleichzeitig aktualisiert werden:
-
-
-
-![Massenupdate](media/mass-update.png)
-
-
-
-Im oben dargestellten Screenshot wird für alle Queues mit der `fiskaltrust.Middleware.Queue.SQLite` Package Version 1.3.3 die Konfiguration auf die Version 1.3.5 upgedatet. Zusätzlich werden automatisch die entsprechenden Cashboxen aktualisiert und zusammengebaut (siehe Rebuild Configuration checkbox rechts).
-
-
+Bei einer großen Menge von Kassen ist der initiale Rollout sehr zeitaufwendig, wenn sie mit Hilfe der oben beschriebenen, manuellen Prozessen vorgenommen werden. 
 
 
 ## Templating zum Anlegen von Cashboxen

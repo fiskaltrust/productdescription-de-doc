@@ -216,7 +216,7 @@ Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Pr
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| How-to-guide: Übertragung von Entitlements & Konfiguration (in Bearbeitung | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [How-to-guide: Übertragung von Entitlements & Konfiguration](04-after-sales\README.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 13. Inbetriebnahme
 
@@ -238,4 +238,4 @@ fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tät
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Kundensupport für Kassenhändler](support.md)                | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
-| Übersicht After-Sales Support- und Troubleshooting Guidelines (in Bearbeitung) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Übersicht After-Sales Support- und Troubleshooting Guidelines](04-after-sales\README.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
