@@ -1,9 +1,9 @@
 # Getting started - empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
 ## Inhalt des Dokumentes
 
-Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten.
+Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten. Bei einem Verweis auf vertiefende Informationen ist die jeweils dafür relevante Zielgruppe angeführt, um eine effiziente Nutzung der Dokumentation zu ermöglichen.
 
-### Zielgruppen
+### Zielgruppen für den Getting-Started Guide:
 
 - [Shareholder, Owner](../glossar/personas-posdealer.md)
 - [Account-manager/Sales](../glossar/personas-posdealer.md)
@@ -16,9 +16,12 @@ Der Inhalt dient neuen Kassenhändlern als Einstieg und Orientierungshilfe. Neue
 
 ## Empfohlene Unterlagen
 
-Vor der Konsumation des folgenden Dokumentes wird als Einstieg die Durchsicht der Präsentationen zur Rollout-Vorbereitung empfohlen:
+Vor der Konsumation des Getting started Guides wird als Einstieg die Durchsicht der Präsentationen zur Rollout-Vorbereitung empfohlen:
 
-[Präsentationen zur Rollout-Vorbereitung](prepare-rollout-presentations-de.md)
+| Unterlage                                                    | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Vorbereitung Sales Rollout](presentation/sales/media/posdealer-sales-rollout.pptx) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Vorbereitung technisches Rollout](presentation/tech/media/posdealer-tech-rollout.pptx) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## Kontakt
 
@@ -50,19 +53,19 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Diese Produkte werden von Kassenhersteller und Kassenhändler als Teil Ihrer eigenen Lösungen beim Kassenbetreiber eingesetzt. Aus Sicht eines Kassenbetreibers ist fiskaltrust daher ein All-in-One-Lösungsanbieter für Fiskalisierung. Das bedeutet, dass ein Kassenbetreiber, der Nutzer eines fiskaltrust.Sorglos mit TSE Produkt-Bundle ist, sich für die Dauer der Subscription keine Gedanken mehr über das Thema Fiskalisierung machen muss.
 
-### Vertiefende Informationen
-
-- [Rechtliche Grundlagen](../product-service-description/DE-rechtliche-grundlagen.md)
-- [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md)
-- [Geschäftsmodell von fiskaltrust](../product-service-description/DE-business-model.md)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Rechtliche Grundlagen](../product-service-description/DE-rechtliche-grundlagen.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Geschäftsmodell von fiskaltrust](../product-service-description/DE-business-model.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 2. Vorteile für Kassenhändler
 
 fiskaltrust bietet Kassenhändlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen (TSE) und  "Sorglos" Produkt-Bundles im Bereich Fiskalisierung an. Durch Mengenrabatte und Rahmenverträge wird für Kassenhändler ein attraktives Kooperationsmodell angeboten. Werkzeuge zur Einladung & Verwaltung von Kunden, Konfigurationen von Kassen und automatisierte Rollout-Lösungen erleichtern Kassenhändlern die Integration und Wartung der Produkte.
 
-### Vertiefende Informationen
-
-[Benefits für Kassenhändler](02-pre-sales/benefits-for-posdealers.md)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Benefits für Kassenhändler](02-pre-sales/benefits-for-posdealers.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 3. Vertriebsmodell und Rollen
 
@@ -70,15 +73,12 @@ fiskaltrust vertreibt seine Produkte und Produkt-Bundles über Kassenhändler.
 
 Der Kassenhändler erwirbt die Produkte bei fiskaltrust im Webshop des Portales und erhält dadurch sogenannte Entitlements ("Ansprüche"). Nach dem Weiterverkauf der Produkte an seine Kunden (Kassenbetreiber) als Teil seiner eigenen Lösung über sein eigenes Verkaufssystem, kann der Kassenhändler die zuvor erhaltenen Ansprüche im Portal einlösen und seinen Kunden die entsprechenden Produkte zuweisen. Um mit den dafür notwendigen Rechten in der Verwaltung des Portales ausgestattet zu sein, ist die korrekte Aktivierung der Rollen von Kassenhersteller, Kassenhändler und Kassenbetreiber wichtig.
 
-### Vertiefende Informationen
-
-[Vertriebsmodell](vertriebsmodell.md)  
-
-[Begriffsdefinition Kassenhersteller](../glossar/README.md#kassenhersteller-poscreator)
-
-[Begriffsdefinition Kassenhändler](../glossar/README.md#kassenhändler-posdealer)
-
-[Begriffsdefinition Kassenbetreiber](../glossar/README.md#kassenbetreiber-posdoperator)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Vertriebsmodell](vertriebsmodell.md)                        | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Begriffsdefinition Kassenhersteller](../glossar/README.md#kassenhersteller-poscreator) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Begriffsdefinition Kassenhändler](../glossar/README.md#kassenhändler-posdealer) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Begriffsdefinition Kassenbetreiber](../glossar/README.md#kassenbetreiber-posdoperator) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 4. Das Produktangebot von fiskaltrust
 
@@ -90,9 +90,9 @@ Unabhängig von der in der Kassesoftware integrierten fislatrust.Middleware, bie
 
 Werden an einem Standort mehrere Kassen betrieben, bietet fiskaltrust dafür Produkt-Bundles an. Diese Produkt-Bundles enthalten die oben beschriebenen Addons und Einzelprodukte zu einem jährlichen Pauschalbetrag unabhängig von der Anzahl der am Standort betriebenen Kassen an, und enthalten auf Wunsch auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service). 
 
-### Vertiefende Informationen
-
-[fiskaltrust Produkte & Bundles](01-produkte/README.md) 
+| Vertiefende Information                                 | Zielgruppe                                                   |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| [fiskaltrust Produkte & Bundles](01-produkte/README.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 5. Abschluss eines Kooperationsvertrages
 
@@ -104,9 +104,9 @@ Damit erhalten Sie die notwendigen Rechte im Portal, um im Webshop des Portals P
 
 Falls Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschreibung entspricht ([vgl. oben](#vertriebsmodell-und-rollen)), Sie zum Beispiel sowohl als Kassenhersteller als auch Kassenhändler und vielleicht sogar auch als Kassenbetreiber auftreten, so stellen Sie bitte sicher dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
 
-### Vertiefende Informationen
-
- [Voraussetzungen für den Einkauf von Produkten als Kassenhändler](02-pre-sales/voraussetzungen-einkauf.md) 
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Voraussetzungen für den Einkauf von Produkten als Kassenhändler](02-pre-sales/voraussetzungen-einkauf.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 6. Einkaufsplanung
 
@@ -115,21 +115,19 @@ In diesem Schritt geht es darum herauszufinden, welche Produkte von welchem Ihre
 - Informieren und beraten Sie Ihre Kunden bezüglich der Produkte von fiskaltrust
 - Ermitteln Sie den Bedarf abhängig von Kassensystem und Standortbedingungen
 
-### Vertiefende Informationen
-
-[Informationsmaterial über fiskaltrust-Produkte für Kassenbetreiber](02-pre-sales/sales-material.md)
-
-[Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/rollout-scenarios.md)
-
-[Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) 
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Informationsmaterial über fiskaltrust-Produkte für Kassenbetreiber (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/rollout-scenarios.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 7. Optional: Abschluss eines Rahmenvertrages
 
 Wenn als Ergebnis der Einkaufsplanung mehr als 10 Produkt-Bundles benötigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Bitte rechnen Sie eine Bearbeitungszeit von 1-2 Wochen bis zum Abschluss des Vertrages in Ihre Rollout-Planung mit ein. Mit Abschluss eines Rahmenvertrages können Sie die inkludierten Produkte zum im Rahmenvertrag vereinbarten Einkaufspreis über den fiskaltrust.Webshop erwerben.
 
-### Vertiefende Informationen
-
-[Abschluss eines Rahmenvertrages](02-pre-sales/01-purchase-agreement.md)
+| Vertiefende Information                                      | Zielgruppe                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------ |
+| [Abschluss eines Rahmenvertrages](02-pre-sales/01-purchase-agreement.md) | [Shareholder, Owner](../glossar/personas-posdealer.md) |
 
 ## 8. Rollout Optionen, Planung & Vorbereitung
 
@@ -150,9 +148,9 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 | **Download der Middleware inkl. Konfigurationsdatei über das Portal** | Die Middleware wird gemeinsam mit der basierend auf die Cashbox-Konfiguration erzeugten Konfigurationsdatei auf die Kasse geladen. |
 | **Distribution eines generischen Nugget-Launchers inkl. separater Lieferung einer jeweils angepassten Konfiguration** | Diese Option empfiehlt sich, wenn die Middleware als Teil des POS Systems ausgeliefert werden soll. |
 
-### Vertiefende Informationen
-
- [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) 
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 9. Erwerb von Händlereinkaufsprodukten
 
@@ -162,9 +160,11 @@ Nach dem Einkauf der Händlereinkaufsprodukte stehen ihnen diese Produkte in For
 
 Mit dem Erwerb der Entitlements ist die Pre-Sales bzw. Einkaufsphase abgeschlossen.
 
-### Vertiefende Informationen
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Erwerb von Händlereinkaufsprodukten](02-pre-sales/02-purchase.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site) |
 
-[Erwerb von Händlereinkaufsprodukten](02-pre-sales/02-purchase.md)
+------
 
 ## 10. Weiterverkauf von Produkten von fiskaltrust
 
@@ -181,11 +181,10 @@ Folgende Rechte können seitens des Betreibers eingeholt werden, um in seinem Na
 | Surrogate                               | Kassenhändler mit Surrogate-Rechten können in den Account des Betreibers einsteigen und dieselben Funktionen wie der Betreiber selbst ausführen. | Konfiguration von Cashboxen<br />DSFinV-K Exporte im Falle einer Betriebsprüfung |
 | Contract Conclusion (Vertragsabschluss) | Mit Vertragsabschluss-Rechten können Kassenhändler im Namen des Betreibers Verträge abschliessen und Einkäufe tätigen. Die Vertragsabschluss Rechte werden vom Händler benötigt, und Kunden ein Full-Service anbieten zu können, in welchem Betreiber mit fiskaltrust kaum in Berührung kommen.<br />**Voraussetzung:** Rechte für die Surrogate-Funktion. | Registrierung am Portal ohne Mitarbeit des Betreibers<br />Für den Betreiber Ansprüche aus Entitlements einlösen und Produkte herstellen |
 
-### Vertiefende Informationen
-
-Marketing Materialien (in Bearbeitung)
-
-Vorlage zur Einholung der Rechte für Surrogate und Contract Conclusion (in Bearbeitung)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Marketing Materialien (in Bearbeitung)                       | [Account-manager/Sales](../glossar/personas-posdealer.md)    |
+| Vorlage zur Einholung der Rechte für Surrogate und Contract Conclusion (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 11. Hinzufügen von Kassenbetreibern
 
@@ -199,11 +198,10 @@ Dabei stehen folgende Optionen zur Verfügung:
 | **CSV Import von E-Mail Adressen** | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler bei Bedarf weitere Rechte vom Betreiber einholen. |
 | **KassenHändler Auto-Invitation**  | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen Cashboxen verwalten zu können.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> | Einholung der dafür notwendigen Rechte  muss vorab und ausserhalb des fiskaltrust .Portales erfolgen. |
 
-### Vertiefende Informationen
-
-How-to-guide für die Einladung von Kassenbetreibern (in Bearbeitung)
-
-Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| How-to-guide für die Einladung von Kassenbetreibern (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 12. Rollout - Übertragung von Entitlements & Konfiguration
 
@@ -216,13 +214,15 @@ Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Pr
 | **Rechte für Vertragsabschluss vorhanden**                   | Händler stellt Produkte mit seinem Branding (und optional Konfigurations-Templates) für seine Kunden im fiskaltrust.Shop zur Verfügung | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Händler** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Betreiber** konfiguriert das Produkt. |
 | **Rechte für Surrogate und Vertragsabschluss vorhanden**     | Händler kauft Produkte im Namen des Betreibers im fiskaltrust.Shop ein | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Händler** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Händler** konfiguriert das Produkt. |
 
-### Vertiefende Informationen
-
-How-to-guide: Übertragung von Entitlements & Konfiguration (in Bearbeitung)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| How-to-guide: Übertragung von Entitlements & Konfiguration (in Bearbeitung | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 13. Inbetriebnahme
 
 (in Bearbeitung)
+
+------
 
 ## 14. After-sales Support
 
@@ -235,8 +235,7 @@ fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tät
 | **[Release Notes](https://github.com/fiskaltrust/release-notes)** | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
 | **[Kundensupport für Kassenhändler](support.md)**            | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
 
-### Vertiefende Informationen
-
-[Kundensupport für Kassenhändler](support.md)
-
-Übersicht After-Sales Support- und Troubleshooting Guidelines (in Bearbeitung)
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Kundensupport für Kassenhändler](support.md)                | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| Übersicht After-Sales Support- und Troubleshooting Guidelines (in Bearbeitung) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
