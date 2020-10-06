@@ -4,5 +4,7 @@ Die Vorbereitung des Kassenhändler zum Kundenrollout der fiskaltrust Lösung be
 
 Im Folgenden stellen wir Ihnen unsere Präsentationen zur Rolloutvorbereitung, nach Themenbereich getrennt zur Verfügung:
 
-- [Vorbereitung Sales Rollout](presentation/sales/media/posdealer-sales-rollout.pptx)
-- [Vorbereitung technisches Rollout](presentation/tech/media/posdealer-tech-rollout.pptx)
+| Unterlage                                                    | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Vorbereitung Sales Rollout](presentation/sales/media/posdealer-sales-rollout.pptx) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Vorbereitung technisches Rollout](presentation/tech/media/posdealer-tech-rollout.pptx) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |

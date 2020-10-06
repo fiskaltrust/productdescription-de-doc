@@ -183,7 +183,6 @@ Folgende Rechte können seitens des Betreibers eingeholt werden, um in seinem Na
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Marketing Materialien (in Bearbeitung)                       | [Account-manager/Sales](../glossar/personas-posdealer.md)    |
 | Vorlage zur Einholung der Rechte für Surrogate und Contract Conclusion (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 11. Hinzufügen von Kassenbetreibern
