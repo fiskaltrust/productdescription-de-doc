@@ -1,4 +1,4 @@
-# Getting started - empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
+# Getting started - Empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
 ## Inhalt des Dokumentes
 
 Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten. Bei einem Verweis auf vertiefende Informationen ist die jeweils dafür relevante Zielgruppe angeführt, um eine effiziente Nutzung der Dokumentation zu ermöglichen.
@@ -216,7 +216,7 @@ Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Pr
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [How-to-guide: Übertragung von Entitlements & Konfiguration](04-after-sales\README.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| How-to-guide: Übertragung von Entitlements & Konfiguration (in Bearbeitung) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 13. Inbetriebnahme
 
@@ -238,4 +238,4 @@ fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tät
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Kundensupport für Kassenhändler](support.md)                | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
-| [Übersicht After-Sales Support- und Troubleshooting Guidelines](04-after-sales\README.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Übersicht After-Sales Support- und Troubleshooting Guidelines](04-after-sales/README.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Support](../glossar/personas-posdealer.md#posdealer---support) |
