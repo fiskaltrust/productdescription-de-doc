@@ -1,4 +1,7 @@
+
+
 # Getting started - Empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
+
 ## Inhalt des Dokumentes
 
 Dieser How-to-Guide enthält die empfohlene Schritte für den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support von fiskaltrust Produkten für Kassenhändler. Es wird empfohlen vorab zu prüfen, ob die im Dokument beschriebene Reihenfolge der einzelnen Schritte mit den eigenen Anforderungen in Einklang zu bringen sind. Je nach Bedarf können einzelne Schritte angepasst bzw. die Reihenfolge geändert werden. Die einzelnen Schritte werden hier oberflächlich beschrieben um rasch einen allgemeinen Überblick zu erhalten, und verweisen auf Dokumente, welche detailliertere Informationen für einzelne Zielgruppen dazu enthalten. Bei einem Verweis auf vertiefende Informationen ist die jeweils dafür relevante Zielgruppe angeführt, um eine effiziente Nutzung der Dokumentation zu ermöglichen.
@@ -139,7 +142,7 @@ Je nach Größe des Kassenhändlers bzw. Kassenbetreibers stehen unterschiedlich
 | ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **manuelle Konfiguration**                  | Einfach umsetzbare, manuelle Anlage von einzelnen Cashboxen. | Empfohlen für weniger als 25 gleich zu konfigurierender Cashboxen. |
 | **manuelle Ausführung von Templates**       | Anlage und Speicherung von Konfigurationsvorlagen für Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung mit Kassenhersteller und Kassenbetreiber. | Empfohlen ab ca. 25 gleich zu konfigurierende Cashboxen.     |
-| **automatisierte Ausführung von Templates** | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. |                                                              |
+| **automatisierte Ausführung von Templates** | Automatisierte Cashboxgenerierung mit Hilfe von Konfigurations-Templates und einer HTTP-API und Powershell Scripts. | Empfohlen ab ca. 100 Standorten mit Cashboxen nach einem bestimmten zu konfigurierenden System |
 
 ### Optionen für die Auslieferung der Middleware
 
@@ -172,15 +175,6 @@ Der Weiterverkauf der Produkte von fiskaltrust geschieht außerhalb des Ökosyst
 
 Grundsätzlich wird empfohlen, den Weiterverkauf der fiskaltrust Produkte ausserhalb des Ökosystems mit einem erweiterten Service- und Verwaltungsangebot zu kombinieren, um den Betreibern bestmögliches Kundenservice zu bieten und den Koordinationsaufwand so gering als möglich zu halten. 
 
-Dazu müssen Betreiber dem Händler erweiterte Rechte zur Verwaltung und Konfiguration ihrer Kassen einräumen. 
-
-Folgende Rechte können seitens des Betreibers eingeholt werden, um in seinem Namen tätig sein und besser servicieren zu können:
-
-| Rechte                                  | Benefit                                                      | Beispiele                                                    |
-| --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Surrogate                               | Kassenhändler mit Surrogate-Rechten können in den Account des Betreibers einsteigen und dieselben Funktionen wie der Betreiber selbst ausführen. | Konfiguration von Cashboxen<br />DSFinV-K Exporte im Falle einer Betriebsprüfung |
-| Contract Conclusion (Vertragsabschluss) | Mit Vertragsabschluss-Rechten können Kassenhändler im Namen des Betreibers Verträge abschliessen und Einkäufe tätigen. Die Vertragsabschluss Rechte werden vom Händler benötigt, und Kunden ein Full-Service anbieten zu können, in welchem Betreiber mit fiskaltrust kaum in Berührung kommen.<br />**Voraussetzung:** Rechte für die Surrogate-Funktion. | Registrierung am Portal ohne Mitarbeit des Betreibers<br />Für den Betreiber Ansprüche aus Entitlements einlösen und Produkte herstellen |
-
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Vorlage zur Einholung der Rechte für Surrogate und Contract Conclusion (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
@@ -191,11 +185,20 @@ Wurden vom Händler Produkte von fiskaltrust an einen Betreiber wie im vorherige
 
 Dabei stehen folgende Optionen zur Verfügung:
 
-| **Option**                         | Beschreibung                                                 | **Vorteil**e                                                 | **Nachteile**                                                |
-| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **manuelle Einladung**             | E-Mail Adressen werden manuell in ein Eingabefeld für den Versand der Einladungen eingetragen.<br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Geringer Aufwand für Händler bei einer kleinen Anzahl von Betreibern | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler bei Bedarf weitere Rechte vom Betreiber einholen. |
-| **CSV Import von E-Mail Adressen** | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. <br />In einem weiteren Schritt muss der Händler bei Bedarf weitere Rechte vom Betreiber einholen. |
-| **KassenHändler Auto-Invitation**  | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen Cashboxen verwalten zu können.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> | Einholung der dafür notwendigen Rechte  muss vorab und ausserhalb des fiskaltrust .Portales erfolgen. |
+| **Option**                         | Beschreibung                                                 | Empfohlene Berechtigung für die Verbindung | **Vorteil**e                                                 | **Nachteile**                                                |
+| ---------------------------------- | ------------------------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **manuelle Einladung**             | E-Mail Adressen werden manuell in ein Eingabefeld für den Versand der Einladungen eingetragen.<br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | schreiben/lesen                            | Geringer Aufwand für Händler bei einer kleinen Anzahl von Betreibern | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. |
+| **CSV Import von E-Mail Adressen** | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich am Portal zu registrieren. | schreiben/lesen                            | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. |
+| **KassenHändler Auto-Invitation**  | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen im fiskaltrust.Portal tätig sein zu dürfen, ein.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | schreiben/lesen inkl. Vertragsabschluss    | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> | Einholung der dafür notwendigen Rechte, um im Namen des Betreibers tätig werden und Verträge abschließenzu dürfen,  müssen vorab und ausserhalb des fiskaltrust.Portales erfolgen. |
+
+In einem weiteren Schritt müssen die Standorte ("Outlets") des Betreibers am Portal angelegt werden. Diese werden im Zuge des Rollout zur Übertragung der Entitlements und Herstellung der Produkte, und je nach gewählter Option zur Konfiguration der Cashboxen (siehe Schritt 8 Automatisierte Ausführung von Templates) benötigt:
+
+| Option                        | Beschreibung                                                 | Empfehlung                                              |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| **manuelle Anlage**           | Standorte des Betreibers werden vom Händler manuell über das Portal im Account des Kassenbetreibers angelegt. | Empfohlen für weniger als 25 Standorte eines Betreibers |
+| **CSV Import von Standorten** | Import von Standorten mit Hilde einer csv. Datei. Der Aufbau einer solchen Liste ist im Portal beschrieben | Empfohlen für mehr als 25 Standorte eines Betreibers    |
+
+
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -204,14 +207,9 @@ Dabei stehen folgende Optionen zur Verfügung:
 
 ## 12. Rollout - Übertragung von Entitlements & Konfiguration
 
-Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, empfehlen wir dem Händler seine Entitlements auf diesen Betreiber zu übertragen und die Produkte im Namen des Betreibers für den Betreiber zur Nutzung herzustellen und zu konfigurieren. 
+Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, müssen die Entitlements auf die Standorte bzw. Kassen des Betreibers übertragen und die Produkte für den Betreiber zur Nutzung hergestellt und konfiguriert werden. 
 
-| Rahmenbedingung                                              | Option                                                       | Beschreibung                                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Keine Rechte für Surrogate und Vertragsabschluss vorhanden** | Händler stellt Produkte mit seinem Branding (und optional Konfigurations-Templates) für seine Kunden im fiskaltrust.Shop zur Verfügung | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Betreiber** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Betreiber** konfiguriert das Produkt. |
-| **Rechte für Surrogate vorhanden**                           | Händler stellt Produkte mit seinem Branding (und optional Konfigurations-Templates) für seine Kunden im fiskaltrust.Shop zur Verfügung | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Betreiber** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Händler** konfiguriert das Produkt. |
-| **Rechte für Vertragsabschluss vorhanden**                   | Händler stellt Produkte mit seinem Branding (und optional Konfigurations-Templates) für seine Kunden im fiskaltrust.Shop zur Verfügung | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Händler** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Betreiber** konfiguriert das Produkt. |
-| **Rechte für Surrogate und Vertragsabschluss vorhanden**     | Händler kauft Produkte im Namen des Betreibers im fiskaltrust.Shop ein | Der **Händler** überträgt die Ansprüche für die weiterverkauften Produkte auf den Betreiber. <br />Der **Händler** checkt sowohl die Ansprüche für als auch das Produkt  (und optional Templates) im Webshop aus. Durch das Einlösen der Ansprüche wird das Produkt für 0 Euro verkauft.<br />Der **Händler** konfiguriert das Produkt. |
+Voraussetzung dafür sind die im vorhergehenden Schritt beschriebene hergestellte Verbindung mit dem Betreiber inklusive der notwendigen Rechte.  
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
