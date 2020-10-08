@@ -179,7 +179,7 @@ Grundsätzlich wird empfohlen, den Weiterverkauf der fiskaltrust Produkte ausser
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Vorlage zur Einholung der Rechte für Surrogate und Contract Conclusion (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
-## 11. Hinzufügen von Kassenbetreibern
+## 11. Verknüpfung und Konfiguration von Kassenbetreibern
 
 Wurden vom Händler Produkte von fiskaltrust an einen Betreiber wie im vorherigen Schritt beschrieben verkauft, muss dieser Betreiber vom Händler im Portal von fiskaltrust hinzugefügt werden, damit die zuvor vom Betreiber erworbenen Ansprüche auf ihn übertragen und die Produkte für ihn hergestellt und genutzt werden können. 
 
