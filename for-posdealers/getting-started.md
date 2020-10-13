@@ -49,7 +49,7 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 10. [Weiterverkauf von Produkten von fiskaltrust](#10.weiterverkauf-von-produkten-von-fiskaltrust)
 11. [Hinzufügen von Kassenbetreibern](#11.hinzufügen-von-kassenbetreibern)
 12. [Rollout - Übertragung von Entitlements & Konfiguration](#12.rollout---übertragung-vonentitlements---konfiguration)
-13. [Inbetriebnahme](#13.inbetriebnahme)
+13. [Auslieferung & Inbetriebnahme](#13.auslieferung---inbetriebnahme)
 14. [After-sales Support](14.after-sales-support)
 
 ## 1. Über fiskaltrust
@@ -207,19 +207,51 @@ In einem weiteren Schritt müssen die Standorte ("Outlets") des Betreibers am Po
 
 Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, müssen die Entitlements auf die Standorte bzw. Kassen des Betreibers übertragen und die Produkte für den Betreiber zur Nutzung hergestellt und konfiguriert werden. 
 
-Voraussetzung dafür sind die im vorhergehenden Schritt beschriebene hergestellte Verbindung mit dem Betreiber inklusive der notwendigen Rechte.  
+Je nach gewählter Methode zur Erstellung und Konfiguration der Cashboxen aus [Schritt 8](#8.rollout-optionen---planung-vorbereitung) erfolgt die Erstellung der Cashboxen zu unterschiedlichen Zeitpunkten. Wurden bereits im Rahmen der Rollout Vorbereitung Templates erstellt, können diese im Webshop gemeinsam mit den zu übertragenden Entitlements und den herzustellenden Produkten mit ausgechecked werden. In diesem Fall werden in einem Schritt 
+
+1. die Ansprüche für Produkte auf den Kassenbetreiber übertragen, 
+2. mit Hilfe dieser Ansprüche die Produkte hergestellt, und 
+3. mit Hilfe der Templates die Cashboxen des Standortes erzeugt und konfiguriert.
+
+Wurden keine Templates vorbereitet, so muss der oben beschriebene dritte Schritt zur Erstellung und Konfiguration der Cashboxen manuell im Anschluss an die Herstellung der Produkte erfolgen.
+
+Voraussetzung für diesen Vorgang sind die im Schritt 11 beschriebene hergestellte Verbindung mit dem Betreiber inklusive der notwendigen Rechte. Damit kann der Kassenhändler in den Account des Kassenbetreibers einsteigen und die Übertragung der Entitlements, Herstellung der Produkte und die Erstellung und Konfiguration der Cashboxen für den Betreiber durchführen.
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | How-to-guide: Übertragung von Entitlements & Konfiguration (in Bearbeitung) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
-## 13. Inbetriebnahme
+## 13. Auslieferung & Inbetriebnahme
 
-(in Bearbeitung)
+Im letzten Schritt muß der Launcher mit der erzeugten Konfiguration auf die Kasse des Betreibers ausgeliefert und in Betrieb genommen werden. Die Optionen für die Auslieferung der Middleware wurden bereits im [Schritt 8](#8.rollout-optionen---planung-vorbereitung) "Optionen für die Auslieferung der Middleware" beschrieben und müssen der getroffenen Entscheidung entsprechend ausgeführt werden.
+
+Wurde der Launcher mit der Konfiguration und der Middleware auf die Kasse downgeloaded bzw. ausgeliefert, muss mit Hilfe des Launchers die Middleware als Service gestartet werden. Die Verfügbarkeit der Middleware kann mit dem Echo-Methode überprüft werden.
+
+Bitte stellen Sie für den nächsten Schritt sicher, dass die TSE mit der Kasse verbunden ist.
+
+Durch Absetzen des [Initial Operation Receipts](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) wird die Queue bei der TSE registriert. 
+
+Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebnahme abgeschlossen und die Kasse kann im Echtbetrieb verwendet werden.
+
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/Installation/installation.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Initial Operation Receipt](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+
+
 
 ------
 
 ## 14. After-sales Support
+
+### Schritte nach erfolgreicher Inbetriebnahme
+
+Mit der erfolgreichen Inbetriebnahme der Kasse muss diese dem Finanzamt gemeldet werden. Derzeit steht dazu jedoch noch keine Möglichkeit der Meldung seitens der Finanzämter zur Verfügung. Wird von den Finanzämtern eine Schnittstelle zur automatisierten Meldung zur Verfügung gestellt, wird für Endverbraucher des fiskaltrust.Sorglos Paketes die Meldung an das Finanzamt automatisch im Hintergrund mit der erfolgreichen Initialisierung der TSE erfolgen. Die bis dahin erfolgten Inbetriebnahmen werden automatisch nachgereicht, sobald die Schnittstelle zur Verfügung steht. 
+
+Kunden ohne Sorglos Paket müssen die Inbetriebnahme der Kasse selbständig und manuell beim zuständigen Finanzamt durchführen. Die dafür notwendigen Informationen, wie z.B. Kassenseriennummer, sind im Portal verfügbar und können bei Bedarf vom Höndler zur Verfügung gestellt werden.
+
+### Support für Kassenhändler
 
 fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 
