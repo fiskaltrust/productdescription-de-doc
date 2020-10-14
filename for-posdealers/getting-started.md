@@ -231,15 +231,13 @@ Bitte stellen Sie für den nächsten Schritt sicher, dass die TSE mit der Kasse 
 
 Durch Absetzen des [Initial Operation Receipts](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) wird die Queue bei der TSE registriert. 
 
-Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebnahme abgeschlossen und die Kasse kann im Echtbetrieb verwendet werden.
+Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebnahme, sowie allgemein die Weiterverkaufs- und Rollout Phase abgeschlossen. Die Kasse kann jetzt im Echtbetrieb verwendet werden.
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 | [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/Installation/installation.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 | [Initial Operation Receipt](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
-
-
 
 ------
 
