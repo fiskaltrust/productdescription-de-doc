@@ -50,7 +50,7 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 11. [Hinzufügen von Kassenbetreibern](#11.hinzufügen-von-kassenbetreibern)
 12. [Rollout - Übertragung von Entitlements & Konfiguration](#12.rollout---übertragung-vonentitlements---konfiguration)
 13. [Auslieferung & Inbetriebnahme](#13.auslieferung---inbetriebnahme)
-14. [After-sales Support](14.after-sales-support)
+14. [After-sales Support](#14.after-sales-support)
 
 ## 1. Über fiskaltrust
 
