@@ -66,10 +66,11 @@ Once you were able to test the integration and successfully establish a communic
 It is important to involve you POS Dealers as early as possible, because they have to perform the following steps, among others, before they can roullout the fiskaltrust.Middleware to the POS Operators:
 1. Register in the fisklatrtust.Portal and there digitally sign a cooperation agreement with fiskaltrust.
 2. Depending on the circumstances, request and sign framework agreements for the purchase of products with fiskaltrust.
-3. Invite the POS Operators to the portal so that they can sign the usage agreement for the It is important to involve you POS Dealers as early as possible, because they have to perform the following steps, among others, before they can roullout the fiskaltrust.Middleware in the portal.
+3. Invite the POS Operators to the portal so that they can sign the usage agreement for the fiskaltrust.Middleware.
 4. Request access rights to the POS Operator's portal account so that the POS Dealer can redeem and activate the product entitlements purchased from fiskaltrust
 5. Request access rights to the POS Operator's portal account so that the POS Dealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
-6. Technical planning and preparation for rollout together with the POS Creator.
+6. For the correct DSFInV-K export the information of the POS System needs to be connected by the POS Dealer with the master data of the POS Operator.
+7. Technical planning and preparation for rollout together with the POS Creator.
 
 These steps can be very time consuming. Therefore, we strongly recommend that you **inform your POS Dealers as early as possible and especially invite them to register in the fiskaltrust.Portal**.
 
