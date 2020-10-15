@@ -37,20 +37,20 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 
 ## Übersicht
 
-1. [Über fiskaltrust](#1.über-fiskaltrust)
-2. [Vorteile für Kassenhändler](#2.vorteile-für-kassenhändler)
-3. [Vertriebsmodell und Rollen](#3.vertriebsmodell-und-rollen)
-4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#4.das-produktangebot-von-fiskaltrust)
-5. [Abschluss eines Kooperationsvertrages](#5.abschluss-eines-kooperationsvertrages)
-6. [Einkaufsplanung](#6.einkaufsplanung)
-7. [Optional: Abschluss eines Rahmenvertrages](#7.optional--abschluss-eines-rahmenvertrages)
-8. [Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen](#8.rollout-szenarien-und-automatisierungoptionen-analysieren-und-technische-vorbereitungen-treffen)
-9. [Erwerb von Händlereinkaufsprodukten](#9.erwerb-von-händlereinkaufsprodukten) 
-10. [Weiterverkauf von fiskaltrust Produkten](#10.weiterverkauf-von-fiskaltrust-produkten)
-11. [Hinzufügen von Kassenbetreibern](#11.hinzufügen-von-kassenbetreibern)
-12. [Übertragung von Entitlements](#12.übertragung-von-entitlements)
-13. [Auslieferung & Inbetriebnahme](#13.auslieferung---inbetriebnahme)
-14. [After-sales Support](#14.after-sales-support)
+1. [Über fiskaltrust](#1-über-fiskaltrust)
+2. [Vorteile für Kassenhändler](#2-vorteile-für-kassenhändler)
+3. [Vertriebsmodell und Rollen](#3-vertriebsmodell-und-rollen)
+4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an Kassenbetreiber](#4-das-produktangebot-von-fiskaltrust)
+5. [Abschluss eines Kooperationsvertrages](#5-abschluss-eines-kooperationsvertrages)
+6. [Einkaufsplanung](#6-einkaufsplanung)
+7. [Optional: Abschluss eines Rahmenvertrages](#7-optional-abschluss-eines-rahmenvertrages)
+8. [Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen](#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen)
+9. [Erwerb von Händlereinkaufsprodukten](#9-erwerb-von-händlereinkaufsprodukten) 
+10. [Weiterverkauf von fiskaltrust Produkten](#10-weiterverkauf-von-fiskaltrust-produkten)
+11. [Verknüpfung und Konfiguration von Kassenbetreibern](#11-verknüpfung-und-konfiguration-von-kassenbetreibern)
+12. [Übertragung von Entitlements](#12-übertragung-von-entitlements)
+13. [Auslieferung & Inbetriebnahme](#13-auslieferung--inbetriebnahme)
+14. [After-sales Support](#14-after-sales-support)
 
 ## 1. Über fiskaltrust
 
@@ -202,7 +202,7 @@ Dabei stehen folgende Optionen der Einladung zur Verfügung:
 | **CSV Import von E-Mail Adressen**                   | E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden aufgefordert sich im Portal zu registrieren. | schreiben/lesen<br /><br />Die erforderlichen Berechtigungen werden seitens des Betreibers durch Akzeptieren der Einladung bestätigt. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen. | Einladung kann vom Betreiber übersehen werden wenn diese nicht vorangekündigt wurde. |
 | **zusätzliche Rolle: KassenHändler Auto-Invitation** | In einem ersten Schritt holt sich der Händler bei den Betreibern das Einverständnis, in seinem Namen im fiskaltrust.Portal tätig sein zu dürfen, ein.<br />E-Mail Adressen werden via CSV Datei für den Versand der Einladungen importiert. <br />Die Empfänger werden über den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation übermittelt. | schreiben/lesen inkl. Vertragsabschluss<br /><br />Die erforderlichen Berechtigungen müssen vom Händler vorab und außerhalb des fiskaltrust.Portals eingeholt werden. | Eine größere Anzahl an Betreiber wird in einem Schritt ins Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> |                                                              |
 
-In einem weiteren Schritt müssen die Standorte ("Outlets") des Betreibers im Portal angelegt werden. Diese werden im Zuge des Rollout zur Übertragung der Entitlements und Herstellung der Produkte, und je nach gewählter Option zur Konfiguration der Cashboxen (siehe [Schritt 8](#8.rollout-szenarien-und-automatisierungoptionen-analysieren-und-technische-vorbereitungen-treffen) "Rollout Automatisierung") benötigt:
+In einem weiteren Schritt müssen die Standorte ("Outlets") des Betreibers im Portal angelegt werden. Diese werden im Zuge des Rollout zur Übertragung der Entitlements und Herstellung der Produkte, und je nach gewählter Option zur Konfiguration der Cashboxen (siehe [Schritt 8](#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen) "Rollout Automatisierung") benötigt:
 
 | Option                        | Beschreibung                                                 | Empfehlung                                              |
 | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
@@ -231,7 +231,7 @@ Voraussetzung für diesen Vorgang sind die im Schritt 11 beschriebene, hergestel
 
 ## 13. Auslieferung & Inbetriebnahme
 
-Im letzten Schritt muss der Launcher mit der dazugehörigen Konfiguration (Cashbox) beim Betreiber ausgeliefert und mit seiner Hilfe muss die fiskaltrust.Middleware in Betrieb genommen werden. Die Optionen für die Auslieferung der Middleware wurden bereits im [Schritt 8](##8.rollout-szenarien-und-automatisierungoptionen-analysieren-und-technische-vorbereitungen-treffen) beschrieben und müssen je nach gewählter Option entsprechend ausgeführt werden.
+Im letzten Schritt muss der Launcher mit der dazugehörigen Konfiguration (Cashbox) beim Betreiber ausgeliefert und mit seiner Hilfe muss die fiskaltrust.Middleware in Betrieb genommen werden. Die Optionen für die Auslieferung der Middleware wurden bereits im [Schritt 8](#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen) beschrieben und müssen je nach gewählter Option entsprechend ausgeführt werden.
 
 Wurde der Launcher heruntergeladen bzw. ausgeliefert, muss mit Hilfe des Launchers die Middleware als Service gestartet werden. Die Verfügbarkeit der Middleware kann über das Kassensystem überprüft werden (Echo Methode).
 
