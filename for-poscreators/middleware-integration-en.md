@@ -42,7 +42,7 @@ In the upper section of this form you can specify how the SCU can reach the sele
 
 - **Epson** - Under revision.
 
-- **Fiskaly TSE** - Enter the TSS ID, API key and the "Secret" key. Alternatively, you can purchase a free trial Fiskaly TSE in our sandbox portal shop. This will automatically create a SCU with the corresponding data for you. Note: Select the outlet in the shop before you add the test Fiskaly TSE to your shopping cart (outlet drop-down in the upper area).
+- **Fiskaly TSE** - Enter the TSS ID, API key and the "Secret" key. One can obtain them for testing purposes from the official fiskaly website and fiskaly dashboard. Alternatively, you can purchase a free trial Fiskaly TSE in our sandbox portal shop. This will automatically create a SCU with the corresponding data for you. Note: Select the outlet in the shop before you add the test Fiskaly TSE to your shopping cart (outlet drop-down in the upper area).
 
 To specify the communication endpoint for reaching the SCU, select, for example, the "gRPC" by pressing the corresponding button in the lower part of the form . The input field is filled in automatically and can be edited further if necessary. For the goal of this document, the automatically filled gRPC endpoint is sufficient.
 
@@ -54,7 +54,7 @@ Save the configuration of your SCU after entering the required data. In the next
 
 The Queue is a component of the fiskaltrust.Middleware which collects the received data from the POS System and is responsible for creating the request chain. It is the component of the fiskaltrust.Middleware with which your POS system communicates. You send your data to it and receive signatures (and other data) back.
 
-Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press this button to get to the input form. Enter a short description (name) and the CashboxIdentification. The CashboxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a "printable string" with a maximum of 20 characters.
+Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press this button to get to the input form. Enter a short description (name) and the CashboxIdentification. The CashboxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a ["printable string"](https://en.wikipedia.org/wiki/PrintableString) with a maximum of 20 characters.
 
 ![cashbox-config-queue-creation-01](media/cashbox-config-queue-creation-01.png)
 
