@@ -140,7 +140,7 @@ Wenn als Ergebnis Ihrer Einkaufsplanung mehr als 10 Produkt-Bundles benötigt we
 
 Diese technisch geprägte Schritt erfolgt paralell zu den wirtschaftlich motivierten Schritten 7, 9, 10, 11 und 12.
 
-Gegebenheiten am Standort des Betreibers, die Intensität der Nutzung und Vorgaben durch das Kassensystem (z.B. kann nur mit Cloud-TSE betrieben werden) können zu unterschiedlichen Rollout-Szenarien führen. Diese sollte der Kassenhändler zusammen mit den Kassenhersteller besprechen um eine effiziente Lösung zu planen. Zur Inspiration und als Entscheidungshilfe stellen wir Ihnen in unserem Dokument ["Rollout Szenarien Planung, Tipps & Tricks"](../02-pre-sales/rollout-scenarios.md) Informationen zu diesem Thema bereit.
+Gegebenheiten am Standort des Betreibers, die Intensität der Nutzung und Vorgaben durch das Kassensystem (z.B. kann nur mit Cloud-TSE betrieben werden) können zu unterschiedlichen Rollout-Szenarien führen. Diese sollte der Kassenhändler zusammen mit den Kassenhersteller besprechen um eine effiziente Lösung zu planen. Zur Inspiration und als Entscheidungshilfe stellen wir Ihnen in unserem Dokument ["Rollout Szenarien Planung, Tipps & Tricks"](02-pre-sales/rollout-scenarios.md) Informationen zu diesem Thema bereit.
 
 Das Rollout lasst sich je nach Bedarf mit Hilfe des Portals und von APIs in unterschiedlichen Ausbaustufen bis zu einem hohen Grad automatisieren. So können die Konfigurationen manuell einzeln angelegt werden, automatisiert über Vorlagen (Templates) vorbereitet werden oder durch das automatisierte Ausführen von Templates über eine API generiert werden. Des Weiteren lässt sich die Auslieferung und die Installation der fiskaltrust.Middleware ebenfalls automatisieren. 
 
