@@ -1,4 +1,4 @@
-# Empfohlene Schritte für Kassenhändler
+# Getting started - Einkauf und Weiterverkauf von Produkten von fiskaltrust
 
 ## Inhalt des Dokumentes
 
