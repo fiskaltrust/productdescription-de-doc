@@ -253,9 +253,17 @@ Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebn
 
 ### Schritte nach erfolgreicher Inbetriebnahme
 
+#### Meldung der TSE-Kasse an das Finanzamt
+
 Mit der erfolgreichen Inbetriebnahme der Kasse mit TSE muss eine Meldung an das Finanzamt erfolgen. Derzeit steht dazu jedoch noch keine Möglichkeit der Meldung seitens der Finanzämter zur Verfügung. Wird von den Finanzämtern eine Möglichkeit zur Meldung zur Verfügung gestellt, wird durch fiskaltrust für Endverbraucher des fiskaltrust.Sorglos Paketes die Meldung an das Finanzamt automatisch eingereicht. Die bis dahin fälligen Meldungen werden ebenfalls automatisch nachgereicht, sobald die Möglichkeit seitens der Finanzverwaltung zur Verfügung steht. 
 
 Kunden ohne fiskaltrust.Sorglos Paket müssen die Meldungen selbständig beim zuständigen Finanzamt abgeben. Die dafür benötigten Informationen, wie z.B. Kassenseriennummer, TSE Seriennummer usw. sind im Portal verfügbar und können bei Bedarf vom Händler zur Verfügung gestellt werden.
+
+#### Übernahme der historischen Kassendaten in das Audicon Kassenarchiv Online
+
+Kunden des AKO (auch enthalten im fiskaltrust.Sorglos Bundle) können alle Daten, welche zum Nachweis einer ordnungsgemäßen Kassenführung benötigt werden, revisionssicher im AKO zentral archivieren - unabhängig ob die Kasse die fiskaltrust.Middleware integriert hat oder nicht. Ab Inbetriebnahme der fiskaltrust.Middleware werden die an das POS Archiv gesendeten Daten in Form von DSFinV-K Export und TSE TAR Files automatisch an das AKO übermittelt.
+
+**Es empfiehlt sich, auch eventuell vorhandene historische Daten des Betreibers manuell in das AKO hochzuladen, um einen zentrales, revisionssicheres Kassenarchiv zu betreiben.**
 
 ### Support für Kassenhändler
 
