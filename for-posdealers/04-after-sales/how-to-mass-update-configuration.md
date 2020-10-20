@@ -6,7 +6,7 @@ Wird zum Beispiel eine neue Package Version des Persistenzlayer benötigt, so ka
 
 
 
-![Massenupdate](../../../../../../OneDrive - fiskaltrust consulting gmbh/Dokumente/GitHub/productdescription-de-doc/for-posdealers/02-pre-sales/media/mass-update.png)
+![Massenupdate](../02-pre-sales/media/mass-update.png)
 
 
 
