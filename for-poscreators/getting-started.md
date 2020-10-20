@@ -2,17 +2,18 @@
 
 ## Übersicht
 
-Als Kassenhersteller haben Sie Anfangs das  Ziel sich mit unserer kostenlosen ft.Middelware aus ihrem Kassensystem heraus zu verbinden und Ihre Integration zu testen. Dieses Dokument fasst die notwendigen Schritte zusammen um dieses Ziel zu erreichen. 
+Dieser Leitfaden stellt Kassenherstellern eine Übersicht der von uns empfohlenen Phasen bzw. Schritte der Integration mit fiskaltrust zur Verfügung. Er baut auf unsere [Lead Presentation für Kassenhersteller](lead-presentation-de.md) auf, welche wir als Vorlektüre empfehlen.
 
 Im Einzelnen sind folgende Schritte zu durchlaufen:
 
+![integration phases](media/pos-creator-integration-phases-de.png)
+
 1. [Registrierung im Live Portal](#registrierung-im-live-portal)
 2. [Registrierung im Sandbox Portal](#registrierung-im-sandbox-portal)
-3. [Konfiguration einer Cashbox (Konfigurationscontainer) im Portal](#konfiguration-einer-cashbox)
-4. [Downloaden und Starten des Launcher](#download-und-starten-des-launcher)
-5. [Initialisierung mit einem Startbeleg](#initialisierung-mit-einem-startbeleg)
-6. [Absetzen weiterer Requests](#absetzen-weiterer-requests)
-7. [Weiterführende Informationsquellen](#weiterführende-informationsquellen)
+3. [Integration der fiskaltrust.Middleware ins Kassensystem](#integration-der-fiskaltrustmiddleware-ins-kassensystem)
+4. [Onboarding der Kassenhändler](#onboarding-der-kassenhändler)
+5. [Pilotinstallation](#pilotinstallation)
+6. [Handover zum Rollout an den Kassenhändler](#handover-zum-rollout-an-den-kassenhändler)
 
 Im Folgenden werden wir auf die einzelnen Schritte detailierter eingehen.
 
@@ -20,111 +21,57 @@ Im Folgenden werden wir auf die einzelnen Schritte detailierter eingehen.
 
 ### Firmendaten und Kooperationsvertrag
 
-Um kostenlosen Support von fiskaltrust zu erhalten, müssen Sie sich zuerst in unserem Live Portal registrieren. Dieses finden Sie unter  [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/). 
+Um kostenlosen Kassenhersteller-Support von fiskaltrust zu erhalten, müssen Sie sich zuerst in unserem Live Portal registrieren. Dieses finden Sie unter  [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/). 
 
 Sobald Sie sich im Portal registriert haben, wird Ihnen ein Formular zur Auswahl Ihrer Rolle angezeigt. Wählen Sie die Option "Kassenhersteller" und unterschreiben Sie unseren Kooperationsvertrag, indem Sie Ihren Namen ins Eingabefeld eingeben. Sollten Sie zudem auch Kassenhändler sein, wählen Sie bitte danach auch diese Option aus. 
 
-Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt auf kostenlosen Support für Einrichtungsfragen und Onboarding zuzugreifen. Sie können unser Support-Team unter [info@fiskaltrust.de](mailto:info@fiskaltrust.de) erreichen.
+Durch die Registrierung im Live Portal und die digitale Unterschrift unseres Kooperationsvertrags sind sie nun berechtigt unseren kostenlosen Kassenhersteller-Support für Einrichtungsfragen und Onboarding in Anspruch zu nehmen. Sie können unser Support-Team unter [info@fiskaltrust.de](mailto:info@fiskaltrust.de) erreichen.
 
 ### Registrieren Ihres Kassensystems
 
-Registrieren Sie als Nächstes Ihr(e) Kassensystem(e) unter dem Menüpunkt "Kassensysteme". 
+Registrieren bzw. Erfassen Sie als Nächstes Ihr(e) Kassensystem(e) unter dem Menüpunkt "Kassensysteme". 
 
 ## Registrierung im Sandbox Portal
 
-Nach der Registrierung im Live Portal wiederholen Sie die oben beschriebenen Schritte zur Registrierung im Sandbox Portal [https://portal-sandbox.fiskaltrust.de](https://portal-sandbox.fiskaltrust.de/). Dadurch erhalten Sie Zugriff auf unsere Testumgebung und können zuerst dort, zum Testen, die weiteren in diesem Dokument beschriebenen Schritte durchführen.
+Nach der Registrierung im Live Portal wiederholen Sie die oben beschriebenen Schritte zur Registrierung im Sandbox Portal [https://portal-sandbox.fiskaltrust.de](https://portal-sandbox.fiskaltrust.de/). Dadurch erhalten Sie Zugriff auf unsere Testumgebung und können zuerst dort, zum Testen, die Integration der fiskaltrust.Middlware und die technische Vorbereitung des Rollout vornehmen.
 
 
-## Konfiguration einer Cashbox
+## Integration der fiskaltrust.Middleware ins Kassensystem
 
-Eine sogenannte Cashbox ist ein Konfigurationscontainer, der die Konfiguration der einzelenen Komponenten der fiskaltrust.Middleware beinhaltet. Über die Cashbox können die Konfigurationen miteinander verbunden werden. So kann die Cashbox die Konfiguration von Queue, SCU und diversen Helper beinhalten und diese miteinander verbinden. Im folgenden werden wir die Konfiguration der zum Testen benötigten SCU und der Queue vornehmen, diese in die Cashbox inkludieren und verbinden.
+Die fiskaltrust.Middleware bietet Ihnen Compliance-As-A-Service im Fiskalisierungsbereich. Sie muss dafür in Ihr Kassensystem integriert werden. In unserer [Anleitung zur Integration der fiskaltrust.Middleware](middleware-integration-en.md) stellen wir Ihnen diesbezüglich eine detaillierte Anleitung zur Anbindung und zur Kommunikation mit der fiskaltrust.Middleware zur Verfügung. Sobald Sie die normalen, "einfachen" Vorgänge Ihres Kassensystems abgebildet haben, empfehlen wir Ihnen parallel zur Weiterentwicklung bereits mit dem nächsten Schritt (Oboarding der Kassenhändler) zu starten.
 
-![cashbox](media/middleware.png)
+## Onboarding der Kassenhändler
 
-### Konfiguration der SCU
+Schon während der Integration der fiskaltrust.Middleware, bzw. sobald Sie Ihre "Make-or-Buy" Entscheidung getroffen haben, empfehlen wir Ihnen mit dem Onboarding Ihrer Kassenhändler zu beginnen, damit Sie sich rechtzeitig, gemeinsam mit Ihren Kassenhändler, auf den Rollout vorbereiten. 
 
-Die SCU (Security Creation Unit, deutsch: Signatur-Erstellungs-Einheit) ist eine Komponente der ft.Middelware, die für die Kommunikation mit der TSE zuständig ist. Je nachdem welche TSE sie benutzen möchten, benötigt die SCU eine entsprechende Konfiguration.
+Es ist wichtig Ihre Kassenhändler möglichst früh einzubeziehen, denn die Kassenhändler müssen unter anderen folgende Schritte absolvieren bevor Sie die fiskaltrust.Middleware an die Kassenbetreiber ausrollen können:
 
-Um die SCU Konfiguration anzulegen, wählen Sie im Portal den Menüpunkt  ``Konfiguration -> Signatur-Erstellungs-Einheit``  und drücken Sie den Button "Erstellen". Geben Sie eine kurze Beschreibung (Bezeichnung) ein und wählen Sie bei "Package Name" das Paket für Ihre TSE aus. Wählen Sie danach die neueste Version unter "Package Version" aus und drücken Sie auf "Speichern".
+1. Registrierung im fiskaltrust.Portal und digitale Unterzeichnung des fiskaltrust Kassenhändler Kooperationsvertrags.
+2. Je nach Gegebenheiten und geplanten Einkaufsmengen muss durch den Kassenhändler einen Rahmenvertrag bezüglich der Abnahmemengen über einen bestimmten Zeitraum und den dazugehörigen Mengenrabatten von fiskaltrust angefordert, ausgehandelt und unterzeichnet werden.
+3. Der Kassenhändler muss alle Kassenbetreiber ins fiskaltrust Portal einladen, wo diese vor dem Rollout die Nutzungsvereinbarung für die fiskaltrust.Middleware unterzeichnen müssen.
+4. Zugriffsrechte von den  Kassenbetreiber auf Ihre Accounts anfordern, so dass der Kassenhändler im  Namen des Kassenbetreibers Produktansprüche (Entitlements) einlösen und  aktivieren kann.
+5. Zugriffsrechte von den  Kassenbetreiber auf Ihre Accounts anfordern, so dass der Kassenhändler im  Namen des Kassenbetreibers die Konfiguration der fiskaltrust.Middleware Instanzen vornehmen kann, die dann beim Kassenbetreiber installiert werden.
+6. Für den korrekten DSFinV-K Export muss der Kassenhändler die Angaben aus dem Kassensystem mit den Stammdaten des Kassenbetreibers im fiskaltrust.Portal verknüpfen.
+7. Technische Planung und Vorbereitung für den Rollout zusammen mit dem Kassenhersteller.
 
-Es werden nun weitere Konfigurationangaben abverlangt. Je nach vorher gewähltem TSE-Paket können diese variieren. Im allgemeinen geben Sie hier an, wie die SCU die TSE ereichen kann und über welchen Endpunkt die Queue mit der SCU kommunizieren wird. Um den Kommunkationsendpunkt zum Erreichen der SCU anzugeben, wählen sie z.B. gRPC aus indem Sie den entsprechenden Knopf im unteren Bereich drücken. Das Eingabefeld wird automatisch ausgefüllt und kann bei Bedarf weiter editiert werden. Für unser Ziel in diesem Dokument reicht der automatisch vorgegebene gRPC Endpunkt. 
+Die oben dargestellten Schritte können sehr zeitaufwendig sein. Deshalb empfehlen wir dringen, dass Sie Ihre Kassenhändler früh informieren und insbesondere sie so früh wie möglich im fiskaltrust.Portal einladen, so dass die Kassenhändler mit Ihren Vorbereitungen beginnen können.
 
-Als Nächstes können Sie im oberen Bereich angeben, wie die SCU die gewählte TSE erreichen kann:
+## Lösung komplexer Business Cases
 
-#### Cryptovision
-Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an dem sie die TSE angeschlossen haben. Zum Beispiel ```E:```
+In jeder Branche können spezifische und komplexe Geschäftsfälle vorkommen, die eine besondere Behandlung in Bezug auf die Anfragen an die fiskaltrust.Middleware erfordern. Sollten Sie Unterstützung bei der korrekten Handhabung solcher komplexen Fälle benötigen, kontaktieren Sie bitte unter <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a> unser Support Team. Wir unterstützen Sie gerne bei der Abbildung.
 
-#### Swissbit
-Geben Sie den Gerätepfad an, den Laufwerkbuchstaben gefolgt von Doppelpunkt an dem sie die TSE angeschlossen haben. Zum Beispiel ```E:```
+## Pilotinstallation
 
-#### Diebold Nixdorf
-Geben Sie den Com Anschluß an, an den Sie die TSE angeschlossen haben. Zum Beispiel ```COM6```
+Nachdem Sie die Integration der fiskaltrust.Middleware vorgenommen und getestet haben, Ihre Kassenhändler einbezogen haben und mit diesen den Rollout vorbereitet haben, indem Sie zum Beispiel Templates zur Automatisierung vorbereitet und getestet haben, empfehlen wir Ihnen gemeinsam mit Ihren Kassenhändler eine Pilotinstallation bei einem Kunden vorzunehmen. Damit können Sie Ihre Implementierung und den Rollout im Echtbetrieb testen und die Kassenhändler auf die Übergabe zum Massenrollout vorbereiten.
 
-#### Epson
-In Überarbeitung.
+## Handover zum Rollout an den Kassenhändler
 
-#### Fiskaly TSE
-Geben Sie die TSS-ID, API-Schlüssel und den "Geheimen" Schlüssel ein. Alternativ können Sie in unserem Test-Shop eine kostenlose Test-Fiskaly TSE beziehen. Dabei wird automatich eine SCU mit den dazugehörigen Daten für Sie erstellt. Hinweis: Wählen Sie im Shop vor dem Einlegen der Test-Fiskaly TSE in den Warenkorb die Filiale aus (Outlet Dropdown im oberen Bereich).
-
-Speichern Sie die Konfiguration Ihrer SCU nach Eingabe der benötigten Daten. Im nächsten Schritt werden wir die Queue konfigurieren.
-
-### Konfiguration der Queue
-
-Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente der fiskaltrust.Middleware mit der das Kassensystem kommuniziert. An die Queue senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
-
-Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button, um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashboxIdentification ein. Die CashboxIdentifikation wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die Cashbox, also unseren Konfigurationscontainer anlegen.
-
-### Cashbox anlegen, Queue und SCU verbinden
-
-Unter dem Menüpunkt ``Konfiguration -> CashBox`` befindet sich der Button zum Anlegen einer neuen Cashbox. Drücken Sie diesen, um zur Eingabemaske zu gelangen. Drücken Sie nach Eingabe einer kurzen Beschreibung (Bezeichnung) den Speichern Button. Die Cashbox wurde angelegt und erscheint nun in der Liste. 
-
-Als Nächstes wollen wir die Konfiguration der Queue und SCU in die angelegte Cashbox packen und diese mit einander verbinden. Drücken Sie dazu den zur Cashbox zugeordneten Button mit Listensymbol. Hier können Sie nun die zuvor angelegte Queue und SCU über die dazugehörigen Checkboxen auswählen und Ihre Auswahl speichern. Im Folgenden werden wir die Queue mit der SCU verbinden. Klappen Sie dazu in der Übersicht der Chasboxen den Listeneintrag der neuen Cashbox auf. Der Detailbereich zeigt die enthaltenen Konfigurationen. Der Queuekonfiguration sind rechts zwei Buttons zugeordnet. Drücken Sie den ersten Button (Pfeilsymbol), um die neue SCU der Queue zuzuordnen. Ein Popup erscheint in dem Sie die SCU auswählen können. Nach dem Zuordnen und Speichern sind wir mit der Konfiguration unserer Cashbox fertig.
-
-
-## Download und Starten des Launcher
-
-#### Download
-Der Download des Launcher wird über den Button "Download .NET Launcher" (Globus Symbol) initiiert. Vor dem Download ist es jedoch wichtig, dass Sie ein "Rebuild" der Cashbox vornehmen. Drücken Sie dazu den "Rebuild" Button (erster grauer Button mit Reload-Symbol) in der Zeile der CashBox. Nach Rebuild können Sie nun den Launcher herunterladen.
-
-#### Debug Modus einstellen
-Sie erhalten ein Zip-File in dem sich der Laucher und entsprechende Konfigurations- und andere Dateien befinden. Entpacken Sie nun das Zip-File. Im neu entpackten Ordner befindet sich eine ```test.cmd``` Datei die wir editieren werden. Öffnen Sie diese mit einem Editor Ihrer Wahl und fügen Sie der zweiten Zeile (die fiskaltrust.exe startet) das Argument ``` -verbosity=Debug``` am Ende hinzu. Dadurch erhalten wir später detailiertere Logausgaben. Speichern und Schließen sie nun die ```test.cmd``` Datei.
-
-#### Starten
-Sie könenn den Launcher durch Doppelcklick auf die ```test.cmd``` Datei starten. Es erscheint ein Terminal in dem Sie den Start der lokalen Middelware über entsprechende Logmeldungen nachverfolgen können. Dieses Fenster bleibt offen und visualisiert Logmeldungen zum weiteren Verlauf. Achten Sie darauf nicht in den Innenbereich des Fensters zu klicken, da dies den Service pausiert (Windows Feature). Sollte Ihnen das versehentlich passieren, so klicken Sie erneut hinein und drücken Sie "Enter" um die Unterbrechung aufzuheben. 
-
-## Initialisierung mit einem Startbeleg
-
-Nach dem Starten des Launcher steht Ihnen die lokale Middleware zur Verfügung. Als Nächstes werden wir die Initialisierung über einen Startbeleg vornehmen. Starten Sie dazu unsere Postman Collection aus unserem fiskaltrust [middleware-demo-postman](https://github.com/fiskaltrust/middleware-demo-postman) Github repo.
-
-### Konfiguration der Postman Collection
-
-Die Postman Collection muss so konfiguriert werden, dass sie Requests an die zuvor gestarete, lokale Middleware senden kann. Gehen Sie dazu auf "Edit" und wählen Sie den Tab "Variables". Hier befinden sich die für uns zwei wichtigen Variablen:  ```base_url``` und  ```cashbox_id```, deren Werte wir eingeben müssen. 
-
-#### base_url
-
-Bei ```base_url``` geben wir die URL des zuvor angelegten http(REST) Endpunkt der Queue an. Den benötigten Wert finden wir im Portal unter dem Menüpunkt ```Konfiguration -> Queue``` . Klappen Sie den Detailbereich des Listeneitrags unserer Queue auf und kopieren Sie von dort die URL. Bsp. ```rest://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d```. Ersetzen Sie nun in der URL ```rest://```mit ```http://``` um den Wert für die Postman ```base_url``` Variable zu erhalten. Bsp. ```http://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d```. Geben Sie jetzt diesen Wert in Postmman bei der Variable ```base_url``` als  ```CURRENT_VALUE``` an.
-
-#### cashbox_id
-
-Bei ```cashbox_id``` müssen wir die ID unseres Konfigurationskontainer angeben (nicht zu verwechseln mit der CashboxIdentification). Den Wert für die ```cashbox_id``` können wir im Portal unter dem Menüpunkt ```Konfiguration -> CashBox``` finden. Klappen Sie hierzu den Detailbereich des Listeneintrags unserer Cashbox auf und kopieren Sie den Wert von **CashBoxId:**. Bsp. ```90682627-f707-45ab-84df-f855118bba97```. Geben Sie diesen nun als Wert der Variable ```cashbox_id```  unter  ```CURRENT_VALUE```  in der Postman collection an.
-
-#### Startbeleg Request absetzen
-
-In der Postman collection finden Sie einen Eintrag mit dem Namen ```Initial Operation Receipt```.  Klicken Sie diesen und wählen Sie den Tab ```Body``` um dessen Inhalt einzusehen. Sie können nun den Request absetzen indem sie den ```Send``` Button drücken. Der Request wird an die lokale Middleware gesendet und Sie erhalten den Response der Middleware zurück, der in Postman dargestellt wird. Im Terminal können Sie entsprechende Logmeldungen einsehen. Der ft.SecurityMechanism der Middleware und die TSE sind nun initialisiert und wartet auf weitere Requests.
-
-## Absetzen weiterer Requests
-
-### Interface doc
-
-Die Schnittstelle zur Middleware ist in unserem [interface-doc](https://github.com/fiskaltrust/interface-doc/) Github Repository beschrieben. Das fiskaltrust interface-doc repo enthält wichtige Informationen und Beschreibungen zur Kommunikation mit der Middleware. Im Ordner [doc](https://github.com/fiskaltrust/interface-doc/tree/master/doc) befindet sich ein allgemeiner Teil (Verzeichniss  ```general```) und  länderspezifischen Teile, die den allgemeinen Teil je nach Land detailierter spezifizieren. Es ist wichtig, dass Sie sich mit dieser Schnittstellenbeschreibung auseinandersetzen um witere Schritte vornehmen zu können.
-
-### Postman collection
-In der oben gennanten Postman Collection befinden sich viele weitere Beispiele für Requests die Sie analysieren und ausführen können. Nach der Einarbeitung in die Schnittstellenbeschreibung [interface-doc](https://github.com/fiskaltrust/interface-doc/) empfehlen wir Ihnen unser [Webinar-Video](https://www.youtube.com/watch?v=mq1hHL8ezOg&t=15s) zur Middleware in dem wir die Beispiele erläutern und weitere wichtige Informationen für Sie gesammelt und vorgeführt haben.
+Sobald eine erfolgreiche Pilotinstallation in Zusammenarbeit mit Ihren Kassenhändler durchgeführt wurde, können Sie nun die Übergabe zum Massenrollout an Ihre Kassenhändler vornehmen.
 
 ## Weiterführende Informationsquellen
 
 - Deutsche fiskaltrust Website: [https://fiskaltrust.de](https://fiskaltrust.de/)
-- fiskaltrust Dokumentations-Platform: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
+- fiskaltrust Dokumentations-Plattform: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
 - FAQ: [fiskaltrust docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
 - fiskaltrust Gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust Videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
