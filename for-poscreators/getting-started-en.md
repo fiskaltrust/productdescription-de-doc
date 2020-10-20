@@ -1,126 +1,107 @@
-# First steps for POS creators
+# Getting Started Guide for POS Creators
 
 ## Overview
 
-As a POS creator, your first goal is to be able to send requests to our free ft.Middelware from your POS system and to be able to test your integration. This document summarizes the necessary steps to achieve this goal.  
+This guide describes on a high level the stages, which a POS Creator should achieve, to ensure a successful completion of the journey, from the integration of the fiskaltrust.Middleware into the POS System, to a phase of pilot installations.
 
-The following steps have to be passed through:
-
-1. [Registration in our live portal](#registration-in-our-live-portal)
-2. [Registration in our sandbox portal](#registration-in-our-sandbox-portal)
-3. [Configuration of a CashBox (configuration container) in the portal](#configuration-of-a-cashbox)
-4. [Download and start the launcher](#download-and-start-the-launcher)
-5. [Initialization with an initial operation receipt](#initialization-with-an-initial-operation-receipt)
-6. [Sending further requests](#sending-further-requests)
-7. [Further sources of information](#further-sources-of-information)
-
-In the following we will go into the individual steps in more detail.
-
-## Registration in our live portal
-
-### Company data and cooperation agreement
-
-To receive free support from fiskaltrust you must first register in our live portal. You can find the portal under  [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/). 
-
-As soon as you have registered in the portal, a form for selecting your role will be displayed. Select the option "POSCreator" and sign our cooperation agreement by entering your name in the input field. If you are also a POS dealer, please select this option as well. 
-
-By registering in the live portal and digitally signing our cooperation agreement, you are now entitled to access free support for setup questions and onboarding. You can reach our support team at [info@fiskaltrust.de](mailto:info@fiskaltrust.de).
-
-### Registering your POS system
-
-Next, register your POS system(s) under the menu item "POSSystems". 
-
-## Registration in our sandbox portal
-
-After registering on the live portal, repeat the steps described above to register on the sandbox portal [https://portal-sandbox.fiskaltrust.de](https://portal-sandbox.fiskaltrust.de/). This will give you access to our test environment, where you can carry out the further steps described in this document for testing purposes.
+The success of this journey can be achieved through the completion of the following stages:
 
 
-## Configuration of a CashBox
 
-A so-called CashBox is a configuration container that contains the configuration of the individual components of the fiskaltrust.Middleware. The configurations can be linked together via the CashBox. The CashBox can contain the configuration of the Queue, SCU and various helpers and connects them with each other. In the following we will configure the SCU and the Queue needed for testing, include them in the CashBox and connect them.
-
-![cashbox](media/middleware.png)
-
-### Configuration of the SCU
-
-The SCU (Security Creation Unit) is a component of the ft.middelware, which is responsible for the communication with the TSE. Depending on which TSE you want to use, the SCU needs a corresponding configuration.
-
-To create the SCU configuration select the menu item ``Configuration -> Signature creation unit`` in the portal and press the button "Create". Enter a short description (name) and select the package for your TSE at "Package Name". Then select the latest version under "Package Version" and press the button "Save".
-
-Further configuration information is now required. Depending on the previously selected TSE package, these can vary. In general, you specify here how the SCU can reach the TSE and the end point via which the Queue will communicate with the SCU. To specify the communication endpoint for reaching the SCU, select for example "gRPC" by pressing the corresponding button in the lower area. The input field is filled in automatically and can be edited further if necessary. For our goal in this document the automatically filled gRPC endpoint is sufficient. 
-
-Next, you can specify in the upper section how the SCU can reach the selected TSE:
-
-#### Cryptovision
-Enter the device path, the drive letter followed by the colon to which you have connected the TSE. For example ``E:``
-
-#### Swissbit
-Enter the device path, the drive letter followed by the colon to which you have connected the TSE. For example ``E:``
-
-#### Diebold Nixdorf
-Enter the com port to which you have connected the TSE. For example ``COM6``
-
-#### Epson
-Under revision.
-
-#### Fiskaly TSE
-Enter the TSS ID, API key and the "Secret" key. Alternatively, you can purchase a free trial Fiskaly TSE in our sandbox portal shop. This will automatically create a SCU with the corresponding data for you. Note: Select the outlet in the shop before you add the test Fiskaly TSE to your shopping cart (outlet drop-down in the upper area).
-
-Save the configuration of your SCU after entering the required data. In the next step we will configure the Queue.
-
-### Configuration of the Queue
-
-The Queue is a component of the fiskaltrust.Middleware, that collects the received data from the POS System and is responsible for creating the request chain. The Queue is the component of the fiskaltrust.Middleware with which your POS system communicates. You send your data to it and receive signatures and other data back.
-
-Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press the button to get to the input form. Enter a short description (name) and the CashboxIdentification. The CashboxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a "printable string" with a maximum of 20 characters. After saving, a form appears in which you can specify the communication endpoint. We will use this later to send requests to the queue. For our example we can choose http(REST) by pressing the corresponding button. After saving, we are done with the configuration of the Queue and can now create the CashBox (our configuration container) in the next step.
-
-### Create CashBox, connect Queue and SCU
-
-Under the menu item ``Configuration -> CashBox`` you will find the button to create a new CashBox. Press this button to get to the input form. After entering a short description (name) press the "Save" button. The CashBox has been created and now appears in the list. 
-
-Next, we want to put the configuration of the Queue and SCU into the created CashBox and connect them to each other. To do this, press the button with list symbol assigned to the CashBox. Here you can now select the previously created Queue and SCU using the corresponding checkboxes and then save your selection. In the following we will connect the Queue with the SCU. To do this, expand the list entry of the new Cashbox in the overview of the CashBoxes. The detail area shows the contained configurations. Two buttons are assigned to the Queue configuration on the right. Press the first button (arrow symbol) to assign the new SCU to the Queue. A popup appears in which you can select the SCU. After assigning and saving we are done with the configuration of our CashBox.
+![integration phases](media/pos-creator-integration-phases.png)
 
 
-## Download and start the launcher
 
-#### Download
-The download of the launcher is initiated by clicking the button "Download .NET Launcher" (globe symbol). Before downloading, however, it is important that you "rebuild" the CashBox. To do this, press the "Rebuild" button (first grey button with reload symbol) in the CashBox line. After rebuild you can now download the launcher.
+[1. Portal Registration](#1-portal-registration)<br/>
+[2. Middleware Integration](#2-middleware-integration)<br/>
+[3. POS Dealer Onboarding](#3-pos-dealer-onboarding)<br/>
+[4. Complex Business Case Analysis](#4-complex-business-case-analysis)<br/>
+[5. Pilot Installation](#5-pilot-installation)<br/>
+[6. Handover for Rollout](#6-handover-for-rollout)<br/>
 
-#### Set debug mode
-You will receive a zip file containing the laucher, corresponding configuration and other files. Now unpack the zip file. In the newly unzipped folder there is a ``test.cmd`` file which we will edit. Open it with an editor of your choice and add the argument `` -verbosity=Debug`` at the end of the second line (which starts fiskaltrust.exe). This will give us more detailed log output later. Now save and close the ``test.cmd'' file.
+## Useful resources
 
-#### Start the launcher
-You can start the launcher by double clicking on the ``test.cmd`` file. A terminal will appear where you can follow the start of the local middleware via log messages. This window remains open and visualizes log messages for further progress. Do not click into the inner area of the window, because this will pause the service (Windows feature). If this happens to you by mistake, click again and press "Enter" to cancel the interruption. 
+Before proceeding with this guide, you may consider getting familiar with the content of the following useful resources:
 
-## Initialization with an initial operation receipt
+- [POS Creator Lead Presentation](presentation/media/lead-presentation-creator-en.pptx)
+- [POS Creator fiskaltrust.Middleware Webinar Recording on YouTube](https://www.youtube.com/watch?v=mq1hHL8ezOg)
 
-After starting the launcher, the local middleware is available. Next, we will initialize the launcher using an initial operation receipt. To do this, start our Postman collection from our fiskaltrust [middleware-demo-postman](https://github.com/fiskaltrust/middleware-demo-postman) github repo.
+**Note:** you can find more useful resources in the [Further sources of information](#further-sources-of-information) section at the end of this document.
 
-### Configuration of the Postman collection
+## 1. Portal Registration
 
-The Postman collection must be configured to send requests to the previously started local middleware. To do this, go to "Edit" and select the "Variables" tab. Here we find the two variables that are important for us: ``base_url`` and ``cashbox_id``. We need to enter values here.
+### 1.1 Overview
 
-#### base_url
+The fiskaltrust.Portal is a web application which offers features required to easily manage the functions necessary for the configuration and operation of your POS Systems. The fiskaltrust.Portal is accessible via common Internet browsers, however, if your browser does not display some content correctly, or features are not available or not behaving as expected, try using the current version of Google Chrome.
 
-At ``base_url`` we specify the URL of the previously created http(REST) endpoint of the Queue. The required value can be found in the portal under the menu item ``Configuration -> Queue`` . Expand the detail area of the list entry of our Queue and copy the URL from there. For example ``rest://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d`` . Now replace ``rest://`` with ``http://`` in the URL to get the value for the Postman ``base_url`` variable. Example ``http://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d``. Now enter this value in Postmman for the variable ``base_url`` as ``CURRENT_VALUE``.
+There are 2 instances of fiskaltrust.Portal:
 
-#### cashbox_id
+- Live - [https://portal.fiskaltrust.de](https://portal.fiskaltrust.de/)
+- Sandbox - [https://portal-sandbox.fiskaltrust.de](https://portal-sandbox.fiskaltrust.de/)
 
-At ``cashbox_id`` we must specify the ID of our configuration container (not to be confused with the CashboxIdentification). We can find the value for the ``cashbox_id`` in the portal under the menu item ``Configuration -> CashBox``. To do so, expand the detail area of the list entry of our CashBox and copy the value of **CashBoxId:**. For example ``90682627-f707-45ab-84df-f855118bba97``. Now enter this as the value of the variable ``cashbox_id`` under ``CURRENT_VALUE`` in the Postman collection.
+**Important Notes:**
 
-#### Send a request with the initial operation receipt
+- In order to receive the free support from fiskaltrust you must register in our live portal.
+- No tests should be performed on the Live portal!
+- The sandbox registration is needed for conducting all test activities and does not qualify for support!
 
-In the Postman collection you will find an entry with the name ``Initial Operation Receipt``.  Click on it and select the ``Body`` tab to view its contents. You can now send the request by pressing the ``Send`` button. The request will be sent to the local middleware and you will get the response of the middleware back, which is displayed in Postman. In the terminal you can view the corresponding log messages. The ft.SecurityMechanism of the middleware and the TSE are now initialized and wait for further requests.
+### 1.2 Registration steps
 
-## Sending further requests
+The registration steps on both, the sandbox and the live portal, are identical. Simply complete the registration form, confirm your email, and sign the cooperation agreement.
 
-### Interface doc
+### 1.3 Company data and cooperation agreement
 
-The interface to the middleware is described in our [interface-doc](https://github.com/fiskaltrust/interface-doc/) Github repository. The fiskaltrust interface-doc repo contains important information and descriptions about the communication with the middleware. The [doc](https://github.com/fiskaltrust/interface-doc/tree/master/doc) folder contains a general part (directory ``general``) and country specific parts that specify the general part in more detail depending on the country. It is important that you read this interface description in order to be able to make further steps.
+As soon as you have registered in the portal, a form for selecting your role will be displayed. Select the option "POSCreator" and sign our cooperation agreement by entering your name in the input field. If you are also a POS dealer, please select that role as well.
 
-### Postman collection
+By registering in the live portal and digitally signing our cooperation agreement, you are now entitled to access our free support for setup questions and onboarding. You can reach our Support Team at <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a>.
 
-In the Postman collection mentioned above there are many more examples of requests that you can analyze and execute. After you have familiarized yourself with the interface description [interface-doc](https://github.com/fiskaltrust/interface-doc/) we recommend our [webinar video](https://www.youtube.com/watch?v=mq1hHL8ezOg&t=15s) on the middleware in which we explain the examples and have collected and demonstrated further important information for you.
+## 2. Middleware Integration
+
+There are several steps which must be followed to successfully integrate your solution with fiskaltrust.Middleware. Those steps include the CashBox Configuration, using the Middleware Launcher, and testing of the communication. Please check our [fiskaltrust.Middleware document](middleware-integration-en.md) for detailed information about this process.
+
+## 3. POS Dealer Onboarding
+
+Once you were able to test the integration and successfully establish a communication with the fiskaltrust.Middleware by sending simple requests and receiving correct expected responses, you are now ready to start engaging your POS Dealers into discussion about the details of the specific implementation of your POS System, and agree on the suitable rollout scenarios.
+
+It is important to involve you POS Dealers as early as possible, because they have to perform the following steps, among others, before they can roullout the fiskaltrust.Middleware to the POS Operators:
+1. Register in the fisklatrtust.Portal and there digitally sign a cooperation agreement with fiskaltrust.
+2. Depending on the circumstances, request and sign framework agreements for the purchase of products with fiskaltrust.
+3. Invite the POS Operators to the portal so that they can sign the usage agreement for the fiskaltrust.Middleware.
+4. Request access rights to the POS Operator's portal account so that the POS Dealer can redeem and activate the product entitlements purchased from fiskaltrust
+5. Request access rights to the POS Operator's portal account so that the POS Dealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
+6. For the correct DSFInV-K export the information of the POS System needs to be connected by the POS Dealer with the master data of the POS Operator.
+7. Technical planning and preparation for rollout together with the POS Creator.
+
+These steps can be very time consuming. Therefore, we strongly recommend that you **inform your POS Dealers as early as possible and especially invite them to register in the fiskaltrust.Portal**.
+
+### 3.1 POS Dealer Portal Invitation Process
+
+To assist you with the invitation of the POS Dealers, we have automated the invitation process in our fiskaltrust.Portal. Simply navigate to ``PosSystems`` and click on ``Add``. Next, provide the ``Designation``, ``Brand``, and ``Type`` for your POS System, select its ``Cash Register Type``, and save the data. Once the POS System has been created, find it on the list of available POS Systems and click the ``PosDealer`` button, which will open the list of connected Pos Dealers. Next, click ``Add``, provide the email of the POS Dealer whom you'd wish to invite, and click ``Search`` fiskaltrust.Portal you will have the option to assign that company to your POS System. If no data of that POS Dealer has been found in the system,you will be presented with the ``Company Registration Form``. Completing the form will result in an invitation email sent to the POS Dealer. Such email will contain a link allowing to complete the registration process within the fiskaltrust.Portal.
+
+### 3.2 Rollout Scenarios
+
+As the approach to the rollout highly depends on the implementation, the components, and the capabilities of your POS System, you should select the appropriate rollout scenario and discuss it with your POS Dealers, to ensure their sufficient levels of knowledge and understanding required for the successful execution of the rollout process.
+
+The rollout has 2 separate areas, sales and technical, which both have been covered by the [rollout presentations](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/prepare-rollout-presentations-de.html) from our documentation portal.
+
+The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer's. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html) in our documentation portal.
+
+### 3.3 Rollout Automation
+
+You should help the POS Dealer to automate the rollout process as much as possible for example by preparing a configuration ``Template`` and discussing its details with the POS Dealer. A ``Template``, which can be added in the fiskaltrust.Portal or executed via API, contains the details of a pre-configured CashBox with all its components. It is used to automatically create similar CashBoxes for the POS Operators. Such templates can be used among other fiskaltrust tools and features to automate, and therefore to significantly speed-up the rollout process. You can find the [details of the automation options and templating](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/automatisierter-rollout.html) in our documentation portal.
+
+## 4. Complex Business Case Analysis
+
+Each industry may have several specific and complex business cases which require a special handling in terms of requests sent to the fiskaltrust.Middleware. If you require assistance establishing the proper handling of such complex business cases in the implementation of your POS System, please write us an email to our POS Creator support mailbox at <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a>, and one of our experts will be happy to assist you.
+
+## 5. Pilot Installation
+
+Once the rollout strategy has been selected and the approach to automation of the rollout (e.g. templating) has been agreed, it's time for you and the POS Dealer to test it with selected POS Operator(s). Such pilot installation(s) should provide you with sufficient feedback, to allow early identification of problems and their possible resolutions, before handing over to the POS Dealer for mass rollout to multiple POS Operators.
+
+## 6. Handover for Rollout
+
+Once all previous stages have been completed, all preparations are done, the communication with fiskaltrust.Middleware works, the rollout strategy has been agreed, and the pilot installation(s) have been successfully executed, you are now ready to handover for rollout to your POS Dealers.
+The goal of this stage is about reaching an agreement with the POS Dealers that they are ready to start the rollout to the POS Operators.
 
 ## Further sources of information
 
@@ -129,6 +110,5 @@ In the Postman collection mentioned above there are many more examples of reques
 - FAQ: [fiskaltrust docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
 - fiskaltrust gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
-
-
-
+- [POS Creator Lead Presentation](presentation/media/lead-presentation-creator-en.pptx)
+- POS Creator fiskaltrust.Middleware Webinar Recording on [fiskaltrust YouTube Channel](https://www.youtube.com/watch?v=mq1hHL8ezOg)
