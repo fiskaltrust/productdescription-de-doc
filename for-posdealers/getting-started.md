@@ -263,7 +263,7 @@ Kunden ohne fiskaltrust.Sorglos-Bundle müssen die Meldungen selbständig beim z
 
 Kunden des AKO (auch enthalten im fiskaltrust.Sorglos Bundle) können jene Daten, welche zum Nachweis einer ordnungsgemäßen Kassenführung benötigt werden, revisionssicher im AKO zentral archivieren - unabhängig ob die Kasse die fiskaltrust.Middleware integriert hat oder nicht. Ab Inbetriebnahme der fiskaltrust.Middleware werden die an das POS Archiv gesendeten Daten als Tagesabschlüsse im DSFinV-K Format und TSE TAR Files automatisch an das AKO übermittelt.
 
-**Es empfiehlt sich, auch eventuell vorhandene historische Daten des Betreibers manuell in das AKO hochzuladen, um mit dem AKO als zentrales, revisionssicheres Kassenarchiv lückenlose Compliance zu erreichen.**
+**Es empfiehlt sich, auch eventuell vorhandene relevante historische Daten des KassenBetreibers manuell in das AKO hochzuladen, um mit dem AKO als zentrales, revisionssicheres Kassenarchiv lückenlose Compliance zu erreichen.**
 
 ### Support für Kassenhändler
 
