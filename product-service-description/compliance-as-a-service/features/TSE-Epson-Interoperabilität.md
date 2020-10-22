@@ -1,10 +1,12 @@
-# Epson Interoperabilität (in Entwicklung)
+# Epson Interoperabilität
 
 ## SCU
 
 Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der Middleware mit einer Epson-TSE.
 
-**Verfügbar ab Version**: 1.3.x (in Entwicklung)
+**Alpha Version verfügbar ab Version**: 1.3.10 
+
+**Status:** https://github.com/fiskaltrust/roadmap/issues/25
 
 ## Parameter
 
@@ -14,6 +16,14 @@ Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der
 | _tseport_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja |
 | _deviceid_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja |
 | _timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja |
+
+## Konfiguration
+
+![scu-de-epson-config](../media/scu-de-epson-config.png)
+
+- **Host:** The DNS or IP Address of the Epson Server, Epson Printer or local webservice
+- **Port:** The Port of the Epson Server, Printer or local webservice, usually this is 8009
+- **DeviceId:** This setting is only important for the Server. It identifies the device. The deviceid can be found in the EpsonTSE Server dashboard which is available via the hosts ip address.
 
 ## Pilotinstallation
 
@@ -28,19 +38,9 @@ Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine
 
 ### Teilnahme an der Pilotinstallation
 
-Bitte kontakieren Sie [info@fiskaltrust.de](mailto:info@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
+Bitte kontakieren Sie [support@fiskaltrust.de](mailto:support@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
 
 ## Hardware
-
-### Epson TSE, MicroSD
-
-**Artikel Nummer:** 4445-20580
-
-Technische Sicherungseinrichtung (TSE-Modul), Bauform: MicroSD-Karte, Lebensdauer: 20 Mio. Signaturen, Zertifikatslaufzeit: 3 Jahre
-
-Sonderartikel: Storno und Rückgabe unabhängig von der Lieferzeit ausgeschlossen.
-
-
 
 ### Epson TSE, USB
 
