@@ -29,7 +29,7 @@ Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 
 ## Troubleshooting:
 
-Wenn die Developer- TSE einen Selbsttest verlangt obwohl sie aus- und eingesteckt wurde, führen Sie bitte einen Factory-Reset gemäß den Hersteller-Angaben durch.
+Wenn die Developer-TSE einen Selbsttest verlangt obwohl sie aus- und eingesteckt wurde, führen Sie bitte an der Developer-TSE einen Factory-Reset gemäß den Hersteller-Angaben durch.
 
 ## Pilotinstallation
 
