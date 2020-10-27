@@ -12,10 +12,12 @@ Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der
 
 | Name | Beschreibung | Optional |
 | ---- | ------------ |--------- |
-| _host_ | Die URL, unter der die TSE erreichbar ist (ohne Port) | nein |
-| _port_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja |
-| _deviceid_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja |
-| _timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja |
+| _Host_ | Die URL, unter der die TSE erreichbar ist (ohne Port) | nein |
+| _Port_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja |
+| _DeviceId_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja |
+| _Timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja |
+
+Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 
 ## Konfiguration
 
@@ -24,6 +26,11 @@ Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der
 - **Host:** DNS oder IP Addresse des Epson Servers, Epson Printers oder lokalen Webservices
 - **Port:** Port des Epson Servers, Printers oder lokjalen Webservices, üblicherweise 8009
 - **DeviceId:** Diese Einstellung ist nur für den Epson Server relevant und dient der Identifikation des Servers. Die DeviceId kann im Epson Server Dashboard gefunden werden, welches über die Host IP Adresse aufgerufen werden kann.
+
+## Troubleshooting:
+
+- Wenn die Developer-TSE einen Selbsttest verlangt obwohl sie aus- und eingesteckt wurde, führen Sie bitte an der Developer-TSE einen Factory-Reset gemäß den Hersteller-Angaben durch.
+- Bei der Verwendung einer Epson-TSE direkt an der Kasse oder am PC stellen Sie bitte sicher, dass der dafür benötigte Treiber von Epson installiert ist. Dies gilt nicht für die Verwendung der Epson TSE in einem Epson-Server oder Epson-Printer.
 
 ## Pilotinstallation
 
