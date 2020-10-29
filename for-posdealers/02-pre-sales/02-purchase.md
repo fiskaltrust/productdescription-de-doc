@@ -29,7 +29,7 @@ siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](voraussetzunge
 
 ### Schritt 3: Entitlement Verwaltung
 
-Im Shop können Sie unter dem Menüpunkt "Entitlements" werden Ihre Entitlements ("Ansprüche") für ihre erworbenen Produkte dargestellt. Diese Ansprüche auf Produkte können auf Betreiber übertragen und  Betreiber-Produkte kostenfrei im Shop ausgechecked werden.
+Im Shop werden unter dem Menüpunkt "Entitlements" Ihre Entitlements ("Ansprüche") dargestellt. Diese Ansprüche auf Produkte können auf Betreiber übertragen, und in der Folge kostenfrei für Produkte eingelöst werden.
 
 
 
