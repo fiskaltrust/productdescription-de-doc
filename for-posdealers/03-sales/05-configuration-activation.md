@@ -85,6 +85,10 @@ Mit "verbindlich bestellen" werden die Ansprüche übertragen, Produkte hergeste
 
 Wir empfehlen abschließend in den betroffenen Kunden-Accounts und deren Standorten, die Herstellung der Produkte (und Cashboxen) zu verifizieren.
 
+## Empfohlene Schritte für Bezug und Übertragung von Entitlements
+
+to be documented
+
 ## Nächste Schritte
 
 [Auslieferung & Inbetriebnahme](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/getting-started.md#13-auslieferung--inbetriebnahme)
