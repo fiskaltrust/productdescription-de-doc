@@ -34,22 +34,22 @@ Die oben genannten Daten können bis auf die UStId des Standortes entweder bei m
 
 ## Queue (Kasse)
 
-| DSFinV-K/DFKA-Taxonomie Version 2.1      | Anmerkung |
-| ---------------------------------------- | --------- |
-| **Kassen-Id**                            |           |
-| **Kassen-Hersteller-Marke**              |           |
-| **Kassen-Modell**                        |           |
-| **Kassen-Seriennummer**                  |           |
-| **Kassen-Basiswährungscode**             |           |
-| **Kasse-Umsatzsteuer nicht ermittelbar** |           |
-| **Kassen-Software-Marke**                |           |
-| **Kassen-Software-Version**              |           |
-| **Terminal-ID**                          |           |
-| **Terminal-Marke**                       |           |
-| **Terminal-Modell**                      |           |
-| **Terminal-Seriennummer**                |           |
-| **Terminal-Softare Marke**               |           |
-| **Terminal-Software Version**            |           |
+| DSFinV-K/DFKA-Taxonomie Version 2.1      | Datenquelle/-lieferant | Anmerkung                                                    |
+| ---------------------------------------- | ---------------------- | ------------------------------------------------------------ |
+| **Kassen-Id**                            | KassenHersteller       | was ist das?                                                 |
+| **Kassen-Hersteller-Marke**              | KassenHersteller       |                                                              |
+| **Kassen-Modell**                        | KassenHersteller       |                                                              |
+| **Kassen-Seriennummer**                  | KassenHändler          | Im Zuge der Erstellung der Cashboxen; siehe [Kassenseriennummer](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#kassenseriennummer) |
+| **Kassen-Basiswährungscode**             | KassenHersteller       | ?                                                            |
+| **Kasse-Umsatzsteuer nicht ermittelbar** | KassenHersteller       | ?                                                            |
+| **Kassen-Software-Marke**                | KassenHersteller       |                                                              |
+| **Kassen-Software-Version**              | KassenHersteller       |                                                              |
+| **Terminal-ID**                          | KassenHersteller       | was ist das?                                                 |
+| **Terminal-Marke**                       | KassenHersteller       |                                                              |
+| **Terminal-Modell**                      | KassenHersteller       |                                                              |
+| **Terminal-Seriennummer**                | KassenHersteller       |                                                              |
+| **Terminal-Software Marke**              | KassenHersteller       |                                                              |
+| **Terminal-Software Version**            | KassenHersteller       |                                                              |
 
 ## Agenturdaten
 
