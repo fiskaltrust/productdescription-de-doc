@@ -38,25 +38,19 @@ Wechseln Sie im KassenBetreiber-Account in `Shop`/`Produkte`.
 
 Wählen Sie jene (Sonder-)Produkte aus, dessen Ansprüche Sie auf Ihren KassenBetreiber übertragen möchten, und legen Sie diese in den Warenkorb.
 
-```
-Hinweis: Die Entitlements ("Ansprüche") für jene Produkte, welche Sie als KassenHändler erworben haben, werden im Shop in dieser Ansicht als Sonderprodukte dargestellt (erkenntlich durch den Zusatz "- Anspruch übertragen" im Produktnamen), welche potenziell Ihrem Kunden übertragen werden können. Die Anzahl dieser Sonderprodukte, welche Sie an Ihren KassenHändler übertragen, werden von Ihren verfügbaren Entitlements abgezogen. Dieser Vorgang ist vergleichbar mit einem Gutschein für ein bestimmtes Produkt, den Sie Ihrem Kunden übertragen. Die Ansprüche auf Produkte sind standort-unabhängig.
-```
+***Hinweis:*** *Die Entitlements ("Ansprüche") für jene Produkte, welche Sie als KassenHändler erworben haben, werden im Shop in dieser Ansicht als Sonderprodukte dargestellt (erkenntlich durch den Zusatz "- Anspruch übertragen" im Produktnamen), welche potenziell Ihrem Kunden übertragen werden können. Die Anzahl dieser Sonderprodukte, welche Sie an Ihren KassenHändler übertragen, werden von Ihren verfügbaren Entitlements abgezogen. Dieser Vorgang ist vergleichbar mit einem Gutschein für ein bestimmtes Produkt, den Sie Ihrem Kunden übertragen. Die Ansprüche auf Produkte sind standort-unabhängig.*
 
 #### Schritt 4: Wählen Sie den Standort aus, für welchen Sie Produkte herstellen wollen.
 
 Nutzen Sie dazu den gewünschten Standort im Drop-Down Feld oberhalb der Produktliste.
 
-```
-Hinweis: Berücksichtigen Sie, dass gegebenenfalls Hardware (z.B. bei einem fiskaltrust.Sorglos mit TSE Bundle enthalten) ebenfalls an diesen Standort geliefert wird.
-```
+***Hinweis:*** *Berücksichtigen Sie, dass gegebenenfalls Hardware (z.B. bei einem fiskaltrust.Sorglos mit TSE Bundle enthalten) ebenfalls an diesen Standort geliefert wird.*
 
 #### Schritt 5: Wählen Sie die herzustellenden Produkte
 
 Wählen Sie nun die dazugehörigen Sonderprodukte aus, welche Sie mit Hilfe der soeben übertragenen Ansprüche kostenlos erzeugen möchten, und legen Sie diese in den Warenkorb dazu.
 
-```
-Im vorherigen Schritt haben Sie Ansprüche für bestimmte Produkte an Ihren KassenBetreiber übertragen. Der KassenBetreiber hält somit (potenziell, da sich diese noch im Warenkorb befinden) Ansprüche, ganz bestimmte Produkte im Shop von fiskaltrust kostenlos herzustellen. Die Sonderprodukte zur Herstellung von Produkten aus derartigen Ansprüchen sind erkenntlich durch den Zusatz "- aus Anspruch erzeugen" im Produktnamen. Die herzustellenden Produkte gelten für einen bestimmten, nämlich jenen im Shop zum Zeitpunkt der Übertragung in den Warenkorb ausgewählten, Standort.
-```
+***Hinweis:*** *Im vorherigen Schritt haben Sie Ansprüche für bestimmte Produkte an Ihren KassenBetreiber übertragen. Der KassenBetreiber hält somit (potenziell, da sich diese noch im Warenkorb befinden) Ansprüche, ganz bestimmte Produkte im Shop von fiskaltrust kostenlos herzustellen. Die Sonderprodukte zur Herstellung von Produkten aus derartigen Ansprüchen sind erkenntlich durch den Zusatz "- aus Anspruch erzeugen" im Produktnamen. Die herzustellenden Produkte gelten für einen bestimmten, nämlich jenen im Shop zum Zeitpunkt der Übertragung in den Warenkorb ausgewählten, Standort.*
 
 ***Anmerkung:*** *In Deutschland ist es KassenHändlern nicht möglich, Ihre Entitlements/Ansprüche auf Produkte den Kunden zu übertragen und die KassenBetreiber die Produkte selbst herstellen zu lassen. KassenBetreiber können in Deutschland nicht direkt bei fiskaltrust Produkte erwerben. Dieser Schritt ist daher für alle Kassenhändler zwingend notwendig.*
 
@@ -64,11 +58,9 @@ Im vorherigen Schritt haben Sie Ansprüche für bestimmte Produkte an Ihren Kass
 
 Wählen Sie das dazugehörige Template aus, mit dessen Hilfe Cashboxen am ausgewählten Standort hergestellt werden sollen. 
 
-```
-Wenn Sie Templates vorab konfiguriert und für die mit Ihnen verbundenen KassenBetreiber freigegeben haben, werden diese im Shop dargestellt.
-```
+***Hinweis:*** *Wenn Sie Templates vorab konfiguriert und für die mit Ihnen verbundenen KassenBetreiber freigegeben haben, werden diese im Shop dargestellt.*
 
-#### Hinweis zur Variation
+#### Variation
 
 Übertragen Sie die Gesamtzahl an benötigter Entitlements in Schritt 3 und wiederholen Sie die Schritte 4, 5 & 6, um für den KassenBetreiber gleich für mehrere Standorte Produkte inklusive Konfiguration in einem Durchlauf herzustellen.
 
@@ -76,7 +68,7 @@ Wenn Sie Templates vorab konfiguriert und für die mit Ihnen verbundenen KassenB
 
 Um als KassenHändler die Bestellung auszulösen und die Rechnung auf Ihrem Namen und Ihre Rechnungsadresse zu erhalten, wählen Sie rechts oben den roten Hinweis `Zu Ihrem Account wechseln`.
 
-#### Hinweis zur Variation
+#### Variation
 
 Wiederholen Sie die Schritte 1-7, um für mehrere KassenBetreiber auf einmal Ansprüche zu übertragen und Produkte herzustellen.
 
@@ -112,9 +104,7 @@ Nutzen Sie dazu den gewünschten Standort im Drop-Down Feld oberhalb der Produkt
 
 Wählen Sie Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb.
 
-```
-Im Gegensatz zur Variante 1 übertragen Sie in diesem Schritt nicht Ihre Ansprüche auf den KassenBetreiber, sondern beziehen die Händlereinkaufs-Produkte direkt im Account des KassenBetreibers.
-```
+***Hinweis:*** *Im Gegensatz zur Variante 1 übertragen Sie in diesem Schritt nicht Ihre Ansprüche auf den KassenBetreiber, sondern beziehen die Händlereinkaufs-Produkte direkt im Account des KassenBetreibers.*
 
 #### Schritt 5: Wählen Sie die herzustellenden Produkte
 
@@ -124,7 +114,7 @@ Wählen Sie nun die dazugehörigen Sonderprodukte aus, welche Sie mit Hilfe der 
 
 Wählen Sie das dazugehörige Template aus, mit dessen Hilfe Cashboxen am ausgewählten Standort hergestellt werden sollen. 
 
-#### Hinweis zur Variation
+#### Variation
 
 Wiederholen Sie die Schritte 3-6, um für den KassenBetreiber gleich für mehrere Standorte Produkte inklusive Konfiguration in einem Durchlauf herzustellen.
 
@@ -134,7 +124,7 @@ Es ist wichtig dass Sie als KassenHändler in Ihren eigenen Account zurückwechs
 
 Falls Sie auf Basis der Rahmenvereinbarung Anspruch auf Mengenrabatte haben, prüfen Sie ob der dargestellte Preis der Händlereinkaufsprodukte mit der Vereinbarung Ihres Rahmenvertrages übereinstimmt.
 
-#### Hinweis zur Variation
+#### Variation
 
 Wiederholen Sie die Schritte 1-7, um für mehrere KassenBetreiber auf einmal Händlereinkaufsprodukte zu beziehen und diese Produkte gleich herzustellen.
 
