@@ -30,7 +30,7 @@ Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 ## Troubleshooting:
 
 - Wenn die Developer-TSE einen Selbsttest verlangt obwohl sie aus- und eingesteckt wurde, führen Sie bitte an der Developer-TSE einen Factory-Reset gemäß den Hersteller-Angaben durch.
-- Bei der Verwendung einer Epson-TSE direkt an der Kasse oder am PC stellen Sie bitte sicher, dass der dafür benötigte Treiber von Epson installiert ist. Dies gilt nicht für die Verwendung der Epson TSE in einem Epson-Server oder Epson-Printer.
+- Bei der Verwendung einer Epson-TSE direkt an der Kasse oder am PC stellen Sie bitte sicher, dass der dafür benötigte Treiber von Epson installiert ist. Diesen können Sie unter folgemder URL beziehen: https://download.epson-biz.com/modules/pos/index.php?page=single_soft&cid=6566&pcat=13&pid=6397 Dies gilt nicht für die Verwendung der Epson TSE in einem Epson-Server oder Epson-Printer.
 
 ## Pilotinstallation
 
