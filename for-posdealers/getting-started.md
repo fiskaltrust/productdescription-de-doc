@@ -48,7 +48,7 @@ Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 9. [Erwerb von Händlereinkaufsprodukten](#9-erwerb-von-händlereinkaufsprodukten) 
 10. [Weiterverkauf von fiskaltrust Produkten](#10-weiterverkauf-von-fiskaltrust-produkten)
 11. [Verknüpfung und Konfiguration von Kassenbetreibern](#11-verknüpfung-und-konfiguration-von-kassenbetreibern)
-12. [Übertragung von Entitlements](#12-übertragung-von-entitlements)
+12. [Herstellung und Konfiguration der Produkte im Account des KassenBetreibers](#12-herstellung-und-konfiguration-der-produkte-im-account-des-kassenbetreibers)
 13. [Auslieferung & Inbetriebnahme](#13-auslieferung--inbetriebnahme)
 14. [After-sales Support](#14-after-sales-support)
 
@@ -216,7 +216,7 @@ In einem weiteren Schritt müssen die Standorte ("Outlets") des Betreibers im Po
 | How-to-guide für die Einladung von Kassenbetreibern (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 | Optionen zur Zusammenarbeit von Kassenhändler, Kassenbetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
-## 12. Übertragung von Entitlements
+## 12. Herstellung und Konfiguration der Produkte im Account des KassenBetreibers
 
 Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, müssen die Entitlements auf die Standorte bzw. Kassen des Betreibers übertragen und die Produkte für den Betreiber aktiviert werden. Dies geschieht wie folgt: 
 
@@ -225,9 +225,9 @@ Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Pr
 
 Voraussetzung für diesen Vorgang sind die im Schritt 11 beschriebene, hergestellte Verbindung des Kassenhändler mit dem Betreiber im fiskaltrust.Portal inklusive der notwendigen Berechtigungen für den Kassenhändler. Damit kann der Kassenhändler in den Account des Kassenbetreibers wechseln und die Übertragung der Entitlements und Aktivierung der Produkte für den Betreiber vorzunehmen. Des Weiteren kann mit Hilfe der dazugehörigen Berechtigung die Erstellung der benötigen Konfigurationen (Cashboxen) für den Betreiber ebenfalls durch den Kassenhersteller erfolgen.
 
-| Vertiefende Information                                     | Zielgruppe                                                   |
-| ----------------------------------------------------------- | ------------------------------------------------------------ |
-| How-to-guide: Übertragung von Entitlements (in Bearbeitung) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| Vertiefende Information                                      | Zielgruppe                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Herstellung und Konfiguration der Produkte im Account des KassenBetreibers](03-sales/05-configuration-activation.md) | [Account-manager/Sales](../glossar/personas-posdealer.md)<br />[Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ## 13. Auslieferung & Inbetriebnahme
 
