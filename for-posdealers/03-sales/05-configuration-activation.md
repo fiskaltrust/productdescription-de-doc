@@ -4,7 +4,7 @@ Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Pr
 
 Dieses Dokument beschreibt den generellen Prozess zur Herstellung von Produkten beim KassenBetreiber. Einzelne Variationen dieses Prozesses, die durch unterschiedliche Produkteigenschaften zustande kommen, werden auf den jeweiligen Produktseiten beschrieben, welche im Bereich "weiterführende Informationen" verlinkt sind.
 
-## Voraussetzungen
+## Allgemeine Voraussetzungen
 
 | Voraussetzung                                                | Pflicht                                                      | Optional                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -88,6 +88,12 @@ Wir empfehlen abschließend in den betroffenen Kunden-Accounts und deren Standor
 
 ### Option 2 - Bezug von Händlereinkaufs-Produkten mit gleichzeitiger Herstellung und Konfiguration der Produkte im Account des KassenBetreibers
 
+#### Voraussetzungen für Option 2
+
+| Voraussetzung                                                | Pflicht                                                      | Optional |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| **Mindestens ein Entitlement ist im KassenHändler-Account vorhanden** | Ja, da ansonsten im Shop des KassenBetreibers in der KassenHänder-Ansicht keine Händlereinkaufsprodukte dargestellt werden |          |
+
 Die Schritte der zweiten Variante sind in folgendem YouTube Video ab ca. Minute 15:25 beschrieben: https://youtu.be/l6IcV7o_LFM?t=923.
 
 Der Unterschied in Variante 2 liegt darin, dass das Händlereinkaufsprodukt direkt aus dem Account des KassenBetreibers heraus gekauft wird. Dadurch entfällt der Schritt zur Übertragung der Entitlements.
@@ -136,7 +142,7 @@ Wir empfehlen abschließend in den betroffenen Kunden-Accounts und deren Standor
 
 ### fiskaltrust.Sorglos mit TSE
 
-Nach dem Bezug des Händlereinkaufsproduktes fiskaltrust.Sorglos mit TSE stehen zwei unterschiedliche Varianten einer TSE in Form von Entitlements zur Wahl zur Verfügung: Einer Hardware-TSE Subscription, und einer CLoud-TSE Subscription. Dies ermöglicht eine frühzeitige Bestellung des Sorglos Paketes unabhängig von der Verfügbarkeit von zertifizierten TSEs. Erst bei der Herstellung der Produkte muss entschieden werden, welche TSE Subscription zum Einsatz kommen soll.
+Nach dem Bezug des Händlereinkaufsproduktes fiskaltrust.Sorglos mit TSE stehen zwei unterschiedliche Varianten einer TSE in Form von Entitlements zur Wahl zur Verfügung: Einer Hardware-TSE Subscription, und einer Cloud-TSE Subscription. Dies ermöglicht eine frühzeitige Bestellung des Sorglos Paketes unabhängig von der Verfügbarkeit von zertifizierten TSEs. Erst bei der Herstellung der Produkte muss entschieden werden, welche TSE Subscription zum Einsatz kommen soll.
 
 [Einkauf & Weiterverkauf des fiskaltrust.Sorglos mit TSE Bundles](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/01-produkte/Sorglos-mit-TSE.md#how-to-guide-einkauf--weiterverkauf)
 
