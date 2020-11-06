@@ -6,19 +6,19 @@ Dieses Dokument beschreibt welche Stammdaten eines KassenBetreibers benötigt we
 
 ### Firma
 
-| Daten                              | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | fiskaltrust Systemverwaltung | Verantwortlich für die Bereitstellung der Daten | Anmerkung                                                    |
-| ---------------------------------- | --------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| **Firmenname**                     | Pflicht                                       |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **E-Mail Adresse**                 |                                               |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Straße**                         | Pflicht                                       |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Postleitzahl**                   | Pflicht                                       |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Stadt**                          | Pflicht                                       |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Länderkürzel**                   | Pflicht                                       |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Steuernummer**                   | Pflicht                                       |                                                       |                              | KassenHändler                                   | Feld ist im Formular für manuelle Anlage und im CSV Import für die Bulk-Einladung von KassenBetreibern nicht enthalten! KassenHändler müssen diese Daten derzeit manuell im Portal im Account des KassenHerstellers auf der Seite `Masterdata` nachtragen. |
-| **UStId**                          | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | Optional                     | KassenHändler                                   |                                                              |
-| **Primary Contact Vorname**        |                                               |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Primary Contact Nachname**       |                                               |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
-| **Primary Contact E-Mail Adresse** |                                               |                                                       | Pflicht                      | KassenHändler                                   |                                                              |
+| Daten                              | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | fiskaltrust Systemverwaltung | Anmerkung                                                    |
+| ---------------------------------- | --------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ------------------------------------------------------------ |
+| **Firmenname**                     | Pflicht                                       |                                                       | Pflicht                      |                                                              |
+| **E-Mail Adresse**                 |                                               |                                                       | Pflicht                      |                                                              |
+| **Straße**                         | Pflicht                                       |                                                       | Pflicht                      |                                                              |
+| **Postleitzahl**                   | Pflicht                                       |                                                       | Pflicht                      |                                                              |
+| **Stadt**                          | Pflicht                                       |                                                       | Pflicht                      |                                                              |
+| **Länderkürzel**                   | Pflicht                                       |                                                       | Pflicht                      |                                                              |
+| **Steuernummer**                   | Pflicht                                       |                                                       |                              | Feld ist im Formular für manuelle Anlage und im CSV Import für die Bulk-Einladung von KassenBetreibern nicht enthalten! KassenHändler müssen diese Daten derzeit manuell im Portal im Account des KassenHerstellers auf der Seite `Masterdata` nachtragen. |
+| **UStId**                          | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | Optional                     |                                                              |
+| **Primary Contact Vorname**        |                                               |                                                       | Pflicht                      |                                                              |
+| **Primary Contact Nachname**       |                                               |                                                       | Pflicht                      |                                                              |
+| **Primary Contact E-Mail Adresse** |                                               |                                                       | Pflicht                      |                                                              |
 Die oben genannten Daten können bis auf die Steuernummer entweder bei manueller Anlage des Accounts eines KassenBetreibers, oder via bulk-Einladung (CSV Datei) erzeugt werden:
 
 #### Optionen zur Bereitstellung der Firmendaten
@@ -33,16 +33,16 @@ Die oben genannten Daten können bis auf die Steuernummer entweder bei manueller
 
 Namen und Orte der einzelnen Betriebsstätten mit Kassen.
 
-| Daten                     | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | fiskaltrust Systemverwaltung | Verantwortlich für die Bereitstellung der Daten | Anmerkung                                                    |
-| ------------------------- | --------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| **Standortname**          | Pflicht                                       |                                                       |                              | KassenHändler                                   | Feld `LocationId` bei CSV Import von Outlets                 |
-| **Outlet-Nummer**         |                                               |                                                       | Pflicht                      |                                                 |                                                              |
-| **Straße**                | Pflicht                                       |                                                       |                              | KassenHändler                                   |                                                              |
-| **Postleitzahl**          | Pflicht                                       |                                                       |                              | KassenHändler                                   |                                                              |
-| **Stadt**                 | Pflicht                                       |                                                       |                              | KassenHändler                                   |                                                              |
-| **Land**                  | Pflicht                                       |                                                       |                              | KassenHändler                                   |                                                              |
-| **UStId des Standortes**  | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                              | KassenHändler                                   | UstID des Accounts wird verwendet                            |
-| **Zuständiges Finanzamt** |                                               | Pflicht                                               |                              | KassenHändler                                   | Wird für die automatisierte Finanzamtmeldung der TSE-Kasse benötigt. <br />Feld ist nicht im CSV Import für die Bulk-Import von KassenBetreiber Outlets enthalten!<br />Feature ist von fiskaltrust noch nicht zur Verfügung gestellt. |
+| Daten                     | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | fiskaltrust Systemverwaltung | Anmerkung                                                    |
+| ------------------------- | --------------------------------------------- | ----------------------------------------------------- | ---------------------------- | ------------------------------------------------------------ |
+| **Standortname**          | Pflicht                                       |                                                       |                              | Feld `LocationId` bei CSV Import von Outlets                 |
+| **Outlet-Nummer**         |                                               |                                                       | Pflicht                      |                                                              |
+| **Straße**                | Pflicht                                       |                                                       |                              |                                                              |
+| **Postleitzahl**          | Pflicht                                       |                                                       |                              |                                                              |
+| **Stadt**                 | Pflicht                                       |                                                       |                              |                                                              |
+| **Land**                  | Pflicht                                       |                                                       |                              |                                                              |
+| **UStId des Standortes**  | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                              | UstID des Accounts wird verwendet                            |
+| **Zuständiges Finanzamt** |                                               | Pflicht                                               |                              | Wird für die automatisierte Finanzamtmeldung der TSE-Kasse benötigt. <br />Feld ist nicht im CSV Import für die Bulk-Import von KassenBetreiber Outlets enthalten!<br />Feature ist von fiskaltrust noch nicht zur Verfügung gestellt. |
 
 #### Optionen zur Bereitstellung der Outlet Daten
 
@@ -57,24 +57,24 @@ Die oben genannten Daten können bis auf die UStId des Standortes entweder bei m
 
 Stammdaten der einzelnen eingesetzten Kassen.
 
-| Daten                         | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | Verantwortlich für die Bereitstellung der Daten | Anmerkung                                                    |
-| ----------------------------- | --------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| **Kassen-Id**                 | Pflicht                                       |                                                       | KassenHersteller                                | possystemid (automatisch generiert bei ft)? dzt. chasboxidentification |
-| **Kassen-Hersteller-Marke**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                | (Portal - Brand) nicht im dsfinvk.export enthalten/leer      |
-| **Kassen-Modell**             | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                | Portal - Type? nicht im dsfinvk.export enthalten/leer        |
-| **Kassen-Seriennummer**       | Pflicht                                       |                                                       | KassenHändler                                   | Im Zuge der Erstellung der Cashboxen; siehe [Kassenseriennummer](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#kassenseriennummer) |
-| **Kassen-Basiswährungscode**  | Pflicht                                       |                                                       | KassenHersteller                                | leer im export                                               |
-| **Kassen-Software-Marke**     | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                | ft.middleware (automatisch generiert)                        |
-| **Kassen-Software-Version**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                | sw version von ft (autom. generiert)                         |
-| **Terminal-ID**               | Pflicht                                       |                                                       | KassenHersteller                                |                                                              |
-| **Terminal-Marke**            | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                |                                                              |
-| **Terminal-Modell**           | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                |                                                              |
-| **Terminal-Seriennummer**     | Pflicht                                       |                                                       | KassenHersteller                                |                                                              |
-| **Terminal-Software Marke**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                |                                                              |
-| **Terminal-Software Version** | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | KassenHersteller                                |                                                              |
-| **vat id**                    | Pflicht                                       |                                                       | KassenHersteller                                |                                                              |
-| **vat percentage**            | Pflicht                                       |                                                       | KassenHersteller                                |                                                              |
-| **vat description**           | Pflicht                                       |                                                       | KassenHersteller                                |                                                              |
+| Daten                         | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | Finanzamtmeldung (derzeit noch nicht final definiert) | Anmerkung                                                    |
+| ----------------------------- | --------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| **Kassen-Id**                 | Pflicht                                       |                                                       | possystemid (automatisch generiert bei ft)? dzt. chasboxidentification |
+| **Kassen-Hersteller-Marke**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | (Portal - Brand) nicht im dsfinvk.export enthalten/leer      |
+| **Kassen-Modell**             | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | Portal - Type? nicht im dsfinvk.export enthalten/leer        |
+| **Kassen-Seriennummer**       | Pflicht                                       |                                                       | Im Zuge der Erstellung der Cashboxen; siehe [Kassenseriennummer](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#kassenseriennummer) |
+| **Kassen-Basiswährungscode**  | Pflicht                                       |                                                       | leer im export                                               |
+| **Kassen-Software-Marke**     | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | ft.middleware (automatisch generiert)                        |
+| **Kassen-Software-Version**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       | sw version von ft (autom. generiert)                         |
+| **Terminal-ID**               | Pflicht                                       |                                                       |                                                              |
+| **Terminal-Marke**            | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                                                              |
+| **Terminal-Modell**           | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                                                              |
+| **Terminal-Seriennummer**     | Pflicht                                       |                                                       |                                                              |
+| **Terminal-Software Marke**   | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                                                              |
+| **Terminal-Software Version** | Pflicht wenn im Aufzeichnungssystem vorhanden |                                                       |                                                              |
+| **vat id**                    | Pflicht                                       |                                                       |                                                              |
+| **vat percentage**            | Pflicht                                       |                                                       |                                                              |
+| **vat description**           | Pflicht                                       |                                                       |                                                              |
 
 #### Optionen zur Bereitstellung der Queue Daten
 
@@ -82,17 +82,37 @@ tbd.
 
 ## Agenturdaten
 
-| Daten            | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | fiskaltrust Systemverwaltung | verantwortlich für die Bereitstellung der Daten | Anmerkung |
-| ---------------- | --------------------------------------------- | ---------------------------- | ----------------------------------------------- | --------- |
-| **Agentur Name** | Pflicht                                       |                              | KassenHändler                                   |           |
-| **Straße**       | Pflicht                                       |                              | KassenHändler                                   |           |
-| **Postleitzahl** | Pflicht                                       |                              | KassenHändler                                   |           |
-| **Stadt**        | Pflicht                                       |                              | KassenHändler                                   |           |
-| **Land**         | Pflicht                                       |                              | KassenHändler                                   |           |
-| **Steuernummer** | Pflicht                                       |                              | KassenHändler                                   |           |
-| **UStId**        | Pflicht wenn im Aufzeichnungssystem vorhanden |                              | KassenHändler                                   |           |
+| Daten            | DSFinV-K/DFKA- Export - Taxonomie Version 2.1 | fiskaltrust Systemverwaltung | Anmerkung |
+| ---------------- | --------------------------------------------- | ---------------------------- | --------- |
+| **Agentur Name** | Pflicht                                       |                              |           |
+| **Straße**       | Pflicht                                       |                              |           |
+| **Postleitzahl** | Pflicht                                       |                              |           |
+| **Stadt**        | Pflicht                                       |                              |           |
+| **Land**         | Pflicht                                       |                              |           |
+| **Steuernummer** | Pflicht                                       |                              |           |
+| **UStId**        | Pflicht wenn im Aufzeichnungssystem vorhanden |                              |           |
 
 #### Optionen zur Bereitstellung der Agenturdaten
 
 Die oben genannten Agenturdaten können manuell im Portal unter `POS Dealers` / `Agencies` / `Add New Agency` angelegt werden.
 
+## Verantwortlichkeiten 
+
+Nachfolgend wird beschreiben, welche Rolle bezüglich der Verwaltung der Stammdaten für welche Aktivitäten verantwortlich ist, und welche Rollen zu beteiligen sind.
+
+### Begriffe
+
+- **Responsible** – verantwortlich (Durchführungsverantwortung), zuständig für die eigentliche Durchführung. Die Person, die die Initiative für die Durchführung (auch durch Andere) gibt. Sie kann die Aktivität auch selbst durchführen. Wird auch als Verantwortung im disziplinarischen Sinne interpretiert.
+- **Accountable** – rechenschaftspflichtig (Kosten-, bzw. Gesamtverantwortung), verantwortlich im Sinne von „genehmigen“, „billigen“ oder „unterschreiben“. Die Person, die im rechtlichen oder kaufmännischen Sinne die Verantwortung trägt. Wird auch als Verantwortung aus Kostenstellensicht interpretiert.
+-  **Support** – unterstützend. Die Person kann eine unterstützende Rolle spielen oder Betriebsmittel zur Verfügung stellen. In Abgrenzung zu C (Consulted), welche primär Wissen beisteuert, wird S (Support) meist als eine Rolle gesehen, die dem R (Responsible) aktiv Arbeit abnimmt.
+- **Consulted** – konsultiert. Eine Person, die vielleicht nicht direkt an der Umsetzung beteiligt ist, aber relevante Informationen für die Umsetzung hat und deshalb befragt werden soll oder muss.
+- **Informed** – zu informieren (Informationsrecht). Eine Person, die Informationen über den Verlauf bzw. das Ergebnis der Tätigkeit erhält oder die Berechtigung besitzt, Auskunft zu erhalten.
+
+| Stammdaten        | Hersteller | Händler | Betreiber | fiskaltrust | Steuerberater |
+| ----------------- | ---------- | ------- | --------- | ----------- | ------------- |
+| **Firmendaten**   |            | S       | R, A      | C           | I             |
+| **Standortdaten** |            | S       | R, A      | C           | I             |
+| **Kassendaten***  | R, A       |         |           | S, C        | I             |
+| **Agenturdaten**  |            | S       | R, A      | C           | I             |
+
+***Ausnahme:** Kassenseriennummer - diese wird meist im Zuge des Rollouts durch den Händler definiert.
