@@ -61,13 +61,13 @@ Stammdaten der einzelnen eingesetzten Kassen.
 | **Designation** (Description; "Beschreibung") |                                               |                                                              | Pflicht                      |                                                              |
 | **Kassen-Hersteller-Marke**/Brand             | Pflicht                                       |                                                              |                              |                                                              |
 | **Kassen-Modell**/Type                        | Pflicht                                       |                                                              |                              |                                                              |
-| **Kassen-Seriennummer**                       | Pflicht                                       |                                                              |                              | Die `CashBox Identification`, welche bei der Erstellung einer Queue definiert wird, wird auch für die Kassenseriennummer verwendet. |
+| **Kassen-Seriennummer**                       | Pflicht                                       |                                                              |                              | Die `CashBox Identification`, welche bei der Erstellung einer Queue definiert wird, wird auch für die Kassenseriennummer verwendet und **muss daher eindeutig sein**. |
 | **Terminal-ID**                               | Pflicht                                       |                                                              |                              | sign-request vom Hersteller                                  |
 | **Terminal-Software Version**                 | Pflicht                                       |                                                              |                              | Die `Major Software Version` bei der Erstellung PosSystem wird verwendet |
 
 #### Bereitstellung der Kassen-Daten
 
-Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request.
+Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/api/fiskaltrust.ifPOS.v1.ReceiptRequest.html#fiskaltrust_ifPOS_v1_ReceiptRequest_ftPosSystemId). **Ohne eine Referenzierung auf das PosSystem fehlen die Informationen der Kasse in den (archivierten) Belegdaten und den darauf basierenden Exporten (z.B. DSFinV-K Export)**.
 
 Die Kassenseriennummer wird bei der Erstellung einer Queue durch den Händler über das Feld `CashBox Identification `definiert.
 
