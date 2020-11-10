@@ -29,7 +29,18 @@ Port 443 https ausgehend für
 - packages.fiskaltrust.at
 - signing.fiskaltrust.at
 - signaturcloud.fiskaltrust.at
-- kassensichv.io bei Verwendung der fiskaly TSE
+
+### bei Verwendung der fiskaly TSE
+
+Port 443 https ausgehend für
+
+- kassensichv.io 
+
+### bei Verwendung der Deutschen Fiskal TSE / der Swissbit Cloud TSE
+
+Port 443 https ausgehend für
+
+- fiskal.cloud 
 
 ## Zertifikate
 

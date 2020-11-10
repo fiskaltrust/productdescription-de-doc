@@ -331,3 +331,25 @@ Host-Header für den Traffic-Manager, dieser ist DNS-Basiert und gibt HTTP-30x R
 | Westeurope    | at         | ft-a114-fiskaltrust-at.at                             | 13.95.22.62    |                  |                               |                               |        |               |
 | Westeurope    | at         | ft-a115-fiskaltrust-at.at                             | 52.166.206.12  |                  |                               |                               |        |               |
 | Graz          | at         | ft-at11-fiskaltrust-at.at                             | 149.154.100.21 |                  |                               |                               |        |               |
+
+
+
+
+### Anforderungen bei Benutzung der fiskaly TSE
+
+Port 443 https ausgehend für
+
+- kassensichv.io 
+
+
+### bei Verwendung der Deutschen Fiskal TSE / der Swissbit Cloud TSE
+
+Port 443 https ausgehend für
+
+- fiskal.cloud 
+
+Aus den FAQ der Deutschen Fiskal:
+Der Fiskal Cloud-Konnektor benötigt Zugriff über https auf den Hostnamen fiskal.cloud auf Port 443.
+Der Dienst ist DNS-basiert und die IP-Adresse kann nicht garantiert werden und kann sich ohne Vorankündigung ändern.
+Ein Cloud-basierter TSS Fiskal Cloud Connector benötigt eine kontinuierliche Konnektivität für alle Signier-, Export- und andere Operationen.
+Bei einem Token-basierten Fiskal Cloud Connector funktionieren die Signierungsvorgänge auch ohne Internet-Konnektivität. Konfigurationsänderungen und Exportfunktionen erfordern jedoch eine regelmäßige Internetverbindung.
