@@ -152,12 +152,7 @@ Das Rollout lasst sich je nach Bedarf mit Hilfe des Portals und von APIs in unte
 | **manuelle Ausführung von Templates**       | Erstellung und Speicherung von Konfigurationsvorlagen zum Anlegen von Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung zwischen Kassenhersteller und Kassenbetreiber. | Empfohlen ab ca. 25 gleich zu konfigurierende Cashboxen.     |
 | **automatisierte Ausführung von Templates** | Automatisierte Cashboxgenerierung mit Hilfe der Ausführung von Konfigurationsvorlagen über unsere HTTP-API. | Empfohlen ab ca. 50-100  Cashboxen |
 
-### Optionen für die Auslieferung der Middleware
-
-| Option                                                       | Beschreibung                                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Download des vorkonfigurierten Launcher über das fiskaltrust.Portal** | Der Launcher wird gemeinsam mit der dazugehörigen Konfiguration  (Cashbox) aus dem Portal heruntergeladen und lokal zum Starten der Middleware ausgeführt. |
-| **Distribution eines generischen Launchers inkl. integrierter, individuellen Konfiguration** | Der Launcher steht als Nugget-Package zur Verfügung. Die enthaltene Konfigurationsdatei kann vor der Auslieferung individuell angepasst werden. Durch diese Option kann ein hoher Automatisierungsgrad erreicht werden.|
+Der Launcher wird gemeinsam mit der dazugehörigen Konfiguration aus dem Portal heruntergeladen und lokal zum Starten der Middleware ausgeführt. Das Konfigurationsfile (fiskaltrust.exe.config) können Sie vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen. 
 
 Diese und weitere Automatisierungsoptionen finden Sie in der dazugehörigen, weiterführenden Dokumentation. Siehe Tabelle:
 
