@@ -388,7 +388,7 @@ Zusammenfassung: In dem obigen Beispiel wurden mit Hilfe der [`fiskaltrustOutlet
 
 ## Automatisierter Rollout der fiskaltrust.Middleware
 
-Die fiskaltrust Launcher steht Ihnen als [Nugget-Package](https://www.nuget.org/packages/fiskaltrust.service.launcher/) frei zur Verfügung. Dadurch können Sie den Launcher downloaden, seine Konfiguration anpassen und als Teil Ihres Rollouts automatisiert auf die Kassen der Betreiber ausliefern und starten. 
+Über das fiskaltrust.Portal haben Sie die Möglichkeit den Launcher herunterzuladen. Drücken Sie dazu den "Download online Launcher" Button einer beliebigen Cahsbox im Portal. Den heruntergeladenen Launcher können Sie nun als Teil Ihres Rollouts automatisiert auf alle Kassen der Betreiber ausliefern und starten. 
 
 Wichtig ist es hierbei beim ersten Start darauf zu achten, dass die fiskaltrust.Middleware richtig, d.h. mit der dazugehörigen Cashbox initialisiert wird. Dafür stellt der Launcher ein Konfigurationsfile (fiskaltrust.exe.config) zur Verfügung. Dieses können Sie vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen. 
 
@@ -401,6 +401,8 @@ Bitte geben Sie dazu in dem Bereich `appSetting` die Werte für `cashboxid` und 
   <add key="accesstoken" value="your-access-token" />
 ```
 Nun können Sie den Launcher mit der angepassten Konfigurationsdatei auf die Kasse des Betreibers ausliefern und mit `fiskaltrust.exe` starten. Der Launcher wird sich automatisch die Cashbox (Konfigurationscontainer) zur in `fiskaltrust.exe.config` angegebenen `cashboxid`  vom fiskaltrust Server herunterladen und die fiskaltrust.Middleware entsprechend konfigurieren und starten.
+
+Alternativ zur Anpassung der Konfiguration in der`fiskaltrust.exe.config` Datei können Sie beim Starten des Launcher (`fiskaltrust.exe` ) die `cashboxid` und den `accesstoken` als Parameter übergeben. Diese Angabe überschreibt die vorhandene Konfiguration. Die Beschreibung der möglichen Start-Parameter fnden sie [hier](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/Installation/installation.md).
 
 ## Hoher Automatisierungsgrad
 
