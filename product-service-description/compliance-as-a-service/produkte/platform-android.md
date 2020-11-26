@@ -38,7 +38,9 @@ Der Android Launcher wird jeweils für die HTTP-Variante als auch für die gRPC 
 
 ### Troubleshooting
 
-Swissbit plugin-plugout
+#### Swissbit TSE 
+
+Die Verwendung des root-Verzeichnisses der TSE ist unter Android nicht erlaubt. Um Unterverzeichnisse anlegen und verwenden zu können, muss die TSE bei der erstmaligen Verwendung zuerst aus- und dann wieder angesteckt werden.
 
 ## Weiterführende Informationen zur Middleware für Android
 
