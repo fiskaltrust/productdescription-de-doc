@@ -47,7 +47,7 @@ Eine Validierung der DSFinV-K Dateien ist hierbei nicht notwendig, da diese dire
 
 ## Features:
 
-- Nutzung für Kassensyteme mit und ohne integrierter von fiskaltrust.Middleware möglich
+- Nutzung für Kassensyteme mit und ohne integrierter fiskaltrust.Middleware möglich
 - Revisionssichere Archivierung manuell hochgeladener Daten (Tagesabschuss-Daten, TSE-TAR Files, Blob-FIles) über nutzerfreundliche File-Drop Funktion mittels Browser (keine Authentifizierung notwendig)
 - API zur Automatisierung des Uploads
 - Einbindung des File-Drop in die Website des Kassenhändlers möglich (HTML + JS) - siehe [GitHub Repo](https://github.com/fiskaltrust/ako-upload-page)
