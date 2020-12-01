@@ -53,7 +53,7 @@ fiskaltrust bietet das Audicon Kassenarchiv Online (AKO) - unabhängig vom Einsa
 
 ### Technische Sicherheitseinrichtungen (TSE)
 
-Folgende TSE können von KassenHerstellern für den Wiederverkauf an Kassenbetreiber erworben werden:
+Folgende TSE können von KassenHerstellern für den Wiederverkauf an KassenBetreiber erworben werden:
 
 #### Cloud TSE
 
