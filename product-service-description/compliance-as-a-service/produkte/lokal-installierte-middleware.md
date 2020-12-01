@@ -18,7 +18,20 @@ Die fiskaltrust.Middleware besteht aus
 | Hardware Anschlüsse für TSE       | USB, SD, Micro-SD oder COM Port bei lokal angeschlossener TSE |
 | Internet Connektivität            | optional: (WIFI)Modem für Internet Anschluß zur Nutzung von Cloud TSE, data as a service-, backup,- oder Konfigurations-/update Services. Bitte beachten sie die [Firewall Einstellungen](../../../for-posdealers/03-sales/firewall-settings.md). |
 
-## Unterstützte Plattformen
+## Unterstützte Plattformen & TSEs
+
+|                                                              | Windows                                 | Linux, macOS | Android |
+| ------------------------------------------------------------ | --------------------------------------- | ------------ | ------- |
+| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilität.md) | ja                                      |              |         |
+| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilität.md) | ja                                      | ja           |         |
+| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) | derzeit nur für Windows 10 zertifiziert |              |         |
+| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | ja                                      |              |         |
+| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | ja                                      |              |         |
+| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilität.md) | ja                                      | ja           | ja      |
+| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | ja                                      |              | ja      |
+| Swissbit Cloud-TSE                                           | ja                                      |              |         |
+
+### Systemvoraussetzungen
 
 - [Windows](platform-android.md)
 - [Linux, MacOs](platform-linux.md)
@@ -30,22 +43,26 @@ Die fiskaltrust.Middleware besteht aus
 
 freie Auswahl folgender konfigurierbarer Schnittstellentechnologien:
 
-- WCF
-- gRPC
-- REST
+|      | Windows | Linux, macOS | Android |
+| ---- | ------- | ------------ | ------- |
+| WCF  | ja      |              |         |
+| gRPC | ja      | ja           | ja      |
+| REST | ja      | ja           | ja      |
 
-Schnittstellendokumentation: https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/communication/communication.md
+### Schnittstellendokumentation
+
+https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/communication/communication.md
 
 ### Datenspeicher
 
 Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 
-- Lokale Speicher:
-  - [SQLite-Storage](../features/SQLite-Storage.md) 
-  - [EF-Storage](../features/EF-Storage.md) 
-
-- Cloud Speicher:
-  -  [Azure-table-Storage](../features/Azure-table-Storage.md) 
+|                                                              | Windows | Linux, macOS | Android |
+| ------------------------------------------------------------ | ------- | ------------ | ------- |
+| lokale mySQL Storage                                         | ja      |              |         |
+| lokale [SQLite-Storage](../features/SQLite-Storage.md)       | ja      | ja           | ja      |
+| lokale [EF-Storage](../features/EF-Storage.md)               | ja      | ja           |         |
+| Cloud [Azure-table-Storage](../features/Azure-table-Storage.md) | ja      | ja           | ja      |
 
 ### Daten Export
 
@@ -57,13 +74,3 @@ Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 
 - [SCU-Abstraktion](../features/SCU-Abstraktion.md)  
 - [Queue-Abstraktion](../features/Queue-Abstraktion.md) 
-
-### Interoperabilität
-
--  [TSE-A-Trust-Interoperabilität](../features/TSE-A-Trust-Interoperabilität.md) 
--  [TSE-Cryptovision-Interoperabilität](../features/TSE-Cryptovision-Interoperabilität.md) 
--  [TSE-Deutsche-Fiskal-Interoperabilität](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) 
--  [TSE-Diebold-Nixdorf-Interoperabilität](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) 
--  [TSE-Epson-Interoperabilität](../features/TSE-Epson-Interoperabilität.md) 
--  [TSE-Fiskaly-Interoperabilität](../features/TSE-Fiskaly-Interoperabilität.md) 
--  [TSE-Swissbit-Interoperabilität](../features/TSE-Swissbit-Interoperabilität.md) 
