@@ -1,4 +1,4 @@
-# fiskaltrust.Middleware for Linux and MacOs
+# fiskaltrust.Middleware for Linux and macOs
 
 Starting with version 1.3.3, it's possible to run the German Middleware on Linux, using [Mono](https://www.mono-project.com/). Just configure a Cashbox and download the Linux launcher via the respective button in the Cashbox overview. Like on Windows, the downloaded zip file contains scripts to install and test the Middleware.
 

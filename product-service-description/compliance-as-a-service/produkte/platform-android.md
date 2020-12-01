@@ -13,18 +13,17 @@ Der Launcher der fiskaltrust.Middleware für Android unter folgenden Cashbox Kon
 
 ## Unterschiede zu ft.Middleware für Desktop
 
-Aufgrund der Sicherheitseinschränkungen von Android können die benötigten Packages nicht beim Start des Dienstes geladen bzw. aktualisiert werden. Daher steht die Middleware für Android mit vorkonfigurierten Packages zum Download zur Verfügung:
+Aufgrund der Sicherheitseinschränkungen von Android können die benötigten Packages nicht beim Start des Dienstes geladen bzw. aktualisiert werden. Daher steht die Middleware für Android mit folgenden vorkonfigurierten Packages zum Download zur Verfügung:
 
-- Middleware für Android (HTTP)
-  - HTTP Package
-  - SQLite Package
-  - Fiskaly Cloud- und Swissbit Packages
-- Middleware für Android (gRPC)
-  - gRPC Package
-  - SQLite Package
-  - Fiskaly Cloud- und Swissbit Packages
+- SQLite Queue
+- Fiskaly SCU
+- Swissbit SCU (z.B. via SD-Karten)
 
-Angesprochen wird die Middleware für Android mit Hilfer der Cashbox Id und dem Access Token. Beide Informationen findet man im fiskaltrust.Portal.
+Diese Google-Sicherheitsbeschränkung impliziert auch, dass unser regulärer Paket-Update-Mechanismus unter Android nicht unterstützt wird. Um die neuesten Middleware-Updates zu erhalten, muss daher die APK entweder über Google Play oder MDM upgedated werden.
+
+Um die bei mobilen Apps kritische Paketgröße zu reduzieren, werden jeweils eine separate HTTP- und eine gRPC-App bereitgestellt.
+
+Der Middleware-Hintergrunddienst muss via Android-Intent gestartet werden und stellt dann wie gewohnt REST bzw gRPC-Endpunkte über unser Standard-Interface zur Verfügung.
 
 ## Distribution
 
@@ -36,11 +35,22 @@ Die Android Launcher APK-files werden jeweils für die HTTP-Variante als auch f�
 
 Der Android Launcher wird jeweils für die HTTP-Variante als auch für die gRPC Variante im Google Play Store als App zum Download angeboten, wenn die oben beschriebenen Voraussetzungen erfüllt sind.
 
+|                         | fiskaltrust.Middleware für Android (HTTP)                    | fiskaltrust.Middleware für Android (gRPC)                    |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **QR Code zum Scannen** | <img src="../media/android-http.png" alt="android-http" style="zoom:20%;" /> | <img src="../media/android-grpc.png" alt="android-grpc" style="zoom:20%;" /> |
+| **URL**                 | https://play.google.com/store/apps/details?id=eu.fiskaltrust.androidlauncher.http | https://play.google.com/store/apps/details?id=eu.fiskaltrust.androidlauncher.grpc |
+
+
+
 ### Troubleshooting
 
-#### Swissbit TSE 
+#### Status
 
-Die Verwendung des root-Verzeichnisses der TSE ist unter Android nicht erlaubt. Um Unterverzeichnisse anlegen und verwenden zu können, muss die TSE bei der erstmaligen Verwendung zuerst aus- und dann wieder angesteckt werden.
+Der Status der fiskaltrust.Middleware wird im Android-Benachrichtigungsbereich angezeigt. Alternativ stehen HTTP-Endpunkte zur Verfügung, um den Status und detaillierte Diagnose-Logs abzurufen (s. *Weiterführende Informationen*).
+
+#### Initialisierung der Swissbit TSE
+
+Einen Spezialfall stellt die Swissbit-TSE dar, die hardwarebedingt zur Initialisierung beim erstmaligen Start der Middleware aus- und wieder eingesteckt werden muss (eine Information dazu ist dann sowohl im Benachrichtungsbereich als auch über den Status-Endpunkt verfügbar).
 
 ## Weiterführende Informationen zur Middleware für Android
 
