@@ -1,14 +1,14 @@
 # Angebote für Kassenhändler
 
-Basis-Produkt der fiskaltrust ist die [fiskaltrust.Middleware](../../product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md). Diese wird von Kassenhersteller in ihr Kassensystem integriert und dient zur Erfüllung der gesetzlichen Anforderungen (z.B. §146 AO, KassenSichV) bezüglich der Fiskalisierung für Kassen. 
+Basis-Produkt der fiskaltrust ist die [fiskaltrust.Middleware](../../product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md). Diese wird von KassenHersteller in ihr Kassensystem integriert und dient als Unterstützung zur Erfüllung der gesetzlichen Anforderungen (z.B. §146 AO, KassenSichV) bezüglich der Fiskalisierung für Kassen. 
 
-fiskaltrust bietet auf Grundlage seines Basis-Produkts aber auch unabhängig davon Add-On Produkte für Kassenbetreiber an, die über Kassenhändler als Partner von fiskaltrust vertrieben werden. Im folgenden werden wir auf diese Produkte eingehen. Wir teilen dabei die Produkte in zwei Kategorien auf. Zum einen Produkte, die die fiskaltrust.Middleware erfordern und zum zweiten Produkte, die unabhängig von der fiskaltrust.Middleware angeboten werden.
+fiskaltrust bietet auf Grundlage dieses Basis-Produkts aber auch unabhängig davon Add-On Produkte für KassenBetreiber an, die über KassenHändler als Partner von fiskaltrust vertrieben werden. Im Folgenden werden wir auf diese Add-On Produkte eingehen. Wir unterteilen hierfür die Produkte in zwei Kategorien. Zum einen Produkte, welche die fiskaltrust.Middleware benötigen und zum anderen Produkte, welche unabhängig von der fiskaltrust.Middleware verwendet werden können.
 
-## 1. Wenn in der Kasse die fiskaltrust.Middleware integriert wurde
+## 1. Wenn die fiskaltrust.Middleware in die Kasse integriert wurde
 
 #### Add-On Produkte aufbauend auf das Basis-Produkt
 
-Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe von kostenpflichtigen Add-On Produkte zur Middleware. Diese werden pro Kasse angeboten und sind abhängig vom jeweilig Markt. Es können Backup-Lösungen, Daten-Exporte oder Automatisierungs-Services sein. In Deutschland bieten wir folgende Produkte an:
+Zum Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe optionaler, kostenpflichtiger Add-On Produkte. Diese werden länderspezifisch pro Kasse bzw. pro Standort (Outlet) angeboten. Es handelt sich hierbei um Backup-Lösungen, Daten-Exporte oder Automatisierungs-Services. In Deutschland bieten wir folgende Produkte an:
 
 - [POS Archiv](../../product-service-description/revisionssichere-daten-as-a-service/produkte/pos-archiv.md) 
 - [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/produkte/Finanzamtmeldung.md) 
@@ -21,14 +21,14 @@ Folgende Produkte können in Deutschland für Kassen mit aber auch für Kassen o
 
 ### Sorglos Bundles
 
-Das Basis-Produkt fiskaltrust.Middleware in Kombination mit den Add-On Produkten für alle Kassen einer Filiale bzw. eines Standortes, ergibt die All-in-One Fiskalisierungslösung der Sorglos-Produkt-Bundles. Je nach Kundensegment und Kundenbedürfnisse werden unterschiedliche Ausprägungen der Sorglos-Produkt-Bundles in angeboten: 
+Das Basis-Produkt fiskaltrust.Middleware in Kombination mit den Add-On Produkten für alle Kassen einer Filiale bzw. eines Standortes (Outlet), ergibt die All-in-One Fiskalisierungslösung eines Sorglos-Produkt-Bundles. Je nach Kundensegment und Kundenbedürfnis werden unterschiedliche Ausprägungen der Sorglos-Produkt-Bundles angeboten: 
 
 - [fiskaltrust.Sorglos ohne TSE](Sorglos-ohne-TSE.md) 
 - [fiskaltrust.Sorglos mit TSE](Sorglos-mit-TSE.md) 
 
 ### Technische Sicherheitseinrichtungen (TSE)
 
-Folgende TSE können Kassenhändler für den Wiederverkauft an Kassenbetreiber von fiskaltrust erwerben:
+Folgende TSE können KassenHändler von fiskaltrust für den Wiederverkauf an KassenBetreiber erwerben:
 
 #### Cloud TSE
 
@@ -43,17 +43,17 @@ Folgende TSE können Kassenhändler für den Wiederverkauft an Kassenbetreiber v
 - [Epson](../../product-service-description/compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
 - [Swissbit](../../product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
 
-## 2. Wenn in der Kasse die fiskaltrust.Middleware NICHT integriert wurde
+## 2. Wenn die fiskaltrust.Middleware NICHT in die Kasse integriert wurde
 
 ### Einzelprodukte
 
-fiskaltrust bietet unabhängig vom Einsatz der fiskaltrust.Middleware das Audicon Kassenarchiv Online (AKO) zur revisionssicheren Archivierung von Kassendaten an. Es kann DSFinV-K, TSE TAR-Files, PDF und andere Blob-Files je nach Bedarf z.B. Preislisten, Verfahrensdokumentation aufnehmen.
+fiskaltrust bietet das Audicon Kassenarchiv Online (AKO) - unabhängig vom Einsatz der fiskaltrust.Middleware - zur revisionssicheren Archivierung von Kassendaten an. Hiermit können Dateien (DSFinV-K, TSE TAR-Files, PDF und andere Blob-Files) je nach Bedarf (z.B. Preislisten, Verfahrensdokumentation) archiviert werden.
 
 - [Audicon Kassenarchiv Online](../../product-service-description/revisionssichere-daten-as-a-service/produkte/Audicon-Kassenarchiv-Online.md) 
 
 ### Technische Sicherheitseinrichtungen (TSE)
 
-Folgende TSE können für den Resale an Kassenbetreiber erworben werden:
+Folgende TSE können von KassenHerstellern für den Wiederverkauf an Kassenbetreiber erworben werden:
 
 #### Cloud TSE
 
