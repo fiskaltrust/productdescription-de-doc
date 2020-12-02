@@ -12,8 +12,33 @@ Other than that, no specific software needs to be installed (aside from the depe
 
 ## Supported packages
 
-- Both Entity Framework and SQLite queues can be launched on Linux, starting from version 1.3.3. 
-- Currently, SCU support is limited to the fiskaly and the Cryptovision packages, starting from version 1.3.3. Other SCUs (like Swissbit) will be supported soon.
+### Local storage support
+
+|                                                              | MX Linux   | Manjaro    | Linux Mint | Ubuntu     | Debian     |
+| ------------------------------------------------------------ | ---------- | ---------- | ---------- | ---------- | ---------- |
+| local mySQL Storage                                          | not tested | not tested | not tested | not tested | not tested |
+| local [SQLite-Storage](../features/SQLite-Storage.md)        | not tested | not tested | not tested | not tested | not tested |
+| local [EF-Storage](../features/EF-Storage.md)                | not tested | not tested | not tested | not tested | not tested |
+| Cloud-based [Azure-table-Storage](../features/Azure-table-Storage.md) | not tested | not tested | not tested | not tested | not tested |
+
+**not tested:** should work, but not systematically quality managed.
+
+Both Entity Framework and SQLite queues can be launched on Linux, starting from version 1.3.3. 
+
+### TSE support
+
+|                                                              | MX Linux   | Manjaro                    | Linux Mint | Ubuntu                                 | Debian     |
+| ------------------------------------------------------------ | ---------- | -------------------------- | ---------- | -------------------------------------- | ---------- |
+| [A-Trust Cloud TSEnot tested                                 | not tested | not tested                 | not tested | not tested                             | not tested |
+| [Cryptovision Hardware-TSEnot tested                         | not tested | not tested                 | not tested | not tested                             | not tested |
+| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) | not tested | not tested                 | not tested | Ubuntu LTS 20.04 certified, not tested | not tested |
+| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | not tested | not tested                 | not tested | not tested                             | not tested |
+| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | not tested | not tested                 | not tested | not tested                             | not tested |
+| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilität.md) | not tested | not tested                 | not tested | not tested                             | not tested |
+| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | not tested | not tested                 | not tested | not tested                             | not tested |
+| Swissbit Cloud-TSE                                           | not tested | Ubuntu LTS 20.04 certified | not tested | Ubuntu LTS 20.04 certified, not tested | not tested |
+
+**not tested:** should work, but not systematically quality managed.
 
 ## Limitations
 
