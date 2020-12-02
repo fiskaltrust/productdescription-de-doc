@@ -33,7 +33,7 @@ Die fiskaltrust.Middleware besteht aus
 
 ### Systemvoraussetzungen
 
-- [Windows](platform-android.md)
+- [Windows](platform-windows.md)
 - [Linux, macOs](platform-linux.md)
 - [Android](platform-android.md)
 
