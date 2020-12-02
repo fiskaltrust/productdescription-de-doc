@@ -25,11 +25,11 @@ Die fiskaltrust.Middleware besteht aus
 | [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilität.md) | ja                                      |              |         |
 | [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilität.md) | ja                                      | ja           |         |
 | [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) | derzeit nur für Windows 10 zertifiziert |              |         |
-| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | ja                                      |              |         |
-| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | ja                                      |              |         |
+| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | ja                                      | ja           |         |
+| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | ja                                      | ja           |         |
 | [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilität.md) | ja                                      | ja           | ja      |
-| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | ja                                      |              | ja      |
-| Swissbit Cloud-TSE                                           | ja                                      |              |         |
+| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | ja                                      | ja           | ja      |
+| Swissbit Cloud-TSE                                           | derzeit nur für Windows 10 zertifiziert |              |         |
 
 ### Systemvoraussetzungen
 
@@ -59,7 +59,7 @@ Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 
 |                                                              | Windows | Linux, macOS | Android |
 | ------------------------------------------------------------ | ------- | ------------ | ------- |
-| lokale mySQL Storage                                         | ja      |              |         |
+| lokale mySQL Storage                                         | ja      | ja           |         |
 | lokale [SQLite-Storage](../features/SQLite-Storage.md)       | ja      | ja           | ja      |
 | lokale [EF-Storage](../features/EF-Storage.md)               | ja      | ja           |         |
 | Cloud [Azure-table-Storage](../features/Azure-table-Storage.md) | ja      | ja           | ja      |
