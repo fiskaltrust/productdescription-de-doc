@@ -16,7 +16,7 @@ Dabei sind zur fairen Nutzung folgende Regeln zu beachten:
 
 Kunden, die eine Hardware- oder Cloud TSE im fiskaltrust.Sorglos mit TSE-Bundle als TSE-as-a-Service erhalten haben, haben zur fairen Nutzung folgende Regeln zu beachten:
 
-### Verwendung der TSE an einem Standort
+### Verwendung der TSE an einem Standort (Outlet)
 
 Voraussetzung für die Nutzung der TSE ist die Verwendung der TSE für maximal einen einzigen Standort. Die Nutzung der TSE über mehrere Standorte hinweg ist nicht zulässig. 
 
@@ -30,7 +30,7 @@ Die Verwendung der TSE ist mit einer Nutzungsgrenze von maximal 150.000 Signatur
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
+Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie hierfür im fiskaltrust.Portal einen neuen Standort (Outlet) mit der gleichen Adresse, um das zusätzliche Produkt Bundle diesem neuen Standort zuweisen zu können.
 
 ### Tausch einer Hardware TSE
 
@@ -40,13 +40,13 @@ In einer fiskaltrust.Sorglos mit Hardware TSE-Subscription wird bei erstmaliger 
 
 In folgenden Fällen verfällt der Anspruch auf den Tausch der Hardware TSE:
 
-- Wenn innerhalb eines Subscription Zyklusses kein Tausch der Hardware TSE in Anspruch genommen wurde, wird der Anspruch nicht mit dem darauffolgenden Zyklus aufsummiert, sondern verfällt. 
-- Bei einer nicht Einhaltung der oben beschriebenen Regel zur maximalen Anzahl der nutzbaren Signaturen pro Kalendermonat, d.h. bei Überschreitung, verfällt der Anspruch auf einen kostenlosen Tausch der Hardware TSE im betroffenen Subscription-Zyklus.
+- Wenn innerhalb eines Subscription Zyklusses (Vertragsjahr) kein Tausch der Hardware TSE in Anspruch genommen wurde, wird der Anspruch nicht mit dem darauffolgenden Zyklus aufsummiert, sondern verfällt. 
+- Bei einem Verstoß gegen die oben beschriebenen Regel zur maximalen Anzahl der nutzbaren Signaturen pro Kalendermonat, d.h. bei Überschreitung, verfällt der Anspruch auf einen kostenlosen Tausch der Hardware TSE im betroffenen Subscription-Zyklus.
 - Bei einem gekündigten Vertrag verfällt der Anspruch mit dem vertraglichen Ende der Leistung.
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung der maximalen Anzahl an nutzbaren Signaturen kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
+Bei voraussichtlicher Überschreitung der maximalen Anzahl an nutzbaren Signaturen kann ein zusätzliches Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie hierfür im fiskaltrust.Portal einen neuen Standort (Outlet) mit der gleichen Adresse, um das zusätzliche Produkt Bundle diesem neuen Standort zuweisen zu können.
 
 ## Nichteinhaltung der Fair Use Policy zur Verwendung der TSE-as-a-Service
 
@@ -64,7 +64,7 @@ Die Verwendung des POS Archives innerhalb eines Standortes ist für maximal 25 i
 
 #### Empfehlung zur Einhaltung der Fair Use Regel
 
-Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie dafür einen neuen Standort mit derselben Adresse, um das zusätzliche Produkt Bundle dem neuen Standort zuweisen zu können.
+Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzliches fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE-Produkt Bundle erworben werden. Bitte erstellen Sie hierfür im fiskaltrust.Portal einen neuen Standort (Outlet) mit der gleichen Adresse, um das zusätzliche Produkt Bundle diesem neuen Standort zuweisen zu können.
 
 ## Nichteinhaltung der Fair Use Policy zur Verwendung des POS Archives
 
@@ -82,4 +82,3 @@ Bei Fragen, Anregungen und Beschwerden im Zusammenhang mit dieser Fair Use Polic
 
 
 [PDF Download der Fair Use Policy](media/market-de-fair-use-policy.pdf)
-
