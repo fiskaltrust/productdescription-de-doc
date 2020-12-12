@@ -239,7 +239,7 @@ Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebn
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
-| [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/Installation/installation.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/installation/installation.md) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 | [Initial Operation Receipt](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
 
 ------
