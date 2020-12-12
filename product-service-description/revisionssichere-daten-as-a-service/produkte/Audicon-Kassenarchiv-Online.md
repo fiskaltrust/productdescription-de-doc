@@ -2,7 +2,7 @@
 
 **Produktnummer:** 4445-040020
 
-Das AKO ist grundsätzlich unabhängig von unserem Basis-Produkt, der fiskaltrust.Middleware. Es archiviert Dateien, die manuell oder über eine API hochgeladen werden können. Dabei handelt es sich um strukturierten Tagesabschluss-Daten (DSFinV-K Format), TSE TAR-Files und andere Dateien (Blob-Daten), wie zum Beispiel PDF-Dateien mit Verfahrensdokumentation oder aktuellen Preislisten. Alle hochgeladenen Daten werden mithilfe eines unveränderbaren Speichers im Backend, entsprechend den gesetzlichen Vorgaben in deutschen Rechenzentren, über einen Zeitraum von 12 Jahren im Original archiviert.
+Das AKO ist grundsätzlich unabhängig von unserem Basis-Produkt, der fiskaltrust.Middleware einsetzbar. Es archiviert nicht nur automatisiert über die fiskaltrust.Middleware erzeugte Dateien , sondern auch Dateien, die manuell oder über eine API hochgeladen werden können. Zulässige Formate sind strukturierte Tagesabschluss-Daten (DSFinV-K Format), TSE TAR-Files und auch andere Blob-Daten (z.B. PDF-Dateien mit Verfahrensdokumentation oder aktuellen Preislisten). Alle hochgeladenen Daten werden mithilfe eines unveränderbaren Speichers im Backend, entsprechend den gesetzlichen Vorgaben in deutschen Rechenzentren über einen Zeitraum von 12 Jahren revisionssicher archiviert.
 
 ![ako-data-flow](../media/ako-data-flow.png)                               
 
@@ -48,17 +48,19 @@ Eine Validierung der DSFinV-K Dateien ist hierbei nicht notwendig, da diese dire
 ## Features:
 
 - Nutzung für Kassensyteme mit und ohne integrierter fiskaltrust.Middleware möglich
-- Revisionssichere Archivierung manuell hochgeladener Daten (Tagesabschuss-Daten, TSE-TAR Files, Blob-FIles) über nutzerfreundliche File-Drop Funktion mittels Browser (keine Authentifizierung notwendig)
+- Revisionssichere Archivierung manuell hochgeladener Daten (Tagesabschuss-Daten, TSE-TAR Files, Blob-Files) über benutzerfreundliche File-Drop Funktion mittels Browser (bei DSFinV-K und TSE-TAR Files ist keine Authentifizierung des Benutzers notwendig)
 - API zur Automatisierung des Uploads
 - Einbindung des File-Drop in die Website des Kassenhändlers möglich (HTML + JS)
-- Technische Validierung der Hochgeladenen DSFinV-K Dateien (Tagesabschuss-Daten)
+- Technische Validierung der hochgeladenen DSFinV-K Dateien (Tagesabschuss-Daten)
 - Upload von Blob-Files aus einem lokalen Verzeichnis über den fiskaltrust.FileUploader Helper bei integrierter fiskaltrust.Middleware möglich
 - Upload vor Kauf möglich, Bezahlung erst für den späteren Zugriff auf die Daten notwendig
-- Archivierung erfolgt im deutschen Rechenzentrum
+- Archivierung erfolgt in deutschen Rechenzentren
 - Mandantenfähiger Zugriff auf die Daten über WEB Portal und über generierte Links mit Tokens zur einfachen Übermittlung an den Steuerberater oder Prüfer
 - Daten-Export mit zeitlicher Filterung pro Kasse und pro Filiale
   
 
 ## Verkaufseinheit
 
-Verkauf pro Filiale pro Jahr
+Verkauf für alle Kassen pro Standort (Outlet) pro Jahr
+
+Beachten Sie bitte die [fair-use-policy](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/market-de-fair-use-policy.html) !
