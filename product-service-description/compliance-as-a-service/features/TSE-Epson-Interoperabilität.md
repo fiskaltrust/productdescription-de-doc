@@ -30,12 +30,12 @@ Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 ## Troubleshooting:
 
 - Wenn die Developer-TSE einen Selbsttest verlangt obwohl sie aus- und eingesteckt wurde, führen Sie bitte an der Developer-TSE einen Factory-Reset gemäß den Hersteller-Angaben durch.
-- Bei der Verwendung einer USB Epson-TSE direkt an der Kasse oder am PC stellen Sie bitte sicher, dass der dafür benötigte Treiber von Epson installiert ist. Diesen können Sie unter folgemder URL beziehen: https://download.epson-biz.com/modules/pos/index.php?page=single_soft&cid=6566&pcat=13&pid=6397 Dies gilt nicht für die Verwendung der USB Epson TSE in einem Epson-Server.
-- Für einen Einsatz am Printer werden von Epson ausschliesslich MicroSD Epson TSE unterstützt. USB Epson TSE funktionieren an einem Printer nicht.
+- Bei der Verwendung einer USB Epson-TSE direkt an der Kasse oder am PC stellen Sie bitte sicher, dass der dafür benötigte Treiber von Epson installiert ist. Diesen können Sie unter folgender URL beziehen: https://download.epson-biz.com/modules/pos/index.php?page=single_soft&cid=6566&pcat=13&pid=6397 Dies gilt nicht für die Verwendung der USB Epson TSE in einem Epson-Server.
+- Für einen Einsatz am Printer werden von Epson ausschließlich MicroSD Epson TSE unterstützt. USB Epson TSE funktionieren an einem Printer nicht.
 
 ## Pilotinstallation
 
-Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine Pilotinstallation.
+Für die Finalisierung der Epson TSE Implementierung suchen wir Partner für eine Pilotinstallation.
 
 ### Rahmenbedingungen
 
@@ -46,7 +46,7 @@ Für die Finalisierung der Epson TSE Imlementierung suchen wir Partner für eine
 
 ### Teilnahme an der Pilotinstallation
 
-Bitte kontakieren Sie [support@fiskaltrust.de](mailto:support@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
+Bitte kontaktieren Sie [support@fiskaltrust.de](mailto:support@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
 
 ## Hardware
 
@@ -58,7 +58,13 @@ Technische Sicherungseinrichtung (TSE-Modul), Bauform: Nano-USB-Stick, Lebensdau
 
 Sonderartikel: Storno und Rückgabe unabhängig von der Lieferzeit ausgeschlossen.
 
+### Zertifizierungs-ID
 
+Zertifizierungs-ID der TSE gemäß Punkt 9.2.2 des [Anwendungserlasses zu § 146a AO](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/media/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf):
+
+| Zertifizierungs-ID | Prüfgegenstand | Antragsteller | Datum |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| [BSI-K-TR-0373-2019](https://www.bsi.bund.de/SharedDocs/Zertifikate_TR/Technische_Sicherheitseinrichtungen/BSI-K-TR-0373-2019.html) | EPSON USB TSE, Vers. 1.0 EPSON microSD TSE, Vers. 1.0        | Epson Europe BV                                              | 20.12.2019                                                   |
 
 ### Preis & Vertrieb
 
