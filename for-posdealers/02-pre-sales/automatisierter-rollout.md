@@ -60,9 +60,57 @@ Im Folgenden werden die einzelnen Schritte des oben beschriebenen Prozess detail
 
 Das Template ist ein JSON String der eine parametrisierbare Variante der Cashbox (Konfigurationskontainer als JSON String) darstellt und somit die Konfigurationen von Queues, SCUs und Helper beinhalten kann. Parametrisierbar ist es insofern, dass hier die Struktur für die zu generierende Cashbox definiert werden kann (z.B. fünf Queues, eine SCU). Zudem können bei den Werten Variablen als Platzhalter eingesetzt werden können. Sobald die Generierung der daraus resultierenden Cashbox stattfindet, werden die Variablen mit konkreten, finalen Werten befüllt.
 
-Im folgenden Bild wird ein Beispiel eines solchen Template visualisiert - download unter [template1.json](media/template1.json)
+Im folgenden ein Beispiel eines solchen Template:
+```json
+{
+    "ftCashBoxId": "|[cashbox_id]|",
+    "ftSignaturCreationDevices": [
+        {
+            "Id": "|[scu0_id]|",
+            "Package": "fiskaltrust.Middleware.SCU.DE.CryptoVision",
+            "Url": [
+                "grpc://localhost:10081"
+            ],
+            "Configuration": {
+                "devicePath": "t:"
+            }
+        }
+    ],
+    "ftQueues": [
+        {
+            "Id": "|[queue0_id]|",
+            "Package": "fiskaltrust.Middleware.Queue.SQLite",
+            "Configuration": {
+                "init_ftQueue": [
+                    {
+                        "ftQueueId": "|[queue0_id]|",
+                        "ftCashBoxId": "|[cashbox_id]|",
+                        "CountryCode": "DE",
+                        "Timeout": 15000
+                    }
+                ],
+                "init_ftQueueDE": [
+                    {
+                        "ftQueueDEId": "|[queue0_id]|",
+                        "CashBoxIdentification": "|[my_shopcode]|-|[my_tillcode]|",
+                        "ftSignaturCreationUnitDEId": "|[scu0_id]|"
+                    }
+                ],
+                "init_ftSignaturCreationUnitDE": [
+                    {
+                        "ftSignaturCreationUnitDEId": "|[scu0_id]|",
+                        "Url": "[\"grpc://localhost:10081\"]"
+                    }
+                ]
+            },
+            "Url": [
+                "grpc://localhost:10082"
+            ]
+        }
+    ]
+}
 
-![Template Beispiel](media/template1.png)
+```
 
 Variablen werden gekennzeichnet indem sie innerhalb von ```|[``` und  ```]|``` angegeben werden. Möglich hierbei ist sowohl die Angabe von [Systemvariablen](#systemvariablen) deren Werte vom fiskaltrust System bei der Generierung erzeugt werden als auch die Angabe eigener Variablen deren Werte später über einen API Aufruf zum Generieren der Cashbox übergeben werden können (siehe auch [Parametrisierung des API Aufrufs](#parametrisierung)). 
 
@@ -406,7 +454,57 @@ LocationId;OutletNumber;Name;Address;ContactName;Telephone;Fax;PostalCode;City;C
 
 Schritt 3: Iteration über die eingelesenen Zeilen aus der Outlet Datei.
 
-Schritt 4: für jede eingelesene Zeile wird das entsprechende Template eingelesen und vorbereitet. Z.B. für Zeile 1 wird der Inhalt der Datei [`template1.json`](media/template1.json) eingelesen. In Zeile 2 wird für ein anderes Outlet ein anderes Template [`template2.json`](media/template2.json) benötigt.
+Schritt 4: für jede eingelesene Zeile wird das entsprechende Template eingelesen und vorbereitet. Z.B. für Zeile 1 wird der Inhalt der Datei `template1.json` (s. oben) eingelesen. In Zeile 2 wird für ein anderes Outlet ein anderes Template benötigt:
+```json
+{
+    "ftCashBoxId": "|[cashbox_id]|",
+    "ftSignaturCreationDevices": [
+        {
+            "Id": "|[scu0_id]|",
+            "Package": "fiskaltrust.Middleware.SCU.DE.Swissbit",
+            "Url": [
+                "grpc://localhost:10081"
+            ],
+            "Configuration": {
+                "devicePath": "s:"
+            }
+        }
+    ],
+    "ftQueues": [
+        {
+            "Id": "|[queue0_id]|",
+            "Package": "fiskaltrust.Middleware.Queue.SQLite",
+            "Version" : "1.3.5",
+            "Configuration": {
+                "init_ftQueue": [
+                    {
+                        "ftQueueId": "|[queue0_id]|",
+                        "ftCashBoxId": "|[cashbox_id]|",
+                        "CountryCode": "DE",
+                        "Timeout": 15000
+                    }
+                ],
+                "init_ftQueueDE": [
+                    {
+                        "ftQueueDEId": "|[queue0_id]|",
+                        "CashBoxIdentification": "reg-|[queue0_id_base64withoutspecialchars]|",
+                        "ftSignaturCreationUnitDEId": "|[scu0_id]|"
+                    }
+                ],
+                "init_ftSignaturCreationUnitDE": [
+                    {
+                        "ftSignaturCreationUnitDEId": "|[scu0_id]|",
+                        "Url": "[\"grpc://localhost:10081\"]"
+                    }
+                ]
+            },
+            "Url": [
+                "rest://localhost:10082"
+            ]
+        }
+    ]
+}
+```
 
 Schritt 5: für jede eingelesene Zeile wird die Uri für den API Aufruf aufgebaut. Hierbei wird die Outlet Nummer als Parameter im Query-String übergeben.
 
