@@ -22,13 +22,13 @@ Die fiskaltrust.Middleware besteht aus
 
 |                                                              | Windows                                 | Linux, macOS | Android |
 | ------------------------------------------------------------ | --------------------------------------- | ------------ | ------- |
-| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilität.md) | ja                                      |              |         |
-| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilität.md) | ja                                      | ja           |         |
-| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
-| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | ja                                      | ja           |         |
-| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | ja                                      | ja           |         |
-| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilität.md) | ja                                      | ja           | ja      |
-| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | ja                                      | ja           | ja      |
+| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilitaet.md) | ja                                      |              |         |
+| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilitaet.md) | ja                                      | ja           |         |
+| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilitaet.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
+| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilitaet.md) | ja                                      | ja           |         |
+| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilitaet.md) | ja                                      | ja           |         |
+| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilitaet.md) | ja                                      | ja           | ja      |
+| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilitaet.md) | ja                                      | ja           | ja      |
 | Swissbit Cloud-TSE                                           | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
 
 ### Systemvoraussetzungen

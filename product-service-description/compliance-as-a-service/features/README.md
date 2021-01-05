@@ -21,15 +21,15 @@
 
 ### Hardware TSE
 
-- [TSE-Cryptovision-Interoperabilität.md](TSE-Cryptovision-Interoperabilität.md) 
-- [TSE-Diebold-Nixdorf-Interoperabilität.md](TSE-Diebold-Nixdorf-Interoperabilität.md) 
-- [TSE-Epson-Interoperabilität.md](TSE-Epson-Interoperabilität.md) 
-- [TSE-Swissbit-Interoperabilität.md](TSE-Swissbit-Interoperabilität.md) 
+- [TSE-Cryptovision-Interoperabilitaet.md](TSE-Cryptovision-Interoperabilitaet.md) 
+- [TSE-Diebold-Nixdorf-Interoperabilitaet.md](TSE-Diebold-Nixdorf-Interoperabilitaet.md) 
+- [TSE-Epson-Interoperabilitaet.md](TSE-Epson-Interoperabilitaet.md) 
+- [TSE-Swissbit-Interoperabilitaet.md](TSE-Swissbit-Interoperabilitaet.md) 
 
 ### Cloud TSE 
 
-- [TSE-A-Trust-Interoperabilität.md](TSE-A-Trust-Interoperabilität.md) 
-- [TSE-Deutsche-Fiskal-Interoperabilität.md](TSE-Deutsche-Fiskal-Interoperabilität.md) 
-- [TSE-Fiskaly-Interoperabilität.md](TSE-Fiskaly-Interoperabilität.md) 
+- [TSE-A-Trust-Interoperabilitaet.md](TSE-A-Trust-Interoperabilitaet.md) 
+- [TSE-Deutsche-Fiskal-Interoperabilitaet.md](TSE-Deutsche-Fiskal-Interoperabilitaet.md) 
+- [TSE-Fiskaly-Interoperabilitaet.md](TSE-Fiskaly-Interoperabilitaet.md) 
 
 ### [TSE-as-a-Service](TSE-as-a-service.md)

@@ -26,13 +26,13 @@ Both Entity Framework and SQLite queues can be launched on Linux, starting from 
 
 |                                                              | Ubuntu                                 | Debian     | Other distributions running Mono |
 | ------------------------------------------------------------ | -------------------------------------- | ---------- | -------------------------------- |
-| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilität.md) | not tested                             | not tested |                                  |
-| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilität.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilität.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
-| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilität.md) | not tested                             | not tested |                                  |
-| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilität.md) | not tested                             | not tested |                                  |
-| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilität.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilität.md) | **tested**                             | **tested** | should work (not tested)         |
+| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilitaet.md) | not tested                             | not tested |                                  |
+| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilitaet.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
+| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilitaet.md) | not tested                             | not tested |                                  |
+| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilitaet.md) | not tested                             | not tested |                                  |
+| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
 | Swissbit Cloud-TSE                                           | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
 
 ## Limitations

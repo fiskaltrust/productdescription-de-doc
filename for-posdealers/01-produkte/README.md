@@ -32,16 +32,16 @@ Folgende TSE können KassenHändler von fiskaltrust für den Wiederverkauf an Ka
 
 #### Cloud TSE
 
-- [A-Trust](../../product-service-description/compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
-- [Deutsche Fiskal](../../product-service-description/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
-- [fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
+- [A-Trust](../../product-service-description/compliance-as-a-service/features/TSE-A-Trust-Interoperabilitaet.md)
+- [Deutsche Fiskal](../../product-service-description/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilitaet.md)
+- [fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilitaet.md)
 
 #### Hardware TSE
 
-- [Bundesruckerei (Cryptovision)](../../product-service-description/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
-- [Diebold Nixdorf](../../product-service-description/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
-- [Epson](../../product-service-description/compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
-- [Swissbit](../../product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
+- [Bundesruckerei (Cryptovision)](../../product-service-description/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilitaet.md)
+- [Diebold Nixdorf](../../product-service-description/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilitaet.md)
+- [Epson](../../product-service-description/compliance-as-a-service/features/TSE-Epson-Interoperabilitaet.md)
+- [Swissbit](../../product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilitaet.md)
 
 ## 2. Wenn die fiskaltrust.Middleware NICHT in die Kasse integriert wurde
 
@@ -57,13 +57,13 @@ Folgende TSE können von KassenHerstellern für den Wiederverkauf an KassenBetre
 
 #### Cloud TSE
 
-- [A-Trust](../../product-service-description/compliance-as-a-service/features/TSE-A-Trust-Interoperabilität.md)
-- [Deutsche Fiskal](../../product-service-description/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilität.md)
-- [fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilität.md)
+- [A-Trust](../../product-service-description/compliance-as-a-service/features/TSE-A-Trust-Interoperabilitaet.md)
+- [Deutsche Fiskal](../../product-service-description/compliance-as-a-service/features/TSE-Deutsche-Fiskal-Interoperabilitaet.md)
+- [fiskaly](../../product-service-description/compliance-as-a-service/features/TSE-Fiskaly-Interoperabilitaet.md)
 
 #### Hardware TSE
 
-- [Bundesruckerei (Cryptovision)](../../product-service-description/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilität.md)
-- [Diebold Nixdorf](../../product-service-description/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilität.md)
-- [Epson](../../product-service-description/compliance-as-a-service/features/TSE-Epson-Interoperabilität.md)
-- [Swissbit](../../product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilität.md)
+- [Bundesruckerei (Cryptovision)](../../product-service-description/compliance-as-a-service/features/TSE-Cryptovision-Interoperabilitaet.md)
+- [Diebold Nixdorf](../../product-service-description/compliance-as-a-service/features/TSE-Diebold-Nixdorf-Interoperabilitaet.md)
+- [Epson](../../product-service-description/compliance-as-a-service/features/TSE-Epson-Interoperabilitaet.md)
+- [Swissbit](../../product-service-description/compliance-as-a-service/features/TSE-Swissbit-Interoperabilitaet.md)
