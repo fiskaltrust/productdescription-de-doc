@@ -53,12 +53,11 @@ Folgende Daten werden über einen automatischen Daten-upload via fiskaltrust.Mid
 
 ## Features:
 
-- [DSFinV-K upload inklusive Datenprüfung eingehender Daten](../features/DSFinV-K-upload.md)
-- [blob-file upload](../features/blob-file-upload.md)
-- [TAR-file upload](../features/TAR-file-upload.md)
-- [Datenexport, basierend auf Start- und Enddatum, im fiskaltrust-Portal für DSFinV-K-Datei](../features/DSFinV-K-Export.md)
+- [Revisionssichere Speicherung der hochgeladenen Daten](../features/revision-safe-cloud-storage.md)
+- [DSFinV-K-Upload, inklusive strukturelle Datenprüfung eingehender Daten](../features/dsfinvk-upload.md)
+- [TAR-file-Uupload, inklusive strukturelle Datenprüfung eingehender Daten](../features/tar-file-upload.md)
+- [Aggregiertert Datenexport, basierend auf Start- und Enddatum, im fiskaltrust-Portal für DSFinV-K- und TAR-Datei](../features/aggregated-export.md)
 - Datenexport, basierend auf einem Token, der Zeitrahmen enthält, über eine AKO-Webseite (Mandantenlösung für Betriebsprüfungen)
-- [Request & Responses bleiben im Original gespeichert](../features/unveraenderbarer-speicher.md)
 
 ## Verkaufseinheit
 

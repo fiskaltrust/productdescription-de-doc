@@ -101,6 +101,9 @@ module.exports = {
               items: [
                 'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/features/revision-safe-cloud-storage',
                 'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/features/revision-safe-receipt-data',
+                'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/features/aggregated-export',
+                'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/features/dsfinvk-upload',
+                'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/features/tar-file-upload',
               ]
             }
           ]
