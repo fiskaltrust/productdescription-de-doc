@@ -58,9 +58,9 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im B
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rechtliche Grundlagen](../product-service-description/DE-rechtliche-grundlagen.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Rechtliche Grundlagen](../product-service-description/legal-basis-germany.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 | [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
-| [Geschäftsmodell von fiskaltrust](../product-service-description/DE-business-model.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
+| [Geschäftsmodell von fiskaltrust](../product-service-description/business-model-germany.md) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
 
 ## 2. Vorteile für Kassenhändler
 

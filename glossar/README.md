@@ -144,7 +144,7 @@ In verschiedenen Vorschriften wird dieser Begriff statt „Signatur” verwendet
 
 ## Queue
 
-[Siehe Queue Abstraktion](../product-service-description/compliance-as-a-service/features/Queue-Abstraktion.md).
+[Siehe Queue Abstraktion](../product-service-description/compliance-as-a-service/features/basics/queue-abstraction.md).
 
 ## Signatur
 
@@ -152,7 +152,7 @@ Zu einer digitalen Nachricht (d. h. zu beliebigen Daten) kann mit Hilfe eines ge
 
 ## SCU
 
-[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md).
+[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/basics/scu-abstraction.md).
 
 ## Standort ("Outlet", "Location")
 

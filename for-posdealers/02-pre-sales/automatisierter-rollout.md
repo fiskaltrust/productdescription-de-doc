@@ -25,7 +25,7 @@ Im Folgenden gehen wir auf diese und andere Möglichkeiten der Optimierung ein u
 
 Wie bereits in der Einleitung erwähnt wird grundsätzlich pro Kasse eine Cashbox benötigt. Im Normalfall wird hier die Konfiguration einer Queue und einer SCU vorgenommen und diese werden miteinander verknüpft. 
 
-Es existieren auch andere Szenarien (siehe dazu [Rollout-Szenarien](rollout-scenarios.md) ) auf die wir jedoch erst später eingehen. Die Konfiguration der Cashbox ist im [Getting Started Guide](../../for-poscreators/getting-started-en.md) für Kassenhersteller beschrieben.
+Es existieren auch andere Szenarien (siehe dazu [Rollout-Szenarien](rollout-scenarios.md) ) auf die wir jedoch erst später eingehen. Die Konfiguration der Cashbox ist im Getting Started Guide für Kassenhersteller beschrieben.
 
 Sobald die Cashbox für die Kasse im Portal angelegt, konfiguriert und zusammengestellt wurde, kann der Launcher aus dem Portal bereits heruntergeladen werden und auf der Kasse gestartet werden. Sobald der Launcher zum ersten mal gestartet wird, wird die enthaltene Konfiguration angewendet. Dadurch ist die Middleware bereit und wird im nächsten Schritt vom Launcher gestartet. 
 

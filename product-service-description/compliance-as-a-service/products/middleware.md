@@ -27,20 +27,20 @@ Die fiskaltrust.Middleware besteht aus
 
 |                                                              | Windows                                 | Linux, macOS | Android |
 | ------------------------------------------------------------ | --------------------------------------- | ------------ | ------- |
-| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilitaet.md) | ja                                      |              |         |
-| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilitaet.md) | ja                                      | ja           |         |
-| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilitaet.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
-| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilitaet.md) | ja                                      | ja           |         |
-| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilitaet.md) | ja                                      | ja           |         |
-| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilitaet.md) | ja                                      | ja           | ja      |
-| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilitaet.md) | ja                                      | ja           | ja      |
-| Swissbit Cloud-TSE                                           | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
+| [A-Trust Cloud TSE](../features/basics/tse-as-a-service/a-trust.md) | ja                                      |              |         |
+| [Cryptovision Hardware-TSE](../features/basics/tse-as-a-service/cryptovision.md) | ja                                      | ja           |         |
+| [Deutsche Fiskal Cloud-TSE](../features/basics/tse-as-a-service/deutsche-fiskal.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
+| [Diebold-Nixdorf Hardware-TSE](../features/basics/tse-as-a-service/diebold-nixdorf.md) | ja                                      | ja           |         |
+| [Epson Hardware-TSE](../features/basics/tse-as-a-service/epson.md) | ja                                      | ja           |         |
+| [fiskaly Cloud-TSE](../features/basics/tse-as-a-service/epson.md) | ja                                      | ja           | ja      |
+| [Swissbit Hardware-TSE](../features/basics/tse-as-a-service/swissbit.md) | ja                                      | ja           | ja      |
+| [Swissbit Cloud-TSE](../features/basics/tse-as-a-service/swissbit-cloud.md)| derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
 
 ### Systemvoraussetzungen
 
-- [Windows](platform-windows.md)
-- [Linux, macOs](platform-linux.md)
-- [Android](platform-android.md)
+- [Windows](../features/supported-platforms/windows.md)
+- [Linux, macOs](../features/supported-platforms/linux.md)
+- [Android](../features/supported-platforms/android.md)
 
 ## Features
 
@@ -64,18 +64,17 @@ Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 
 |                                                              | Windows | Linux, macOS | Android |
 | ------------------------------------------------------------ | ------- | ------------ | ------- |
-| lokale mySQL Storage                                         | ja      | ja           |         |
-| lokale [SQLite-Storage](../features/SQLite-Storage.md)       | ja      | ja           | ja      |
-| lokale [EF-Storage](../features/EF-Storage.md)               | ja      | ja           |         |
-| Cloud [Azure-table-Storage](../features/Azure-table-Storage.md) | ja      | ja           | ja      |
+| [SQLite-Storage](../features/supported-databases/sqlite.md)       | ja      | ja           | ja      |
+| [EF-Storage](../features/supported-databases/entity-framework.md)               | ja      | ja           |         |
+| [MySQL-Storage](../features/supported-databases/mysql.md) | ja      | ja           | ja      |
 
-### Daten Export
+### Daten-Export
 
--  [TAR-File-Export](../../revisionssichere-daten-as-a-service/features/TAR-File-Export.md) 
--  [DSFinV-K-Export](../../revisionssichere-daten-as-a-service/features/DSFinV-K-Export.md) 
--  [revisionssichere-Queue-Items](../../revisionssichere-daten-as-a-service/features/revisionssichere-Queue-Items.md) 
+-  [TAR-File-Export](../features/upload-and-export/tar-unload-and-export.md) 
+-  [DSFinV-K-Export](../features/upload-and-export/dsfinvk-export.md) 
+-  [DFKA-Taxonomie-Export](../features/upload-and-export/dfka-taxonomie-export.md) 
 
 ### Abstraktion
 
-- [SCU-Abstraktion](../features/SCU-Abstraktion.md)  
-- [Queue-Abstraktion](../features/Queue-Abstraktion.md) 
+- [SCU-Abstraktion](../features/basics/scu-abstraction.md)  
+- [Queue-Abstraktion](../features/basics/queue-abstraction.md) 

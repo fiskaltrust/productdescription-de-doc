@@ -28,12 +28,11 @@ Bei Auftreten einer monatlichen Quittung wird ein Datencheck zur Konsistenz durc
 
 ## Features
 
-- [TAR-File-Export](../features/TAR-File-Export.md) 
-- [DSFinV-K-Export](../features/DSFinV-K-Export.md) 
-- [DFKA-Taxonomie-Kassendaten-Export](../features/DFKA-Taxonomie-Kassendaten-Export.md) 
-- [revisionssichere-Queue-Items](../features/revisionssichere-Queue-Items.md) 
-- [unveraenderbarer-speicher](../features/unveraenderbarer-speicher.md)
-- [Azure-table-Storage](../../compliance-as-a-service/features/Azure-table-Storage.md) 
+- [TAR-File-Upload](../features/aggregated-export.md) 
+- [DSFinV-K-Upload](../features/aggregated-export.md) 
+- [DFKA-Taxonomie-Kassendaten-Export](../features/aggregated-export.md) 
+- [revisionssichere-Queue-Items](../features/revision-safe-receipt-data.md) 
+- [unveraenderbarer-speicher](../features/revision-safe-cloud-storage.md)
 
 ## Verkaufseinheit
 

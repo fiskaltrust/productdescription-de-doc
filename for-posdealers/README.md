@@ -6,7 +6,7 @@
 
 ## Produkt-Angebote für Kassenhändler
 
-fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/README.md) an. Die Verwendung unseres Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/produkte/lokal-installierte-middleware.md), ist kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes.
+fiskaltrust bietet [Compliance-as-a-Service](../product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/README.md) an. Die Verwendung unseres Basis-Produktes, der [fiskaltust.Middleware](../product-service-description/compliance-as-a-service/products/middleware.md), ist kostenlos. Die Middleware liefert die gesetzlich geforderte unveränderbare Belegskette zur Fiskalisierung und erfüllt die regulatorischen Grundanforderungen eines jeden Marktes.
 
 Neben dem Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe von kostenpflichtigen Addon-Produkte zur Middleware. Diese werden pro Kasse (Queue) verkauft und sind abhängig vom jeweiligen nationalen Markt. Beispiele sind Backup-Lösungen, Daten-Exporte oder Automatisierungs-Services. 
 

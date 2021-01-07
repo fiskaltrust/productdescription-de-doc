@@ -16,14 +16,14 @@ title: Produktvergleich
 | DATEV/DEFKA Export | X |  |
 
 
-- [POS Archiv](pos-archiv.md) 
+- [POS-Archiv](pos-archive.md) 
   - *Speichern der Belegdaten* erfolgt automatisch und revisionssicher aus den Daten die von der fiskaltrust.Middleware verarbeitet wurden.
   - *Zentraler Export über das fiskaltrust.Portal* - TSE-TAR File Export, DSFinV-K und DFKA Export.
   - *Server zu Server Kommunikation* - die Kassenabchlussdaten werden zum DATEV Kassenarchiv online und zum Audicon Kassenarchiv Online (AKO) automatisch übertragen.
 
 
 
-- [Audicon Kassenarchiv Online](Audicon-Kassenarchiv-Online.md) 
+- [AKO-Kassenarchiv](ako.md) 
 
   - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse), TSE-TAR Files, PDF Files (z.B. Verfahrensdokumentation) über 12 Jahre.
   - *Hochladen der Daten* manuell oder über die zur Verfügung gestellte API.

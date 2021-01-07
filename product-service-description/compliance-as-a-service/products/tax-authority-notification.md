@@ -20,7 +20,7 @@ Mitteilung an das zuständige Finanzamt von Inbetriebnahme bzw. Außerbetriebnah
 
 ## Voraussetzungen
 
-Die Finanzamtmeldungen setzen ein aktives [POS Archiv](../../revisionssichere-daten-as-a-service/produkte/pos-archiv.md) Produkt voraus.
+Die Finanzamtmeldungen setzen ein aktives [POS Archiv](../../revisionsafe-data-as-a-service/products/pos-archive.md) Produkt voraus.
 
 ## Verkaufseinheit
 

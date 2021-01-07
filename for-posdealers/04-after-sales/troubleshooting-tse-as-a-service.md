@@ -12,4 +12,4 @@ Um einen Anspruch auf Tausch der Hardware TSE für ein fiskaltrust.Sorglos mit H
 
 [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md)
 
-[Feature Dokumentation](../../product-service-description/compliance-as-a-service/features/TSE-as-a-service.md)
+[Feature Dokumentation](../../product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README.md)

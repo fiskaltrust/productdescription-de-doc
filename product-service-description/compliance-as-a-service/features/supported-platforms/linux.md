@@ -22,8 +22,8 @@ Other than that, no specific software needs to be installed (aside from the depe
 |                                                       | Ubuntu     | Debian     | Other distributions running Mono |
 | ----------------------------------------------------- | ---------- | ---------- | -------------------------------- |
 | local mySQL Storage                                   | **tested** | **tested** | should work (not tested)         |
-| local [SQLite-Storage](../features/SQLite-Storage.md) | **tested** | **tested** | should work (not tested)         |
-| local [EF-Storage](../features/EF-Storage.md)         | not tested | not tested |                                  |
+| local [SQLite-Storage](../supported-databases/sqlite.md) | **tested** | **tested** | should work (not tested)         |
+| local [EF-Storage](../supported-databases/entity-framework.md)       | not tested | not tested |                                  |
 
 Both Entity Framework and SQLite queues can be launched on Linux, starting from version 1.3.3. 
 
@@ -31,14 +31,14 @@ Both Entity Framework and SQLite queues can be launched on Linux, starting from 
 
 |                                                              | Ubuntu                                 | Debian     | Other distributions running Mono |
 | ------------------------------------------------------------ | -------------------------------------- | ---------- | -------------------------------- |
-| [A-Trust Cloud TSE](../features/TSE-A-Trust-Interoperabilitaet.md) | not tested                             | not tested |                                  |
-| [Cryptovision Hardware-TSE](../features/TSE-Cryptovision-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Deutsche Fiskal Cloud-TSE](../features/TSE-Deutsche-Fiskal-Interoperabilitaet.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
-| [Diebold-Nixdorf Hardware-TSE](../features/TSE-Diebold-Nixdorf-Interoperabilitaet.md) | not tested                             | not tested |                                  |
-| [Epson Hardware-TSE](../features/TSE-Epson-Interoperabilitaet.md) | not tested                             | not tested |                                  |
-| [fiskaly Cloud-TSE](../features/TSE-Fiskaly-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Swissbit Hardware TSE](../features/TSE-Swissbit-Interoperabilitaet.md) | **tested**                             | **tested** | should work (not tested)         |
-| Swissbit Cloud-TSE                                           | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
+| [A-Trust Cloud TSE](../basics/tse-as-a-service/a-trust.md) | not tested                             | not tested |                                  |
+| [Cryptovision Hardware-TSE](../basics/tse-as-a-service/cryptovision.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Deutsche Fiskal Cloud-TSE](../basics/tse-as-a-service/deutsche-fiskal.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
+| [Diebold-Nixdorf Hardware-TSE](../basics/tse-as-a-service/diebold-nixdorf.md) | not tested                             | not tested |                                  |
+| [Epson Hardware-TSE](../basics/tse-as-a-service/epson.md) | not tested                             | not tested |                                  |
+| [fiskaly Cloud-TSE](../basics/tse-as-a-service/fiskaly.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Swissbit Hardware TSE](../basics/tse-as-a-service/swissbit.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Swissbit Cloud TSE](../basics/tse-as-a-service/swissbit-cloud.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
 
 ## Limitations
 

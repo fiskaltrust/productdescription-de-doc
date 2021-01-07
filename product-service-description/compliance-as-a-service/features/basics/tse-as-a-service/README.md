@@ -9,11 +9,11 @@ TSE-as-a-Service ist eine Dienstleistung, welche gegen einen jährlichen Pauscha
 
 Bei Verlust, Diebstahl, Hardware-Defekt oder wenn die maximale Anzahl von Signaturen der TSE erreicht wurde, wird eine neue TSE zur Verfügung gestellt.
 
-Die Verwendung des TSE-as-a-Service unterliegt einer [Fair-Use-Policy](../../../for-posoperators/market-de-fair-use-policy.md).
+Die Verwendung des TSE-as-a-Service unterliegt einer [Fair-Use-Policy](../../../../../for-posoperators/market-de-fair-use-policy.md).
 
 ## Bezug des TSE-as-a-Service
 
-Das TSE-as-a-Service ist nicht als Einzelprodukt erhältlich. Es ist im Produkt-Bundle [fiskaltrust.Sorglos mit TSE](../../../for-posdealers/01-produkte/Sorglos-ohne-TSE.md) enthalten.
+Das TSE-as-a-Service ist nicht als Einzelprodukt erhältlich. Es ist im Produkt-Bundle [fiskaltrust.Sorglos mit TSE](../../../../../for-posdealers/01-produkte/Sorglos-ohne-TSE.md) enthalten.
 
 Bei Einkauf eines fiskaltrust.Sorglos mit TSE Produkt-Bundle kann während des Rollouts gewählt werden, ob eine Hardware- oder Coud TSE-as-a-Service eingesetzt wird.
 

@@ -45,16 +45,13 @@ Um für verschiedene Plattformen und Betriebssysteme zur Verfügung zu stehen un
 Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Erstellung und Verwaltung der Konfiguration inklusive der dazugehörigen Komponenten erfolgt im marktbezogenen fiskaltrust.Portal. Der fiskaltrust.SecurityMechanism wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt. Die SCU-Komponente stellt die Anbindung an den marktbezogenen Sicherheitsmechanismus (z.B. TSE) dar.
 
 
-## fiskaltrust Produkte & Features
+## Produkte
 
-[Compliance-as-a-Service Produkte](compliance-as-a-service/products)
+Compliance-as-a-Service Produkte:
+- [Middleware](compliance-as-a-service/products/middleware.md)
+- [Finanzamtmeldungen](compliance-as-a-service/products/tax-authority-notification.md)
 
-[Compliance-as-a-Service Features](compliance-as-a-service/features)
-
-**Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die in einem eigenen github repository öffentlich zugänglich ist: 
-
-[https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc)
-
+**Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die entweder auf unserer Dokumentationsplattform unter "Middleware API documentation" oder direkt in entsprechenden [Github-Repository](https://github.com/fiskaltrust/interface-doc) verfügbar ist.
 
 # Revisionssichere Daten-as-a-Service
 
@@ -66,9 +63,7 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 ## fiskaltrust Produkte & Features
 
-[Revisionssichere Daten-as-a-Service Produkte](revisionsafe-data-as-a-service/products)
-
-[Revisionssichere Daten-as-a-Service Features]((revisionsafe-data-as-a-service/features)
+[Revisionssichere Daten-as-a-Service Produkte](revisionsafe-data-as-a-service/products/README.md)
 
 ## Rechtliche Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
 

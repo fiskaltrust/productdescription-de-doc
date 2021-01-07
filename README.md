@@ -27,12 +27,6 @@ Dokumentation der von fiskaltrust angebotenen Services, Produkte und Features. E
 
 [Produkt- und Servicebeschreibung](product-service-description/README.md) 
 
-## Informationen für Kassenhersteller
-
-Informationen für Kassenhersteller.
-
-[Übersicht für Kassenhersteller](for-poscreators/README.md)
-
 ## Informationen für Kassenhändler
 
 Vertriebsunterstützung von fiskaltrust.Produkten für Kassenhändler, inklusive Dokumentation und Material für die Marktkommunikation.
