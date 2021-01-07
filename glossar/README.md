@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/glossar
+title: Glossar
+---
+
 # Glossar
 
 ## Anwendungserlass

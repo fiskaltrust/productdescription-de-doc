@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/products-and-services
+title: Produkte und Services
+---
+
 # Produkt- und Servicebeschreibung
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein.
@@ -42,9 +47,9 @@ Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in
 
 ## fiskaltrust Produkte & Features
 
-[Compliance-as-a-Service Produkte](compliance-as-a-service/produkte/README.md)
+[Compliance-as-a-Service Produkte](compliance-as-a-service/products)
 
-[Compliance-as-a-Service Features](compliance-as-a-service/features/README.md)
+[Compliance-as-a-Service Features](compliance-as-a-service/features)
 
 **Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die in einem eigenen github repository öffentlich zugänglich ist: 
 
@@ -61,15 +66,15 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 ## fiskaltrust Produkte & Features
 
-[Revisionssichere Daten-as-a-Service Produkte](revisionssichere-daten-as-a-service/produkte/README.md)
+[Revisionssichere Daten-as-a-Service Produkte](revisionsafe-data-as-a-service/products)
 
-[Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/README.md)
+[Revisionssichere Daten-as-a-Service Features]((revisionsafe-data-as-a-service/features)
 
 ## Rechtliche Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
 
-[Zur Übersicht über die rechtlichen Grundlagen in Deutschland](DE-rechtliche-grundlagen.md)
+[Zur Übersicht über die rechtlichen Grundlagen in Deutschland](legal-basis-germany.md)
 
 ## fiskaltrust Business Modell für Deutschland
 
-[Beschreibung des Business Modelles von fiskaltrust für den deutschen Markt](DE-business-model.md) 
+[Beschreibung des Business Modelles von fiskaltrust für den deutschen Markt](business-model-germany.md) 
 

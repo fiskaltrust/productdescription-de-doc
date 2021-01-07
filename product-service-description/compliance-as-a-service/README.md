@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/products-and-services/caas
+title: Übersicht
+---
+
 # Compliance-as-a-Service
 
 Als Poscreator erhalten Sie Compliance-as-a-Service, indem Sie fiskaltrust in Ihr Produkt integrieren. Durch die Übermittlung jedes Beleges, jeder Transaktion oder jeder relevanten Aktion an die fiskaltrust.Middleware vor deren Abschluss wird diese Konformität als Service bereitgestellt. Die fiskaltrust.Middleware bietet eine stabile Schnittstelle zu verschiedenen Technologien für das vom Poscreator erstellte Possystem und bietet einen einfachen Berührungspunkt zwischen Possystem und Fiskaltrust-Middleware.
@@ -36,7 +41,7 @@ Der von der CashboxId identifizierte Konfigurationscontainer kann in verschieden
 
 ## fiskaltrust Produkte & Features
 
-[Compliance-as-a-Service Produkte](produkte/README.md)
+[Compliance-as-a-Service Produkte](products/README.md)
 
 [Compliance-as-a-Service Features](features/README.md)
 

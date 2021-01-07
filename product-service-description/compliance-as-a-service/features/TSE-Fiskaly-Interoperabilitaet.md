@@ -1,1 +1,0 @@
-# Fiskaly Interoperabilität (in Entwicklung)

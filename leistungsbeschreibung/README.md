@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/leistungsbeschreibung
+title: Leistungsbeschreibung
+---
+
 # fiskaltrust.Leistungsbeschreibung
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein.

@@ -1,8 +1,15 @@
+---
+slug: /product-description/germany
+title: Produkt- und Servicebeschreibung für Deutschland
+---
+
 # fiskaltrust Produkt- und Servicebeschreibung für den deutschen Markt
+
+<div class="alert alert--info" role="alert">We're currently working on providing an English version of this content and will reach out to our partners as soon as it's available.</div>
 
 ## Ziel und Inhalt
 
-Ziel dieses Repository ist es, unseren Kunden zu helfen, sich mit unseren Produkten und Dienstleistungen für den deutschen Markt vertraut zu machen. Es soll unseren Kunden auch dabei helfen, die hier beschriebenen Produkte und Dienstleistungen anzuwenden. 
+Ziel dieser Dokumentation ist es, unseren Kunden zu helfen, sich mit unseren Produkten und Dienstleistungen für den deutschen Markt vertraut zu machen. Es soll unseren Kunden auch dabei helfen, die hier beschriebenen Produkte und Dienstleistungen anzuwenden. 
 
 Neben der Beschreibung der von fiskaltrust angebotenen Produkte und Dienstleistungen für den deutschen Markt enthält es auch Begleitmaterialien wie Anleitungen, Preislisten, Konzepte und Präsentationen, die unseren Kunden dabei helfen, die hier angebotenen Produkte und Dienstleistungen in ihre eigenen Produkte und Dienstleistungen zu integrieren.
 
