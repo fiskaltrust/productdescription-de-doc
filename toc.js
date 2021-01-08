@@ -1,5 +1,5 @@
 module.exports = {
-  middlewareDoc: [
+  productDescription: [
     'productdescription-de-doc/README',
     {
       type: 'category',
