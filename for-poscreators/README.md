@@ -34,6 +34,6 @@ Das fiskaltrust-Interface wird verwendet um mit der fiskaltrust.Middleware zu ko
 
 ### fiskaltrust-Portal Dokumentation
 
-Das fiskaltrust-Portal ist ein zentraler Ort für Kassenhersteller um Kassenhändler anzulegen sowie die Verknüpfung von Sicherheitseinrichtungen ("SCU") mit der Kasse ("Queue") in Form von Konfigurations-Containern ("Cashboxen") zu konfigurieren. 
+Das fiskaltrust-Portal ist ein zentraler Ort für Kassenhersteller um Kassenhändler anzulegen, sowie die Verknüpfung von Sicherheitseinrichtungen ("SCU") mit der Kasse ("Queue") in Form von Konfigurations-Containern ("Cashboxen") zu konfigurieren. 
 
 [Zur Dokumentation des fiskaltrust Portals](https://github.com/fiskaltrust/portal-manual-doc)
