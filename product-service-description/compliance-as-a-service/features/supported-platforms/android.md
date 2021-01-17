@@ -42,7 +42,7 @@ Der Android Launcher wird jeweils für die HTTP-Variante als auch für die gRPC 
 
 |                         | fiskaltrust.Middleware für Android (HTTP)                    | fiskaltrust.Middleware für Android (gRPC)                    |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **QR Code zum Scannen** | <img src="../media/android-http.png" alt="android-http" style={{zoom: '20%'}} /> | <img src="../media/android-grpc.png" alt="android-grpc" style={{zoom: '20%'}} /> |
+| **QR Code zum Scannen** | ![http](../../media/android-http.png) | ![grpc](../../media/android-grpc.png) |
 | **URL**                 | https://play.google.com/store/apps/details?id=eu.fiskaltrust.androidlauncher.http | https://play.google.com/store/apps/details?id=eu.fiskaltrust.androidlauncher.grpc |
 
 
