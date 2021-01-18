@@ -53,11 +53,11 @@ Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, das die fiskaltrust.Middleware integriert hat. 
+Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, welches die fiskaltrust.Middleware integriert hat. 
 
 ## fiskaltrust.Cloud
 
-Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.SecurityMechanism in die fiskaltrust.Cloud. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt, und die Vollständigkeit kann durch Nachverfolgung der Hash-Kette überprüft werden (s.o.). Diese Datenspiegelung stellt sicher, dass alle Originaldatensätze erhalten bleiben und nicht verändert werden. Auch der Schutz vor Verlust der gesamten Daten wird durch unsere Lösung durch standortverteilte Daten-Speicherung gewährleistet. Die Daten werden entsprechend der gesetzlichen Vorgaben in deutschen Rechenzentren gespeichert.
+Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.SecurityMechanism in die fiskaltrust.Cloud. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt und die Vollständigkeit kann durch Nachverfolgung der Hash-Kette überprüft werden (s.o.). Diese Datenspiegelung stellt sicher, dass alle Originaldatensätze erhalten bleiben und nicht verändert werden. Auch der Schutz vor Verlust der gesamten Daten wird durch unsere Lösung durch standortverteilte Daten-Speicherung gewährleistet. Die Daten werden entsprechend der gesetzlichen Vorgaben in deutschen Rechenzentren gespeichert.
 
 ## fiskaltrust Produkte & Features
 
