@@ -19,7 +19,7 @@ Diese PowerPoint Präsentation verwenden wir beim Erstgespräch mit Kassenherste
 
 ## Getting started
 
-Dieses Dokument enthält alle notwendigen Schritte für Kassenhersteller im deutschen Markt, die neu bei fiskaltrust sind, und unsere kostenlose ft.Middlerware mit ihrem Kassensystem verbinden wollen. 
+Dieses Dokument enthält alle notwendigen Schritte für Kassenhersteller im deutschen Markt, die neu bei fiskaltrust sind und unsere kostenlose ft.Middlerware mit ihrem Kassensystem verbinden wollen. 
 
 [Getting started deutsch](getting-started.md) <br/>
 [Getting started englisch](getting-started-en.md) <br/>

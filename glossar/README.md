@@ -2,11 +2,11 @@
 
 ## Anwendungserlass
 
-Anweisung eines Ministeriums an die nachgeordneten Behörden, wie ein Gesetz und/oder eine Verordnung auszulegen und anzuwenden ist – beim Finanzministerium oft als „BMF-Schreiben“ bezeichnet.
+Anweisung eines Ministeriums an die nachgeordneten Behörden wie ein Gesetz und/oder eine Verordnung auszulegen und anzuwenden ist – beim Finanzministerium oft als „BMF-Schreiben“ bezeichnet.
 
 ## AO (Abgabenordnung)
 
-Abgabenordnung, ein zentrales Gesetz des Steuerrechts, in dem die wesentlichen Anforderungen an die Buchführung und damit auch die Kassenführung festgelegt sind. TSE und Kassen-Nachschau werden in den Paragraphen [146a](https://www.gesetze-im-internet.de/ao_1977/__146a.html) und [146b](https://www.gesetze-im-internet.de/ao_1977/__146b.html) behandelt, Bußgelder für Verstöße dagegen in [§ 379](https://www.gesetze-im-internet.de/ao_1977/__379.html)
+Abgabenordnung, ein zentrales Gesetz des Steuerrechts, in dem die wesentlichen Anforderungen an die Buchführung und damit auch die Kassenführung festgelegt ist. TSE und Kassen-Nachschau werden in den Paragraphen [146a](https://www.gesetze-im-internet.de/ao_1977/__146a.html) und [146b](https://www.gesetze-im-internet.de/ao_1977/__146b.html) behandelt, Bußgelder für Verstöße dagegen in den Paragraphen [§ 379](https://www.gesetze-im-internet.de/ao_1977/__379.html).
 
 ## Authentizität (TSE)
 
@@ -22,7 +22,7 @@ Bundesamt für Sicherheit in der Informationstechnik, verantwortlich für Konzep
 
 ## DSFinV-K
 
-„Digitale Schnittstelle der Finanzverwaltung für Kassensysteme“, eine Standardisierung der Kassenaufzeichnungen. Dabei handelt es sich weitgehend um die vom DFKA e.V. definierte Taxonomie für Kassendaten. Die Taxonomie bildet die Daten standardmäßig in einem JSON-Format ab (das z.B. gut erweiterbar ist) und bietet einen Weg, die Daten in eine CSV-Struktur (mehrere, miteinander verknüpfte Tabellen) zu konvertieren. Da die Finanzverwaltung nur CSV-Daten auswerten kann, nutzt die DSFinV-K diese Darstellung.
+„Digitale Schnittstelle der Finanzverwaltung für Kassensysteme“, eine Standardisierung der Kassenaufzeichnungen. Dabei handelt es sich weitgehend um die vom DFKA e.V. definierte Taxonomie für Kassendaten. Die Taxonomie bildet die Daten standardmäßig in einem JSON-Format ab (das z.B. gut erweiterbar ist) und bietet einen Weg, die Daten in eine CSV-Struktur (mehrere miteinander verknüpfte Tabellen) zu konvertieren. Da die Finanzverwaltung nur CSV-Daten auswerten kann, nutzt die DSFinV-K diese Darstellung.
 
 ## Einheitliche digitale Schnittstelle
 
@@ -36,7 +36,7 @@ Darunter versteht die Finanzverwaltung die getrennte Aufzeichnung jedes einzelne
 
 ### Elektronisches Aufzeichnungssystem
 
-Elektronische Aufzeichnungssysteme sind elektronische oder computergestützte Kassensysteme oder Registrierkassen einschließlich Tablet basierter Kassensysteme oder Softwarelösungen (z. B. Barverkaufsmodule),  die für den Verkauf von Waren oder die Erbringung von Dienstleistungen und deren Abrechnung spezialisiert sind und eine „Kassenfunktion“ haben. 
+Elektronische Aufzeichnungssysteme sind elektronische oder computergestützte Kassensysteme oder Registrierkassen einschließlich Tablet basierter Kassensysteme oder Softwarelösungen (z. B. Barverkaufsmodule), die für den Verkauf von Waren oder die Erbringung von Dienstleistungen und deren Abrechnung spezialisiert sind und eine „Kassenfunktion“ haben. 
 
 Kassenfunktion haben elektronische Aufzeichnungssysteme dann, wenn diese der Erfassung und Abwicklung von zumindest teilweise baren Zahlungsvorgängen dienen können. Dies gilt auch für vergleichbare elektronische, vor Ort genutzte Zahlungsformen (Elektronisches Geld wie z. B. Geldkarte, virtuelle Konten oder Bonuspunktesysteme von Drittanbietern) sowie an Geldes statt angenommener Gutscheine, Guthabenkarten, Bons und dergleichen. Eine Aufbewahrungsmöglichkeit des verwalteten Bargeldbestandes (z.B. Kassenlade) ist nicht erforderlich. 
 
@@ -48,7 +48,7 @@ Fahrscheinautomaten, Fahrscheindrucker, elektronische Buchhaltungsprogramme, War
 
 **Schutz durch eine zertifizierte technische Sicherheitseinrichtung**
 
-Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem sowie die damit zu führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
+Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem, sowie die damit zu führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
 
 Werden mehrere einzelne elektronische Aufzeichnungssysteme (z. B. Verbundwaagen, Bestellsysteme ohne Abrechnungsteil, App-Systeme) mit einem Kassensystem verbunden, dann wird es nicht beanstandet, wenn die damit zu führenden digitalen Aufzeichnungen mit einer zertifizierten technischen Sicherheitseinrichtung geschützt werden, die alle im Verbund befindlichen elektronischen Aufzeichnungssysteme gemeinsam nutzen. 
 
@@ -62,11 +62,11 @@ Eine PC-Registrierkasse kann die Daten auf einem internen Datenträger oder per 
 
 #### Elektronische Registrierkasse
 
-Eine elektronische Registrierkasse ist ein auf den Verkauf von Waren oder Dienstleistungen spezialisiertes Datenerfassungsgerät, das elektronische Aufzeichnungen zur Dokumentation von Einzelumsätzen zu erstellen hat. Eine solche Registrierkasse kann mit einer oder mehreren Eingabestationen verbunden sein". 
+Eine elektronische Registrierkasse ist ein auf den Verkauf von Waren oder Dienstleistungen spezialisiertes Datenerfassungsgerät, das elektronische Aufzeichnungen zur Dokumentation von Einzelumsätzen zu erstellen hat. Eine solche Registrierkasse kann mit einer oder mehreren Eingabestationen verbunden sein. 
 
 #### Eingabestation ("Terminal")
 
-Datenerfassungsgerät welches elektronische Aufzeichnungen an die mit ihr verbundene elektronische Registrierkasse zum Zwecke der Dokumentation von Einzelumsätzen übermittelt.
+Datenerfassungsgerät, welches elektronische Aufzeichnungen an die mit ihr verbundene elektronische Registrierkasse zum Zwecke der Dokumentation von Einzelumsätzen übermittelt.
 
 ### Kassenseriennummer
 
@@ -84,11 +84,11 @@ Die Cashbox ist ein Konfigurationscontainer, der die Konfiguration der einzelene
 
 ## Geschäftsvorfall
 
-Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und wirtschaftlichen Vorgänge, die innerhalb eines bestimmten Zeitabschnitts den Gewinn bzw. Verlust oder die Vermögens­zusammensetzung in einem Unternehmen dokumentieren oder beeinflussen bzw. verändern (z. B. zu einer Veränderung des Anlage- und Umlaufvermögens sowie des Eigen- und Fremdkapitals führen)“
+Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und wirtschaftlichen Vorgänge, die innerhalb eines bestimmten Zeitabschnitts den Gewinn bzw. Verlust oder die Vermögenszusammensetzung in einem Unternehmen dokumentieren oder beeinflussen bzw. verändern (z. B. zu einer Veränderung des Anlage- und Umlaufvermögens sowie des Eigen- und Fremdkapitals führen)“.
 
 ## GoBD
 
-„Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff” – Erlass zu den formalen Anforderungen an die Buchführung, die Aufbewahrung von steuerrechtlich relevanten Dokumenten und elektronischen Daten sowie den Datenzugriff unter Bezug auf die Grundsätze ordnungsmäßiger Buchführung (GoB)
+„Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff” – Erlass zu den formalen Anforderungen an die Buchführung, die Aufbewahrung von steuerrechtlich relevanten Dokumenten und elektronischen Daten sowie den Datenzugriff unter Bezug auf die Grundsätze ordnungsmäßiger Buchführung (GoB).
 
 ## Integrität (der Daten und TSE)
 
@@ -173,7 +173,7 @@ Im Zusammenhang mit digitalen Signaturen die Prüfung, ob die abgesicherten Date
 
 ## Zertifizierung (TSE)
 
-Bestätigung einer erfolgreichen Prüfung der Übereinstimmung mit bestimmten Anforderungen. Im Falle der TSE hat das BSI mehrere Technische Richtlinien und sog. Schutzprofile veröffentlicht. TSE-Hersteller können die Übereinstimmung ihres Produktes mit diesen Anforderungen von einer sog. Prüfstelle untersuchen lassen, die ein Evaluierungsgutachten erstellt. Auf Basis dieses Gutachtens erteilt dann das BSI die Zertifizierung.
+Bestätigung einer erfolgreichen Prüfung der Übereinstimmung mit bestimmten Anforderungen. Im Falle der TSE hat das BSI mehrere technische Richtlinien und sog. Schutzprofile veröffentlicht. TSE-Hersteller können die Übereinstimmung ihres Produktes mit diesen Anforderungen von einer sog. Prüfstelle untersuchen lassen, die ein Evaluierungsgutachten erstellt. Auf Basis dieses Gutachtens erteilt dann das BSI die Zertifizierung.
 
 ## Zertifikat (kryptografisches)
 
