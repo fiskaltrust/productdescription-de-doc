@@ -53,7 +53,7 @@ Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden,welches die fiskaltrust.Middleware integriert hat. 
+Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, welches die fiskaltrust.Middleware integriert hat. 
 
 ## fiskaltrust.Cloud
 
