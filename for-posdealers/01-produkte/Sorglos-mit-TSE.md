@@ -69,7 +69,6 @@ in Bearbeitung
 
 Nach dem Kauf dieses Produkt-Bundles stehen im Shop im Bereich "Entitlements" folgende [Ansprüche ("Entitlements")](../02-pre-sales/entitlements.md) zur Verfügung:
 
-- DE_FISKALTRUST_CAREFREE
 - DE_FISKALTRUST_CAREFREE_TSE
 
 ### 2. Sales & Rollout
