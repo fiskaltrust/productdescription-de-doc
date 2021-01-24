@@ -81,7 +81,7 @@ Die Kassenseriennummer ist eine **eindeutige** Information, die auf den Beleg ge
 
 Bei fiskaltrust wird im Sinne der Vereinfachung für die PC-Registrierkasse, Elektronische Registrierkasse und Eingabestation der Begriff "Kasse" verwendet. Diese Kasse entspricht der zu konfigurierenden "Queue" im Portal, welche zugleich die zu fiskalisierende und dem Finanzamt zu meldende Einheit darstellt.
 
-Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. Siehe Bereich [Rollout Szenarios](../for-posdealers/03-sales/rollout-scenarios.md).
+Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. 
 
 ## Cashbox
 
@@ -138,7 +138,7 @@ In verschiedenen Vorschriften wird dieser Begriff statt „Signatur” verwendet
 
 ## Queue
 
-[Siehe Queue Abstraktion](../product-service-description/compliance-as-a-service/features/basics/queue-abstraction.md).
+[Siehe Queue Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/queue-abstraction.md).
 
 ## Signatur
 
@@ -146,7 +146,7 @@ Zu einer digitalen Nachricht (d. h. zu beliebigen Daten) kann mit Hilfe eines ge
 
 ## SCU
 
-[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/basics/scu-abstraction.md).
+[Siehe SCU Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/scu-abstraction.md).
 
 ## Standort ("Outlet", "Location")
 
