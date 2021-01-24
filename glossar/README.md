@@ -106,8 +106,6 @@ Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist f�
 
 Der Kassenbetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
 
-siehe auch [Personas für Kassenbetreiber (en)](personas-posoperator.md)
-
 ## Kassenhändler ("PosDealer")
 
 Der Kassenhändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den Kassenbetreiber (kurz „Betreiber“) vertreibt.
@@ -118,8 +116,6 @@ Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter un
 
 Der Kassenhändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
 
-siehe auch [Personas für Kassenhändler (en)](personas-posdealer.md)
-
 ## Kassenhersteller ("PosCreator")
 
 Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
@@ -127,8 +123,6 @@ Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert b
 Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
 Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
-
-siehe auch [Personas für Kassenhersteller (en)](personas-poscreator.md)
 
 ## Kassen-Nachschau
 
