@@ -1,3 +1,0 @@
-# Azure Table Storage
-
-Die Daten der lokalen Middleware Storage werden bei bestehender Internetverbindung, und wenn keine statische Konfiguration erzwungen wurde, alle 5 Minuten in die Cloud Storage gesynched. Mit dem kostenpflichtigen Produkt [POS Archiv](../../revisionssichere-daten-as-a-service/produkte/pos-archiv.md) stehen die Daten nach dem Upload jederzeit über das Portal über einen Zeitraum von über 10 Jahre zur Verfügung.

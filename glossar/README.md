@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/glossar
+title: Glossar
+---
+
 # Glossar
 
 ## Anwendungserlass
@@ -76,7 +81,7 @@ Die Kassenseriennummer ist eine **eindeutige** Information, die auf den Beleg ge
 
 Bei fiskaltrust wird im Sinne der Vereinfachung für die PC-Registrierkasse, Elektronische Registrierkasse und Eingabestation der Begriff "Kasse" verwendet. Diese Kasse entspricht der zu konfigurierenden "Queue" im Portal, welche zugleich die zu fiskalisierende und dem Finanzamt zu meldende Einheit darstellt.
 
-Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. Siehe Bereich [Rollout Szenarios](../for-posdealers/03-sales/rollout-scenarios.md).
+Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. 
 
 ## Cashbox
 
@@ -101,8 +106,6 @@ Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist f�
 
 Der Kassenbetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
 
-siehe auch [Personas für Kassenbetreiber (en)](personas-posoperator.md)
-
 ## Kassenhändler ("PosDealer")
 
 Der Kassenhändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den Kassenbetreiber (kurz „Betreiber“) vertreibt.
@@ -113,8 +116,6 @@ Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter un
 
 Der Kassenhändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
 
-siehe auch [Personas für Kassenhändler (en)](personas-posdealer.md)
-
 ## Kassenhersteller ("PosCreator")
 
 Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
@@ -122,8 +123,6 @@ Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert b
 Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
 Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
-
-siehe auch [Personas für Kassenhersteller (en)](personas-poscreator.md)
 
 ## Kassen-Nachschau
 
@@ -139,7 +138,7 @@ In verschiedenen Vorschriften wird dieser Begriff statt „Signatur” verwendet
 
 ## Queue
 
-[Siehe Queue Abstraktion](../product-service-description/compliance-as-a-service/features/Queue-Abstraktion.md).
+[Siehe Queue Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/queue-abstraction.md).
 
 ## Signatur
 
@@ -147,7 +146,7 @@ Zu einer digitalen Nachricht (d. h. zu beliebigen Daten) kann mit Hilfe eines ge
 
 ## SCU
 
-[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md).
+[Siehe SCU Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/scu-abstraction.md).
 
 ## Standort ("Outlet", "Location")
 
