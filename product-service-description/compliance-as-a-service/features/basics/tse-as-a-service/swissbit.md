@@ -7,9 +7,11 @@ title: Swissbit Hardware-TSE
 
 ## SCU
 
-Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit-TSE über das von der TSE emulierte Dateisystem.
+Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit-Hardware-TSE über das von der TSE emulierte Dateisystem.
 
-**Verfügbar ab Version**: 1.3.x (in Entwicklung)
+Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt.
+
+**Verfügbar ab Version**: 1.3.1
 
 ## Parameter
 
