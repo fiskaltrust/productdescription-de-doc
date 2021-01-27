@@ -3,7 +3,7 @@ slug: /product-description/germany/products-and-services/caas/features/basics/ts
 title: Deutsche Fiskal-TSE
 ---
 
-# Deutsche Fiskal Interoperabilität
+# Deutsche Fiskal-Interoperabilität
 
 ## SCU
 
