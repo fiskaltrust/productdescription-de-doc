@@ -37,14 +37,14 @@ module.exports = {
                       label: 'TSE-as-a-service',
                       items: [
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README',
-                        'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/a-trust',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/deutsche-fiskal',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/diebold-nixdorf',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/epson',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/fiskaly',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/swissbit',
-                        'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/swissbit-cloud',
+                        'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/swissbit-cloud',                        
+                        'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/a-trust'
                       ]
                     }
                   ]
