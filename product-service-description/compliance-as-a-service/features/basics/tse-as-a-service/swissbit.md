@@ -9,8 +9,6 @@ title: Swissbit Hardware-TSE
 
 Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit-Hardware-TSE über das von der TSE emulierte Dateisystem.
 
-Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt.
-
 **Verfügbar ab Version**: 1.3.1
 
 ## Parameter
@@ -21,6 +19,8 @@ Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für 
 | _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 | _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 
+## Troubleshooting
+**Beim Start der Middleware wird ein `DllNotFound`-Fehler oder eine ähnliche Fehlermeldung angezeigt:** Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt. 
 
 ## Hardware
 
