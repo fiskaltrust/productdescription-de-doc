@@ -3,7 +3,7 @@ slug: /product-description/germany/products-and-services/caas/features/basics/ts
 title: Diebold Nixdorf-TSE
 ---
 
-# Diebold Nixdorf Interoperabilität 
+# Diebold Nixdorf-Interoperabilität 
 
 ## SCU
 
