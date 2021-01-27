@@ -55,7 +55,7 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 ## POS Archiv
 
-Das POS Archiv speichert die von der fiskaltrust.Middleware übegebenen Daten über einen Zeitraum von 12 Jahren. Über das fiskalttrust.Portal kann auf die Daten zugegriffen werden.
+Das POS Archiv speichert die von der fiskaltrust.Middleware übergebenen Daten über einen Zeitraum von 12 Jahren. Über das fiskalttrust.Portal kann auf die Daten zugegriffen werden.
 
 Bei Erstellen eines Monatsabschuss wird eine Prüfung zur Konsistenz der Daten durchgeführt und eine zusätzliche Exportdatei erstellt, die ebenfalls in der fiskaltrust.Cloud gespeichert wird.
 
