@@ -3,7 +3,7 @@ slug: /product-description/germany/products-and-services/caas/features/basics/ts
 title: Epson-TSE
 ---
 
-# Epson Interoperabilität
+# Epson-Interoperabilität
 
 ## SCU
 
