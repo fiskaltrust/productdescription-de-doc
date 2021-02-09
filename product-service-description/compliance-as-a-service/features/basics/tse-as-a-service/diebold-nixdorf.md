@@ -24,6 +24,9 @@ Das _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf_-Package ermöglicht die Verbi
 | _TimeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 
 
+## Troubleshooting
+**Beim Start der Middleware wird ein Fehler angezeigt, laut dem der Zugriff auf den angegebenen COM-Port verweigert wurde:** Bitte versichern Sie sich zuerst, ob in der SCU-Konfiguration den richtigen COM-Port hinterlegt wurde. Falls dies zutrifft, wird der Port bereits von einer anderen Anwendung verwendet. Typischerweise handelt es sich dabei um die mit der TSE gelieferte Web Service-Software von Diebold Nixdorf; diese wird von unserer SCU allerdings nicht benötigt, da alle Zugriffe direkt über das COM-Protokoll erfolgen. Die Deinstallation der Diebold Nixdorf-Software behebt dieses Problem.
+
 ## Hardware
 
 ### Diebold Nixdorf TSE, USB, 8 GB                             
