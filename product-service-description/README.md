@@ -40,7 +40,7 @@ Als weitere Komponente des fiskaltrust.SecurityMechanism stellt die fiskaltrust.
 
 Um für verschiedene Plattformen und Betriebssysteme zur Verfügung zu stehen und um das Versprechen zu erfüllen, als einheitliche Schnittstelle zum Kassen- oder Aufzeichnungssystem zu fungieren, ist die fiskaltrust.Middleware nach folgender Architektur aufgebaut.
 
-  ![cashbox](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/media/cashbox.png)
+  ![cashbox](compliance-as-a-service/media/cashbox.png)
 
 Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Erstellung und Verwaltung der Konfiguration inklusive der dazugehörigen Komponenten erfolgt im marktbezogenen fiskaltrust.Portal. Der fiskaltrust.SecurityMechanism wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt. Die SCU-Komponente stellt die Anbindung an den marktbezogenen Sicherheitsmechanismus (z.B. TSE) dar.
 
