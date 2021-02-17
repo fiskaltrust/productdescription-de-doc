@@ -12,4 +12,8 @@ Dieser Storage-Provider eignet sich besonders zum Aufbau ausfallsicherer Systeme
 **Verfügbar ab Version**: 1.3.8
 
 ## Parameter
-_keine_
+
+| Name | Beschreibung | Optional |
+| ---- | ------------ |--------- |
+| _connectionstring_ | MySQL-Connection-String zum Datenbanksystem | nein | 
+| _allowCors_ | Kann auf `true` gesetzt werden, um CORS-Zugriffe via REST auf die Middleware zuzulassen. | ja (Default: `false`) | 

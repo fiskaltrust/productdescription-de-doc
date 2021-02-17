@@ -25,6 +25,10 @@ Das _fiskaltrust.Middleware.SCU.DE.SwissbitCloud_-Package ermöglicht die Verbin
 | _ProxyPort_ | Falls der Zugang zum Internet über einen Proxy-Server erfolgen muss: Der HTTP-Port des Proxy-Servers. | ja (Default: leer) |
 | _ProxyUsername_ | Falls der Zugang zum Internet über einen _authentifizierten_ Proxy-Server erfolgen muss: Der Benutzername des Proxy-Servers. | ja (Default: leer/keine Proxy-Authentifizierung) |
 | _ProxyPassword_ | Falls der Zugang zum Internet über einen _authentifizierten_ Proxy-Server erfolgen muss: Das Passwort des Proxy-Servers. | ja (Default: leer/keine Proxy-Authentifizierung) |
+| _DontAddFccFirewallException_ | Wenn dieser Parameter nicht gesetzt ist, versucht die SCU beim ersten Start automatisch, eine Firewall-Exception für den FCC anzulegen (dazu werden Admin-Rechte benötigt). Dies kann verhindert werden, indem dieser Parameter auf `true` gesetzt wird. | ja (Default: `false`) |
+
+## Troubleshooting
+**Der Fiskal Cloud Connector kann keine Verbindung zum Internet herstellen:** Sollte die Middleware nicht als Administrator gestartet werden, die automatische Erzeugung der Firewall-Exception über den oben beschriebenen Parmater deaktiviert sein, oder Sie eine spezielle Firewall verwenden: fügen Sie bitte manuell eine Ausnahmeregelung in Ihrer Firewall hinzu für die `java.exe` im Unterverzeichnis `bin\jre\bin` des _FccDirectory_ (s.o.) hinzu.
 
 ## Produkte
 
