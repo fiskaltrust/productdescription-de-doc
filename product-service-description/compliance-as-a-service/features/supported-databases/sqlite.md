@@ -13,6 +13,4 @@ Dieser Storage-Provider eignet sich besonders zum einfachen Aufbau kleinerer, lo
 **Verfügbar ab Version**: 1.3.0
 
 ## Parameter
-| Name | Beschreibung | Optional |
-| ---- | ------------ |--------- |
-| _allowCors_ | Kann auf `true` gesetzt werden, um CORS-Zugriffe via REST auf die Middleware zuzulassen. | ja (Default: `false`) | 
+_keine_
