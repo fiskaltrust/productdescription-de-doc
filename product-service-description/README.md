@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/products-and-services
+title: Produkte und Services
+---
+
 # Produkt- und Servicebeschreibung
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein.
@@ -35,41 +40,36 @@ Als weitere Komponente des fiskaltrust.SecurityMechanism stellt die fiskaltrust.
 
 Um für verschiedene Plattformen und Betriebssysteme zur Verfügung zu stehen und um das Versprechen zu erfüllen, als einheitliche Schnittstelle zum Kassen- oder Aufzeichnungssystem zu fungieren, ist die fiskaltrust.Middleware nach folgender Architektur aufgebaut.
 
-  ![cashbox](../product-service-description/compliance-as-a-service/media/cashbox.png)
+  ![cashbox](compliance-as-a-service/media/cashbox.png)
 
 Der durch die CashBoxId identifizierte Konfigurationscontainer (CashBox) kann in verschiedene Plattformen und Betriebssysteme integriert werden. Die Erstellung und Verwaltung der Konfiguration inklusive der dazugehörigen Komponenten erfolgt im marktbezogenen fiskaltrust.Portal. Der fiskaltrust.SecurityMechanism wird von der Queue-Komponente und der SCU-Komponente (Signaturerstellungseinheit) bereitgestellt. Die SCU-Komponente stellt die Anbindung an den marktbezogenen Sicherheitsmechanismus (z.B. TSE) dar.
 
 
-## fiskaltrust Produkte & Features
+## Produkte
 
-[Compliance-as-a-Service Produkte](compliance-as-a-service/produkte/README.md)
+Compliance-as-a-Service Produkte:
+- [Middleware](compliance-as-a-service/products/middleware.md)
+- [Finanzamtmeldungen](compliance-as-a-service/products/tax-authority-notification.md)
 
-[Compliance-as-a-Service Features](compliance-as-a-service/features/README.md)
-
-**Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die in einem eigenen github repository öffentlich zugänglich ist: 
-
-[https://github.com/fiskaltrust/interface-doc](https://github.com/fiskaltrust/interface-doc)
-
+**Hinweis:** Die Schnittstellenbeschreibung für den Zugriff auf den fiskaltrust-Sicherheitsmechanismus ist die IPOS-Schnittstelle, die entweder auf unserer Dokumentationsplattform unter "Middleware API documentation" oder direkt in entsprechenden [Github-Repository](https://github.com/fiskaltrust/interface-doc) verfügbar ist.
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, das die fiskaltrust.Middleware integriert hat. 
+Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, welches die fiskaltrust.Middleware integriert hat. 
 
 ## fiskaltrust.Cloud
 
-Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.SecurityMechanism in die fiskaltrust.Cloud. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt, und die Vollständigkeit kann durch Nachverfolgung der Hash-Kette überprüft werden (s.o.). Diese Datenspiegelung stellt sicher, dass alle Originaldatensätze erhalten bleiben und nicht verändert werden. Auch der Schutz vor Verlust der gesamten Daten wird durch unsere Lösung durch standortverteilte Daten-Speicherung gewährleistet. Die Daten werden entsprechend der gesetzlichen Vorgaben in deutschen Rechenzentren gespeichert.
+Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.SecurityMechanism in die fiskaltrust.Cloud. Die Datenintegrität wird durch den Hash-Wert der Requests und Responses sichergestellt und die Vollständigkeit kann durch Nachverfolgung der Hash-Kette überprüft werden (s.o.). Diese Datenspiegelung stellt sicher, dass alle Originaldatensätze erhalten bleiben und nicht verändert werden. Auch der Schutz vor Verlust der gesamten Daten wird durch unsere Lösung durch standortverteilte Daten-Speicherung gewährleistet. Die Daten werden entsprechend der gesetzlichen Vorgaben in deutschen Rechenzentren gespeichert.
 
 ## fiskaltrust Produkte & Features
 
-[Revisionssichere Daten-as-a-Service Produkte](revisionssichere-daten-as-a-service/produkte/README.md)
-
-[Revisionssichere Daten-as-a-Service Features](revisionssichere-daten-as-a-service/features/README.md)
+[Revisionssichere Daten-as-a-Service Produkte](revisionsafe-data-as-a-service/products/README.md)
 
 ## Rechtliche Grundlagen für elektronische Aufzeichnungssysteme in Deutschland
 
-[Zur Übersicht über die rechtlichen Grundlagen in Deutschland](DE-rechtliche-grundlagen.md)
+[Zur Übersicht über die rechtlichen Grundlagen in Deutschland](legal-basis-germany.md)
 
 ## fiskaltrust Business Modell für Deutschland
 
-[Beschreibung des Business Modelles von fiskaltrust für den deutschen Markt](DE-business-model.md) 
+[Beschreibung des Business Modelles von fiskaltrust für den deutschen Markt](business-model-germany.md) 
 

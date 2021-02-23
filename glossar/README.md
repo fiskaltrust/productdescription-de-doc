@@ -1,12 +1,17 @@
+---
+slug: /product-description/germany/glossar
+title: Glossar
+---
+
 # Glossar
 
 ## Anwendungserlass
 
-Anweisung eines Ministeriums an die nachgeordneten Behörden, wie ein Gesetz und/oder eine Verordnung auszulegen und anzuwenden ist – beim Finanzministerium oft als „BMF-Schreiben“ bezeichnet.
+Anweisung eines Ministeriums an die nachgeordneten Behörden wie ein Gesetz und/oder eine Verordnung auszulegen und anzuwenden ist – beim Finanzministerium oft als „BMF-Schreiben“ bezeichnet.
 
 ## AO (Abgabenordnung)
 
-Abgabenordnung, ein zentrales Gesetz des Steuerrechts, in dem die wesentlichen Anforderungen an die Buchführung und damit auch die Kassenführung festgelegt sind. TSE und Kassen-Nachschau werden in den Paragraphen [146a](https://www.gesetze-im-internet.de/ao_1977/__146a.html) und [146b](https://www.gesetze-im-internet.de/ao_1977/__146b.html) behandelt, Bußgelder für Verstöße dagegen in [§ 379](https://www.gesetze-im-internet.de/ao_1977/__379.html)
+Abgabenordnung, ein zentrales Gesetz des Steuerrechts, in dem die wesentlichen Anforderungen an die Buchführung und damit auch die Kassenführung festgelegt ist. TSE und Kassen-Nachschau werden in den Paragraphen [146a](https://www.gesetze-im-internet.de/ao_1977/__146a.html) und [146b](https://www.gesetze-im-internet.de/ao_1977/__146b.html) behandelt, Bußgelder für Verstöße dagegen in den Paragraphen [§ 379](https://www.gesetze-im-internet.de/ao_1977/__379.html).
 
 ## Authentizität (TSE)
 
@@ -22,7 +27,7 @@ Bundesamt für Sicherheit in der Informationstechnik, verantwortlich für Konzep
 
 ## DSFinV-K
 
-„Digitale Schnittstelle der Finanzverwaltung für Kassensysteme“, eine Standardisierung der Kassenaufzeichnungen. Dabei handelt es sich weitgehend um die vom DFKA e.V. definierte Taxonomie für Kassendaten. Die Taxonomie bildet die Daten standardmäßig in einem JSON-Format ab (das z.B. gut erweiterbar ist) und bietet einen Weg, die Daten in eine CSV-Struktur (mehrere, miteinander verknüpfte Tabellen) zu konvertieren. Da die Finanzverwaltung nur CSV-Daten auswerten kann, nutzt die DSFinV-K diese Darstellung.
+„Digitale Schnittstelle der Finanzverwaltung für Kassensysteme“, eine Standardisierung der Kassenaufzeichnungen. Dabei handelt es sich weitgehend um die vom DFKA e.V. definierte Taxonomie für Kassendaten. Die Taxonomie bildet die Daten standardmäßig in einem JSON-Format ab (das z.B. gut erweiterbar ist) und bietet einen Weg, die Daten in eine CSV-Struktur (mehrere miteinander verknüpfte Tabellen) zu konvertieren. Da die Finanzverwaltung nur CSV-Daten auswerten kann, nutzt die DSFinV-K diese Darstellung.
 
 ## Einheitliche digitale Schnittstelle
 
@@ -36,7 +41,7 @@ Darunter versteht die Finanzverwaltung die getrennte Aufzeichnung jedes einzelne
 
 ### Elektronisches Aufzeichnungssystem
 
-Elektronische Aufzeichnungssysteme sind elektronische oder computergestützte Kassensysteme oder Registrierkassen einschließlich Tablet basierter Kassensysteme oder Softwarelösungen (z. B. Barverkaufsmodule),  die für den Verkauf von Waren oder die Erbringung von Dienstleistungen und deren Abrechnung spezialisiert sind und eine „Kassenfunktion“ haben. 
+Elektronische Aufzeichnungssysteme sind elektronische oder computergestützte Kassensysteme oder Registrierkassen einschließlich Tablet basierter Kassensysteme oder Softwarelösungen (z. B. Barverkaufsmodule), die für den Verkauf von Waren oder die Erbringung von Dienstleistungen und deren Abrechnung spezialisiert sind und eine „Kassenfunktion“ haben. 
 
 Kassenfunktion haben elektronische Aufzeichnungssysteme dann, wenn diese der Erfassung und Abwicklung von zumindest teilweise baren Zahlungsvorgängen dienen können. Dies gilt auch für vergleichbare elektronische, vor Ort genutzte Zahlungsformen (Elektronisches Geld wie z. B. Geldkarte, virtuelle Konten oder Bonuspunktesysteme von Drittanbietern) sowie an Geldes statt angenommener Gutscheine, Guthabenkarten, Bons und dergleichen. Eine Aufbewahrungsmöglichkeit des verwalteten Bargeldbestandes (z.B. Kassenlade) ist nicht erforderlich. 
 
@@ -48,7 +53,7 @@ Fahrscheinautomaten, Fahrscheindrucker, elektronische Buchhaltungsprogramme, War
 
 **Schutz durch eine zertifizierte technische Sicherheitseinrichtung**
 
-Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem sowie die damit zu führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
+Grundsätzlich ist jedes eingesetzte elektronische Aufzeichnungssystem, sowie die damit zu führenden digitalen Aufzeichnungen durch eine zertifizierte technische Sicherheitseinrichtung zu schützen.
 
 Werden mehrere einzelne elektronische Aufzeichnungssysteme (z. B. Verbundwaagen, Bestellsysteme ohne Abrechnungsteil, App-Systeme) mit einem Kassensystem verbunden, dann wird es nicht beanstandet, wenn die damit zu führenden digitalen Aufzeichnungen mit einer zertifizierten technischen Sicherheitseinrichtung geschützt werden, die alle im Verbund befindlichen elektronischen Aufzeichnungssysteme gemeinsam nutzen. 
 
@@ -62,21 +67,21 @@ Eine PC-Registrierkasse kann die Daten auf einem internen Datenträger oder per 
 
 #### Elektronische Registrierkasse
 
-Eine elektronische Registrierkasse ist ein auf den Verkauf von Waren oder Dienstleistungen spezialisiertes Datenerfassungsgerät, das elektronische Aufzeichnungen zur Dokumentation von Einzelumsätzen zu erstellen hat. Eine solche Registrierkasse kann mit einer oder mehreren Eingabestationen verbunden sein". 
+Eine elektronische Registrierkasse ist ein auf den Verkauf von Waren oder Dienstleistungen spezialisiertes Datenerfassungsgerät, das elektronische Aufzeichnungen zur Dokumentation von Einzelumsätzen zu erstellen hat. Eine solche Registrierkasse kann mit einer oder mehreren Eingabestationen verbunden sein. 
 
 #### Eingabestation ("Terminal")
 
-Datenerfassungsgerät welches elektronische Aufzeichnungen an die mit ihr verbundene elektronische Registrierkasse zum Zwecke der Dokumentation von Einzelumsätzen übermittelt.
+Datenerfassungsgerät, welches elektronische Aufzeichnungen an die mit ihr verbundene elektronische Registrierkasse zum Zwecke der Dokumentation von Einzelumsätzen übermittelt.
 
 ### Kassenseriennummer
 
-Die Kassenseriennummer ist eine Information, die auf den Beleg gedruckt werden muss. Dazu wird von fiskaltrust die ftCashboxIdentification verwendet, Base64-kodiert, Sonderzeichen entfernt  und von der fiskaltrust.Middleware im Signatur-lock in der Response (ftSignatureType) zurückgeliefert. Die ftCashboxIdentification selbst ist die frei wählbare Bezeichnung für eine Queue. Sie wird auch von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. 
+Die Kassenseriennummer ist eine **eindeutige** Information, die auf den Beleg gedruckt werden muss. Dazu wird von fiskaltrust die ftCashboxIdentification verwendet, Base64-kodiert, Sonderzeichen entfernt  und von der fiskaltrust.Middleware im Signatur-lock in der Response (ftSignatureType) zurückgeliefert. Die ftCashboxIdentification selbst ist die frei wählbare, **eindeutige** Bezeichnung für eine Queue. Sie wird auch von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. 
 
 ### Verwendung der oben beschriebenen Begriffe im Kontext von fiskaltrust
 
 Bei fiskaltrust wird im Sinne der Vereinfachung für die PC-Registrierkasse, Elektronische Registrierkasse und Eingabestation der Begriff "Kasse" verwendet. Diese Kasse entspricht der zu konfigurierenden "Queue" im Portal, welche zugleich die zu fiskalisierende und dem Finanzamt zu meldende Einheit darstellt.
 
-Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. Siehe Bereich [Rollout Szenarios](../for-posdealers/03-sales/rollout-scenarios.md).
+Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. 
 
 ## Cashbox
 
@@ -84,11 +89,11 @@ Die Cashbox ist ein Konfigurationscontainer, der die Konfiguration der einzelene
 
 ## Geschäftsvorfall
 
-Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und wirtschaftlichen Vorgänge, die innerhalb eines bestimmten Zeitabschnitts den Gewinn bzw. Verlust oder die Vermögens­zusammensetzung in einem Unternehmen dokumentieren oder beeinflussen bzw. verändern (z. B. zu einer Veränderung des Anlage- und Umlaufvermögens sowie des Eigen- und Fremdkapitals führen)“
+Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und wirtschaftlichen Vorgänge, die innerhalb eines bestimmten Zeitabschnitts den Gewinn bzw. Verlust oder die Vermögenszusammensetzung in einem Unternehmen dokumentieren oder beeinflussen bzw. verändern (z. B. zu einer Veränderung des Anlage- und Umlaufvermögens sowie des Eigen- und Fremdkapitals führen)“.
 
 ## GoBD
 
-„Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff” – Erlass zu den formalen Anforderungen an die Buchführung, die Aufbewahrung von steuerrechtlich relevanten Dokumenten und elektronischen Daten sowie den Datenzugriff unter Bezug auf die Grundsätze ordnungsmäßiger Buchführung (GoB)
+„Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff” – Erlass zu den formalen Anforderungen an die Buchführung, die Aufbewahrung von steuerrechtlich relevanten Dokumenten und elektronischen Daten sowie den Datenzugriff unter Bezug auf die Grundsätze ordnungsmäßiger Buchführung (GoB).
 
 ## Integrität (der Daten und TSE)
 
@@ -101,8 +106,6 @@ Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist f�
 
 Der Kassenbetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
 
-siehe auch [Personas für Kassenbetreiber (en)](personas-posoperator.md)
-
 ## Kassenhändler ("PosDealer")
 
 Der Kassenhändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den Kassenbetreiber (kurz „Betreiber“) vertreibt.
@@ -113,8 +116,6 @@ Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter un
 
 Der Kassenhändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
 
-siehe auch [Personas für Kassenhändler (en)](personas-posdealer.md)
-
 ## Kassenhersteller ("PosCreator")
 
 Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
@@ -122,8 +123,6 @@ Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert b
 Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
 Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
-
-siehe auch [Personas für Kassenhersteller (en)](personas-poscreator.md)
 
 ## Kassen-Nachschau
 
@@ -139,7 +138,7 @@ In verschiedenen Vorschriften wird dieser Begriff statt „Signatur” verwendet
 
 ## Queue
 
-[Siehe Queue Abstraktion](../product-service-description/compliance-as-a-service/features/Queue-Abstraktion.md).
+[Siehe Queue Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/queue-abstraction.md).
 
 ## Signatur
 
@@ -147,7 +146,7 @@ Zu einer digitalen Nachricht (d. h. zu beliebigen Daten) kann mit Hilfe eines ge
 
 ## SCU
 
-[Siehe SCU Abstraktion](../product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md).
+[Siehe SCU Abstraktion](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/scu-abstraction.md).
 
 ## Standort ("Outlet", "Location")
 
@@ -173,7 +172,7 @@ Im Zusammenhang mit digitalen Signaturen die Prüfung, ob die abgesicherten Date
 
 ## Zertifizierung (TSE)
 
-Bestätigung einer erfolgreichen Prüfung der Übereinstimmung mit bestimmten Anforderungen. Im Falle der TSE hat das BSI mehrere Technische Richtlinien und sog. Schutzprofile veröffentlicht. TSE-Hersteller können die Übereinstimmung ihres Produktes mit diesen Anforderungen von einer sog. Prüfstelle untersuchen lassen, die ein Evaluierungsgutachten erstellt. Auf Basis dieses Gutachtens erteilt dann das BSI die Zertifizierung.
+Bestätigung einer erfolgreichen Prüfung der Übereinstimmung mit bestimmten Anforderungen. Im Falle der TSE hat das BSI mehrere technische Richtlinien und sog. Schutzprofile veröffentlicht. TSE-Hersteller können die Übereinstimmung ihres Produktes mit diesen Anforderungen von einer sog. Prüfstelle untersuchen lassen, die ein Evaluierungsgutachten erstellt. Auf Basis dieses Gutachtens erteilt dann das BSI die Zertifizierung.
 
 ## Zertifikat (kryptografisches)
 

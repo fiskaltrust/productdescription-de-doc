@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/leistungsbeschreibung
+title: Leistungsbeschreibung
+---
+
 # fiskaltrust.Leistungsbeschreibung
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein.
@@ -10,7 +15,7 @@ Die fiskaltrust.Middleware stellt eine länderübergreifende Schnittstelle zur V
 
 ![Überblick über die Funktionsweise von fiskaltrust](../product-service-description/compliance-as-a-service/media/overview-pos-ft-middleware.png)                                
 
-Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensystems und gewährleistet damit die Konformität als Kassen- oder Aufzeichnungssystem. Sie erzeugt eine eindeutige, fortlaufende Identifikationnummer eines von der Kasse übermittelten Request und stellt somit nachvollziebar dar, dass jeder Request von ihr verarbeitet wurde.
+Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensystems und gewährleistet damit die Konformität als Kassen- oder Aufzeichnungssystem. Sie erzeugt eine eindeutige, fortlaufende Identifikationsnummer eines von der Kasse übermittelten Request und stellt somit nachvollziehbar dar, dass jeder Request von ihr verarbeitet wurde.
 
 Die Konformität wird durch die Kombination diverser Methoden und Komponenten erreicht.
 
@@ -50,7 +55,7 @@ Die fiskaltrust.Middleware, spiegelt die Daten als Teil des fiskaltrust.Security
 
 ## POS Archiv
 
-Das POS Archiv speichert die von der fiskaltrust.Middleware übegebenen Daten über einen Zeitraum von 12 Jahren. Über das fiskalttrust.Portal kann auf die Daten zugegriffen werden.
+Das POS Archiv speichert die von der fiskaltrust.Middleware übergebenen Daten über einen Zeitraum von 12 Jahren. Über das fiskaltrust.Portal kann auf die Daten zugegriffen werden.
 
 Bei Erstellen eines Monatsabschuss wird eine Prüfung zur Konsistenz der Daten durchgeführt und eine zusätzliche Exportdatei erstellt, die ebenfalls in der fiskaltrust.Cloud gespeichert wird.
 
