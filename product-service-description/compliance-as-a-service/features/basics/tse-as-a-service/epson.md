@@ -18,9 +18,9 @@ Das _fiskaltrust.Middleware.SCU.DE.Epson_-Package ermöglicht die Verbindung der
 | Name | Beschreibung | Optional |
 | ---- | ------------ |--------- |
 | _Host_ | Die URL, unter der die TSE erreichbar ist (ohne Port) | nein |
-| _Port_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja |
-| _DeviceId_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert verwendet. | ja |
-| _Timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja |
+| _Port_ | Der Port, hinter dem die TSE unter der angegebenen URL erreichbar ist. Falls nicht definiert, wird der Standard-Port wie vom Hersteller definiert verwendet. | ja (Default: `8009`) |
+| _DeviceId_ | Die für die TSE spezifische Geräte-ID. Falls nicht angegeben, wird der Defaultwert für lokale USB-TSEs verwendet. | ja (Default: `local_TSE`) |
+| _Timeout_ | Timeout-Wert für die Kommunikation mit der TSE in Millisekunden. Falls nicht angegeben, wird der Default-Wert von 60 Sekunden verwendet. | ja (Default in ms: `60000`) |
 
 Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 
@@ -41,17 +41,6 @@ Bitte achten Sie auf die case-sensitive Verwendung der Parameter.
 ## Pilotinstallation
 
 Für die Finalisierung der Epson TSE Implementierung suchen wir Partner für eine Pilotinstallation.
-
-### Rahmenbedingungen
-
-- Abgeschlossene oder kurz vor dem Abschluss stehende Implementierung der Middleware
-- Registrierung am (Produktiv) Portal als PosCreator oder PosDealer
-- Registrierung am Sandbox Portal und trial-configuration knowledge
-- Partner bezieht die TSE Hardware für den zukünftigen Rollout über fiskaltrust
-
-### Teilnahme an der Pilotinstallation
-
-Bitte kontaktieren Sie [support@fiskaltrust.de](mailto:support@fiskaltrust.de) für die Teilnahme am Epson-TSE-Pilotprojekt, vielen Dank!
 
 ## Hardware
 
