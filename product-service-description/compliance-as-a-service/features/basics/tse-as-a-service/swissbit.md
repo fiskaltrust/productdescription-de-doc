@@ -20,7 +20,7 @@ Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung 
 | _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 
 ## Troubleshooting
-**Beim Start der Middleware unter Windows wird ein `DllNotFound`-Fehler oder eine ähnliche Fehlermeldung angezeigt:** Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt. 
+**Beim Start der Middleware unter Windows wird ein `SerializationException`-Fehler, ein `NativeLibraryException`-Fehler oder eine ähnliche Meldung angezeigt:** Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt. 
 
 **Beim Start der Middleware unter Linux wird ein `DllNotFound`-Fehler, eine Exception mit dem Text `Invalid Response from TSE` oder eine ähnliche Fehlermeldung angezeigt:** Zum Betrieb wird, je nach Linux-Version, das _libc_- oder das _glibc_-Package benötigt. 
 
