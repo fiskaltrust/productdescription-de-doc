@@ -1,3 +1,8 @@
+---
+slug: /product-description/germany/fair-use-policy
+title: Fair Use Policy
+---
+
 # Fair Use Policy
 
 der fiskaltrust gmbh<br />
@@ -72,8 +77,8 @@ Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Rech
 
 ## Begriffsdefinitionen
 
-- [Elektronische Aufzeichnungssysteme](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#elektronisches-aufzeichnungssystem-kasse-registrierkasse-kassensystem-eingabestation-terminal)
-- [Standort](https://github.com/fiskaltrust/productdescription-de-doc/tree/master/glossar#standort-outlet-location)
+- [Elektronische Aufzeichnungssysteme](https://docs.fiskaltrust.cloud/docs/product-description/germany/glossar#elektronisches-aufzeichnungssystem-kasse-registrierkasse-kassensystem-eingabestation-terminal)
+- [Standort](https://docs.fiskaltrust.cloud/docs/product-description/germany/glossar#standort-outlet-location)
 
 ## Servicestelle
 

@@ -108,7 +108,8 @@ module.exports = {
             }
           ]
         }
-      ]
+      'productdescription-de-doc/product-description/germany/fair-use-policy',
+]
     },
     'productdescription-de-doc/glossar/README',
     'productdescription-de-doc/leistungsbeschreibung/README',
