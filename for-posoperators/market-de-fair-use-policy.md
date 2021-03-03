@@ -55,7 +55,7 @@ Bei voraussichtlicher Überschreitung der maximalen Anzahl an nutzbaren Signatur
 
 ### Nichteinhaltung der Fair Use Policy zur Verwendung der TSE-as-a-Service
 
-Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, das Service der betroffenen TSE-as-a-Service nach erfolgloser Mahnung einzustellen.
+Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Service der betroffenen TSE-as-a-Service nach erfolgloser Mahnung einzustellen.
 
 ### Verwendung des POS Archives
 
