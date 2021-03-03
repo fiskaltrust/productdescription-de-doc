@@ -73,7 +73,7 @@ Bei voraussichtlicher Überschreitung dieser Nutzungsgrenze kann ein zusätzlich
 
 ### Nichteinhaltung der Fair Use Policy zur Verwendung des POS Archives
 
-Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, ein zusätzliches fiskaltrust.Sorglos ohne TSE oder fiskaltrust.Sorglos mit TSE-Produkt Bundle inklusive zusätzlicher Bearbeitungsgebühr in Rechnung zu stellen.
+Bei Nichteinhaltung der Fair Use Policy nimmt sich die fiskaltrust gmbh das Recht vor, zum bestehenden Produkt-Bundle ein identes, zusätzliches Produkt-Bundle inklusive Bearbeitungsgebühr in Rechnung zu stellen.
 
 ## Begriffsdefinitionen
 
