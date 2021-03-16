@@ -9,6 +9,8 @@ title: Swissbit Cloud-TSE
 
 Das _fiskaltrust.Middleware.SCU.DE.SwissbitCloud_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit Cloud-TSE über den von Swissbit zur Verfügung gestellten _Fiskal Cloud Connector_-Service. Dieser kann entweder beim ersten Start des SCU-Packages automatisch installiert werden, oder es kann eine bereits installierte Version des FCC genutzt werden (s. _Parameter_).
 
+Bitte beachten Sie, dass diese TSE strikte Anforderungen an den Umgebungsschutz stellt (d.h. das verwendete Betriebssystem und dessen Konfiguration). Genauere Informationen finden Sie in den offiziellen Dokumenten des Herstellers im [Download-Bereich des Portals](https://portal.fiskaltrust.de/AccountProfile/Download).
+
 **Verfügbar ab Version**: 1.3.11
 
 ## Parameter
