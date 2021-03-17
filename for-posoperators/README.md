@@ -19,7 +19,3 @@ Für den Bezug unserer Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 ## Preisliste
 
 [Hier finden Sie die aktuelle Preisliste für Endkunden.](endkunden-preisliste.md)
-
-## Fair Use Policy
-
-[Zur Fair Use Policy](tse-fiskaly-fair-use-policy.md).
