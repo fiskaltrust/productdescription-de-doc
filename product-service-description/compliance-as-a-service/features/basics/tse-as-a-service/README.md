@@ -9,7 +9,7 @@ TSE-as-a-Service ist eine Dienstleistung, welche gegen einen jährlichen Pauscha
 
 Bei Verlust, Diebstahl, Hardware-Defekt oder wenn die maximale Anzahl von Signaturen der TSE erreicht wurde, wird eine neue TSE zur Verfügung gestellt.
 
-Die Verwendung des TSE-as-a-Service unterliegt einer [Fair-Use-Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md).
+Die Verwendung des TSE-as-a-Service unterliegt einer [Fair-Use-Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/market-de-fair-use-policy.md).
 
 ## Bezug des TSE-as-a-Service
 
