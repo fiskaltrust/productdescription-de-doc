@@ -11,6 +11,8 @@ Das _fiskaltrust.Middleware.SCU.DE.SwissbitCloud_-Package ermöglicht die Verbin
 
 Bitte beachten Sie, dass diese TSE strikte Anforderungen an den Umgebungsschutz stellt (d.h. das verwendete Betriebssystem und dessen Konfiguration). Genauere Informationen finden Sie in den offiziellen Dokumenten des Herstellers im [Download-Bereich des Portals](https://portal.fiskaltrust.de/AccountProfile/Download).
 
+**Aufgrund aktueller technischer Limitierungen ist die Swissbit Cloud-SCU derzeit auf eine einzelne Client-Registrierung beschränkt.** Dadurch werden die möglichen [Rollout-Szenarien](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/middleware#rollout-scenarios) auf jene Fälle beschränkt, in denen pro SCU nur eine Queue betrieben wird. 
+
 **Verfügbar ab Version**: 1.3.11
 
 ## Parameter
