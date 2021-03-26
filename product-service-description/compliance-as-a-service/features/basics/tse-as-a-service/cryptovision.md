@@ -18,6 +18,8 @@ Das _fiskaltrust.Middleware.SCU.DE.CryptoVision_-Package ermöglicht die Verbind
 | _devicePath_ | Pfad zum Laufwerk, unter dem die TSE erreichbar ist (z.B. `D:`), ohne abschließenden Slash | nein |
 | _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 | _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
+| _TseIOReadDelayMs_ | Die Zeit, die vor dem Lesen der Antworten von der TSE abgewartet wird (in Millisekunden). Der Default-Wert sollte ausschließlich bei Lesefehlern verändert werden, da dadurch die Verarbeitungszeit aller Operationen erhöht wird. | ja (Default: 10) |
+
 
 
 ## Hardware
