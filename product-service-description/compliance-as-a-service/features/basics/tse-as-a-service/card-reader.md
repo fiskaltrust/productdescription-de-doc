@@ -8,7 +8,7 @@ title: card-reader
 ## Hardware
 
 **Artikel Nummer: 4445-010201**
-ergänzend zur TSE in Bauform einer MicroSD der Bundesdruckerei (Artikel Nummer: 4445-20300) erhalten Sie ein Lesegerät zu einer TSE in Bauform einer MicroSD-Karte.
+Sie erhalten einen Kartenleser, Adapter von MicroSD auf USB. Sie können ihn ergänzend zu einer TSE in Bauform einer MicroSD verwenden.
 
 Sonderartikel: Storno und Rückgabe unabhängig von der Lieferzeit ausgeschlossen.
 
