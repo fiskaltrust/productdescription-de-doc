@@ -1,6 +1,6 @@
 ---
 slug: /product-description/germany/products-and-services/caas/features/basics/tse/card-reader
-title: card-reader
+title: MicroSD-Kartenleser
 ---
 
 # MicroSD-Kartenleser
