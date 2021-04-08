@@ -38,6 +38,7 @@ module.exports = {
                       items: [
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision',
+                        'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/card-reader',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/deutsche-fiskal',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/diebold-nixdorf',
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/epson',
