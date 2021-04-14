@@ -33,7 +33,7 @@ Terminals sind an einer GoBD Kasse angeschlossene Eingabegeräte, die keine eige
 
 ### Standortbezogene Produkte der fiskaltrust gmbh
 
-Standortbezogene Produkte sind Produkte, die von allen aktiven Queues eines Outlets gemeinsam verwendet werden können. Z.B. Sorglos Bundles. Diese Produkte werden pro Outlet erworben.
+Standortbezogene Produkte sind Produkte, die von allen aktiven Queues eines Outlets gemeinsam verwendet werden können, z.B. Sorglos Bundles. Diese Produkte werden pro Outlet erworben.
 
 ## Fair Use Regeln
 
