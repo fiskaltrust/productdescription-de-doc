@@ -25,21 +25,21 @@ Ein Outlet repräsentiert grundsätzlich einen physischen Standort (Filiale oder
 
 ### Aktive Queue
 
-Eine aktive Queue ist eine im Einsatz befindliche Queue, die ein elektronisches Aufzeichnungssystem (GoBD Kasse inkl. angeschlossene Eingabegeräte) repräsentiert. 
+Eine aktive Queue ist eine im Einsatz befindliche Queue, die durch einen Inbetriebnahmebeleg in Betrieb genommen wurde und noch nicht durch einen Außerbetriebnahmebeleg außer Betrieb genommen wurde. Sie repräsentiert ein elektronisches Aufzeichnungssystem mit Kassenfunktion. 
 
 ### Terminals
 
-Terminals sind an einer GoBD Kasse angeschlossene Eingabegeräte, die keine eigenständige Kassenfunktion implementieren.
+Terminals sind an einem elektronischen Aufzeichnungssystem mit Kassenfunktion angeschlossene Eingabegeräte, die keine eigenständige Kassenfunktion implementieren. Im Rahmen des fiskaltrust IPOS Interfeace werden diese anhand des Feldes `cbTerminalID` identifiziert. 
 
 ### Standortbezogene Produkte der fiskaltrust gmbh
 
-Standortbezogene Produkte sind Produkte, die von allen aktiven Queues eines Outlets gemeinsam verwendet werden können. Z.B. Sorglos Bundles. Diese Produkte werden pro Outlet erworben.
+Standortbezogene Produkte, sind Produkte (bzw. Subscriptions) die pro Outlet erworben werden. Sie werden für die, dem Outlet untergeordneten Aufzeichnungssysteme (Queues) und technischen Sicherheitseinrichtungen (TSE / SCU), eingesetzt (z.B. Sorglos Bundles).
 
 ## Fair Use Regeln
 
 Werden in einem Outlet standortbezogene Produkte der fiskaltrust gmbh eingesetzt, so dürfen in dem betroffenen Outlet maximal 5 aktive Queues mit insgesamt maximal 25 Terminals betrieben werden. Zudem dürfen im betroffenen Outlet maximal 150.000 Signaturen pro Kalendermonat angefordert werden.
 
-Diese Fair Use Regeln können durch spezifische Eigenschaften einzelner standortbezogener Produkte weiter eingeschränkt werden. Achten Sie deshalb bitte auch auf die konkreten Produktmerkmale.
+Diese Fair Use Regeln können aufgrund spezifischer Eigenschaften einzelner standortbezogener Produkte durch fiskaltrust angepasst werden. Achten Sie deshalb bitte auch auf die konkreten Produktmerkmale.
 
 ### Empfehlung zur Einhaltung der Fair Use Regel
 
@@ -47,11 +47,11 @@ Sollte ein physischer Standort aufgrund höherer Anforderungen nicht durch ein e
 
 ### Nichteinhaltung der Fair Use Policy
 
-Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Betrieb der im betroffenen Outlet verwendeten Produkte und Komponenten, nach erfolgloser Mahnung einzustellen.
+Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Betrieb der im betroffenen Outlet verwendeten Produkte und Komponenten einzuschränken, bis sich diese wieder innerhalb des hier beschriebenen Fair-Use-Rahmen befinden.
 
 ## Servicestelle
 
-Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:info@fiskaltrust.de).
+Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:support@fiskaltrust.de).
 
 
 [PDF Download der Fair Use Policy](media/market-de-fair-use-policy.pdf)
