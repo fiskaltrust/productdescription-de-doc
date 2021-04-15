@@ -51,7 +51,7 @@ Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Re
 
 ## Servicestelle
 
-Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [info@fiskaltrust.de](mailto:support@fiskaltrust.de).
+Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [support@fiskaltrust.de](mailto:support@fiskaltrust.de).
 
 
 [PDF Download der Fair Use Policy](media/market-de-fair-use-policy.pdf)
