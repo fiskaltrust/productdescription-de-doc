@@ -37,7 +37,7 @@ Standortbezogene Produkte, sind Produkte (bzw. Subscriptions) die pro Outlet erw
 
 ## Fair Use Regeln
 
-Werden in einem Outlet standortbezogene Produkte der fiskaltrust gmbh eingesetzt, so dürfen in dem betroffenen Outlet maximal 5 aktive Queues mit insgesamt maximal 25 Terminals betrieben werden. Zudem dürfen im betroffenen Outlet maximal 150.000 TSE Signaturen pro Kalendermonat angefordert werden.
+Werden in einem Outlet standortbezogene Produkte der fiskaltrust gmbh eingesetzt, so dürfen in dem betroffenen Outlet maximal 25 aktive Queues mit insgesamt maximal 25 Kassen betrieben werden. Zudem dürfen im betroffenen Outlet maximal 150.000 TSE Signaturen pro Kalendermonat angefordert werden.
 
 Diese Fair Use Regeln können aufgrund spezifischer Eigenschaften einzelner standortbezogener Produkte durch fiskaltrust angepasst werden. Achten Sie deshalb bitte auch auf die konkreten Produktmerkmale.
 
