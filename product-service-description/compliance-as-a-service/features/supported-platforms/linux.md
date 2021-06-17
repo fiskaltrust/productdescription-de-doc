@@ -31,14 +31,14 @@ Both Entity Framework and SQLite queues can be launched on Linux, starting from 
 
 |                                                              | Ubuntu                                 | Debian     | Other distributions running Mono |
 | ------------------------------------------------------------ | -------------------------------------- | ---------- | -------------------------------- |
-| [A-Trust Cloud TSE](../basics/tse-as-a-service/a-trust.md) | not tested                             | not tested |                                  |
-| [Cryptovision Hardware-TSE](../basics/tse-as-a-service/cryptovision.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Deutsche Fiskal Cloud-TSE](../basics/tse-as-a-service/deutsche-fiskal.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
-| [Diebold-Nixdorf Hardware-TSE](../basics/tse-as-a-service/diebold-nixdorf.md) | not tested                             | not tested |                                  |
-| [Epson Hardware-TSE](../basics/tse-as-a-service/epson.md) | not tested                             | not tested |                                  |
-| [fiskaly Cloud-TSE](../basics/tse-as-a-service/fiskaly.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Swissbit Hardware TSE](../basics/tse-as-a-service/swissbit.md) | **tested**                             | **tested** | should work (not tested)         |
-| [Swissbit Cloud TSE](../basics/tse-as-a-service/swissbit-cloud.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
+| [A-Trust Cloud TSE](../basics/tse/cloud/a-trust.md) | not tested                             | not tested |                                  |
+| [Cryptovision Hardware-TSE](../basics/tse/hardware/cryptovision.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Deutsche Fiskal Cloud-TSE](../basics/tse/cloud/deutsche-fiskal.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
+| [Diebold-Nixdorf Hardware-TSE](../basics/tse/hardware/diebold-nixdorf.md) | not tested                             | not tested |                                  |
+| [Epson Hardware-TSE](../basics/tse/hardware/epson.md) | not tested                             | not tested |                                  |
+| [fiskaly Cloud-TSE](../basics/tse/cloud/fiskaly.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Swissbit Hardware TSE](../basics/tse/hardware/swissbit.md) | **tested**                             | **tested** | should work (not tested)         |
+| [Swissbit Cloud TSE](../basics/tse/cloud/swissbit-cloud.md) | Ubuntu LTS 20.04 certified, not tested | not tested |                                  |
 
 ## Limitations
 
