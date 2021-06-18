@@ -27,14 +27,14 @@ Die fiskaltrust.Middleware besteht aus
 
 |                                                              | Windows                                 | Linux, macOS | Android |
 | ------------------------------------------------------------ | --------------------------------------- | ------------ | ------- |
-| [A-Trust Cloud TSE](../features/basics/tse-as-a-service/a-trust.md) | ja                                      |              |         |
-| [Cryptovision Hardware-TSE](../features/basics/tse-as-a-service/cryptovision.md) | ja                                      | ja           |         |
-| [Deutsche Fiskal Cloud-TSE](../features/basics/tse-as-a-service/deutsche-fiskal.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
-| [Diebold-Nixdorf Hardware-TSE](../features/basics/tse-as-a-service/diebold-nixdorf.md) | ja                                      | ja           |         |
-| [Epson Hardware-TSE](../features/basics/tse-as-a-service/epson.md) | ja                                      | ja           |         |
-| [fiskaly Cloud-TSE](../features/basics/tse-as-a-service/fiskaly.md) | ja                                      | ja           | ja      |
-| [Swissbit Hardware-TSE](../features/basics/tse-as-a-service/swissbit.md) | ja                                      | ja           | ja      |
-| [Swissbit Cloud-TSE](../features/basics/tse-as-a-service/swissbit-cloud.md)| derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
+| [A-Trust Cloud TSE](../features/basics/tse/cloud/a-trust.md) | ja                                      |              |         |
+| [Cryptovision Hardware-TSE](../features/basics/tse/hardware/cryptovision.md) | ja                                      | ja           |         |
+| [Deutsche Fiskal Cloud-TSE](../features/basics/tse/cloud/deutsche-fiskal.md) | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
+| [Diebold-Nixdorf Hardware-TSE](../features/basics/tse/hardware/diebold-nixdorf.md) | ja                                      | ja           |         |
+| [Epson Hardware-TSE](../features/basics/tse/hardware/epson.md) | ja                                      | ja           |         |
+| [fiskaly Cloud-TSE](../features/basics/tse/cloud/fiskaly.md) | ja                                      | ja           | ja      |
+| [Swissbit Hardware-TSE](../features/basics/tse/hardware/swissbit.md) | ja                                      | ja           | ja      |
+| [Swissbit Cloud-TSE](../features/basics/tse/cloud/swissbit-cloud.md)| derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
 
 ### Systemvoraussetzungen
 
