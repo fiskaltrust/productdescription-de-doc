@@ -50,9 +50,9 @@ module.exports = {
                           type: 'category',
                           label: 'Cloud',
                           items: [
-                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/hardware/deutsche-fiskal',
-                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/hardware/fiskaly',
-                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/hardware/swissbit-cloud',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/deutsche-fiskal',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/fiskaly',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/swissbit-cloud',
                           ]
                         },
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service'
