@@ -9,10 +9,7 @@ Die lokal installierte fiskaltrust.Middleware bietet die Einbindung von TSE alle
 
 ![middleware](../media/middleware.png)
 
-Die fiskaltrust.Middleware besteht aus 
-
-- einer Launcher App zum Installieren der Middleware lokal auf dem Kassenrechner
-- einem Middleware Dienstprogramm (Service/Daemon; läuft dauerhaft auf dem Kassenrechner)
+Die fiskaltrust.Middleware besteht aus einem Launcher welcher die Middleware startet und dauerhaft als Service/Daemon auf dem Rechner bzw. dem Kassensystem betreibt, sowie auch für etwaige Aktualisierungen der Version sorgt.
 
 ## Hardware Voraussetzungen
 
