@@ -38,7 +38,7 @@ Unter Android ist der Launcher systembedingt eine monolithische Applikation, wel
 ### Systemvoraussetzungen
 
 - [Windows](../features/supported-platforms/windows.md)
-- [Linux, macOs](../features/supported-platforms/linux.md)
+- [Linux, macOS](../features/supported-platforms/linux.md)
 - [Android](../features/supported-platforms/android.md)
 
 ## Features
