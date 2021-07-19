@@ -9,7 +9,7 @@ Die lokal installierte fiskaltrust.Middleware bietet die Einbindung von TSE alle
 
 ![middleware](../media/middleware.png)
 
-Die fiskaltrust.Middleware besteht aus dem fiskaltrust.Launcher welcher, unter Windows und Unix, die jeweils relevanten Komponenten der fiskaltrust.Middleware installiert und diese dann als Service/Daemon, länderabhängig, auf dem POS-System, in einem Rechenzentrum oder in der fiskaltrust.Cloud betreibt, sowie auch für etwaige Aktualisierungen der Versionen sorgt. Die Aktualisierung des lokalen fiskaltrust.Launchers selbst ist nur durch neuerlichen Download aus dem fiskaltrust.Portal und manuellen Tausch der Installation möglich.
+Die fiskaltrust.Middleware besteht aus dem fiskaltrust.Launcher welcher, unter Windows und Unix, die jeweils relevanten Komponenten der fiskaltrust.Middleware installiert und diese dann als Service/Daemon auf dem POS-System, in einem Rechenzentrum oder in der fiskaltrust.Cloud (_Art des Deployments ist länderabhängig_) betreibt, sowie auch für etwaige Aktualisierungen der Versionen sorgt. Die Aktualisierung des lokalen fiskaltrust.Launchers selbst ist nur durch neuerlichen Download aus dem fiskaltrust.Portal und manuellen Tausch der Installation möglich.
 
 Unter Android ist der Launcher systembedingt eine monolithische Applikation, welche bereits fix alle relevanten Komponenten inkludiert.
 
