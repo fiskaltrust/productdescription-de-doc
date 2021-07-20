@@ -9,10 +9,9 @@ Die lokal installierte fiskaltrust.Middleware bietet die Einbindung von TSE alle
 
 ![middleware](../media/middleware.png)
 
-Die fiskaltrust.Middleware besteht aus 
+Die fiskaltrust.Middleware besteht aus dem fiskaltrust.Launcher und den für die jeweilige fiskaltrust.Cashbox relevanten Systemkomponenten. Letztere werden vom fiskaltrust.Launcher dynamisch, je nach Konfiguration, geladen, sowie auch bei Bedarf aktualisiert. Der fiskaltrust.Launcher startet dabei unter Windows und Unix als Service bzw. Daemon und betreibt die fiskaltrust.Middleware auf dem POS-System, in einem Rechenzentrum oder in der fiskaltrust.Cloud (_Art des Deployments ist länderabhängig_). Die Aktualisierung des lokalen fiskaltrust.Launchers selbst ist nur durch neuerlichen Download aus dem fiskaltrust.Portal und manuellen Tausch der Installation möglich.
 
-- einer Launcher App zum Installieren der Middleware lokal auf dem Kassenrechner
-- einem Middleware Dienstprogramm (Service/Daemon; läuft dauerhaft auf dem Kassenrechner)
+Unter Android ist der Launcher systembedingt eine monolithische Applikation, welche bereits fix alle relevanten Komponenten inkludiert.
 
 ## Hardware Voraussetzungen
 
@@ -39,7 +38,7 @@ Die fiskaltrust.Middleware besteht aus
 ### Systemvoraussetzungen
 
 - [Windows](../features/supported-platforms/windows.md)
-- [Linux, macOs](../features/supported-platforms/linux.md)
+- [Linux, macOS](../features/supported-platforms/linux.md)
 - [Android](../features/supported-platforms/android.md)
 
 ## Features
