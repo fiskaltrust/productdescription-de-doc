@@ -26,7 +26,7 @@ Unter Android ist der Launcher systembedingt eine monolithische Applikation, wel
 
 |                                                                                    | Windows                                 | Linux, macOS                                  | Android |
 | ---------------------------------------------------------------------------------- | --------------------------------------- | --------------------------------------------- | ------- |
-| [A-Trust Cloud-TSE (a.sign TSE)](../features/basics/tse/cloud/a-trust.md)                       | ja                                      |                                               |         |
+| [A-Trust Cloud-TSE (a.sign TSE)](../features/basics/tse/cloud/a-trust.md)          | ja                                      |                                               |         |
 | [Cryptovision Hardware-TSE](../features/basics/tse/hardware/cryptovision.md)       | ja                                      | ja                                            |         |
 | [Deutsche Fiskal Cloud-TSE](../features/basics/tse/cloud/deutsche-fiskal.md)       | derzeit nur für Windows 10 zertifiziert | derzeit nur für Ubuntu LTS 20.04 zertifiziert |         |
 | [Diebold-Nixdorf Hardware-TSE](../features/basics/tse/hardware/diebold-nixdorf.md) | ja                                      | ja                                            |         |
@@ -64,7 +64,7 @@ Folgende Optionen sind über die Konfiguration der Queue einstellbar:
 |                                                                    | Windows | Linux, macOS | Android |
 | ------------------------------------------------------------------ | ------- | ------------ | ------- |
 | [SQLite-Storage](../features/supported-databases/sqlite.md)        | ja      | ja           | ja      |
-| [EF-Storage](../features/supported-databases/entity-framework.md)  | ja      | ja           |  nein        |
+| [EF-Storage](../features/supported-databases/entity-framework.md)  | ja      | ja           | nein    |
 | [MySQL-Storage](../features/supported-databases/mysql.md)          | ja      | ja           | ja      |
 
 ### Daten-Export
