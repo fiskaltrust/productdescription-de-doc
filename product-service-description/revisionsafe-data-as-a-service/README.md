@@ -5,7 +5,7 @@ title: Übersicht
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Pos-System verwenden, das die fiskaltrust.Middleware enthält. 
+KassenBetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Pos-System verwenden, das die fiskaltrust.Middleware enthält. 
 
 ## fiskaltrust-cloud
 

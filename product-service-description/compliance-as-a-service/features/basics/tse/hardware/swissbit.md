@@ -13,11 +13,11 @@ Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung 
 
 ## Parameter
 
-| Name | Beschreibung | Optional |
-| ---- | ------------ |--------- |
-| _devicePath_ | Pfad zum Laufwerk, unter dem die TSE erreichbar ist (z.B. `D:`), ohne abschließenden Slash | nein |
-| _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
-| _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
+| Name           | Beschreibung                                                                               | Optional |
+|----------------|--------------------------------------------------------------------------------------------|----------|
+| _devicePath_   | Pfad zum Laufwerk, unter dem die TSE erreichbar ist (z.B. `D:`), ohne abschließenden Slash | nein     |
+| _adminPin_     | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet.                  | ja       |
+| _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet.             | ja       |
 
 ## Troubleshooting
 **Beim Start der Middleware unter Windows wird ein `SerializationException`-Fehler, ein `NativeLibraryException`-Fehler oder eine ähnliche Meldung angezeigt:** Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt. 
@@ -58,9 +58,9 @@ Sonderartikel: Storno und Rückgabe unabhängig von der Lieferzeit ausgeschlosse
 
 Zertifizierungs-ID der TSE gemäß Punkt 9.2.2 des [Anwendungserlasses zu § 146a AO](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/media/2019-06-17-einfuehrung-paragraf-146a-AO-anwendungserlass-zu-paragraf-146a-AO.pdf):
 
-| Zertifizierungs-ID | Prüfgegenstand | Antragsteller | Datum |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [BSI-K-TR-0362-2019](https://www.bsi.bund.de/SharedDocs/Zertifikate_TR/Technische_Sicherheitseinrichtungen/BSI-K-TR-0362-2019.html) | Swissbit TSE, Version 1.0 Swissbit USB TSE Swissbit SD TSE Swissbit microSD TSE | Swissbit AG                                                  | 20.12.2019                                                   |
+| Zertifizierungs-ID                                                                                                                  | Prüfgegenstand                                                                  | Antragsteller | Datum      |
+|:------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------|:--------------|:-----------|
+| [BSI-K-TR-0362-2019](https://www.bsi.bund.de/SharedDocs/Zertifikate_TR/Technische_Sicherheitseinrichtungen/BSI-K-TR-0362-2019.html) | Swissbit TSE, Version 1.0 Swissbit USB TSE Swissbit SD TSE Swissbit microSD TSE | Swissbit AG   | 20.12.2019 |
 
 ### Preis & Vertrieb
 

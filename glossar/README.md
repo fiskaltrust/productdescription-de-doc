@@ -75,17 +75,17 @@ Datenerfassungsgerät, welches elektronische Aufzeichnungen an die mit ihr verbu
 
 ### Kassenseriennummer
 
-Die Kassenseriennummer ist eine **eindeutige** Information, die auf den Beleg gedruckt werden muss. Dazu wird von fiskaltrust die ftCashboxIdentification verwendet, Base64-kodiert, Sonderzeichen entfernt  und von der fiskaltrust.Middleware im Signatur-lock in der Response (ftSignatureType) zurückgeliefert. Die ftCashboxIdentification selbst ist die frei wählbare, **eindeutige** Bezeichnung für eine Queue. Sie wird auch von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. 
+Die Kassenseriennummer ist eine **eindeutige** Information, die auf den Beleg gedruckt werden muss. Dazu wird von fiskaltrust die ftCashBoxIdentification verwendet, Base64-kodiert, Sonderzeichen entfernt  und von der fiskaltrust.Middleware im Signatur-lock in der Response (ftSignatureType) zurückgeliefert. Die ftCashBoxIdentification selbst ist die frei wählbare, **eindeutige** Bezeichnung für eine Queue. Sie wird auch von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben. 
 
 ### Verwendung der oben beschriebenen Begriffe im Kontext von fiskaltrust
 
 Bei fiskaltrust wird im Sinne der Vereinfachung für die PC-Registrierkasse, Elektronische Registrierkasse und Eingabestation der Begriff "Kasse" verwendet. Diese Kasse entspricht der zu konfigurierenden "Queue" im Portal, welche zugleich die zu fiskalisierende und dem Finanzamt zu meldende Einheit darstellt.
 
-Ein Kassensystem ("PosSystem") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("Cashboxen"), flexibel abbilden. 
+Ein Kassensystem ("POS-System") lässt sich über eine oder mehrere Queues, sowie einen oder mehrere Konfigurationscontainer ("CashBoxen"), flexibel abbilden. 
 
-## Cashbox
+## CashBox
 
-Die Cashbox ist ein Konfigurationscontainer, der die Konfiguration der einzelenen Komponenten der fiskaltrust.Middleware beinhaltet. Über die Cashbox können die Konfigurationen miteinander verbunden werden. So kann die Cashbox die Konfiguration von Queue, SCU und diversen Helper beinhalten und diese miteinander verbinden. 
+Die CashBox ist ein Konfigurationscontainer, der die Konfiguration der einzelenen Komponenten der fiskaltrust.Middleware beinhaltet. Über die CashBox können die Konfigurationen miteinander verbunden werden. So kann die CashBox die Konfiguration von Queue, SCU und diversen Helper beinhalten und diese miteinander verbinden. 
 
 ## Geschäftsvorfall
 
@@ -100,29 +100,29 @@ Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und
 Integrität im Zusammenhang mit Daten bedeutet, dass diese seit der Erstellung unverändert geblieben sind. In Zusammenhang mit der TSE bedeutet es auch, dass keine Datensätze nachträglich entfernt wurden.
 
 
-## Kassenbetreiber ("PosOperator")
+## KassenBetreiber ("PosOperator")
 
-Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein Kassenbetreiber. Wenn alles reibungslos läuft, bekommen Kassenbetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der Kassenbetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des Kassenhändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
+Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein KassenBetreiber. Wenn alles reibungslos läuft, bekommen KassenBetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der KassenBetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des KassenHändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
 
-Der Kassenbetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
+Der KassenBetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
 
-## Kassenhändler ("PosDealer")
+## KassenHändler ("PosDealer")
 
-Der Kassenhändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den Kassenbetreiber (kurz „Betreiber“) vertreibt.
+Der KassenHändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den KassenBetreiber (kurz „Betreiber“) vertreibt.
 
 Der Händler ist ein Systemintegrator, welcher POS Software in POS Hardware integriert und Dienstleistungen für die Installation und den Betrieb von Registrierkassen anbietet.  
 
 Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter und stehen in direkter Beziehung zu PosOperatoren ("Betreiber"). Händler verfügen über hohe Fähigkeiten in Vertrieb, Projektmanagement und Kundenservice.
 
-Der Kassenhändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
+Der KassenHändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
 
-## Kassenhersteller ("PosCreator")
+## KassenHersteller ("PosCreator")
 
-Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
+Der KassenHersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
 
-Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
+Er integriert das fiskaltrust.Ipos Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über KassenHändler. Berührungspunkte mit KassenBetreiber entstehen lediglich über spezielle Projekte oder über seine KassenHändler.
 
-Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
+Der KassenHersteller integriert die fiskaltrust.Middleware in seine Software.
 
 ## Kassen-Nachschau
 
@@ -152,7 +152,7 @@ Zu einer digitalen Nachricht (d. h. zu beliebigen Daten) kann mit Hilfe eines ge
 
 Standorte eines Unternehmens sind die Orte (Plätze, abgegrenzte Räume), denen betriebliches Leistungspotential zur Durchführung der Leistungsprozesse zugeordnet ist (z.B. Event-Locations im Rahmen der Leistungserfüllung im Gastro/Catering-Bereich), sowie geographische Orte einer Betriebsstätte (z. B. Produktions-, Vertriebs-, Verwaltungsstätte).
 
-In Deutschland muss jeder PosOperator für jedes PosSystem und jeden Standort (Outlet) mindestens eine Queue betreiben.
+In Deutschland muss jeder PosOperator für jedes POS-System und jeden Standort (Outlet) mindestens eine Queue betreiben.
 
 ## TAR
 
