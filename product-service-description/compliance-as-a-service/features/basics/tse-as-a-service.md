@@ -21,7 +21,7 @@ Bei Einkauf eines fiskaltrust.Sorglos mit TSE Produkt-Bundle kann während des R
 
 Als Hardware TSE kommt zur Zeit eine TSE von der Bundesdruckerei/Cryptovision zum Einsatz. Der TSE ist ein MicroSD-USB Adapter beigelegt. In einer fiskaltrust.Sorglos mit Hardware TSE-Subscription wird bei erstmaliger Bestellung die Hardware TSE inklusive USB Adapter an die in der Bestellung angegebene Lieferadresse geliefert. In jeder 12-monatigen Verlängerung dieser Subscription ist ein einmaliger Anspruch auf den Tausch bzw. Ersatz der Hardware TSE enthalten. 
 
-Die zur Verfügung gestellte Hardware TSE bleibt im Eigentum der fiskaltrust gmbh und ist bei Tausch sowie bei Vertragsende an diese zurück zu senden.
+Die zur Verfügung gestellte Hardware TSE bleibt im Eigentum der fiskaltrust und ist bei Tausch sowie bei Vertragsende an diese zurück zu senden.
 
 ### Cloud TSE-as-a-Service
 

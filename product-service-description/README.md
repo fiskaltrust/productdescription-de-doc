@@ -5,11 +5,11 @@ title: Produkte und Services
 
 # Produkt- und Servicebeschreibung
 
-Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenhersteller und Kassenhändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die Kassenhersteller und Kassenhändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim Kassenbetreiber ein.
+Als Softwarehersteller entwickelt fiskaltrust Produkte für KassenHersteller und KassenHändler im Bereich Compliance-as-a-Service und Revisionssichere-Daten-as-a-Service. Die KassenHersteller und KassenHändler setzen daraufhin die fiskaltrust Produkte als Teil Ihrer eigenen Lösung beim KassenBetreiber ein.
 
 ## Compliance-as-a-Service
 
-Als Kassenhersteller erhalten Sie Compliance-as-a-Service, indem Sie die fiskaltrust.Middleware in Ihr Produkt integrieren. Durch die Übermittlung der Belegdaten, Transaktionen und anderer relevanten Daten an die fiskaltrust.Middleware wird Konformität als Service bereitgestellt. 
+Als KassenHersteller erhalten Sie Compliance-as-a-Service, indem Sie die fiskaltrust.Middleware in Ihr Produkt integrieren. Durch die Übermittlung der Belegdaten, Transaktionen und anderer relevanten Daten an die fiskaltrust.Middleware wird Konformität als Service bereitgestellt. 
 
 Die fiskaltrust.Middleware stellt eine länderübergreifende Schnittstelle zur Verfügung, die über verschiedene Kommunikationsarten (WCF, REST, gRPC, Serial-stream oder TCP-stream protocol) für Ihr Kassensystem erreichbar ist.
 
@@ -19,7 +19,7 @@ Die fiskaltrust.Middleware wird zu einem wesentlichen Bestandteil Ihres Kassensy
 
 Die Konformität wird durch die Kombination diverser Methoden und Komponenten erreicht.
 
-Zunächst wird über die fiskaltrust.Middleware sichergestellt, dass die relevanten Daten von einer dritten Partei (fiskaltrust) neben dem Kassenhersteller und dem Kassenhändler verarbeitet werden. Dies nennen wir die organisatorische Implementierung des Schutzes vor Manipulation.
+Zunächst wird über die fiskaltrust.Middleware sichergestellt, dass die relevanten Daten von einer dritten Partei (fiskaltrust) neben dem KassenHersteller und dem KassenHändler verarbeitet werden. Dies nennen wir die organisatorische Implementierung des Schutzes vor Manipulation.
 
 Zur technischen Implementierung des Schutzes vor Manipulation wird aus jedem Request von dem Kassensystem und auch von jedem dazugehörigen Response der fiskaltrust.Middleware ein Hash-Wert erzeugt. Dadurch wird die Datenintegrität der Requests und Responses sichergestellt. Um nachweisen zu können, dass keine Manipulation stattgefunden hat, wird ein weiterer Hash-Wert erzeugt, der sich auf den gesamten Request-Response-Zyklus bezieht (siehe auch Bild). Dieser Hash-Wert wird aus folgenden Angaben generiert:
 - der eindeutigen Identifikation dieses Zyklus (RequestJournalId)
@@ -55,7 +55,7 @@ Compliance-as-a-Service Produkte:
 
 # Revisionssichere Daten-as-a-Service
 
-Kassenbetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, welches die fiskaltrust.Middleware integriert hat. 
+KassenBetreiber erhalten revisionssichere Daten-as-a-Service, indem sie ein Kassen- oder Aufzeichnungssystem verwenden, welches die fiskaltrust.Middleware integriert hat. 
 
 ## fiskaltrust.Cloud
 
