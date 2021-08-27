@@ -51,8 +51,10 @@ module.exports = {
                           label: 'Cloud',
                           items: [
                             'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/deutsche-fiskal',
-                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/fiskaly',
                             'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/swissbit-cloud',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/fiskaly-certified',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/fiskaly',
+                            'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse/cloud/a-trust',
                           ]
                         },
                         'productdescription-de-doc/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service'

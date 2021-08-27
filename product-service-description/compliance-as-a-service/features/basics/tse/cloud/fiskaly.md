@@ -1,13 +1,19 @@
 ---
 slug: /product-description/germany/products-and-services/caas/features/basics/tse/fiskaly
-title: fiskaly-TSE
+title: fiskaly-TSE (v1)
 ---
 
-# fiskaly-Interoperabilität (In Zertifizierung)
+# fiskaly v1-Interoperabilität (nicht zertifiziert)
+
+:::caution
+
+Die Version 1 der fiskaly-Cloud-TSE wurde als Übergangslösung nicht vom Anbieter zertifiziert, bitte nutzen Sie die seit August 2021 verfügbare [zertifizierte Version 2](fiskaly-certified.md).
+
+:::
 
 ## SCU
 
-Das _fiskaltrust.Middleware.SCU.DE.Fiskaly_-Package ermöglicht die Verbindung der Middleware mit einer fiskaly Cloud-TSE. Die fiskaly-TSE befindet sich derzeit in Zertifizierung.
+Das _fiskaltrust.Middleware.SCU.DE.Fiskaly_-Package ermöglicht die Verbindung der Middleware mit einer fiskaly v1 Cloud-TSE. Die fiskaly-TSE wurde nicht zertifiziert und ist damit nur in Verbindung mit einem gültigen Antrag nach § 148 AO sicher einsetzbar. Von der Nutzung dieser SCU für Neuinstallationen wird dringend abgeraten; bestehende Installationen sollten auf [Version 2](fiskaly-certified.md) upgedated werden.
 
 **Preview verfügbar ab Version**: 1.3.1
 
