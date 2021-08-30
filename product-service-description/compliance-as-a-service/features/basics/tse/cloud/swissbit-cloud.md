@@ -7,13 +7,22 @@ title: Swissbit Cloud-TSE
 
 ## SCU
 
-Das _fiskaltrust.Middleware.SCU.DE.SwissbitCloud_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit Cloud-TSE über den von Swissbit zur Verfügung gestellten _Fiskal Cloud Connector_-Service. Dieser kann entweder beim ersten Start des SCU-Packages automatisch installiert werden, oder es kann eine bereits installierte Version des FCC genutzt werden (s. _Parameter_).
+Das _fiskaltrust.Middleware.SCU.DE.SwissbitCloud_-Package ermöglicht die Verbindung der Middleware mit einer Swissbit Cloud-TSE über den von Swissbit zur Verfügung gestellten _Fiskal Cloud Connector_-Service. Dieser kann:
+* entweder beim ersten Start des SCU-Packages automatisch installiert werden oder
+* es kann eine bereits installierte Version des FCC genutzt werden (s. _Parameter_).
 
-Bitte beachten Sie, dass diese TSE strikte Anforderungen an den Umgebungsschutz stellt (d.h. das verwendete Betriebssystem und dessen Konfiguration). Genauere Informationen finden Sie in den offiziellen Dokumenten des Herstellers im [Download-Bereich des Portals](https://portal.fiskaltrust.de/AccountProfile/Download).
+Bitte beachten Sie, dass diese TSE strikte Anforderungen an den Umgebungsschutz stellt (d.h. das verwendete Betriebssystem und dessen Konfiguration). Genauere Informationen finden Sie in den offiziellen Dokumenten des Herstellers im [Download-Bereich vom fiskaltrust.Portal](https://portal.fiskaltrust.de/AccountProfile/Download).
 
-**Aufgrund aktueller technischer Limitierungen ist die Swissbit Cloud-SCU bei Erwerb als Einzelprodukt derzeit auf eine einzelne Client-Registrierung beschränkt.** Dadurch werden in diesem Fall die möglichen [Rollout-Szenarien](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/middleware#rollout-scenarios) auf jene Fälle beschränkt, in denen pro SCU nur eine Queue betrieben wird. Diese Beschränkung besteht nicht im Kontext eines fiskaltrust.SorglosPakets.
+**Aufgrund aktueller technischer Limitierungen ist die Swissbit Cloud-SCU bei Erwerb als Einzelprodukt derzeit auf eine einzelne Client-Registrierung beschränkt.** Dadurch werden in diesem Fall die möglichen [Rollout-Szenarien](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/middleware#rollout-scenarios) auf jene Fälle beschränkt, in denen pro SCU nur eine Queue betrieben wird. **Diese Beschränkung besteht nicht im Kontext eines fiskaltrust.SorglosPakets.**
 
-**Verfügbar ab Version**: 1.3.11
+Hier gilt unsere [fair use policy](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/fair-use-policy#fair-use-regeln), die bis zu 25 Queues oder Kassen pro Sorglos Bundle pro Standort und Swissbit Cloud TSE zulässt. 
+
+Seit August 2021 ist die Swissbit Cloud TSE nicht nur für Windows 10 und Linux Ubuntu LTS 20.04 sondern auch für eine Vielzahl von Server-Betriebssystemen zertifiziert:  
+
+**Verfügbar für die fiskaltrust.Middleware ab Version: 1.3.11** – wir empfehlen immer die aktuellste Version einzusetzen – siehe unsere [Release Notes](https://docs.fiskaltrust.cloud/de/docs/release-notes) 
+
+![Operating Systems](images/swissbit-server.png "Operating Systems")
+
 
 ## Parameter
 
