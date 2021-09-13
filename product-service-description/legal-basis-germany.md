@@ -7,7 +7,7 @@ title: Rechtliche Grundlagen
 
 ## Ziel des Dokumentes
 
-Bereitstellung von Informationen über die rechtlichen Grundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellen, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des Kassenbetreibers erfüllt wird.
+Bereitstellung von Informationen über die rechtlichen Grundlagen für elektronische Aufzeichnungssysteme in Deutschland inklusive Quellen, Gültigkeitszeitraum und der Information, ob die rechtliche Anforderung durch die Nutzung einer Lösung von fiskaltrust seitens des KassenBetreibers erfüllt wird.
 
 ## Hintergrund
 

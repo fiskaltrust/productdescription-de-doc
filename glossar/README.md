@@ -100,29 +100,29 @@ Definition im Anwendungserlass: „Geschäftsvorfälle sind alle rechtlichen und
 Integrität im Zusammenhang mit Daten bedeutet, dass diese seit der Erstellung unverändert geblieben sind. In Zusammenhang mit der TSE bedeutet es auch, dass keine Datensätze nachträglich entfernt wurden.
 
 
-## Kassenbetreiber ("PosOperator")
+## KassenBetreiber ("PosOperator")
 
-Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein Kassenbetreiber. Wenn alles reibungslos läuft, bekommen Kassenbetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der Kassenbetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des Kassenhändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
+Jeder, der ein Geschäft betreibt und dafür eine Registrierkasse benutzt ist für fiskaltrust ein Kassenbetreiber. Wenn alles reibungslos läuft, bekommen KassenBetreiber von den erbrachten Dienstleistungen von fiskaltrust im Hintergrund nichts mit. Lediglich auf Anfrage von Steuerbehörden oder Wirtschaftsprüfern muss der KassenBetreiber auf die Einhaltung der KassenSichV hinweisen und mit Hilfe des KassenHändlers die Daten bereitstellen, die den Anforderungen der Steuervorschriften entsprechen.
 
-Der Kassenbetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
+Der KassenBetreiber betreibt die fiskaltrust.Middleware lokal an seinem Standort.
 
-## Kassenhändler ("PosDealer")
+## KassenHändler ("PosDealer")
 
-Der Kassenhändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den Kassenbetreiber (kurz „Betreiber“) vertreibt.
+Der KassenHändler (kurz „Händler“) ist unabhängiger Vertriebshändler, der [Hard- und] Software für Kassen- und Abrechnungssysteme (kurz „Kassensysteme“) an den KassenBetreiber (kurz „Betreiber“) vertreibt.
 
 Der Händler ist ein Systemintegrator, welcher POS Software in POS Hardware integriert und Dienstleistungen für die Installation und den Betrieb von Registrierkassen anbietet.  
 
 Händler verkaufen verschiedene Pos-Systeme für verschiedene Branchen weiter und stehen in direkter Beziehung zu PosOperatoren ("Betreiber"). Händler verfügen über hohe Fähigkeiten in Vertrieb, Projektmanagement und Kundenservice.
 
-Der Kassenhändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
+Der KassenHändler vertreibt die fiskaltrust.Middleware als solche oder als Bestandteil seiner Produkte bzw. Leistungen und übernimmt dafür den Support bei seinen Kunden.
 
-## Kassenhersteller ("PosCreator")
+## KassenHersteller ("PosCreator")
 
 Der Kassenhersteller/PosCreator (kurz „Hersteller“) entwickelt, produziert bzw. programmiert Software für Kassen ( kurz „Kassensoftware“).
 
-Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit Kassenbetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
+Er integriert das fiskaltrust IPOS Interface in seine Software für Pos-Systeme. Er verfügt über hohe technische Fähigkeiten und vertreibt seine Produkte meist über Kassenhändler. Berührungspunkte mit KassenBetreiber entstehen lediglich über spezielle Projekte oder über seine Kassenhändler.
 
-Der Kassenhersteller integriert die fiskaltrust.Middleware in seine Software.
+Der KassenHersteller integriert die fiskaltrust.Middleware in seine Software.
 
 ## Kassen-Nachschau
 
