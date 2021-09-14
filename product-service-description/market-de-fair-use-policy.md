@@ -21,7 +21,7 @@ Hier werden die in dieser Fair Use Policy verwendeten Begriffe definiert und erl
 
 ### Outlet
 
-Ein Outlet repräsentiert grundsätzlich einen physischen Standort (Filiale oder Niederlassung) des Kassenbetreibers. Ein physischer Standort kann jedoch auch durch mehrere, virtuelle Outlets repräsentiert sein, wenn die hier dargestellten Fair Use Regeln nicht mit Hilfe eines einzelnen Outlets eingehalten werden können. 
+Ein Outlet repräsentiert grundsätzlich einen physischen Standort (Filiale oder Niederlassung) des KassenBetreibers. Ein physischer Standort kann jedoch auch durch mehrere, virtuelle Outlets repräsentiert sein, wenn die hier dargestellten Fair Use Regeln nicht mit Hilfe eines einzelnen Outlets eingehalten werden können. 
 
 ### Aktive Queue
 

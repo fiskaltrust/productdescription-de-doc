@@ -1,10 +1,10 @@
-# Informationen für Kassenbetreiber ("PosOperators")
+# Informationen für KassenBetreiber ("PosOperators")
 
 ## Rollenbeschreibung Kassenbetreiber
 
 [Zur Rollenbeschreibung des Kassenbetreibers](../glossar/README.md#kassenbetreiber-posoperator)
 
-fiskaltrust bietet für Kassenbetreiber folgende Produkte:
+fiskaltrust bietet für KassenBetreiber folgende Produkte:
 
 ## Wenn in der Kasse die fiskaltrust.Middleware implementiert ist
 
