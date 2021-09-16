@@ -7,6 +7,10 @@ title: A-Trust-TSE
 
 :::danger
 
-A-Trust hat die Entwicklung der Cloud-TSE im August 2021 eingestellt. Sollten Sie die A-Trust-TSE bereits implementiert haben und an Alternativen interessiert sein, wenden Sie sich bitte an [sales@fiskaltrust.de](mailto:sales@fiskaltrust.de).
+Update 6.8.2021: A-Trust hat die Entwicklung der Cloud-TSE pausiert. [Link: "Status Update August" von a-trust.](https://www.a-trust-tse.de/de/kassensichv/news/news/status-update-august/)
+
+Sollten Sie die A-Trust-TSE bereits implementiert haben, können Sie mit der fiskaltrust.Middleware diverse alternative TSE verwenden. 
+
+Bei Fragen wenden Sie sich bitte an [sales@fiskaltrust.de](mailto:sales@fiskaltrust.de).
 
 :::
