@@ -48,7 +48,7 @@ freie Auswahl folgender konfigurierbarer Schnittstellentechnologien:
 
 |      | Windows | Linux, macOS | Android |
 | ---- | ------- | ------------ | ------- |
-| WCF  | ja      |              |         |
+| SOAP | ja      |              |         |
 | gRPC | ja      | ja           | ja      |
 | REST | ja      | ja           | ja      |
 
