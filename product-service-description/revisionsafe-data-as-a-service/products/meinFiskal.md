@@ -58,7 +58,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 &nbsp;
 
 
-2. Der KassenHändler stimmt im Namen des KassenBetreibers den AGBs, der Datenschutzerklärung und der Auftragsverarbeitung (von bzw. mit fiskaltrust und insbesondere den Leistungsbeschreibungen, die im Downloadbereich zu finden sind) zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
+2. Der KassenHändler stimmt im Namen des KassenBetreibers den AGBs, der Datenschutzerklärung und der Auftragsverarbeitung (von bzw. mit fiskaltrust und insbesondere den Leistungsbeschreibungen, die im [Downloadbereich](https://portal.fiskaltrust.de/AccountProfile/Download) zu finden sind) zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
 
 3. Bei der Funktion DATEV MeinFiskal stehen ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
 
