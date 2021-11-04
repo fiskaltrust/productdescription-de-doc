@@ -16,7 +16,7 @@ Der KassenHändler ändert bei DATEV MeinFiskal das Kennwort zum Benutzerkonto u
 
 fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über das fiskaltrust.Portal. Dabei ist keine weitere Anbindung durch den KassenHersteller notwendig.
 
-![MeinFiskal_Prozess](media/meinFiskal_Schnittstellen.png)
+![MeinFiskal_Prozess](../media/meinFiskal_Schnittstellen.png)
 
 ## Einrichtung
 
@@ -53,7 +53,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">Screenshot Funktion DATEV MeinFiskal </summary>  
 
-![Rolle_Datev_MeinFiskal](media/Rolle_Datev_MeinFiskal.png)
+![Rolle_Datev_MeinFiskal](../media/Rolle_Datev_MeinFiskal.png)
 </details>
 &nbsp;
 
@@ -65,7 +65,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">DATEV MeinFiskal-Onboarding </summary>  
 
-![Rolle_Datev_MeinFiskal](media/DATEV_Onboarding.png)
+![Rolle_Datev_MeinFiskal](../media/DATEV_Onboarding.png)
 </details>
 &nbsp;
 
@@ -73,7 +73,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung </summary>  
 
-![DATEV_Passwort_ändern](media/DATEV_PW_Change_Dialog.png)
+![DATEV_Passwort_ändern](../media/DATEV_PW_Change_Dialog.png)
 
 </details>
 &nbsp;
@@ -82,7 +82,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung erfolgreich</summary>  
 
-![DATEV_Passwort_erfolgreich](media/DATEV_PW_Change_Success.png)
+![DATEV_Passwort_erfolgreich](../media/DATEV_PW_Change_Success.png)
 
 </details>
 &nbsp;
@@ -92,7 +92,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">Screenshot DATEV Anmeldung / Accounts verbinden</summary>  
 
-![DATEV_Consent](media/DATEV_Login_Dialog.png)
+![DATEV_Consent](../media/DATEV_Login_Dialog.png)
 
 </details>
 &nbsp;
@@ -102,7 +102,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <details>
 <summary style="text-indent: 50px;">Screenshot DATEV Datenaustausch zustimmen </summary>  
 
-![DATEV_Approval](media/DATEV_Data_exchange.png)
+![DATEV_Approval](../media/DATEV_Data_exchange.png)
 
 </details>
 &nbsp;
