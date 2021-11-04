@@ -34,14 +34,14 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
   * Geben Sie ggf. Filterkriterien ein, um die Suchergebnisse einzugrenzen und wählen Sie Suchen. 
   * Prüfen Sie mit dem Symbol bei Berechtigungen, ob ein Vertragsabschluss aktiv ist.
   * Wenn das Recht nicht aktiv ist, kontaktieren sie den KassenBetreiber, damit er Ihnen die Berechtigung erteilt.
-  * Mit OK schließen Sie das Dialogfenster. 
+  * Mit "OK" schließen Sie das Dialogfenster. 
 2. Stammdaten
   * Wählen Sie bei Name den Link und wechseln Sie zum Account des Kassenbetreibers.
   * Wählen Sie Firma -> Stammdaten.
-  * Kontrollieren Sie, ob jedes Pflichtfeld wie Name*, Adresse* ausgefüllt ist. 
+  * Kontrollieren Sie, ob jedes Pflichtfeld wie Name* oder Adresse* ausgefüllt ist. 
   * Prüfen Sie auch, ob vor oder nach den Angaben keine Leerstellen eingegeben wurden. 
   * Kontrollieren Sie, ob entweder mit St.-ldNr. oder mit USt-ldNr. eine Gültigkeitsprüfung erfolgreich durchgeführt werden kann.
-  * Sichern Sie Ihre Eingaben mit Speichern. 
+  * Sichern Sie Ihre Eingaben mit "Speichern". 
 
 </details>
 &nbsp;
@@ -58,7 +58,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 &nbsp;
 
 
-2. Der KassenHändler stimmt im Namen des KassenBetreibers den AGBs, der Datenschutzerklärung und der Auftragsverarbeitung (von bzw. mit fiskaltrust und insbesondere den Leistungsbeschreibungen, die im [Downloadbereich](https://portal.fiskaltrust.de/AccountProfile/Download) zu finden sind) zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
+2. Der KassenHändler stimmt im Namen des KassenBetreibers den AGBs, der Datenschutzerklärung und der Auftragsverarbeitung (von bzw. mit fiskaltrust und insbesondere den Leistungsbeschreibungen, die im [Downloadbereich](https://portal.fiskaltrust.de/AccountProfile/Download) des fiskaltrust.Portals zu finden sind) zu. Der KassenBetreiber erhält den unterschriebenen Vertrag per E-Mail.
 
 3. Bei der Funktion DATEV MeinFiskal stehen ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
 
@@ -97,7 +97,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 </details>
 &nbsp;
 
-7. Der KassenHändler hat sich erfolgreich auf der DATEV MeinFiskal Webseite angemeldet und wird aufgefordert, den Datenaustausch zwischen fikaltrust und DATEV MeinFiskal zu bestätigen. Der KassenHändler setzt den Haken bei der Checkbox und klickt auf den Bestätigen Button. Der Datenaustausch zwischen fiskaltrust und DATEV MeinFiskal ist nun aktiv. 
+7. Der KassenHändler hat sich erfolgreich auf der DATEV MeinFiskal Webseite angemeldet und wird aufgefordert, den Datenaustausch zwischen fikaltrust und DATEV MeinFiskal zu bestätigen. Der KassenHändler setzt den Haken bei der Checkbox und klickt auf "Bestätigen". Der Datenaustausch zwischen fiskaltrust und DATEV MeinFiskal ist nun aktiv. 
 
 <details>
 <summary style="text-indent: 50px;">Screenshot DATEV Datenaustausch zustimmen </summary>  
