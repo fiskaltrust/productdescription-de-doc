@@ -40,3 +40,6 @@ title: Produktvergleich
   - *DATEV Kassenbuch online* kann automatisiert die Daten aus dem DATEV Kassenarchiv übertragen und für die Buchhaltung bereitstellen.
   - *Automatische Prüfung* des Datenformats von DSFInV-K und TSE-TAR Files.
   - *Unabhängig* von der fiskaltrust.Middleware können Daten von jeder Kasse manuell hochgeladen werden.
+
+
+siehe bitte meinen commit
