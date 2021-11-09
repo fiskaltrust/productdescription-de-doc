@@ -18,6 +18,18 @@ Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung 
 | _devicePath_ | Pfad zum Laufwerk, unter dem die TSE erreichbar ist (z.B. `D:`), ohne abschließenden Slash | nein |
 | _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 | _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
+| _EnableFirmwareUpdate_ | Der Wert `true` aktiviert das update der Swissbit TSE Firmware. | ja |
+
+## Updating
+
+Wenn der Parameter _EnableFirmwareUpdate_ auf `true` gesetzt wird wird beim nächsten Start der fiskaltrust.Middleware automatisch die Firmware der Swissbit TSE auf die neueste verfügbare Version geupdated.
+
+:::danger
+Das Firmwareupdate kann bis zu 10 Minuten dauern. Wärend des updates kann die fiskaltrust.Middleware nicht verwendet werden. 
+
+Werend des Updates darf die fiskaltrust.Middleware keinesfalls beendet werden und die TSE nicht getrennt werden, da es sonst zu Schäden an der TSE kommen kann.
+:::
+
 
 ## Troubleshooting
 **Beim Start der Middleware unter Windows wird ein `SerializationException`-Fehler, ein `NativeLibraryException`-Fehler oder eine ähnliche Meldung angezeigt:** Zum Betrieb wird, je nach Windows-Version, das [Visual C++ Redistributable für Visual Studio 2015](https://www.microsoft.com/de-at/download/details.aspx?id=48145) benötigt. 
