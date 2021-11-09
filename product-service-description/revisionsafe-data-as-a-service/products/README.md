@@ -25,14 +25,14 @@ title: Produktvergleich
 
 - [AKO-Kassenarchiv](ako.md) 
 
-  - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse), TSE-TAR Files, PDF Files (z.B. Verfahrensdokumentation) über 12 Jahre.
+  - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse), TSE-TAR Files, PDF Files (z.B. Verfahrensdokumentation) über 10 Jahre.
   - *Hochladen der Daten* manuell oder über die zur Verfügung gestellte API.
   - *Kundenbindung für Kassenhändler* - KassenBetreiber speichert seine Daten über die Webseite des KassenHändlers (einfache Integration des Uploadmoduls in die Webseite).
   - *Web-Portal* ermöglicht mandantenfähigen Zugriff auf die hochgeladenen Daten. Der KassenHändler kann bei Bedarf auf diese Daten zugreifen und diese im Falle einer Steuerprüfung für den KassenBetreiber exportieren.
   - *Automatische Prüfung* des Datenformats von DSFInV-K und TSE-TAR Files und Zuordnung zum Kassenbetreiber.
   - *Unabhängig* von der fiskaltrust.Middleware können Daten von jeder Kasse gespeichert werden.
 
-- [MeinFiskal](MeinFiskal.md) 
+- [MeinFiskal](meinFiskal.md) 
 
   - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse), Einzelaufzeichnungen und sonstigen steuerlich relevanten Dokumenten über 10 Jahre.
   - *Server zu Server Kommunikation* - die Kassenabschlussdaten werden direkt zum DATEV Kassenarchiv online hochgeladen.
@@ -42,4 +42,3 @@ title: Produktvergleich
   - *Unabhängig* von der fiskaltrust.Middleware können Daten von jeder Kasse manuell hochgeladen werden.
 
 
-siehe bitte meinen commit
