@@ -22,12 +22,12 @@ Das _fiskaltrust.Middleware.SCU.DE.Swissbit_-Package ermöglicht die Verbindung 
 
 ## Updating
 
-Wenn der Parameter _EnableFirmwareUpdate_ auf `true` gesetzt wird wird beim nächsten Start der fiskaltrust.Middleware automatisch die Firmware der Swissbit TSE auf die neueste verfügbare Version geupdated.
+Wenn der Parameter _EnableFirmwareUpdate_ auf `true` gesetzt wird, wird beim nächsten Start der fiskaltrust.Middleware automatisch die Firmware der Swissbit TSE auf die neueste verfügbare Version geupdated.
 
 :::danger
-Das Firmwareupdate kann bis zu 10 Minuten dauern. Wärend des updates kann die fiskaltrust.Middleware nicht verwendet werden. 
+Das Firmwareupdate kann bis zu 10 Minuten dauern. Wärend des Updates kann die fiskaltrust.Middleware nicht verwendet werden. 
 
-Werend des Updates darf die fiskaltrust.Middleware keinesfalls beendet werden und die TSE nicht getrennt werden, da es sonst zu Schäden an der TSE kommen kann.
+Während des Updates darf die fiskaltrust.Middleware keinesfalls beendet werden und die TSE nicht getrennt werden, da die TSE andernfalls beschädigt werden kann.
 :::
 
 
