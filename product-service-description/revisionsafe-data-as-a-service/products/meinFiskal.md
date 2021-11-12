@@ -28,7 +28,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
   <summary>Prüfen der Voraussetzungen</summary>  
 &nbsp;
 
-  1. Berechtigung Vertragsabschluss
+1. Berechtigung Vertragsabschluss
   * Melden Sie Sich als KassenHändler im fiskaltrust.Portal an. 
   * Wechseln Sie zu PosOperator -> Übersicht. 
   * Geben Sie ggf. Filterkriterien ein, um die Suchergebnisse einzugrenzen und wählen Sie Suchen. 
@@ -66,12 +66,13 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 <summary style="text-indent: 50px;">DATEV MeinFiskal-Onboarding </summary>  
 
 ![Rolle_Datev_MeinFiskal](../media/DATEV_Onboarding.png)
+
 </details>
 &nbsp;
 
 4. Das Dialogfenster von DATEV MeinFiskal zur Änderung des Kennworts wird angezeigt. Der KassenHändler setzt ein neues Kennwort und drückt "Speichern".
 <details>
-<summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung </summary>  
+<summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung</summary>  
 
 ![DATEV_Passwort_ändern](../media/DATEV_PW_Change_Dialog.png)
 
