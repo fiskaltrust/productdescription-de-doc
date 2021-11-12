@@ -26,7 +26,7 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 
 <details>
   <summary>Prüfen der Voraussetzungen</summary>  
-&nbsp;
+
 
 1. Berechtigung Vertragsabschluss
   * Melden Sie Sich als KassenHändler im fiskaltrust.Portal an. 
@@ -44,18 +44,16 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
   * Sichern Sie Ihre Eingaben mit "Speichern". 
 
 </details>
-&nbsp;
 
 ### Anleitung
 
 1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Funktion DATEV MeinFiskal im [fiskaltrust.Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
 
 <details>
-<summary style="text-indent: 50px;">Screenshot Funktion DATEV MeinFiskal </summary>  
+<summary>Screenshot Funktion DATEV MeinFiskal</summary>  
 
 ![Rolle_Datev_MeinFiskal](../media/Rolle_Datev_MeinFiskal.png)
 </details>
-&nbsp;
 
 
 2. Der KassenHändler stimmt im Namen des KassenBetreibers den AGBs, der Datenschutzerklärung und der Auftragsverarbeitung (von bzw. mit fiskaltrust und insbesondere den Leistungsbeschreibungen, die im [Downloadbereich](https://portal.fiskaltrust.de/AccountProfile/Download) des fiskaltrust.Portals zu finden sind) zu. Der KassenBetreiber erhält den unterschriebenen Vertrag per E-Mail.
@@ -63,50 +61,46 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 3. Bei der Funktion DATEV MeinFiskal stehen ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
 
 <details>
-<summary style="text-indent: 50px;">DATEV MeinFiskal-Onboarding </summary>  
+<summary>DATEV MeinFiskal-Onboarding </summary>  
 
 ![Rolle_Datev_MeinFiskal](../media/DATEV_Onboarding.png)
 
 </details>
-&nbsp;
 
 4. Das Dialogfenster von DATEV MeinFiskal zur Änderung des Kennworts wird angezeigt. Der KassenHändler setzt ein neues Kennwort und drückt "Speichern".
 <details>
-<summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung</summary>  
+<summary>Screenshot DATEV Kennwortänderung</summary>  
 
 ![DATEV_Passwort_ändern](../media/DATEV_PW_Change_Dialog.png)
 
 </details>
-&nbsp;
 
 5. Dem KassenHändler wird die Bestätigung zur Änderung des Kennworts und ein Anmelde Button angezeigt. Der KassenHändler drückt auf den Anmelde Button.
 <details>
-<summary style="text-indent: 50px;">Screenshot DATEV Kennwortänderung erfolgreich</summary>  
+<summary>Screenshot DATEV Kennwortänderung erfolgreich</summary>  
 
 ![DATEV_Passwort_erfolgreich](../media/DATEV_PW_Change_Success.png)
 
 </details>
-&nbsp;
 
 6. Der KassenHändler gibt im Anmeldedialog die DATEV MeinFiskal Anmeldedaten ein, also dieselbe Email-Adresse wie beim fiskaltrust.Portal und das zuvor geänderte Kennwort. Er bestätigt die Verbindung zwischen fiskaltrust und DATEV MeinFiskal. Mit diesem Schritt werden das fiskaltrust und Datev MeinFiskal Konto miteinander verbunden. 
 
 <details>
-<summary style="text-indent: 50px;">Screenshot DATEV Anmeldung / Accounts verbinden</summary>  
+<summary>Screenshot DATEV Anmeldung / Accounts verbinden</summary>  
 
 ![DATEV_Consent](../media/DATEV_Login_Dialog.png)
 
 </details>
-&nbsp;
 
 7. Der KassenHändler hat sich erfolgreich auf der DATEV MeinFiskal Webseite angemeldet und wird aufgefordert, den Datenaustausch zwischen fikaltrust und DATEV MeinFiskal zu bestätigen. Der KassenHändler setzt den Haken bei der Checkbox und klickt auf "Bestätigen". Der Datenaustausch zwischen fiskaltrust und DATEV MeinFiskal ist nun aktiv. 
 
 <details>
-<summary style="text-indent: 50px;">Screenshot DATEV Datenaustausch zustimmen </summary>  
+<summary>Screenshot DATEV Datenaustausch zustimmen</summary>  
 
 ![DATEV_Approval](../media/DATEV_Data_exchange.png)
 
 </details>
-&nbsp;
+
 
 8. Der KassenBetreiber erhält etwa eine Stunde später eine Willkommens-E-Mail mit allgemeinen Informationen und einem Link zur Kennwortänderung.
 
