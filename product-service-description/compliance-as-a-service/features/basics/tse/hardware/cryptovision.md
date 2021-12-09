@@ -19,6 +19,7 @@ Das _fiskaltrust.Middleware.SCU.DE.CryptoVision_-Package ermöglicht die Verbind
 | _adminPin_ | Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 | _timeAdminPin_ | Time Admin-PIN der TSE. Falls nicht angegeben, wird der Default-PIN verwendet. | ja |
 | _TseIOReadDelayMs_ | Die Zeit, die vor dem Lesen der Antworten von der TSE abgewartet wird (in Millisekunden). Der Default-Wert sollte ausschließlich bei Lesefehlern verändert werden, da dadurch die Verarbeitungszeit aller Operationen erhöht wird. | ja (Default: 10) |
+| _KeepAliveIntervalInSeconds_ | Das Intervall in Sekunden, indem von der SCU im Hintergrund ein Lesevorgang an der TSE ausgeführt wird, d.h. diese _gepollt_ wird um das Gerät aktiv zu halten. Diese Einstellung kann verwendet werden, wenn die TSE trotz deaktivierter USB-Energiespareinstellung vom Betriebssystem abgeschaltet wird und dadurch Probleme oder längere Antwortzeiten entstehen. | ja (Default: aus/kein Polling) |
 
 
 
