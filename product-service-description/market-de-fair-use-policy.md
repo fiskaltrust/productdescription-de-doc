@@ -49,6 +49,10 @@ Sollte ein physischer Standort aufgrund höherer Anforderungen nicht durch ein e
 
 Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Recht vor, den Betrieb der im betroffenen Outlet verwendeten Produkte und Komponenten einzuschränken, bis sich diese wieder innerhalb des hier beschriebenen Fair-Use-Rahmen befinden.
 
+### Schätzung der TSE Signaturanzahl
+
+Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung des jeweiligen Kassensystems und der TSE, man kann sie aber anhand der Anzahl der Transaktionen schätzen. Jede sign Operation auf der fiskaltrust.Middleware erzeugt Transaktionen und Signaturen, allerdings führen auch administrative Operationen der TSE selbst zu Signaturen. Bei Cloud TSEs ist durchschnittlich mit 2-3 Signaturen je Transaktion zu rechnen, bei Hardware TSEs mit 3-8.
+
 ## Servicestelle
 
 Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [support@fiskaltrust.de](mailto:support@fiskaltrust.de).
