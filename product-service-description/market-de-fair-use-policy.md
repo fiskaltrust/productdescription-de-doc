@@ -51,7 +51,7 @@ Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Re
 
 ### Schätzung der TSE Signaturanzahl
 
-Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung des jeweiligen Kassensystems und der TSE, man kann sie aber anhand der Anzahl der Transaktionen schätzen. Jede sign Operation auf der fiskaltrust.Middleware erzeugt Transaktionen und Signaturen, allerdings führen auch administrative Operationen der TSE selbst zu Signaturen. Bei Cloud TSE ist durchschnittlich mit 2-3 Signaturen je Transaktion zu rechnen, bei Hardware TSE mit 3-8.
+Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung des jeweiligen Kassensystems und der TSE, man kann sie aber anhand der Anzahl der Transaktionen schätzen. Jede sign Operation auf der fiskaltrust.Middleware erzeugt Transaktionen und Signaturen, allerdings führen auch administrative Operationen der TSE selbst zu Signaturen. Bei Cloud TSEs ist durchschnittlich mit 2-3 Signaturen je Transaktion zu rechnen, bei Hardware TSEs mit 3-8.
 
 ## Servicestelle
 
