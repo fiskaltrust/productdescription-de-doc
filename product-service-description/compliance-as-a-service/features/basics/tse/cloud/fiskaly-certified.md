@@ -23,6 +23,11 @@ Bei TSEs, die im fiskaltrust.Portal erworben werden, wird dieser Vorgang automat
 | _ApiKey_ | Der API-Key, der zur Authentifizierung an den fiskaly-Services verwendet wird, wie im fiskaly-Dashboard angegeben. Wird bei der Produktion über das fiskaltrust-Portal automatisch befüllt. | nein |
 | _ApiSecret_ | Das API-Secret, der zur Authentifizierung an den fiskaly-Services verwendet wird, wie im fiskaly-Dashboard angegeben. Wird bei der Produktion über das fiskaltrust-Portal automatisch befüllt. | nein |
 | _AdminPin_ | Der Admin-PIN der TSE (nicht zu verwechseln mit dem PUK). | nein |
+| _FiskalyClientTimeout_ | Request-Timeout bei der Verbindung mit dem fiskaly-Web-Service in Millisekunden. | ja (Default: 30000) |
+| _ProxyServer_ | Die Adresse des zu verwendenden Proxy-Servers. | ja (Default: kein Proxy) |
+| _ProxyPort_ | Der Port des zu verwendenden Proxy-Servers. | ja (Default: kein Proxy) |
+| _ProxyUsername_ | Der User des zu verwendenden Proxy-Servers. | ja (Default: anonymer Proxy-Zugriff) |
+| _ProxyPassword_ | Der Port des zu verwendenden Proxy-Servers. | ja (Default: anonymer Proxy-Zugriff) |
 
 ### Preis & Vertrieb
 
