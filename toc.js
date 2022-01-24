@@ -105,6 +105,7 @@ module.exports = {
               items: [
                 'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/products/README',
                 'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/products/pos-archive',
+		'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/products/meinfiskal',
                 'productdescription-de-doc/product-service-description/revisionsafe-data-as-a-service/products/ako',
               ]
             },
