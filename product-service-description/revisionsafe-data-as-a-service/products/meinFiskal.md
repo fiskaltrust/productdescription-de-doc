@@ -1,5 +1,5 @@
 ---
-slug: /product-description/germany/products-and-services/rdaas/products/MeinFiskal
+slug: /product-description/germany/products-and-services/rdaas/products/meinfiskal
 title: MeinFiskal
 ---
 # DATEV MeinFiskal
