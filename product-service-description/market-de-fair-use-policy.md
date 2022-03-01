@@ -29,7 +29,7 @@ Eine aktive Queue ist eine im Einsatz befindliche Queue, die durch einen Inbetri
 
 ### Terminals
 
-Terminals sind an einem elektronischen Aufzeichnungssystem mit Kassenfunktion angeschlossene Eingabegeräte, die keine eigenständige Kassenfunktion implementieren. Im Rahmen des fiskaltrust IPOS Interfeace werden diese anhand des Feldes `cbTerminalID` identifiziert. 
+Terminals sind an einem elektronischen Aufzeichnungssystem mit Kassenfunktion angeschlossene Eingabegeräte, die keine eigenständige Kassenfunktion implementieren. Im Rahmen des fiskaltrust IPOS Interface werden diese anhand des Feldes `cbTerminalID` identifiziert. 
 
 ### Standortbezogene Produkte der fiskaltrust gmbh
 
@@ -57,5 +57,6 @@ Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung d
 
 Bei Fragen und Anregungen im Zusammenhang mit dieser Fair Use Policy wenden Sie sich bitte an [support@fiskaltrust.de](mailto:support@fiskaltrust.de).
 
+## Download 
 
 [PDF Download der Fair Use Policy](media/market-de-fair-use-policy.pdf)

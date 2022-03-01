@@ -7,6 +7,7 @@ title: MeinFiskal
 ## Produktbeschreibung
 
 Das Produkt "DATEV MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" Produkt-Bundles. Vom fiskaltrust.Portal gelangen die Daten über eine automatisierte Schnittstelle auf die "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform, wodurch die inkludierten Services „DATEV Kassenarchiv online“ und die „DATEV Kassenbuch-Schnittstelle“ genutzt werden können.
+' der Export läuft aktuell nur manuell, nicht automatisiert'
 
 ### Prozessbeschreibung
 
