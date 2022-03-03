@@ -33,7 +33,7 @@ Terminals sind an einem elektronischen Aufzeichnungssystem mit Kassenfunktion an
 
 ### Standortbezogene Produkte der fiskaltrust gmbh
 
-Standortbezogene Produkte, sind Produkte (bzw. Subscriptions) die pro Outlet erworben werden. Sie werden für die, dem Outlet untergeordneten Aufzeichnungssysteme (Queues) und technischen Sicherheitseinrichtungen (TSE / SCU), eingesetzt (z.B. Sorglos Bundles).
+Standortbezogene Produkte sind Produkte (bzw. Subscriptions), die pro Outlet erworben werden. Eingesetzt werden diese für die dem Outlet untergeordneten Aufzeichnungssysteme (Queues) und technischen Sicherheitseinrichtungen (TSE / SCU) (z.B. Sorglos Bundles).
 
 ## Fair Use Regeln
 
@@ -51,7 +51,8 @@ Bei Nichteinhaltung der Fair Use Policy behält sich die fiskaltrust gmbh das Re
 
 ### Schätzung der TSE Signaturanzahl
 
-Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung des jeweiligen Kassensystems und der TSE, man kann sie aber anhand der Anzahl der Transaktionen schätzen. Jede sign Operation auf der fiskaltrust.Middleware erzeugt Transaktionen und Signaturen, allerdings führen auch administrative Operationen der TSE selbst zu Signaturen. Bei Cloud TSEs ist durchschnittlich mit 2-3 Signaturen je Transaktion zu rechnen, bei Hardware TSEs mit 3-8.
+Die Anzahl der Signaturen ist abhängig von der Implementierung und Verwendung des jeweiligen Kassensystems und der TSE, Sie können diese aber anhand der Anzahl der Transaktionen schätzen:  
+Jede sign Operation auf der fiskaltrust.Middleware erzeugt Transaktionen und Signaturen, allerdings führen auch administrative Operationen der TSE selbst zu Signaturen. Bei Cloud TSEs ist durchschnittlich mit 2-3 Signaturen je Transaktion zu rechnen, bei Hardware TSEs mit 3-8.
 
 ## Servicestelle
 
