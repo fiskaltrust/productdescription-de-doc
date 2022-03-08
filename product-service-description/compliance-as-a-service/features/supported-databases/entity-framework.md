@@ -13,7 +13,8 @@ Dieser Storage-Provider eignet sich besonders zum Aufbau ausfallsicherer Systeme
 
 ## Parameter
 
-| Name                  | Beschreibung                                                                                  | Optional             |
-| --------------------- | --------------------------------------------------------------------------------------------- | -------------------- |
-| _connectionstring_    | EF-kompatibler Connection-String zum Datenbanksystem                                          | nein                 |
-| _EnableTarFileExport_ | Aktiviert den automatischen TAR File Export der TSE auf Queue Level (Werte: `true` / `false`) | ja (default: `true`) |
+| Name                        | Beschreibung                                                                                                            | Optional              |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| _connectionstring_          | EF-kompatibler Connection-String zum Datenbanksystem                                                                    | nein                  |
+| _EnableTarFileExport_       | Aktiviert den automatischen TAR File Export der TSE auf Queue Level (Werte: `true` / `false`)                           | ja (default: `true`)  |
+| _StoreTemporaryExportFiles_ | Aktiviert den speicher von temporären Export Dateien im `fiskaltrust/service/Exports` ordner (Values: `true` / `false`) | ja (default: `false`) |
