@@ -32,7 +32,7 @@ title: Produktvergleich
   - *Automatische Prüfung* des Datenformats von DSFInV-K und TSE-TAR Files und Zuordnung zum Kassenbetreiber.
   - *Unabhängig* von der fiskaltrust.Middleware können Daten von jeder Kasse gespeichert werden.
 
-- [MeinFiskal](meinFiskal.md) 
+- [MeinFiskal](meinfiskal.md) 
 
   - *Revisionssicherer Speicher* für DSFinV-K Files (Tagesabschlüsse), Einzelaufzeichnungen und sonstigen steuerlich relevanten Dokumenten über 10 Jahre.
   - *Server zu Server Kommunikation* - die Kassenabschlussdaten werden direkt zum DATEV Kassenarchiv online hochgeladen.
