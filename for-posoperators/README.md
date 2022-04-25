@@ -16,6 +16,3 @@ fiskaltrust bietet das [Audicon Kassenarchiv Online (AKO)](https://github.com/fi
 
 Für den Bezug unserer Produkte wenden Sie sich bitte an Ihren Kassenhändler.
 
-## Preisliste
-
-[Hier finden Sie die aktuelle Preisliste für Endkunden.](endkunden-preisliste.md)
