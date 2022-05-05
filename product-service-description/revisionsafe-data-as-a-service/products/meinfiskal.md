@@ -47,6 +47,13 @@ Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und
 
 ### Anleitung
 
+:::info
+
+Bitte beachten Sie, dass der DATEV MeinFiskal-Account während des Verbindungsprozesses automatisch erstellt wird. Bitte legen Sie daher im vorhinein **keinen** DATEV MeinFiskal-Account für Ihre KassenBetreiber an.
+
+:::
+
+
 1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Funktion DATEV MeinFiskal im [fiskaltrust.Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
 
   <details>
