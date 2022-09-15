@@ -15,6 +15,6 @@ Dieser Storage-Provider eignet sich besonders zum einfachen Aufbau kleinerer, lo
 ## Parameter
 | Name                        | Beschreibung                                                                                                            | Optional              |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| _EnableTarFileExport_       | Aktiviert den automatischen TAR File Export der TSE auf Queue Level (Werte: `true` / `false`)                           | ja (default: `true`)  |
+| _TarFileExportMode_         | `All` Aktiviert den automatischen TAR File Export der TSE auf Queue Level. `None` Deaktiviert den automatischen TAR File Export der TSE auf Queue Level. `Erased` TAR files werden nur exportiert und gespeichert wenn diese von der TSE gelöscht wurden.  (Werte: `All` / `None` / `Erased`)                           | ja (default: `true`)  |
 | _StoreTemporaryExportFiles_ | Aktiviert den speicher von temporären Export Dateien im `fiskaltrust/service/Exports` ordner (Values: `true` / `false`) | ja (default: `false`) |
 
