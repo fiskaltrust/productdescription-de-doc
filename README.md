@@ -1,7 +1,5 @@
----
-slug: /product-description/germany
-title: Produkt- und Servicebeschreibung für Deutschland
----
+> **Warning**
+> The content of this repository was moved to https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/products and the respective [repository](https://github.com/fiskaltrust/rollout-doc).
 
 # fiskaltrust Produkt- und Servicebeschreibung für den deutschen Markt
 
